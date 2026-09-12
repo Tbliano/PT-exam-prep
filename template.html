@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>PT Exam Prep &middot; Raccoon Touch</title>
+<meta name="theme-color" content="#2A0D3F">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="PT Prep">
+<style>
+:root{
+  --page:#FAF6FB; --ink:#2A0D3F; --text:#3B2A48;
+  --muted:#8A7C97; --muted2:#B3A7C0; --line:#ECE2F3; --line2:#DBCEE9;
+  --magenta:#C65FBF; --pink:#FFCAFF; --card:#fff;
+  --okbg:#EEF7F0; --okink:#2F6B41; --okbd:#C8E3D2;
+  --warnbg:#FCEEEE; --warnink:#8A3A35; --warndot:#D3564F; --warnbd:#EAC7C7;
+  --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--page);color:var(--text);font-family:var(--sans);
+  font-size:15px;line-height:1.5;-webkit-text-size-adjust:100%;
+}
+.wrap{max-width:660px;margin:0 auto;padding:0 0 60px}
+
+/* ---------- hero ---------- */
+.hero{
+  background:var(--ink);color:#fff;border-radius:0 0 26px 26px;
+  padding:22px 22px 24px;display:flex;align-items:center;gap:14px;
+}
+.logo{width:56px;height:56px;border-radius:50%;overflow:hidden;flex:0 0 56px;background:#000}
+.logo svg{display:block;width:100%;height:100%}
+.brandname{font-family:var(--serif);font-size:23px;line-height:1.1;color:#fff}
+.brandtag{font-size:9px;text-transform:uppercase;letter-spacing:.26em;color:var(--pink);margin-top:5px}
+
+/* ---------- generic ---------- */
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:18px;margin:16px 16px 0;
+}
+h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px;margin:0}
+.btn{
+  display:block;width:100%;background:var(--ink);color:#fff;border:0;border-radius:26px;
+  padding:16px;font-size:15px;font-weight:700;font-family:var(--sans);cursor:pointer;
+}
+.btn:active{opacity:.85}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line2);font-weight:600}
+.row{display:flex;gap:10px}
+.row .btn{flex:1}
+.hidden{display:none!important}
+
+/* ---------- deck cards ---------- */
+.deck{margin-top:14px}
+.deck h3{font-family:var(--serif);font-size:18px;font-weight:400;color:var(--ink);margin:0 0 2px}
+.deck p{margin:0 0 14px;color:var(--muted);font-size:13px}
+.stats{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
+.stat{
+  font-size:11px;padding:5px 11px;border-radius:20px;background:var(--page);
+  border:1px solid var(--line);color:var(--muted);
+}
+.stat b{color:var(--ink);font-weight:700}
+.stat.hard{background:var(--warnbg);border-color:var(--warnbd);color:var(--warnink)}
+.stat.hard b{color:var(--warnink)}
+
+/* ---------- quiz ---------- */
+.qbar{display:flex;align-items:center;gap:12px;margin:16px 16px 0}
+.qnum{
+  flex:0 0 auto;font-family:var(--serif);font-size:13px;color:var(--muted);
+}
+.track{flex:1;height:6px;border-radius:6px;background:var(--line);overflow:hidden}
+.fill{height:100%;background:var(--magenta);width:0;transition:width .25s ease}
+.tag{
+  display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.16em;
+  color:var(--magenta);margin-bottom:8px;
+}
+.tag.hard{color:var(--warnink)}
+.qtext{font-family:var(--serif);font-size:19px;line-height:1.35;color:var(--ink);margin:0 0 16px}
+.opts{display:flex;flex-direction:column;gap:9px}
+.opt{
+  display:flex;gap:11px;align-items:flex-start;width:100%;text-align:left;
+  background:var(--card);border:1px solid var(--line2);border-radius:14px;
+  padding:13px 14px;font-size:15px;font-family:var(--sans);color:var(--text);
+  cursor:pointer;line-height:1.4;
+}
+.opt:hover:not(:disabled){border-color:var(--magenta)}
+.opt:disabled{cursor:default}
+.opt .k{
+  flex:0 0 22px;height:22px;border-radius:50%;background:var(--page);border:1px solid var(--line2);
+  font-size:11px;font-weight:700;color:var(--muted);display:flex;align-items:center;justify-content:center;
+  margin-top:1px;
+}
+.opt.right{background:var(--okbg);border-color:var(--okbd);color:var(--okink)}
+.opt.right .k{background:var(--okink);border-color:var(--okink);color:#fff}
+.opt.wrong{background:var(--warnbg);border-color:var(--warnbd);color:var(--warnink)}
+.opt.wrong .k{background:var(--warndot);border-color:var(--warndot);color:#fff}
+.fb{margin-top:14px;border-radius:14px;padding:14px;font-size:14px;line-height:1.55}
+.fb.ok{background:var(--okbg);border:1px solid var(--okbd);color:var(--okink)}
+.fb.no{background:var(--warnbg);border:1px solid var(--warnbd);color:var(--warnink)}
+.fb b{display:block;font-family:var(--serif);font-weight:400;font-size:15px;margin-bottom:5px}
+
+/* ---------- results ---------- */
+.score{text-align:center;padding:6px 0 2px}
+.score .big{font-family:var(--serif);font-size:44px;color:var(--ink);line-height:1}
+.score .of{color:var(--muted);font-size:13px;margin-top:4px}
+.missed{margin-top:16px;border-top:1px solid var(--line);padding-top:14px}
+.missed h4{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:0 0 10px;font-weight:600}
+.miss{border-left:2px solid var(--warnbd);padding:0 0 0 12px;margin-bottom:14px}
+.miss .mq{font-family:var(--serif);font-size:15px;color:var(--ink);margin-bottom:3px}
+.miss .ma{font-size:13px;color:var(--okink)}
+.miss .me{font-size:13px;color:var(--muted);margin-top:3px}
+
+.foot{text-align:center;color:var(--muted2);font-size:11px;margin:26px 16px 0;line-height:1.6}
+.foot a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="logo">__LOGO__</div>
+    <div>
+      <div class="brandname">Raccoon Touch</div>
+      <div class="brandtag">PT Exam Prep</div>
+    </div>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <div id="home">
+    <div class="card">
+      <h2>Pick a deck</h2>
+      <p class="sub">Twenty questions a round. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
+      <div id="decks"></div>
+    </div>
+    <div class="card" id="resetcard">
+      <h2>Progress</h2>
+      <p class="sub">Kept on this device only. Nothing is sent anywhere.</p>
+      <div class="row" style="margin-top:14px">
+        <button class="btn ghost" id="reset">Clear all progress</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ QUIZ ============ -->
+  <div id="quiz" class="hidden">
+    <div class="qbar">
+      <div class="qnum" id="qnum">1 / 20</div>
+      <div class="track"><div class="fill" id="fill"></div></div>
+    </div>
+    <div class="card">
+      <div class="tag" id="tag"></div>
+      <p class="qtext" id="qtext"></p>
+      <div class="opts" id="opts"></div>
+      <div id="fb"></div>
+    </div>
+    <div class="card" style="border:0;background:none;padding:0;margin-top:14px">
+      <button class="btn hidden" id="next">Next</button>
+      <button class="btn ghost" id="quit" style="margin-top:10px">Back to decks</button>
+    </div>
+  </div>
+
+  <!-- ============ RESULTS ============ -->
+  <div id="done" class="hidden">
+    <div class="card">
+      <div class="score">
+        <div class="big" id="sbig">0</div>
+        <div class="of" id="sof">out of 20</div>
+      </div>
+      <div id="missed"></div>
+    </div>
+    <div class="card" style="border:0;background:none;padding:0;margin-top:14px">
+      <button class="btn" id="again">Another round</button>
+      <button class="btn ghost" id="home2" style="margin-top:10px">Back to decks</button>
+    </div>
+  </div>
+
+  <div class="foot">
+    Built for one person's revision. Works offline once loaded.<br>
+    <span id="qcount"></span>
+  </div>
+</div>
+
+<script>
+const DECKS = __DATA__;
+const ROUND = 20;
+const HARD_SLICE = 5;        // at most this many difficult questions per round
+const CLEAR_STREAK = 2;      // correct answers in a row to stop being difficult
+
+const $ = s => document.querySelector(s);
+const key = d => 'rt-pt-' + d;
+
+function load(d){ try { return JSON.parse(localStorage.getItem(key(d))) || {}; } catch(e){ return {}; } }
+function save(d, s){ try { localStorage.setItem(key(d), JSON.stringify(s)); } catch(e){} }
+function rec(st, id){ return st[id] || (st[id] = {seen:0, wrong:0, streak:0}); }
+function isHard(r){ return r && r.wrong > 0 && r.streak < CLEAR_STREAK; }
+
+function counts(d){
+  const st = load(d), qs = DECKS[d].q;
+  let seen = 0, hard = 0;
+  qs.forEach(q => { const r = st[q.id]; if (r && r.seen) seen++; if (isHard(r)) hard++; });
+  return {total: qs.length, seen, hard};
+}
+
+function shuffle(a){
+  for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i+1)); [a[i],a[j]] = [a[j],a[i]]; }
+  return a;
+}
+
+/* Build a round: some difficult, the rest weighted toward the least-seen. */
+function buildRound(d){
+  const st = load(d), qs = DECKS[d].q.slice();
+  const hard = shuffle(qs.filter(q => isHard(st[q.id]))).slice(0, HARD_SLICE);
+  const hardIds = new Set(hard.map(q => q.id));
+  const rest = shuffle(qs.filter(q => !hardIds.has(q.id)))
+    .sort((a,b) => ((st[a.id]||{}).seen||0) - ((st[b.id]||{}).seen||0))
+    .slice(0, ROUND - hard.length);
+  return shuffle(hard.concat(rest)).map(q => ({...q, hard: hardIds.has(q.id)}));
+}
+
+let deck = null, round = [], at = 0, right = 0, missed = [];
+
+function show(id){
+  ['home','quiz','done'].forEach(s => $('#'+s).classList.toggle('hidden', s !== id));
+  window.scrollTo(0,0);
+}
+
+function renderHome(){
+  $('#decks').innerHTML = '';
+  Object.keys(DECKS).forEach(d => {
+    const c = counts(d), meta = DECKS[d];
+    const el = document.createElement('div');
+    el.className = 'deck';
+    el.innerHTML =
+      '<h3>' + meta.name + '</h3><p>' + meta.blurb + '</p>' +
+      '<div class="stats">' +
+        '<span class="stat"><b>' + c.total + '</b> questions</span>' +
+        '<span class="stat"><b>' + c.seen + '</b> seen</span>' +
+        (c.hard ? '<span class="stat hard"><b>' + c.hard + '</b> difficult</span>' : '') +
+      '</div>';
+    const b = document.createElement('button');
+    b.className = 'btn'; b.textContent = 'Start a round';
+    b.onclick = () => start(d);
+    el.appendChild(b);
+    $('#decks').appendChild(el);
+  });
+  const tot = Object.values(DECKS).reduce((n,m) => n + m.q.length, 0);
+  $('#qcount').textContent = tot + ' questions across ' + Object.keys(DECKS).length + ' decks.';
+}
+
+function start(d){
+  deck = d; round = buildRound(d); at = 0; right = 0; missed = [];
+  show('quiz'); renderQ();
+}
+
+function renderQ(){
+  const q = round[at];
+  $('#qnum').textContent = (at+1) + ' / ' + round.length;
+  $('#fill').style.width = ((at) / round.length * 100) + '%';
+  $('#tag').textContent = q.hard ? q.t + ' · difficult' : q.t;
+  $('#tag').className = 'tag' + (q.hard ? ' hard' : '');
+  $('#qtext').textContent = q.q;
+  $('#fb').innerHTML = '';
+  $('#next').classList.add('hidden');
+
+  const box = $('#opts'); box.innerHTML = '';
+  q.o.forEach((text, i) => {
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.innerHTML = '<span class="k">' + 'ABCD'[i] + '</span><span></span>';
+    b.lastChild.textContent = text;
+    b.onclick = () => answer(i);
+    box.appendChild(b);
+  });
+}
+
+function answer(i){
+  const q = round[at], ok = i === q.a;
+  const btns = [...$('#opts').children];
+  btns.forEach((b, n) => {
+    b.disabled = true;
+    if (n === q.a) b.classList.add('right');
+    else if (n === i) b.classList.add('wrong');
+  });
+
+  const st = load(deck), r = rec(st, q.id);
+  r.seen++;
+  if (ok){ r.streak++; right++; }
+  else { r.wrong++; r.streak = 0; missed.push(q); }
+  save(deck, st);
+
+  const fb = document.createElement('div');
+  fb.className = 'fb ' + (ok ? 'ok' : 'no');
+  const head = document.createElement('b');
+  head.textContent = ok ? 'Correct' : 'Not quite — ' + 'ABCD'[q.a] + ' is right';
+  fb.appendChild(head);
+  fb.appendChild(document.createTextNode(q.e));
+  $('#fb').appendChild(fb);
+
+  $('#next').classList.remove('hidden');
+  $('#next').textContent = at === round.length - 1 ? 'See results' : 'Next';
+  $('#fill').style.width = ((at+1) / round.length * 100) + '%';
+}
+
+$('#next').onclick = () => {
+  at++;
+  if (at >= round.length) results(); else { renderQ(); window.scrollTo(0,0); }
+};
+$('#quit').onclick = () => { renderHome(); show('home'); };
+$('#home2').onclick = () => { renderHome(); show('home'); };
+$('#again').onclick = () => start(deck);
+$('#reset').onclick = () => {
+  if (!confirm('Clear all progress on this device?')) return;
+  Object.keys(DECKS).forEach(d => localStorage.removeItem(key(d)));
+  renderHome();
+};
+
+function results(){
+  $('#sbig').textContent = right;
+  $('#sof').textContent = 'out of ' + round.length;
+  const m = $('#missed');
+  if (!missed.length){ m.innerHTML = '<p class="sub" style="text-align:center">Nothing missed.</p>'; }
+  else {
+    m.className = 'missed';
+    m.innerHTML = '<h4>To go over</h4>';
+    missed.forEach(q => {
+      const d = document.createElement('div');
+      d.className = 'miss';
+      const a = document.createElement('div'); a.className = 'mq'; a.textContent = q.q;
+      const b = document.createElement('div'); b.className = 'ma'; b.textContent = q.o[q.a];
+      const c = document.createElement('div'); c.className = 'me'; c.textContent = q.e;
+      d.append(a,b,c); m.appendChild(d);
+    });
+  }
+  show('done');
+}
+
+renderHome();
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
