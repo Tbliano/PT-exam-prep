@@ -1,6 +1,9 @@
 // Cache the whole app on first visit so it works with no connection afterwards.
-const CACHE = 'pt-prep-v3';
-const ASSETS = ['./', './index.html', './manifest.webmanifest'];
+const CACHE = 'pt-prep-v9';
+const ASSETS = ['./', './index.html', './exam-prep.html', './learning.html',
+                './manifest.webmanifest'];
+// The encrypted diagrams are not precached: they are large, and the network-first
+// handler below stores each one the first time it is viewed.
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

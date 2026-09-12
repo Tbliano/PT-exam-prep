@@ -136,6 +136,20 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
       <p class="sub">Twenty questions a round. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
       <div id="decks"></div>
     </div>
+    <div class="card">
+      <h2>The notes</h2>
+      <p class="sub">Both documents, laid out for reading. Locked behind your passphrase.</p>
+      <div class="deck">
+        <h3>NASM exam preparation</h3>
+        <p>The examinable material, from scope of practice through to the energy systems.</p>
+        <a class="btn" href="exam-prep.html" style="text-decoration:none;text-align:center">Read</a>
+      </div>
+      <div class="deck">
+        <h3>The body and training</h3>
+        <p>Everything, from every source, organised for understanding rather than revision.</p>
+        <a class="btn" href="learning.html" style="text-decoration:none;text-align:center">Read</a>
+      </div>
+    </div>
     <div class="card" id="resetcard">
       <h2>Progress</h2>
       <p class="sub">Kept on this device only. Nothing is sent anywhere.</p>
@@ -218,7 +232,15 @@ function buildRound(d){
   const rest = shuffle(qs.filter(q => !hardIds.has(q.id)))
     .sort((a,b) => ((st[a.id]||{}).seen||0) - ((st[b.id]||{}).seen||0))
     .slice(0, ROUND - hard.length);
-  return shuffle(hard.concat(rest)).map(q => ({...q, hard: hardIds.has(q.id)}));
+  return shuffle(hard.concat(rest)).map(q => scramble({...q, hard: hardIds.has(q.id)}));
+}
+
+/* Shuffle the four options and move the answer index with them. Written questions
+   drift towards putting the right answer in the same slot; this makes position
+   carry no information, and stops the order being memorised across rounds. */
+function scramble(q){
+  const order = shuffle(q.o.map((text, i) => [text, i]));
+  return {...q, o: order.map(x => x[0]), a: order.findIndex(x => x[1] === q.a)};
 }
 
 let deck = null, round = [], at = 0, right = 0, missed = [];

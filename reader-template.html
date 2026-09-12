@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>__TITLE__ &middot; Raccoon Touch</title>
+<meta name="theme-color" content="#2A0D3F">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+:root{
+  --page:#FAF6FB; --ink:#2A0D3F; --text:#3B2A48;
+  --muted:#8A7C97; --muted2:#B3A7C0; --line:#ECE2F3; --line2:#DBCEE9;
+  --magenta:#C65FBF; --pink:#FFCAFF; --card:#fff;
+  --apbg:#F3F0FA; --apbd:#D9D0EE; --soebg:#EEF6F4; --soebd:#C7E0DA;
+  --addbg:#FDF3FB; --addbd:#EFD4EC;
+  --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{background:var(--page);color:var(--text);font-family:var(--serif);font-size:17px;line-height:1.62;
+  -webkit-text-size-adjust:100%}
+
+.hero{background:var(--ink);color:#fff;border-radius:0 0 26px 26px;padding:20px 22px;
+  display:flex;align-items:center;gap:14px;position:relative}
+.logo{width:48px;height:48px;border-radius:50%;overflow:hidden;flex:0 0 48px;background:#000}
+.logo svg{display:block;width:100%;height:100%}
+.brandname{font-family:var(--serif);font-size:20px;line-height:1.1;color:#fff}
+.brandtag{font-size:9px;text-transform:uppercase;letter-spacing:.26em;color:var(--pink);margin-top:5px}
+.hero a{color:var(--pink);text-decoration:none;font-family:var(--sans);font-size:12px;
+  margin-left:auto;border:1px solid rgba(255,202,255,.35);border-radius:20px;padding:7px 13px;white-space:nowrap}
+
+.shell{max-width:1180px;margin:0 auto;display:flex;gap:34px;padding:0 18px}
+nav{width:250px;flex:0 0 250px;position:sticky;top:14px;align-self:flex-start;
+  max-height:calc(100vh - 28px);overflow-y:auto;padding:20px 0 40px;font-family:var(--sans);font-size:13px}
+nav h4{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted2);
+  margin:0 0 10px;font-weight:600;font-family:var(--sans)}
+nav a{display:block;color:var(--muted);text-decoration:none;padding:4px 10px;border-left:2px solid transparent;
+  line-height:1.35;margin-bottom:1px}
+nav a.l3{padding-left:22px;font-size:12px;color:var(--muted2)}
+nav a:hover{color:var(--ink)}
+nav a.here{color:var(--ink);border-left-color:var(--magenta);font-weight:600}
+
+main{flex:1;min-width:0;padding:22px 0 80px;max-width:720px}
+h1{font-family:var(--serif);font-weight:400;font-size:32px;color:var(--ink);line-height:1.2;margin:8px 0 18px}
+h2{font-family:var(--serif);font-weight:400;font-size:25px;color:var(--ink);line-height:1.25;
+  margin:44px 0 12px;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-family:var(--serif);font-weight:400;font-size:20px;color:var(--ink);margin:30px 0 8px}
+h4{font-family:var(--sans);font-weight:700;font-size:14px;color:var(--ink);margin:22px 0 6px}
+p{margin:0 0 14px}
+a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line2)}
+a:hover{border-bottom-color:var(--magenta)}
+strong{color:var(--ink)}
+hr{border:0;border-top:1px solid var(--line);margin:34px 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
+  background:#fff;border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin-bottom:5px}
+
+.tw{overflow-x:auto;margin:0 0 18px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13.5px;line-height:1.45}
+th{background:var(--page);color:var(--ink);font-weight:700;text-align:left;padding:10px 13px;
+  border-bottom:1px solid var(--line2);white-space:nowrap}
+td{padding:10px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+
+blockquote.note{margin:0 0 18px;padding:14px 16px;border-radius:12px;font-size:15.5px;
+  background:var(--card);border:1px solid var(--line)}
+blockquote.note p:last-child{margin-bottom:0}
+blockquote.ap{background:var(--apbg);border-color:var(--apbd)}
+blockquote.soe{background:var(--soebg);border-color:var(--soebd)}
+blockquote.added{background:var(--addbg);border-color:var(--addbd)}
+
+figure{margin:0 0 20px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+figure img{display:block;width:100%;height:auto;border-radius:8px;background:var(--page);min-height:60px}
+figure.failed img{display:none}
+figure.failed::before{content:'Diagram could not be loaded';display:block;font-family:var(--sans);
+  font-size:12px;color:var(--muted2);padding:20px 0;text-align:center}
+figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:9px;line-height:1.45}
+
+.foot{max-width:720px;margin:0 auto;padding:0 18px 60px;font-family:var(--sans);
+  font-size:11px;color:var(--muted2);text-align:center}
+
+/* passphrase gate */
+#gate{max-width:420px;margin:60px auto;padding:0 18px;font-family:var(--sans)}
+#gate .box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+#gate h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;border:0;padding:0}
+#gate p{font-size:13px;color:var(--muted);margin:0 0 16px}
+#gate input{width:100%;padding:13px 14px;font-size:16px;font-family:var(--sans);
+  border:1px solid var(--line2);border-radius:12px;background:var(--page);color:var(--text)}
+#gate input:focus{outline:0;border-color:var(--magenta);box-shadow:0 0 0 3px rgba(198,95,191,.13)}
+#gate button{width:100%;margin-top:10px;background:var(--ink);color:#fff;border:0;border-radius:26px;
+  padding:15px;font-size:15px;font-weight:700;font-family:var(--sans);cursor:pointer}
+#gate .err{color:#8A3A35;font-size:13px;margin-top:10px;display:none}
+#gate label{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);margin-top:12px}
+
+.hidden{display:none!important}
+
+@media (max-width:900px){
+  .shell{display:block;padding:0 16px}
+  nav{width:auto;position:static;max-height:none;padding:14px 0 0;
+    border-bottom:1px solid var(--line);margin-bottom:8px}
+  nav .toclist{display:none}
+  nav.open .toclist{display:block}
+  nav .toggle{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line2);
+    border-radius:12px;padding:12px 14px;font-family:var(--sans);font-size:14px;font-weight:600;
+    color:var(--ink);cursor:pointer}
+  nav h4{display:none}
+  main{padding-top:12px;max-width:none}
+  body{font-size:16.5px}
+  h1{font-size:27px} h2{font-size:22px} h3{font-size:18.5px}
+}
+@media (min-width:901px){ nav .toggle{display:none} }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo">__LOGO__</div>
+  <div>
+    <div class="brandname">Raccoon Touch</div>
+    <div class="brandtag">__TAG__</div>
+  </div>
+  <a href="./">Quiz</a>
+</div>
+
+<div id="gate">
+  <div class="box">
+    <h2>Locked</h2>
+    <p>These notes are encrypted. Enter the passphrase to read them. It is remembered on this device.</p>
+    <input type="password" id="pw" placeholder="Passphrase" autocomplete="current-password" enterkeyhint="go">
+    <button id="unlock">Unlock</button>
+    <div class="err" id="err">That passphrase did not work.</div>
+    <label><input type="checkbox" id="remember" checked style="width:auto"> Remember on this device</label>
+  </div>
+</div>
+
+<div class="shell hidden" id="shell">
+  <nav id="nav">
+    <button class="toggle" id="toggle">Contents</button>
+    <div class="toclist">
+      <h4>Contents</h4>
+      <div id="toc"></div>
+    </div>
+  </nav>
+  <main id="doc"></main>
+</div>
+<div class="foot hidden" id="foot">__FOOT__</div>
+
+<script>
+const PAYLOAD = __PAYLOAD__;
+const KEYNAME = 'rt-pt-key';
+let KEY = null;   // the AES key, kept for decrypting diagrams on demand
+
+const $ = s => document.querySelector(s);
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+
+async function deriveKey(pass, salt){
+  const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey(
+    {name:'PBKDF2', salt, iterations: PAYLOAD.iter, hash:'SHA-256'},
+    base, {name:'AES-GCM', length:256}, true, ['decrypt']);
+}
+
+async function decrypt(key){
+  const plain = await crypto.subtle.decrypt(
+    {name:'AES-GCM', iv: b64(PAYLOAD.iv)}, key, b64(PAYLOAD.ct));
+  return new TextDecoder().decode(plain);
+}
+
+function render(json){
+  const data = JSON.parse(json);
+  document.title = data.title + ' · Raccoon Touch';
+  $('#doc').innerHTML = '<h1>' + data.title + '</h1>' + data.html;
+  $('#toc').innerHTML = data.toc.map(t =>
+    '<a href="#' + t[2] + '" class="' + (t[0] === 3 ? 'l3' : '') + '">' + t[1] + '</a>').join('');
+  $('#gate').classList.add('hidden');
+  $('#shell').classList.remove('hidden');
+  $('#foot').classList.remove('hidden');
+  wire();
+  figures();
+}
+
+/* Diagrams are encrypted too, so decrypt each one to a blob URL as it comes into view. */
+function figures(){
+  const pending = [...document.querySelectorAll('img[data-enc]')];
+  const reveal = async img => {
+    const url = img.dataset.enc;
+    delete img.dataset.enc;
+    try {
+      const buf = new Uint8Array(await (await fetch(url)).arrayBuffer());
+      const plain = await crypto.subtle.decrypt(
+        {name:'AES-GCM', iv: buf.slice(0, 12)}, KEY, buf.slice(12));
+      img.src = URL.createObjectURL(new Blob([plain], {type:'image/png'}));
+    } catch(e){
+      img.closest('figure').classList.add('failed');
+    }
+  };
+  if (!('IntersectionObserver' in window)) return pending.forEach(reveal);
+  const io = new IntersectionObserver((entries, obs) => {
+    for (const e of entries) if (e.isIntersecting){ obs.unobserve(e.target); reveal(e.target); }
+  }, {rootMargin: '600px'});
+  pending.forEach(img => io.observe(img));
+}
+
+function wire(){
+  const links = [...document.querySelectorAll('#toc a')];
+  const heads = links.map(a => document.getElementById(a.hash.slice(1))).filter(Boolean);
+  const spy = () => {
+    let cur = null;
+    for (const h of heads) if (h.getBoundingClientRect().top < 120) cur = h.id;
+    links.forEach(a => a.classList.toggle('here', a.hash === '#' + cur));
+  };
+  document.addEventListener('scroll', spy, {passive:true});
+  spy();
+  links.forEach(a => a.addEventListener('click', () => $('#nav').classList.remove('open')));
+  $('#toggle').onclick = () => $('#nav').classList.toggle('open');
+}
+
+async function tryUnlock(pass, remember){
+  const key = await deriveKey(pass, b64(PAYLOAD.salt));
+  const json = await decrypt(key);       // throws if the passphrase is wrong
+  KEY = key;
+  if (remember) {
+    const raw = await crypto.subtle.exportKey('raw', key);
+    try { localStorage.setItem(KEYNAME, btoa(String.fromCharCode(...new Uint8Array(raw)))); } catch(e){}
+  }
+  render(json);
+}
+
+(async () => {
+  const saved = (() => { try { return localStorage.getItem(KEYNAME); } catch(e){ return null; } })();
+  if (saved) {
+    try {
+      const key = await crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['decrypt']);
+      const json = await decrypt(key);
+      KEY = key;
+      return render(json);
+    } catch(e){ try { localStorage.removeItem(KEYNAME); } catch(e2){} }
+  }
+  $('#pw').focus();
+})();
+
+$('#unlock').onclick = async () => {
+  $('#err').style.display = 'none';
+  try { await tryUnlock($('#pw').value, $('#remember').checked); }
+  catch(e){ $('#err').style.display = 'block'; $('#pw').select(); }
+};
+$('#pw').addEventListener('keydown', e => { if (e.key === 'Enter') $('#unlock').click(); });
+
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
