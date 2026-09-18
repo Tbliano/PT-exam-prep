@@ -32,6 +32,11 @@ data = {
         'blurb': 'Origin, insertion, action and role. NASM Appendix C, the A&P notes and standard anatomy.',
         'q': deck('questions-muscles.json'),
     },
+    'derive': {
+        'name': 'Derive the action',
+        'blurb': 'Given only where a muscle attaches, work out what it does when it shortens. Reasoning, not recall.',
+        'q': deck('questions-derive.json'),
+    },
 }
 
 html = (here / 'template.html').read_text()

@@ -1,0 +1,578 @@
+[
+ {
+  "t": "Lower leg",
+  "q": "Soleus runs from posterior tibia and fibula to calcaneus via Achilles tendon. When it shortens, what does it accelerate?",
+  "o": [
+   "Plantarflexes and everts the foot",
+   "Plantar flexion",
+   "Ankle dorsiflexion",
+   "Dorsiflexion and inversion"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Soleus runs from posterior tibia and fibula to calcaneus via Achilles tendon. Shorten that line and the insertion is drawn toward the origin, which produces plantar flexion. The opposite, ankle dorsiflexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Gastrocnemius runs from posterior femur to calcaneus via Achilles tendon. When it shortens, what does it accelerate?",
+  "o": [
+   "Ankle dorsiflexion",
+   "Dorsiflexion and inversion",
+   "Plantarflexes and everts the foot",
+   "Plantar flexion"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Gastrocnemius runs from posterior femur to calcaneus via Achilles tendon. Shorten that line and the insertion is drawn toward the origin, which produces plantar flexion. The opposite, ankle dorsiflexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Fibularis (peroneus) longus runs from fibula to medial cuneiform and base of the first metatarsal. When it shortens, what does it accelerate?",
+  "o": [
+   "Plantarflexes and everts the foot",
+   "Ankle dorsiflexion and inversion",
+   "Plantar flexion",
+   "Dorsiflexion and inversion"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Fibularis (peroneus) longus runs from fibula to medial cuneiform and base of the first metatarsal. Shorten that line and the insertion is drawn toward the origin, which produces plantarflexes and everts the foot. The opposite, ankle dorsiflexion and inversion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Biceps femoris, long head runs from ischium (ischial tuberosity) to head of the fibula. When it shortens, what does it accelerate?",
+  "o": [
+   "Knee flexion, hip extension, tibial internal rotation",
+   "Knee flexion, hip extension, tibial external rotation",
+   "Knee flexion and tibial external rotation",
+   "Knee extension, hip flexion, tibial internal rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Biceps femoris, long head runs from ischium (ischial tuberosity) to head of the fibula. Shorten that line and the insertion is drawn toward the origin, which produces knee flexion, hip extension, tibial external rotation. The opposite, knee extension, hip flexion, tibial internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Semimembranosus runs from ischium (ischial tuberosity) to tibia. When it shortens, what does it accelerate?",
+  "o": [
+   "Knee flexion and tibial external rotation",
+   "Knee flexion, hip extension, tibial internal rotation",
+   "Knee flexion, hip extension, tibial external rotation",
+   "Knee extension, hip flexion, tibial external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Semimembranosus runs from ischium (ischial tuberosity) to tibia. Shorten that line and the insertion is drawn toward the origin, which produces knee flexion, hip extension, tibial internal rotation. The opposite, knee extension, hip flexion, tibial external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Semitendinosus runs from ischium (ischial tuberosity) to tibia. When it shortens, what does it accelerate?",
+  "o": [
+   "Knee flexion, hip extension, tibial external rotation",
+   "Knee flexion, hip extension, tibial internal rotation",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Knee flexion and tibial external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Semitendinosus runs from ischium (ischial tuberosity) to tibia. Shorten that line and the insertion is drawn toward the origin, which produces knee flexion, hip extension, tibial internal rotation. The opposite, knee extension, hip flexion, tibial external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus lateralis runs from femur to tibia via patella. When it shortens, what does it accelerate?",
+  "o": [
+   "Scapular depression",
+   "Knee flexion",
+   "Knee extension",
+   "Knee extension and hip flexion"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Vastus lateralis runs from femur to tibia via patella. Shorten that line and the insertion is drawn toward the origin, which produces knee extension. The opposite, knee flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus medialis runs from femur to tibia via patella. When it shortens, what does it accelerate?",
+  "o": [
+   "Dorsiflexion and inversion",
+   "Knee flexion",
+   "Knee extension and hip flexion",
+   "Knee extension"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Vastus medialis runs from femur to tibia via patella. Shorten that line and the insertion is drawn toward the origin, which produces knee extension. The opposite, knee flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus intermedius runs from femur to tibia via patella. When it shortens, what does it accelerate?",
+  "o": [
+   "Scapular protraction",
+   "Knee extension",
+   "Knee flexion",
+   "Knee extension and hip flexion"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Vastus intermedius runs from femur to tibia via patella. Shorten that line and the insertion is drawn toward the origin, which produces knee extension. The opposite, knee flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor longus runs from pubic bone to medial femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip abduction and internal rotation",
+   "Hip adduction, flexion, internal rotation",
+   "Hip adduction, flexion, internal rotation; assists tibial internal rotation",
+   "Hip abduction, extension, external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Adductor longus runs from pubic bone to medial femur. Shorten that line and the insertion is drawn toward the origin, which produces hip adduction, flexion, internal rotation. The opposite, hip abduction, extension, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor magnus, anterior fibres runs from pubic bone to medial femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip adduction, extension, external rotation",
+   "Hip adduction, flexion, internal rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip abduction and internal rotation (anterior fibres); hip abduction and external rotation (posterior fibres)"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Adductor magnus, anterior fibres runs from pubic bone to medial femur. Shorten that line and the insertion is drawn toward the origin, which produces hip adduction, flexion, internal rotation. The opposite, hip abduction, extension, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor magnus, posterior fibres runs from pubic bone to medial femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip adduction, extension, external rotation",
+   "Hip abduction, flexion, internal rotation",
+   "Hip adduction, flexion, internal rotation",
+   "Hip flexion and external rotation; rotates the lumbar spine"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Adductor magnus, posterior fibres runs from pubic bone to medial femur. Shorten that line and the insertion is drawn toward the origin, which produces hip adduction, extension, external rotation. The opposite, hip abduction, flexion, internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor brevis runs from pubic bone to medial femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip extension and external rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip adduction, flexion, internal rotation",
+   "Hip flexion, abduction, internal rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Adductor brevis runs from pubic bone to medial femur. Shorten that line and the insertion is drawn toward the origin, which produces hip adduction, flexion, internal rotation. The opposite, hip abduction, extension, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Gracilis runs from pubic bone to medial tibia. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip flexion and external rotation",
+   "Hip adduction, flexion, internal rotation; assists tibial internal rotation",
+   "Hip flexion, abduction, internal rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Gracilis runs from pubic bone to medial tibia. Shorten that line and the insertion is drawn toward the origin, which produces hip adduction, flexion, internal rotation; assists tibial internal rotation. The opposite, hip abduction, extension, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus medius runs from innominate bone to femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip adduction, flexion, internal rotation",
+   "Hip adduction and external rotation (anterior fibres); hip adduction and internal rotation (posterior fibres)",
+   "Hip abduction and internal rotation (anterior fibres); hip abduction and external rotation (posterior fibres)",
+   "Hip extension and external rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Gluteus medius runs from innominate bone to femur. Shorten that line and the insertion is drawn toward the origin, which produces hip abduction and internal rotation (anterior fibres); hip abduction and external rotation (posterior fibres). The opposite, hip adduction and external rotation (anterior fibres); hip adduction and internal rotation (posterior fibres), is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus minimus runs from innominate bone to femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip adduction, flexion, internal rotation",
+   "Hip adduction and external rotation",
+   "Hip abduction and internal rotation",
+   "Hip flexion and external rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Gluteus minimus runs from innominate bone to femur. Shorten that line and the insertion is drawn toward the origin, which produces hip abduction and internal rotation. The opposite, hip adduction and external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Tensor fasciae latae (including the iliotibial band) runs from ilium to via iliotibial tract to tibia. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip extension, adduction, external rotation",
+   "Hip flexion, abduction, internal rotation",
+   "Hip adduction, flexion, internal rotation",
+   "Hip adduction, extension, external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Tensor fasciae latae (including the iliotibial band) runs from ilium to via iliotibial tract to tibia. Shorten that line and the insertion is drawn toward the origin, which produces hip flexion, abduction, internal rotation. The opposite, hip extension, adduction, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Psoas runs from lumbar spine to femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip flexion and external rotation",
+   "Hip internal rotation and hip extension",
+   "Hip flexion and external rotation; rotates the lumbar spine",
+   "Hip flexion, abduction, internal rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Psoas runs from lumbar spine to femur. Shorten that line and the insertion is drawn toward the origin, which produces hip flexion and external rotation; rotates the lumbar spine. The opposite, hip internal rotation and hip extension, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Iliacus runs from iliac bones to femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip flexion and external rotation",
+   "Hip flexion, abduction, internal rotation",
+   "Hip extension and internal rotation",
+   "Hip extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Iliacus runs from iliac bones to femur. Shorten that line and the insertion is drawn toward the origin, which produces hip flexion and external rotation. The opposite, hip extension and internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Sartorius runs from iliac bone to tibia. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip flexion, external rotation, abduction; knee flexion and internal rotation",
+   "Hip extension and internal rotation; knee extension and external rotation",
+   "Hip adduction, flexion, internal rotation; assists tibial internal rotation",
+   "Hip adduction, flexion, internal rotation"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Sartorius runs from iliac bone to tibia. Shorten that line and the insertion is drawn toward the origin, which produces hip flexion, external rotation, abduction; knee flexion and internal rotation. The opposite, hip extension and internal rotation; knee extension and external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Hip",
+  "q": "Piriformis runs from sacrum to femur. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip external rotation, abduction, extension",
+   "Hip internal rotation, adduction, flexion",
+   "Hip flexion, abduction, internal rotation",
+   "Hip extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Piriformis runs from sacrum to femur. Shorten that line and the insertion is drawn toward the origin, which produces hip external rotation, abduction, extension. The opposite, hip internal rotation, adduction, flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Rectus abdominis runs from pubis to ribs, sternum. When it shortens, what does it accelerate?",
+  "o": [
+   "Spinal flexion, lateral flexion, rotation",
+   "Spinal extension, lateral flexion, rotation",
+   "Increases intra-abdominal pressure and supports the abdominal viscera",
+   "Spinal flexion, lateral flexion, contralateral rotation"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Rectus abdominis runs from pubis to ribs, sternum. Shorten that line and the insertion is drawn toward the origin, which produces spinal flexion, lateral flexion, rotation. The opposite, spinal extension, lateral flexion, rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Abdominal",
+  "q": "External oblique runs from lower ribs to iliac crest, linea alba. When it shortens, what does it accelerate?",
+  "o": [
+   "Spinal extension, lateral flexion, rotation",
+   "Increases intra-abdominal pressure and supports the abdominal viscera",
+   "Spinal flexion, lateral flexion, contralateral rotation",
+   "Spinal flexion, lateral flexion, rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. External oblique runs from lower ribs to iliac crest, linea alba. Shorten that line and the insertion is drawn toward the origin, which produces spinal flexion, lateral flexion, contralateral rotation. The opposite, spinal extension, lateral flexion, rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Internal oblique runs from iliac crest, inguinal ligament, lumbar fascia to lower ribs, linea alba. When it shortens, what does it accelerate?",
+  "o": [
+   "Increases intra-abdominal pressure and supports the abdominal viscera",
+   "Spinal flexion, lateral flexion, contralateral rotation",
+   "Spinal flexion, lateral flexion, ipsilateral rotation",
+   "Spinal extension, rotation, lateral flexion"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Internal oblique runs from iliac crest, inguinal ligament, lumbar fascia to lower ribs, linea alba. Shorten that line and the insertion is drawn toward the origin, which produces spinal flexion, lateral flexion, ipsilateral rotation. The opposite, spinal extension, rotation, lateral flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Transversus abdominis runs from iliac crest, inguinal ligament, lumbar fascia, lower ribs to linea alba. When it shortens, what does it accelerate?",
+  "o": [
+   "Spinal flexion, lateral flexion, ipsilateral rotation",
+   "Increases intra-abdominal pressure and supports the abdominal viscera",
+   "Spinal flexion, lateral flexion, contralateral rotation",
+   "*(none listed)*"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Transversus abdominis runs from iliac crest, inguinal ligament, lumbar fascia, lower ribs to linea alba. Shorten that line and the insertion is drawn toward the origin, which produces increases intra-abdominal pressure and supports the abdominal viscera. The opposite, *(none listed)*, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Back",
+  "q": "Superficial erector spinae: iliocostalis, longissimus, spinalis runs from vertebra, iliac crest, ribs to adjacent vertebrae, ribs, occipital bone. When it shortens, what does it accelerate?",
+  "o": [
+   "Spinal flexion, rotation, lateral flexion",
+   "Spinal extension, rotation, lateral flexion",
+   "Ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis",
+   "Shoulder extension, adduction, internal rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Superficial erector spinae: iliocostalis, longissimus, spinalis runs from vertebra, iliac crest, ribs to adjacent vertebrae, ribs, occipital bone. Shorten that line and the insertion is drawn toward the origin, which produces spinal extension, rotation, lateral flexion. The opposite, spinal flexion, rotation, lateral flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Back",
+  "q": "Quadratus lumborum runs from iliac crest to 12th rib, lumbar vertebra. When it shortens, what does it accelerate?",
+  "o": [
+   "Ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis",
+   "Shoulder extension, adduction, internal rotation",
+   "Spinal extension, rotation, lateral flexion",
+   "Contralateral lateral spinal flexion"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Quadratus lumborum runs from iliac crest to 12th rib, lumbar vertebra. Shorten that line and the insertion is drawn toward the origin, which produces ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis. The opposite, contralateral lateral spinal flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Back",
+  "q": "Latissimus dorsi runs from thoracic spine, lumbar spine, iliac crest to anterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder extension, adduction, internal rotation",
+   "Ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis",
+   "Shoulder flexion, abduction, external rotation; spinal flexion",
+   "Spinal extension, rotation, lateral flexion"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Latissimus dorsi runs from thoracic spine, lumbar spine, iliac crest to anterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder extension, adduction, internal rotation. The opposite, shoulder flexion, abduction, external rotation; spinal flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Serratus anterior runs from upper 9 ribs to anterior scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder abduction",
+   "Scapular retraction",
+   "Scapular protraction",
+   "Scapular retraction and downward rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Serratus anterior runs from upper 9 ribs to anterior scapula. Shorten that line and the insertion is drawn toward the origin, which produces scapular protraction. The opposite, scapular retraction, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Rhomboid major runs from thoracic spine to scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder flexion and internal rotation",
+   "Shoulder flexion (clavicular fibres), horizontal adduction, internal rotation",
+   "Scapular retraction and downward rotation",
+   "Scapular protraction and upward rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Rhomboid major runs from thoracic spine to scapula. Shorten that line and the insertion is drawn toward the origin, which produces scapular retraction and downward rotation. The opposite, scapular protraction and upward rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Rhomboid minor runs from thoracic spine to scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Scapular retraction and downward rotation",
+   "Scapular protraction and upward rotation",
+   "Shoulder flexion (clavicular fibres), horizontal adduction, internal rotation",
+   "Scapular depression"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Rhomboid minor runs from thoracic spine to scapula. Shorten that line and the insertion is drawn toward the origin, which produces scapular retraction and downward rotation. The opposite, scapular protraction and upward rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Lower trapezius runs from spinous processes of the lower thoracic vertebrae to spine of the scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Scapular elevation",
+   "Scapular depression",
+   "Scapular retraction",
+   "Scapular retraction and downward rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Lower trapezius runs from spinous processes of the lower thoracic vertebrae to spine of the scapula. Shorten that line and the insertion is drawn toward the origin, which produces scapular depression. The opposite, scapular elevation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Middle trapezius runs from spinous processes C7 to t3 to Acromion and spine of the scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder flexion and internal rotation",
+   "Scapular retraction and downward rotation",
+   "Scapular protraction",
+   "Scapular retraction"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Middle trapezius runs from spinous processes C7 to t3 to Acromion and spine of the scapula. Shorten that line and the insertion is drawn toward the origin, which produces scapular retraction. The opposite, scapular protraction, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Upper trapezius runs from occipital bone, nuchal ligament, spinous process of C7 to lateral third of the clavicle and the acromion. When it shortens, what does it accelerate?",
+  "o": [
+   "Cervical flexion, lateral flexion, rotation; scapular depression",
+   "Cervical extension, lateral flexion, rotation; scapular elevation",
+   "Scapular retraction",
+   "Shoulder extension and external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Upper trapezius runs from occipital bone, nuchal ligament, spinous process of C7 to lateral third of the clavicle and the acromion. Shorten that line and the insertion is drawn toward the origin, which produces cervical extension, lateral flexion, rotation; scapular elevation. The opposite, cervical flexion, lateral flexion, rotation; scapular depression, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Pectoralis major runs from sternum, clavicle, upper ribs to anterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder abduction",
+   "Shoulder flexion (clavicular fibres), horizontal adduction, internal rotation",
+   "Scapular retraction",
+   "Shoulder extension, horizontal abduction, external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Pectoralis major runs from sternum, clavicle, upper ribs to anterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder flexion (clavicular fibres), horizontal adduction, internal rotation. The opposite, shoulder extension, horizontal abduction, external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Anterior deltoid runs from scapula, clavicle to humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Scapular retraction and downward rotation",
+   "Shoulder extension and external rotation",
+   "Scapular depression",
+   "Shoulder flexion and internal rotation"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Anterior deltoid runs from scapula, clavicle to humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder flexion and internal rotation. The opposite, shoulder extension and external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Lateral (middle) deltoid runs from scapula, clavicle to humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Cervical extension, lateral flexion, rotation; scapular elevation",
+   "Shoulder adduction",
+   "Shoulder abduction",
+   "Shoulder internal rotation, adduction, extension"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Lateral (middle) deltoid runs from scapula, clavicle to humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder abduction. The opposite, shoulder adduction, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Posterior deltoid runs from scapula, clavicle to humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder abduction",
+   "Shoulder extension and external rotation",
+   "Shoulder flexion and internal rotation",
+   "Shoulder flexion (clavicular fibres), horizontal adduction, internal rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Posterior deltoid runs from scapula, clavicle to humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder extension and external rotation. The opposite, shoulder flexion and internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Teres major runs from scapula to anterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder internal rotation, adduction, extension",
+   "Shoulder external rotation, abduction, flexion",
+   "Scapular retraction",
+   "Scapular depression"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Teres major runs from scapula to anterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder internal rotation, adduction, extension. The opposite, shoulder external rotation, abduction, flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Teres minor runs from scapula to posterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Abduction of the arm",
+   "Cervical extension, lateral flexion, rotation; scapular elevation",
+   "Shoulder external rotation",
+   "Shoulder internal rotation"
+  ],
+  "a": 2,
+  "e": "Derive it from the attachments rather than recalling it. Teres minor runs from scapula to posterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder external rotation. The opposite, shoulder internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Infraspinatus runs from scapula to posterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder external rotation",
+   "Abduction of the arm",
+   "Shoulder internal rotation",
+   "Hip adduction, extension, external rotation"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Infraspinatus runs from scapula to posterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder external rotation. The opposite, shoulder internal rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Subscapularis runs from anterior scapula to anterior humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Knee flexion, hip extension, tibial external rotation",
+   "Shoulder internal rotation",
+   "Abduction of the arm",
+   "Shoulder external rotation"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Subscapularis runs from anterior scapula to anterior humerus. Shorten that line and the insertion is drawn toward the origin, which produces shoulder internal rotation. The opposite, shoulder external rotation, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Supraspinatus runs from scapula to humerus. When it shortens, what does it accelerate?",
+  "o": [
+   "Shoulder external rotation",
+   "Shoulder internal rotation",
+   "Adduction of the arm",
+   "Abduction of the arm"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Supraspinatus runs from scapula to humerus. Shorten that line and the insertion is drawn toward the origin, which produces abduction of the arm. The opposite, adduction of the arm, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Arm",
+  "q": "Biceps brachii runs from scapula to radial tuberosity, plus the bicipital aponeurosis into the forearm fascia. When it shortens, what does it accelerate?",
+  "o": [
+   "Elbow flexion, supination of the radioulnar joint, shoulder flexion",
+   "Elbow flexion",
+   "Elbow extension and shoulder extension",
+   "Elbow extension, pronation of the radioulnar joint, shoulder extension"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Biceps brachii runs from scapula to radial tuberosity, plus the bicipital aponeurosis into the forearm fascia. Shorten that line and the insertion is drawn toward the origin, which produces elbow flexion, supination of the radioulnar joint, shoulder flexion. The opposite, elbow extension, pronation of the radioulnar joint, shoulder extension, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachioradialis runs from humerus to radius. When it shortens, what does it accelerate?",
+  "o": [
+   "Elbow flexion, supination of the radioulnar joint, shoulder flexion",
+   "Elbow flexion",
+   "Elbow extension and shoulder extension",
+   "Elbow extension"
+  ],
+  "a": 1,
+  "e": "Derive it from the attachments rather than recalling it. Brachioradialis runs from humerus to radius. Shorten that line and the insertion is drawn toward the origin, which produces elbow flexion. The opposite, elbow extension, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachialis runs from humerus to ulna. When it shortens, what does it accelerate?",
+  "o": [
+   "Elbow extension and shoulder extension",
+   "Elbow extension",
+   "Elbow flexion, supination of the radioulnar joint, shoulder flexion",
+   "Elbow flexion"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Brachialis runs from humerus to ulna. Shorten that line and the insertion is drawn toward the origin, which produces elbow flexion. The opposite, elbow extension, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Neck",
+  "q": "Levator scapulae runs from cervical spine to scapula. When it shortens, what does it accelerate?",
+  "o": [
+   "Hip flexion and external rotation; rotates the lumbar spine",
+   "Cervical flexion, contralateral cervical rotation and lateral flexion; scapular depression and upward rotation when the neck is stabilised",
+   "Cervical flexion, rotation, lateral flexion",
+   "Cervical extension, lateral flexion, ipsilateral rotation when the scapulae are anchored; assists scapular elevation and downward rotation"
+  ],
+  "a": 3,
+  "e": "Derive it from the attachments rather than recalling it. Levator scapulae runs from cervical spine to scapula. Shorten that line and the insertion is drawn toward the origin, which produces cervical extension, lateral flexion, ipsilateral rotation when the scapulae are anchored; assists scapular elevation and downward rotation. The opposite, cervical flexion, contralateral cervical rotation and lateral flexion; scapular depression and upward rotation when the neck is stabilised, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Neck",
+  "q": "Sternocleidomastoid runs from sternum, clavicle to mastoid process (on temporal bone). When it shortens, what does it accelerate?",
+  "o": [
+   "Cervical flexion, rotation, lateral flexion",
+   "Cervical extension, lateral flexion, ipsilateral rotation when the scapulae are anchored; assists scapular elevation and downward rotation",
+   "Plantarflexes and everts the foot",
+   "Cervical extension, rotation, lateral flexion"
+  ],
+  "a": 0,
+  "e": "Derive it from the attachments rather than recalling it. Sternocleidomastoid runs from sternum, clavicle to mastoid process (on temporal bone). Shorten that line and the insertion is drawn toward the origin, which produces cervical flexion, rotation, lateral flexion. The opposite, cervical extension, rotation, lateral flexion, is the same muscle lengthening under control, which is its eccentric job."
+ }
+]
