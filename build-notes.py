@@ -134,5 +134,14 @@ def main():
         n, size = images(key, used)
         print(f'notes-assets/      {size/1024/1024:6.1f} MB   {n} encrypted diagrams')
 
+    # Bump the service worker cache name so a redeploy actually refreshes.
+    # The notes pages are in the worker's ASSETS list, so without this a
+    # returning visitor keeps being served the previously cached version.
+    sw = HERE / 'sw.js'
+    if sw.exists():
+        v = int(re.search(r'pt-prep-v(\d+)', sw.read_text()).group(1))
+        sw.write_text(re.sub(r'pt-prep-v\d+', f'pt-prep-v{v + 1}', sw.read_text()))
+        print(f'sw.js              cache bumped to pt-prep-v{v + 1}')
+
 if __name__ == '__main__':
     main()

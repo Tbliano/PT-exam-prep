@@ -62,8 +62,14 @@ Each entry is:
 ```
 
 `a` is the zero-based index of the correct option. Each question gets a stable id hashed from its
-text, so reordering or inserting questions does not disturb stored progress. The build also bumps the
-service worker cache version so a redeploy actually refreshes.
+text, so reordering or inserting questions does not disturb stored progress.
+
+## The service worker cache
+
+`index.html`, `exam-prep.html` and `learning.html` are all in the service worker's asset list, so a
+returning visitor is served whatever that cache holds. **Both build scripts bump the cache version**,
+which is what makes a redeploy actually refresh. Run whichever script matches what you changed, or
+both, and the bump is handled.
 
 ## Files
 
