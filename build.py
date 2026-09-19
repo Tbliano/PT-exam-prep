@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Inline the logo and both question banks into a single self-contained index.html."""
-import json, pathlib, re
+import json, pathlib, re, sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from swcache import stamp
 
 here = pathlib.Path(__file__).parent
 
@@ -44,11 +47,9 @@ html = html.replace('__LOGO__', (here / '_logo.svg').read_text().strip())
 html = html.replace('__DATA__', json.dumps(data, ensure_ascii=False, separators=(',', ':')))
 (here / 'index.html').write_text(html)
 
-# Bump the service worker cache name so a redeploy actually refreshes.
-sw = here / 'sw.js'
-if sw.exists():
-    n = int(re.search(r'pt-prep-v(\d+)', sw.read_text()).group(1))
-    sw.write_text(re.sub(r'pt-prep-v\d+', f'pt-prep-v{n+1}', sw.read_text()))
+# Name the service worker cache after the content, so a redeploy refreshes
+# and running the build twice changes nothing.
+stamp(here)
 
 total = sum(len(d['q']) for d in data.values())
 print(f"index.html built: {total} questions "

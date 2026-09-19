@@ -9,6 +9,7 @@ import base64, getpass, hashlib, json, os, pathlib, re, secrets, shutil, subproc
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from md2html import convert
+from swcache import stamp
 
 HERE = pathlib.Path(__file__).parent
 SRC = pathlib.Path.home() / 'personal' / 'coursera'
@@ -19,6 +20,7 @@ ITER = 250_000
 DOCS = [
     ('exam-prep.md', 'exam-prep.html', 'NASM exam preparation', 'Exam prep'),
     ('learning.md',  'learning.html',  'The body and training', 'Learning'),
+    ('exercise-reference.md', 'exercise-reference.html', 'The practice reference', 'Practice'),
 ]
 
 # ---------- key ----------
@@ -107,9 +109,11 @@ def main():
         # rewrite cross-document links, keeping any #anchor on the end
         html = html.replace('href="exam-prep.md', 'href="exam-prep.html')
         html = html.replace('href="learning.md', 'href="learning.html')
+        html = html.replace('href="exercise-reference.md', 'href="exercise-reference.html')
         html = html.replace(f'href="{out}#', 'href="#')   # same-page links stay in-page
         html = html.replace('>exam-prep.md<', '>the exam preparation notes<')
         html = html.replace('>learning.md<', '>the learning notes<')
+        html = html.replace('>exercise-reference.md<', '>the practice reference<')
 
         payload = json.dumps({'title': title, 'html': html, 'toc': toc}, ensure_ascii=False)
         iv, ct = encrypt(key, payload.encode())
@@ -137,11 +141,9 @@ def main():
     # Bump the service worker cache name so a redeploy actually refreshes.
     # The notes pages are in the worker's ASSETS list, so without this a
     # returning visitor keeps being served the previously cached version.
-    sw = HERE / 'sw.js'
-    if sw.exists():
-        v = int(re.search(r'pt-prep-v(\d+)', sw.read_text()).group(1))
-        sw.write_text(re.sub(r'pt-prep-v\d+', f'pt-prep-v{v + 1}', sw.read_text()))
-        print(f'sw.js              cache bumped to pt-prep-v{v + 1}')
+    version = stamp(HERE)
+    if version:
+        print(f'sw.js              cache named {version}')
 
 if __name__ == '__main__':
     main()
