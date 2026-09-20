@@ -98,21 +98,30 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
 
 .hidden{display:none!important}
 
+/* Floating contents button: reachable without scrolling back to the top. */
+#fab{display:none;position:fixed;right:16px;bottom:18px;z-index:70;
+  width:54px;height:54px;border-radius:50%;align-items:center;justify-content:center;
+  background:var(--magenta);color:#fff;border:0;cursor:pointer;
+  box-shadow:0 4px 16px rgba(42,13,63,.30);
+  font-family:var(--sans);font-size:22px;line-height:1;padding:0}
+#fab:active{transform:scale(.94)}
+
 @media (max-width:900px){
   .shell{display:block;padding:0 16px}
-  nav{width:auto;position:static;max-height:none;padding:14px 0 0;
-    border-bottom:1px solid var(--line);margin-bottom:8px}
-  nav .toclist{display:none}
+  nav{width:auto;position:static;max-height:none;padding:0;border:0;margin:0}
+  nav .toggle{display:none}
+  nav h4{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.18em;
+    color:var(--muted2);margin:0 0 10px;font-family:var(--sans)}
+  nav .toclist{display:none;position:fixed;inset:0;z-index:60;background:var(--page);
+    overflow-y:auto;-webkit-overflow-scrolling:touch;padding:22px 18px 90px}
   nav.open .toclist{display:block}
-  nav .toggle{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line2);
-    border-radius:12px;padding:12px 14px;font-family:var(--sans);font-size:14px;font-weight:600;
-    color:var(--ink);cursor:pointer}
-  nav h4{display:none}
+  nav.open ~ #fab, nav.open + main + #fab{}
+  #fab{display:flex}
   main{padding-top:12px;max-width:none}
   body{font-size:16.5px}
   h1{font-size:27px} h2{font-size:22px} h3{font-size:18.5px}
 }
-@media (min-width:901px){ nav .toggle{display:none} }
+@media (min-width:901px){ nav .toggle{display:none} #fab{display:none!important} }
 </style>
 </head>
 <body>
@@ -147,6 +156,7 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
   </nav>
   <main id="doc"></main>
 </div>
+<button id="fab" class="hidden" aria-label="Contents" aria-expanded="false">&#9776;</button>
 <div class="foot hidden" id="foot">__FOOT__</div>
 
 <script>
@@ -215,8 +225,18 @@ function wire(){
   };
   document.addEventListener('scroll', spy, {passive:true});
   spy();
-  links.forEach(a => a.addEventListener('click', () => $('#nav').classList.remove('open')));
-  $('#toggle').onclick = () => $('#nav').classList.toggle('open');
+  const nav = $('#nav'), fab = $('#fab');
+  const setNav = open => {
+    nav.classList.toggle('open', open);
+    fab.innerHTML = open ? '&times;' : '&#9776;';
+    fab.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  };
+  links.forEach(a => a.addEventListener('click', () => setNav(false)));
+  $('#toggle').onclick = () => setNav(!nav.classList.contains('open'));
+  fab.onclick = () => setNav(!nav.classList.contains('open'));
+  fab.classList.remove('hidden');
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setNav(false); });
 }
 
 async function tryUnlock(pass, remember){

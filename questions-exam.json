@@ -3550,5 +3550,581 @@
   ],
   "a": 2,
   "e": "Recovery lets the body repair and strengthen muscle, adapt to training stress, and avoid overtraining and injury."
+ },
+ {
+  "t": "OPT model",
+  "q": "How many levels and phases does the OPT model contain?",
+  "o": [
+   "Five levels, three phases",
+   "Three levels, five phases",
+   "Four levels, four phases",
+   "Three levels, three phases"
+  ],
+  "a": 1,
+  "e": "Three levels — stabilization, strength, power — containing five phases. Stabilization holds phase 1; strength holds phases 2, 3 and 4; power holds phase 5 alone."
+ },
+ {
+  "t": "OPT model",
+  "q": "All of the following phases make up the strength level of the OPT model except:",
+  "o": [
+   "Strength Endurance",
+   "Muscular Development",
+   "Maximal Strength",
+   "Power"
+  ],
+  "a": 3,
+  "e": "The strength level is phases 2, 3 and 4. Power is phase 5 and is its own level."
+ },
+ {
+  "t": "OPT model",
+  "q": "What is the repetition range in the stabilization endurance phase?",
+  "o": [
+   "6-12 repetitions",
+   "8-12 repetitions",
+   "12-20 repetitions",
+   "1-5 repetitions"
+  ],
+  "a": 2,
+  "e": "Phase 1 uses 12-20 repetitions at 50-70% of 1RM, 1-3 sets, slow 4/2/1 tempo, 0-90 seconds rest."
+ },
+ {
+  "t": "OPT model",
+  "q": "A deconditioned client needs connective tissue preparation and postural control. Which phase?",
+  "o": [
+   "Phase 1",
+   "Phase 2",
+   "Phase 3",
+   "Phase 5"
+  ],
+  "a": 0,
+  "e": "Phase 1, Stabilization Endurance. It is the answer whenever a question describes stability, endurance, connective tissue preparation or return from inactivity."
+ },
+ {
+  "t": "OPT model",
+  "q": "What are the acute variables for phase 4, Maximal Strength?",
+  "o": [
+   "12-20 reps, 1-3 sets, 50-70% 1RM",
+   "8-12 reps, 2-4 sets, 70-80% 1RM",
+   "1-5 reps, 4-6 sets, 85-100% 1RM",
+   "6-12 reps, 3-5 sets, 75-85% 1RM"
+  ],
+  "a": 2,
+  "e": "Phase 4 is 1-5 repetitions, 4-6 sets, 85-100% of 1RM, explosive X/X/X tempo, 3-5 minutes rest."
+ },
+ {
+  "t": "OPT model",
+  "q": "In the tempo notation 4/2/1, what does the 4 represent?",
+  "o": [
+   "The concentric phase",
+   "The isometric phase",
+   "The eccentric phase",
+   "The rest interval"
+  ],
+  "a": 2,
+  "e": "Tempo is written eccentric/isometric/concentric. 4/2/1 is a four-second lowering, two-second pause, one-second lift."
+ },
+ {
+  "t": "OPT model",
+  "q": "Which training levels use total body exercises?",
+  "o": [
+   "Stabilization only",
+   "Strength and power only",
+   "Stabilization and strength only",
+   "Stabilization, strength and power"
+  ],
+  "a": 3,
+  "e": "Total body exercises are used at all three levels."
+ },
+ {
+  "t": "OPT model",
+  "q": "Phase 2, Strength Endurance, supersets a strength exercise with what?",
+  "o": [
+   "A power exercise",
+   "A stabilization exercise",
+   "A flexibility exercise",
+   "Another strength exercise"
+  ],
+  "a": 1,
+  "e": "Phase 2 pairs a strength exercise with a stabilization exercise. Phase 5 pairs strength with power."
+ },
+ {
+  "t": "Balance training",
+  "q": "Which of the following is a balance-stabilization exercise?",
+  "o": [
+   "Single-leg squat",
+   "Single-leg hip rotation",
+   "Single-leg Romanian deadlift",
+   "Multiplanar hop with stabilization"
+  ],
+  "a": 1,
+  "e": "Balance-stabilization holds a position while something else moves: single-leg balance, balance reach, hip rotation, lift and chop, throw and catch."
+ },
+ {
+  "t": "Balance training",
+  "q": "All of the following are balance-stabilization exercises except:",
+  "o": [
+   "Single-leg balance reach",
+   "Single-leg throw and catch",
+   "Single-leg squat",
+   "Single-leg lift and chop"
+  ],
+  "a": 2,
+  "e": "The single-leg squat is balance-STRENGTH. It moves through a full range of motion rather than holding a position. This is the commonest trap in the topic."
+ },
+ {
+  "t": "Balance training",
+  "q": "Which is a balance-power exercise?",
+  "o": [
+   "Step-up to balance",
+   "Single-leg squat touchdown",
+   "Multiplanar single-leg box hop-down with stabilization",
+   "Single-leg balance"
+  ],
+  "a": 2,
+  "e": "Balance-power involves a hop and a landing, in multiple planes."
+ },
+ {
+  "t": "Balance training",
+  "q": "Balance is influenced by all of the following except:",
+  "o": [
+   "Age",
+   "Inactivity",
+   "Injury",
+   "Bodyweight"
+  ],
+  "a": 3,
+  "e": "NASM lists age, inactivity and injury as influences on balance. Bodyweight is not one of them."
+ },
+ {
+  "t": "Balance training",
+  "q": "How does balance training develop neuromuscular efficiency?",
+  "o": [
+   "By increasing maximal force output",
+   "By simulating unstable yet controllable environments",
+   "By increasing joint range of motion",
+   "By raising resting metabolic rate"
+  ],
+  "a": 1,
+  "e": "Balance training works by placing the body in unstable but controllable environments so the nervous system learns to stabilise."
+ },
+ {
+  "t": "Balance training",
+  "q": "All of the following are acute variables for balance-stabilization training except:",
+  "o": [
+   "Intensity",
+   "Sets",
+   "Repetitions",
+   "Tempo"
+  ],
+  "a": 0,
+  "e": "Sets, repetitions, tempo and rest are the acute variables for balance work. Intensity as a percentage of 1RM is not prescribed."
+ },
+ {
+  "t": "Balance training",
+  "q": "Which pairing reflects a correct stabilization progression?",
+  "o": [
+   "BOSU ball to floor",
+   "Balance disc to BOSU ball",
+   "Foam pad to balance beam",
+   "Half foam roll to floor"
+  ],
+  "a": 1,
+  "e": "The proprioceptive progression runs floor, balance beam, half foam roll, foam pad, balance disc, BOSU ball — progressively less stable."
+ },
+ {
+  "t": "Core training",
+  "q": "Which of the following is an example of a core-stabilization exercise?",
+  "o": [
+   "Ball crunch",
+   "Reverse crunch",
+   "Marching",
+   "Woodchop throw"
+  ],
+  "a": 2,
+  "e": "Core-stabilization uses little or no motion in the spine and pelvis: marching, floor bridge, floor prone cobra, plank."
+ },
+ {
+  "t": "Core training",
+  "q": "What should be the focus in core-strength exercises?",
+  "o": [
+   "Little to no motion in the spine",
+   "Isometric holds only",
+   "Explosive medicine ball throws",
+   "Dynamic movement of the spine through a full range of motion"
+  ],
+  "a": 3,
+  "e": "Core-strength moves the spine dynamically through full range. Stabilization minimises spinal motion; power is explosive."
+ },
+ {
+  "t": "Core training",
+  "q": "Which is the most progressive core training exercise?",
+  "o": [
+   "Floor bridge",
+   "Ball crunch",
+   "Front medicine ball oblique throw",
+   "Prone iso-ab"
+  ],
+  "a": 2,
+  "e": "Core-power is the most progressive stage, and the medicine ball throw is its signature exercise."
+ },
+ {
+  "t": "Core training",
+  "q": "Which of the following is a common form mistake during a floor bridge?",
+  "o": [
+   "Raising hips too far off the floor",
+   "Keeping the feet flat",
+   "Squeezing the glutes",
+   "Exhaling on the lift"
+  ],
+  "a": 0,
+  "e": "Raising the hips too high extends the lumbar spine instead of extending the hips."
+ },
+ {
+  "t": "Core training",
+  "q": "During the reverse crunch, which of the following is a common form mistake?",
+  "o": [
+   "Swinging the legs",
+   "Keeping the low back flat",
+   "Moving slowly",
+   "Exhaling on the lift"
+  ],
+  "a": 0,
+  "e": "Swinging the legs uses momentum instead of the abdominals."
+ },
+ {
+  "t": "Core training",
+  "q": "Which of the following is a concern during the ball crunch exercise?",
+  "o": [
+   "Tilting the chin up toward the ceiling",
+   "Keeping the hips elevated",
+   "Breathing out on the way up",
+   "Keeping the feet shoulder-width"
+  ],
+  "a": 0,
+  "e": "Tilting the chin up puts the cervical spine into extension. The chin should stay tucked."
+ },
+ {
+  "t": "Core training",
+  "q": "Which of the following is a common form mistake during the floor prone cobra?",
+  "o": [
+   "Hyperextending the low back",
+   "Keeping the chin tucked",
+   "Retracting the scapulae",
+   "Keeping the feet together"
+  ],
+  "a": 0,
+  "e": "Hyperextending the low back shifts the work from the scapular retractors to the lumbar extensors."
+ },
+ {
+  "t": "Plyometric training",
+  "q": "Which is a plyometric-stabilization exercise?",
+  "o": [
+   "Tuck jump",
+   "Ice skaters",
+   "Squat jump with stabilization",
+   "Butt kick"
+  ],
+  "a": 2,
+  "e": "Plyometric-stabilization holds the landing for 3 to 5 seconds. Strength repeats without holding; power is as fast as controllable."
+ },
+ {
+  "t": "Plyometric training",
+  "q": "How long is the landing held in plyometric-stabilization exercises?",
+  "o": [
+   "1-2 seconds",
+   "3-5 seconds",
+   "8-10 seconds",
+   "No hold"
+  ],
+  "a": 1,
+  "e": "Three to five seconds, which is what makes it the stabilization stage."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "In pronation distortion syndrome, all of the following are shortened muscles except:",
+  "o": [
+   "Peroneals",
+   "Gastrocnemius",
+   "Anterior tibialis",
+   "Adductors"
+  ],
+  "a": 2,
+  "e": "The anterior tibialis is lengthened and underactive in pronation distortion syndrome, not shortened."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "In upper crossed syndrome, all of the following are overactive in the head and neck except:",
+  "o": [
+   "Upper trapezius",
+   "Levator scapulae",
+   "Sternocleidomastoid",
+   "Deep cervical flexors"
+  ],
+  "a": 3,
+  "e": "The deep cervical flexors are underactive and lengthened in upper crossed syndrome."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "In upper crossed syndrome, which altered joint mechanic is present?",
+  "o": [
+   "Increased scapular retraction",
+   "Increased scapular protraction",
+   "Decreased thoracic kyphosis",
+   "Posterior pelvic tilt"
+  ],
+  "a": 1,
+  "e": "Upper crossed presents as forward head, rounded shoulders, increased thoracic kyphosis and increased scapular protraction and elevation."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "Lower crossed syndrome typically presents with which pelvic position?",
+  "o": [
+   "Posterior pelvic tilt",
+   "Anterior pelvic tilt",
+   "Lateral pelvic tilt",
+   "No change in pelvic position"
+  ],
+  "a": 1,
+  "e": "Anterior pelvic tilt with increased lumbar extension, from overactive hip flexors and erector spinae against underactive glutes and abdominals."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "Which muscle group is underactive in lower crossed syndrome?",
+  "o": [
+   "Hip flexor complex",
+   "Erector spinae",
+   "Gluteus maximus",
+   "Latissimus dorsi"
+  ],
+  "a": 2,
+  "e": "The gluteus maximus and medius, transverse abdominis and internal oblique are underactive. Hip flexors, erector spinae and latissimus dorsi are overactive."
+ },
+ {
+  "t": "Postural distortion",
+  "q": "Pronation distortion syndrome presents with which knee position?",
+  "o": [
+   "Varus",
+   "Valgus",
+   "Hyperextension",
+   "No change"
+  ],
+  "a": 1,
+  "e": "Knee valgus — adduction and internal rotation — along with foot pronation and ankle eversion."
+ },
+ {
+  "t": "Special populations",
+  "q": "For effective weight loss, how many calories should an obese client expend per session?",
+  "o": [
+   "100-150",
+   "200-300",
+   "400-500",
+   "600-800"
+  ],
+  "a": 1,
+  "e": "NASM gives 200 to 300 calories expended per session."
+ },
+ {
+  "t": "Special populations",
+  "q": "How long should a client with coronary heart disease be asymptomatic before resistance training?",
+  "o": [
+   "Two weeks",
+   "One month",
+   "At least three months",
+   "One year"
+  ],
+  "a": 2,
+  "e": "At least three months asymptomatic."
+ },
+ {
+  "t": "Special populations",
+  "q": "For older adults, what is the recommended resistance training intensity?",
+  "o": [
+   "20-30% of 1RM",
+   "40-80% of 1RM",
+   "85-100% of 1RM",
+   "Bodyweight only"
+  ],
+  "a": 1,
+  "e": "40 to 80% of 1RM. Older adults achieve real improvements in muscular fitness through resistance training."
+ },
+ {
+  "t": "Special populations",
+  "q": "What assessments are appropriate for a client with hypertension?",
+  "o": [
+   "Maximal treadmill testing",
+   "One-repetition maximum testing",
+   "Assessments using the talk test",
+   "Vertical jump testing"
+  ],
+  "a": 2,
+  "e": "The talk test avoids the maximal effort and the Valsalva response that raise risk in hypertension."
+ },
+ {
+  "t": "Special populations",
+  "q": "What resistance prescription suits an initial programme for a client with high blood pressure?",
+  "o": [
+   "4-6 sets of 1-5 repetitions",
+   "1-3 sets of 10-20 repetitions",
+   "5 sets of 5 repetitions",
+   "3 sets to failure"
+  ],
+  "a": 1,
+  "e": "1 to 3 sets of 10 to 20 repetitions — lower load, higher repetitions, avoiding maximal effort."
+ },
+ {
+  "t": "Assessment",
+  "q": "All of the following are skinfold sites used in the Durnin formula except:",
+  "o": [
+   "Biceps",
+   "Triceps",
+   "Subscapular",
+   "Midaxillary"
+  ],
+  "a": 3,
+  "e": "The Durnin formula uses four sites: biceps, triceps, subscapular and suprailiac. Midaxillary belongs to the seven-site formula."
+ },
+ {
+  "t": "Assessment",
+  "q": "Which assessments best suit advanced clients such as athletes?",
+  "o": [
+   "Overhead squat and single-leg squat",
+   "Bench press, squat, Shark Skill and Davies",
+   "PAR-Q+ and resting heart rate",
+   "Pushing and pulling assessments"
+  ],
+  "a": 1,
+  "e": "Bench press and squat for upper and lower extremity strength, plus the Shark Skill and Davies tests."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "Which of the following best describes instrumental support?",
+  "o": [
+   "Encouragement and reassurance",
+   "Advice and instruction",
+   "Tangible, practical help such as transport or childcare",
+   "Training alongside someone"
+  ],
+  "a": 2,
+  "e": "Instrumental support is practical and tangible. The other three are emotional, informational and companionship support."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "All of the following are examples of behaviour strategies except:",
+  "o": [
+   "Self-monitoring",
+   "Goal setting",
+   "Stimulus control",
+   "Positive self-talk"
+  ],
+  "a": 3,
+  "e": "Positive self-talk is a cognitive strategy, as are imagery and the stopping technique. Behavioural strategies change actions and habits."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "In SMART goals, how is realistic defined?",
+  "o": [
+   "The goal is measurable",
+   "The client is both willing and able to work toward the goal",
+   "The goal has a deadline",
+   "The goal is specific to one body part"
+  ],
+  "a": 1,
+  "e": "Realistic means the client is both willing and able — the goal can actually be achieved."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "How can a trainer support a client in the action stage?",
+  "o": [
+   "Continue educating them concerning the benefits of exercise",
+   "Avoid discussing exercise",
+   "Set no goals until maintenance",
+   "Increase intensity without consultation"
+  ],
+  "a": 0,
+  "e": "In the action stage the client is doing the behaviour; reinforcing why it is worth continuing supports adherence."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "How is parental support beneficial for clients?",
+  "o": [
+   "Parents provide funding",
+   "Parents lead by example",
+   "Parents supervise every session",
+   "Parents set the training programme"
+  ],
+  "a": 1,
+  "e": "Modelling the behaviour is the mechanism."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "How should a trainer contact a potential client after taking their details?",
+  "o": [
+   "Call within a week",
+   "Send a group email",
+   "Mail a handwritten card within 24 hours",
+   "Wait for the client to make contact"
+  ],
+  "a": 2,
+  "e": "A handwritten card within 24 hours."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "What is the most appropriate way to approach a potential client performing an exercise incorrectly?",
+  "o": [
+   "Telling them you know the right way",
+   "Recommending a better way of performing it",
+   "Asking if you can make a suggestion",
+   "Telling them about a potential benefit of the exercise"
+  ],
+  "a": 3,
+  "e": "Leading with a benefit opens the conversation without implying they are doing it wrong."
+ },
+ {
+  "t": "Behaviour change",
+  "q": "How should a goal for new clients be calculated?",
+  "o": [
+   "Estimate how many potential clients to contact every hour",
+   "Calculate sessions per year, then the closing percentage",
+   "Calculate sessions per week needed for the monetary goal, how many clients that requires, then a contact timeline",
+   "Reach out to five contacts a day until the goal is met"
+  ],
+  "a": 2,
+  "e": "Work backwards from the monetary goal to sessions per week, then to clients needed, then to a contact timeline."
+ },
+ {
+  "t": "Muscle physiology",
+  "q": "What is the unique feature of Type IIa muscle fibres?",
+  "o": [
+   "They are purely aerobic",
+   "They are purely anaerobic",
+   "They create energy both aerobically and anaerobically",
+   "They cannot hypertrophy"
+  ],
+  "a": 2,
+  "e": "Type IIa are intermediate fibres, drawing on both aerobic and anaerobic pathways."
+ },
+ {
+  "t": "Core training",
+  "q": "With the internal obliques, what is the main muscular role of the transverse abdominis?",
+  "o": [
+   "To flex the spine concentrically",
+   "To rotate the trunk",
+   "To isometrically stabilize the lumbo-pelvic-hip complex",
+   "To extend the hip"
+  ],
+  "a": 2,
+  "e": "Isometric stabilisation of the LPHC, not production of movement."
+ },
+ {
+  "t": "Recovery",
+  "q": "When overtraining occurs, which hormone is typically elevated in the bloodstream?",
+  "o": [
+   "Testosterone",
+   "Cortisol",
+   "Insulin",
+   "Growth hormone"
+  ],
+  "a": 1,
+  "e": "Cortisol rises with prolonged training stress without adequate recovery."
  }
 ]
