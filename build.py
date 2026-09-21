@@ -33,7 +33,7 @@ data = {
     'gym': {
         'name': 'What works what',
         'blurb': 'Exercises, machines and muscles, in both directions. The mapping that gets used every day on the gym floor.',
-        'round': 15,
+        'round': 10,   # long stems to read, so a shorter round
         'q': deck('questions-gym.json'),
     },
     'derive': {
