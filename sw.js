@@ -1,5 +1,5 @@
 // Cache the whole app on first visit so it works with no connection afterwards.
-const CACHE = 'pt-prep-10c24df7c6a3';
+const CACHE = 'pt-prep-2f7ce67b6978';
 const ASSETS = ['./', './index.html', './learning.html', './exercise-reference.html',
                 './manifest.webmanifest'];
 // The encrypted diagrams and source appendices are not precached: they are large,

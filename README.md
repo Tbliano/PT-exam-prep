@@ -9,8 +9,8 @@ tooling to install, works offline.
 
 - **Muscles** — origin, insertion, action and role, drawn from the NASM Appendix C tables, the
   anatomy and physiology notes, and standard anatomy.
-- **What works what** — exercises, machines and muscles, in both directions, plus a set where the
-  variation is the point rather than the mapping.
+- **What works what** — exercises, machines and muscles, in both directions, with a set where the
+  variation is the point rather than the mapping, and a set on correct position and setup.
 - **Derive the action** — given only where a muscle attaches, work out what it does when it
   shortens, what it decelerates, and what it stabilises. Reasoning rather than recall.
 

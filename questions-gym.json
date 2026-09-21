@@ -1222,5 +1222,929 @@
   ],
   "a": 0,
   "e": "Grip orientation influences the comfortable elbow path. Neutral tends to tuck the elbows, which makes the movement more shoulder extension and more lat. Pronated tends to flare them, which moves it toward the rear delt and retractors."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client has only a pair of dumbbells and needs hip extension work. What do you give them?",
+  "o": [
+   "Romanian deadlift or a dumbbell hip thrust",
+   "Goblet squat",
+   "Dumbbell lateral raise",
+   "Farmer's carry"
+  ],
+  "a": 0,
+  "e": "A squat pattern extends the hip but shares the work with the knee. A hinge or a thrust makes hip extension the whole movement, and both load comfortably from dumbbells. The other two do not extend the hip at all."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Bodyweight only, no equipment, and the target is the hamstrings at their knee end. What works?",
+  "o": [
+   "Nordic curl or a sliding leg curl",
+   "Glute bridge",
+   "Wall sit",
+   "Bodyweight squat"
+  ],
+  "a": 0,
+  "e": "Knee flexion against resistance is what loads the hamstrings distally, and bodyweight supplies it if the body is the lever. A bridge uses the hip end, and the other two are quadriceps-dominant."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A hotel room, no equipment, and the client needs work for gluteus medius. What do you prescribe?",
+  "o": [
+   "Single-leg glute bridge or side-lying hip abduction",
+   "Bodyweight squat",
+   "Push-up",
+   "Plank"
+  ],
+  "a": 0,
+  "e": "Abduction against gravity or single-leg loading are the two ways to reach it without equipment. A two-legged squat never asks the abductors to hold the pelvis level, which is the function that matters."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Only a cable stack is available and the target is the latissimus dorsi. Which setup?",
+  "o": [
+   "Straight-arm pulldown from a high pulley",
+   "Cable curl",
+   "Cable lateral raise",
+   "Cable woodchop"
+  ],
+  "a": 0,
+  "e": "A high pulley with a locked elbow makes shoulder extension the only movement, which is the lat's main action. A lat pulldown bar on the same stack works too; the point is the direction of pull relative to the trunk."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client can use only a barbell and a rack, and the aim is the posterior deltoid. What is the best available option?",
+  "o": [
+   "Barbell row with the elbows flared wide",
+   "Barbell curl",
+   "Barbell back squat",
+   "Barbell shrug"
+  ],
+  "a": 0,
+  "e": "Flaring the elbows turns a row into horizontal abduction, which is the posterior deltoid's action. Tucked elbows would make it a lat exercise instead. With no cables or dumbbells this is the closest a barbell gets."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Resistance bands only, and the target is the external rotators of the shoulder. What do you use?",
+  "o": [
+   "Band external rotation with the elbow held at the side",
+   "Band pull-apart at chest height",
+   "Band overhead press",
+   "Band bicep curl"
+  ],
+  "a": 0,
+  "e": "Infraspinatus and teres minor rotate the humerus outward, so the exercise has to rotate the arm against resistance. A pull-apart trains the retractors and rear delt, which is useful but a different muscle group."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads gluteus maximus where it is long, rather than where it is short?",
+  "o": [
+   "Deep squat or a deficit split squat",
+   "Hip thrust",
+   "Standing cable kickback at lockout",
+   "Glute bridge"
+  ],
+  "a": 0,
+  "e": "A deep squat places peak resistance with the hip flexed and the glutes lengthened. A thrust or bridge peaks at lockout where they are short. Neither is better; they load opposite ends of the length curve."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "You want to load the triceps long head at its longest. What position achieves that?",
+  "o": [
+   "Overhead extension, with the arm raised",
+   "Pushdown with the elbow at the side",
+   "Close-grip bench press",
+   "Dip"
+  ],
+  "a": 0,
+  "e": "The long head originates on the scapula, so raising the arm moves that origin away from the elbow and stretches it before the set. The other three keep the shoulder near neutral and never lengthen it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the rectus femoris in the position where it has most to give?",
+  "o": [
+   "A hip-extended knee extension, such as a reverse Nordic or a kneeling quad stretch position",
+   "Seated leg extension",
+   "Leg press with high feet",
+   "Hack squat"
+  ],
+  "a": 0,
+  "e": "Rectus femoris crosses the hip, so a flexed hip has already shortened it and it contributes less. Extending the hip while the knee flexes puts it on stretch, which is where it is loaded hardest and where a seated machine cannot reach."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads the pectoralis major with the shoulder in most extension at the bottom?",
+  "o": [
+   "Deep dip with a forward lean",
+   "Flat dumbbell press",
+   "Machine chest press",
+   "Cable crossover from high pulleys"
+  ],
+  "a": 0,
+  "e": "The lowest hand position relative to the torso produces the most shoulder extension and the longest pec. A leaning dip allows that; a bench stops the arm at the chest. It is also the position most likely to aggravate a shoulder, so it is a selection rather than a default."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the abdominals in an anti-extension role rather than a flexion role?",
+  "o": [
+   "Ab wheel rollout",
+   "Weighted crunch",
+   "Cable woodchop",
+   "Side plank"
+  ],
+  "a": 0,
+  "e": "Rolling out extends the spine under load and the abdominals resist it, without producing flexion. A crunch is the flexion version, a woodchop is rotation, and a side plank is lateral. All four are core work with different jobs."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client needs the erector spinae trained isometrically rather than through range. Which exercise?",
+  "o": [
+   "Loaded carry or a hinge held with a neutral spine",
+   "Full-range back extension",
+   "Jefferson curl",
+   "Weighted sit-up"
+  ],
+  "a": 0,
+  "e": "Holding a neutral spine against a load that wants to flex it is exactly isometric erector work. The other three all move the spine deliberately, which is a valid but different training goal."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the hip flexors above ninety degrees, where they are usually weakest?",
+  "o": [
+   "Hanging or supported knee raise taken above hip height",
+   "Standing march",
+   "Seated leg extension",
+   "Lunge"
+  ],
+  "a": 0,
+  "e": "Below ninety degrees the hip flexors have good leverage and the movement is easy. Above it, iliopsoas does most of the work and most people have very little. Training the range requires actually entering it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads the calf complex through the longest range?",
+  "o": [
+   "A calf raise performed off a step, with the heel dropping below the toes",
+   "A calf raise on flat ground",
+   "A seated calf raise on flat ground",
+   "Walking on the toes"
+  ],
+  "a": 0,
+  "e": "Range is limited by what the floor allows. Standing on a step lets the heel travel below the forefoot, adding the lengthened portion that flat ground cuts off. The knee position decides which muscle; the step decides how much range."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client with shoulder impingement needs deltoid work. Which option is most appropriate?",
+  "o": [
+   "Lateral raise kept below shoulder height, with the thumb up",
+   "Upright row to the chin",
+   "Behind-the-neck press",
+   "Wide-grip lat pulldown behind the neck"
+  ],
+  "a": 0,
+  "e": "Raising the arm while internally rotated narrows the subacromial space, which is what an upright row does by design. Staying below shoulder height with the arm externally rotated keeps the space open while still loading the deltoid."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client with knee pain on stairs needs quadriceps work. Which is the most conservative starting point?",
+  "o": [
+   "Isometric knee extension or a wall sit at a comfortable angle",
+   "Deep barbell back squat",
+   "Walking lunge",
+   "Box jump"
+  ],
+  "a": 0,
+  "e": "Isometrics load the muscle with no movement and no impact, and the joint angle can be chosen to avoid the painful range. The other three all load the knee dynamically through range, which is where the symptoms are."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A pregnant client in the third trimester needs core work. Which is appropriate?",
+  "o": [
+   "Standing anti-rotation work such as a Pallof press",
+   "Supine crunches",
+   "Ab wheel rollout",
+   "Hanging leg raise"
+  ],
+  "a": 0,
+  "e": "Supine positions are generally avoided late in pregnancy, and exercises that load the midline through flexion are a poor choice when the abdominal wall is already stretched. Upright anti-rotation work trains the same muscles without either problem."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "An older client with low bone density needs loading that supports bone. Which principle drives the exercise choice?",
+  "o": [
+   "Weight-bearing and resistance work, since bone responds to load through the skeleton",
+   "Swimming, because it is joint-friendly",
+   "Cycling, because it is repetitive",
+   "Stretching, because it improves posture"
+  ],
+  "a": 0,
+  "e": "Bone adapts to the forces put through it. Weight-bearing and resistance training supply those forces; the non-weight-bearing options are good for other reasons but do not deliver the stimulus bone responds to."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client with hypertension is training. Which exercise choice needs the most caution, and why?",
+  "o": [
+   "Heavy overhead pressing with breath-holding, because the Valsalva manoeuvre spikes blood pressure",
+   "Moderate cycling, because it raises heart rate",
+   "Walking, because it is prolonged",
+   "Light dumbbell curls, because they are held"
+  ],
+  "a": 0,
+  "e": "The concern is not the muscle but the breathing. Holding the breath against a closed glottis under heavy load produces a sharp rise in blood pressure, and the risk climbs with the load and with the arms overhead."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client cannot flex the lumbar spine following a disc issue but needs abdominal work. What do you choose?",
+  "o": [
+   "Anti-rotation and anti-extension work with a neutral spine, such as Pallof presses and dead bugs",
+   "Weighted crunches",
+   "Full sit-ups",
+   "Russian twists"
+  ],
+  "a": 0,
+  "e": "The abdominals can be trained by resisting movement rather than producing it, which is the whole stabilisation tier. That keeps the spine neutral while the muscles work hard, where all three alternatives require the flexion being avoided."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A runner reports their hip drops on one side during single-leg stance. Which muscle would you train?",
+  "o": [
+   "Gluteus medius on the stance side",
+   "Gluteus maximus on the swing side",
+   "The adductors on the stance side",
+   "Quadratus lumborum on the stance side"
+  ],
+  "a": 0,
+  "e": "The muscle that fails is the one that should be holding the pelvis level, which is the abductor group on the leg that is on the ground. This is the Trendelenburg pattern, and it is a stance-side problem even though the visible drop is on the other side."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client's shoulders sit rounded forward with the scapulae protracted. Which muscles would you strengthen?",
+  "o": [
+   "The scapular retractors, principally the rhomboids and middle trapezius",
+   "Pectoralis major and minor",
+   "Serratus anterior",
+   "Latissimus dorsi"
+  ],
+  "a": 0,
+  "e": "The position is protraction, so the muscles to strengthen are the ones that retract. The chest muscles are the ones likely to be short and would be lengthened rather than strengthened, which is the inhibit and lengthen half of the continuum."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client's arches collapse during a squat. Which muscle is the first place to look?",
+  "o": [
+   "Posterior tibialis, which supports the medial arch",
+   "Gastrocnemius",
+   "Rectus femoris",
+   "Gluteus maximus"
+  ],
+  "a": 0,
+  "e": "Posterior tibialis passes behind the medial malleolus and fans into the underside of the foot, so its isometric job is holding the arch. A collapsing arch is usually its failure before it is anything else, though ankle mobility and hip control belong in the same conversation."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client cannot keep their arms overhead without the ribs flaring. Which muscle is most likely restricting them?",
+  "o": [
+   "Latissimus dorsi, which tethers the humerus to the pelvis",
+   "Pectoralis minor",
+   "Triceps brachii",
+   "Upper trapezius"
+  ],
+  "a": 0,
+  "e": "The lat runs from the lumbar spine and iliac crest to the humerus, so a short one physically limits how far the arm can travel overhead. The body compensates by extending the lumbar spine, which is the rib flare being seen."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client's knee caves inward during a squat. Which muscles are failing to control it?",
+  "o": [
+   "The hip abductors and external rotators, principally gluteus medius and the deep rotators",
+   "The quadriceps",
+   "The hamstrings",
+   "The calf complex"
+  ],
+  "a": 0,
+  "e": "The knee caving is femoral adduction and internal rotation, so the muscles that should be resisting are the abductors and external rotators of the hip. It is a hip problem that shows at the knee, which is why the correction goes there."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client's head sits forward of the shoulders. Which muscle is most likely short?",
+  "o": [
+   "Sternocleidomastoid, along with the upper cervical extensors",
+   "The deep neck flexors",
+   "Lower trapezius",
+   "Rhomboids"
+  ],
+  "a": 0,
+  "e": "Forward head posture pairs a short SCM and short upper cervical extensors with lengthened deep neck flexors. The deep flexors are the ones to strengthen, which is the standard pattern of short structures needing length and long ones needing strength."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise best targets the lower trapezius?",
+  "o": [
+   "Prone Y raise or a lat pulldown emphasising scapular depression",
+   "Shrug",
+   "Upright row",
+   "Rear delt fly"
+  ],
+  "a": 0,
+  "e": "Lower trap depresses the scapula, so the exercise has to pull the shoulder blade down. A shrug is the opposite action, and the other two do not depress it. It is a commonly weak muscle precisely because few standard exercises ask for depression."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise targets brachialis more than biceps brachii?",
+  "o": [
+   "Hammer curl or reverse curl",
+   "Standing supinated curl",
+   "Preacher curl with a supinated grip",
+   "Chin-up"
+  ],
+  "a": 0,
+  "e": "Brachialis inserts on the ulna, which does not rotate, so it is unaffected by forearm position. Taking the forearm out of supination reduces the biceps' leverage without touching brachialis, which raises its relative share."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the deep hip external rotators?",
+  "o": [
+   "Clamshell or seated banded external rotation of the hip",
+   "Leg extension",
+   "Calf raise",
+   "Hip adduction machine"
+  ],
+  "a": 0,
+  "e": "The deep rotators, including piriformis, turn the femur outward. Rotating the hip against resistance is the only way to load them directly. The adduction machine trains the opposing action."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads the pectoralis minor, and why is it rarely trained deliberately?",
+  "o": [
+   "It protracts the scapula, so it is loaded in pressing; it is rarely targeted because it is usually short rather than weak",
+   "It is loaded in rowing, and is rarely trained because it is small",
+   "It is loaded in curls, and is rarely trained because it is deep",
+   "It cannot be loaded at all"
+  ],
+  "a": 0,
+  "e": "Pec minor runs from the ribs to the coracoid process and pulls the scapula forward and down. In most people it is tight from a forward shoulder position, so the usual intervention is to lengthen it rather than strengthen it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains grip in the way most carry-over to other lifting requires?",
+  "o": [
+   "A heavy static hold such as a farmer's carry or a bar hang",
+   "Wrist curls",
+   "Finger extensions with a band",
+   "Forearm rotations"
+  ],
+  "a": 0,
+  "e": "Most lifting requires holding a load without the hand opening, which is a sustained isometric demand. Carries and hangs supply exactly that. Wrist curls train movement the grip does not use during a deadlift or a row."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the diaphragm directly?",
+  "o": [
+   "Breathing drills with resistance or positional constraint, such as a 90-90 breathing position",
+   "Any heavy compound lift",
+   "Plank",
+   "Crunch"
+  ],
+  "a": 0,
+  "e": "The diaphragm's job is drawing the central tendon downward to fill the lungs, so training it means training breathing. Heavy lifting does involve it through intra-abdominal pressure, but that is bracing rather than respiratory work."
+ },
+ {
+  "t": "Setting it up",
+  "q": "What is the single most important setup check on any rotary machine, such as a leg extension or a preacher curl?",
+  "o": [
+   "Line the machine's pivot up with the joint it is meant to move",
+   "Set the seat as low as it will go",
+   "Choose the heaviest weight you can control",
+   "Position the handles at arm's length"
+  ],
+  "a": 0,
+  "e": "A rotary machine turns about a fixed axis. If that axis does not sit level with the joint's axis, the resistance curve is wrong and the joint is loaded at angles it was not designed to resist. Almost every other adjustment exists to make this one possible."
+ },
+ {
+  "t": "Setting it up",
+  "q": "On a leg extension, where should the knee sit relative to the machine's pivot?",
+  "o": [
+   "In line with it, so the knee and the machine rotate about the same point",
+   "Well in front of it, to increase the range",
+   "Behind it, to reduce knee stress",
+   "It does not matter provided the pad is comfortable"
+  ],
+  "a": 0,
+  "e": "The knee is the hinge the machine is imitating. Misaligning them means the shin bone is being levered rather than the knee being extended, which puts shear through the joint and changes where the resistance peaks."
+ },
+ {
+  "t": "Setting it up",
+  "q": "On a chest press machine, where should the handles sit at the start?",
+  "o": [
+   "At roughly mid-chest height, so the press travels along the line of the sternum",
+   "At chin height, to increase shoulder involvement",
+   "At waist height, to protect the shoulder",
+   "As high as the seat allows"
+  ],
+  "a": 0,
+  "e": "Handle height sets the angle of push relative to the torso. Around mid-chest keeps it a horizontal press. Too high turns it into an awkward incline with the shoulder in more abduction, which is the position most likely to be uncomfortable."
+ },
+ {
+  "t": "Setting it up",
+  "q": "On a lat pulldown, what is the thigh pad for?",
+  "o": [
+   "Anchoring the body so the load pulls the bar down rather than lifting you off the seat",
+   "Protecting the quadriceps",
+   "Setting the knee angle for the hip flexors",
+   "Measuring leg length for the seat setting"
+  ],
+  "a": 0,
+  "e": "Once the weight exceeds a fraction of bodyweight, something has to hold you down. The pad does that, and if it is set too loose the lift becomes a partial standing row instead of a pulldown."
+ },
+ {
+  "t": "Setting it up",
+  "q": "On a seated row with a chest pad, what is the pad's purpose?",
+  "o": [
+   "Removing the lower back from the exercise so the pull comes from the arms and upper back",
+   "Increasing the range of motion",
+   "Supporting the shoulders during retraction",
+   "Preventing the head moving forward"
+  ],
+  "a": 0,
+  "e": "Without support, a seated row involves the torso swinging and the erectors holding hard. The pad takes that out, which is why chest-supported rowing is chosen when the lower back needs sparing or when the aim is to isolate the upper back."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a conventional deadlift, where should the bar sit relative to the foot at the start?",
+  "o": [
+   "Over the midfoot",
+   "Against the shins, touching them throughout the setup",
+   "Over the toes",
+   "Behind the heels"
+  ],
+  "a": 0,
+  "e": "The bar travels in a straight vertical line, and midfoot is where the body balances. Starting with it forward of that means either the bar swings back or the lifter shifts forward, both of which cost efficiency and put the back in a worse position."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a Romanian deadlift, what should the shin do?",
+  "o": [
+   "Stay close to vertical, with the movement coming from the hips travelling backward",
+   "Travel forward over the toes as in a squat",
+   "Angle backward past the heel",
+   "Alternate between vertical and forward"
+  ],
+  "a": 0,
+  "e": "The RDL is a hip hinge, so the knee stays softly bent and still while the hip moves. If the shins travel forward the movement becomes a squat and the hamstrings stop being lengthened, which is the entire point of the exercise."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a barbell hip thrust, what should the shin angle be at the top of the movement?",
+  "o": [
+   "Close to vertical, with the feet placed so this happens at lockout",
+   "Angled forward, with the feet close to the hips",
+   "Angled backward, with the feet far from the hips",
+   "It makes no difference to the exercise"
+  ],
+  "a": 0,
+  "e": "Foot placement sets where the resistance is greatest. A vertical shin at lockout puts the force through the hips rather than shearing the knee, and it is the position where the glutes have the best leverage. Feet too close makes it quadriceps-dominant."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a barbell hip thrust, what should the head and ribcage do?",
+  "o": [
+   "Chin stays tucked and the ribs stay down, so the movement happens at the hip rather than the lumbar spine",
+   "The head extends back to open the chest",
+   "The ribs flare to increase range",
+   "The chin lifts at lockout to finish the movement"
+  ],
+  "a": 0,
+  "e": "Lockout should be hip extension, and the easy cheat is to arch the lower back instead, which looks like more range and is actually lumbar extension. Keeping the ribs down and the gaze forward forces the hip to do the work."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a barbell back squat, what is the most reliable cue for depth?",
+  "o": [
+   "The hip crease passing below the top of the knee, provided the spine stays neutral",
+   "The thighs reaching exactly parallel to the floor for everyone",
+   "Descending until the heels lift",
+   "Going as deep as possible regardless of position"
+  ],
+  "a": 0,
+  "e": "Depth is defined by the hip relative to the knee, and it is limited by where the spine starts to round. Chasing depth past that point trades a longer range for a worse position, which is a poor trade under load."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In an overhead press, what stops the lower back taking the load?",
+  "o": [
+   "Keeping the ribs down and the glutes engaged, so the spine does not extend to let the bar back",
+   "Leaning back to create a better bar path",
+   "Holding the breath throughout the set",
+   "Using a wider grip"
+  ],
+  "a": 0,
+  "e": "The bar has to travel over the midline, and the lazy way to get it there is to arch the lumbar spine and lean away. Bracing the trunk and squeezing the glutes keeps the pelvis under the ribcage so the shoulder does the work."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a bench press, what are the feet for?",
+  "o": [
+   "Providing a stable base and letting the legs contribute drive through a braced trunk",
+   "Balance only; they should stay light",
+   "Keeping the hips off the bench",
+   "Nothing, and they are best raised"
+  ],
+  "a": 0,
+  "e": "Pressing is not just an arm movement; the force is transmitted from the floor through a rigid body. Feet planted give something to push against. Raising them removes that and makes the lift a stability exercise, which is a different choice rather than a safer one."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a bench press, what should the elbows do relative to the torso?",
+  "o": [
+   "Stay somewhere around forty-five degrees rather than flaring to ninety",
+   "Flare to ninety degrees for maximum chest stretch",
+   "Stay tucked fully against the ribs",
+   "Change angle continuously through the rep"
+  ],
+  "a": 0,
+  "e": "Fully flared puts the shoulder in abduction and internal rotation at the bottom, which is the impingement position under load. Fully tucked turns it into a triceps press. A middle angle keeps the pec loaded without parking the shoulder at its most vulnerable."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a barbell row, what is the most common fault?",
+  "o": [
+   "Using the torso to jerk the weight up, so the movement becomes a partial hinge",
+   "Keeping the torso too still",
+   "Pulling the elbows too far back",
+   "Setting the feet too wide"
+  ],
+  "a": 0,
+  "e": "The back muscles are meant to move the arms, not the trunk. Once the torso starts rising with each rep the hips and erectors are doing the lifting, which is why a chest-supported version is often the better teaching tool."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a lat pulldown, where should the bar finish?",
+  "o": [
+   "At the upper chest, in front of the body, with a slight backward lean",
+   "Behind the neck",
+   "At the waist",
+   "Above the head, with a short range"
+  ],
+  "a": 0,
+  "e": "Pulling in front keeps the shoulder in a safe amount of external rotation and lets the lats work through range. Behind the neck forces extreme external rotation and abduction, which is the position most associated with shoulder problems for no additional benefit."
+ },
+ {
+  "t": "Setting it up",
+  "q": "On a leg press, what should you watch for at the bottom of the range?",
+  "o": [
+   "The pelvis tucking under as the lumbar spine rounds against the pad",
+   "The knees reaching full extension",
+   "The feet turning inward",
+   "The heels lifting off the platform"
+  ],
+  "a": 0,
+  "e": "Going deeper than hip mobility allows makes the pelvis roll under, and since the back is pinned to a pad the lumbar spine takes it. It is the main risk on an otherwise safe machine, and the fix is to stop the sled higher."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a lunge or split squat, where should the front knee track?",
+  "o": [
+   "In line with the second toe, without collapsing inward",
+   "Inside the big toe, to load the inner quadriceps",
+   "Outside the little toe, to load the glutes",
+   "Directly over the heel at all times"
+  ],
+  "a": 0,
+  "e": "Knee position follows hip control. Tracking in line with the foot means the femur is neither adducting nor internally rotating, which is what the abductors and external rotators are there to prevent. Where the knee goes is a hip question."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a step-up, what makes it a genuine single-leg exercise?",
+  "o": [
+   "Not pushing off with the trailing foot, so the working leg lifts the whole body",
+   "Stepping onto the highest box available",
+   "Holding the weight on the working side",
+   "Stepping down quickly"
+  ],
+  "a": 0,
+  "e": "The trailing leg can quietly contribute most of the drive, which turns it into a two-legged exercise with extra steps. Removing that push is the difference between a step-up and a slow assisted climb."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a calf raise, what defines full range?",
+  "o": [
+   "The heel dropping below the forefoot at the bottom and reaching full plantar flexion at the top",
+   "Rising onto the toes from flat ground",
+   "Holding the top position without lowering",
+   "Bouncing at the bottom to use the tendon"
+  ],
+  "a": 0,
+  "e": "Flat ground cuts off the lengthened half of the movement. Working from a step restores it. Bouncing uses the Achilles tendon's elastic recoil, which reduces what the muscle actually has to do."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a Nordic curl, what is the point of failure that matters?",
+  "o": [
+   "How far down the descent can be controlled before the fall becomes uncontrolled",
+   "How quickly the body can be lowered",
+   "How far forward the knees travel",
+   "Whether the hips flex at the bottom"
+  ],
+  "a": 0,
+  "e": "The exercise is eccentric, so progress is measured in how much range the hamstrings can control. Letting the hips pike is the usual cheat, since it shortens the lever and makes the position easier without training the muscle further."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a plank, what tells you the position has been lost?",
+  "o": [
+   "The hips dropping and the lumbar spine extending",
+   "The elbows sitting under the shoulders",
+   "The head staying in line with the spine",
+   "The feet being hip width apart"
+  ],
+  "a": 0,
+  "e": "The abdominal wall is holding the pelvis and ribcage together against gravity. When it tires, the hips sink and the low back arches. That is the end of the useful set, whatever the clock says."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a side plank, what commonly goes wrong?",
+  "o": [
+   "The hips sagging toward the floor and the trunk rotating forward",
+   "The top arm being raised",
+   "The bottom elbow being under the shoulder",
+   "The feet being stacked"
+  ],
+  "a": 0,
+  "e": "The demand is resisting lateral flexion, so failure shows as the hips dropping. Rotation is the other giveaway: turning toward the floor lets the front of the abdomen take over from the lateral muscles that are meant to be working."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a bird dog, what is the position being protected?",
+  "o": [
+   "A neutral lumbar spine and a level pelvis while the limbs move",
+   "A fully extended thoracic spine",
+   "Maximum reach of the arm and leg",
+   "A flat lower back pressed to the floor"
+  ],
+  "a": 0,
+  "e": "Reaching an arm and the opposite leg away tends to rotate the pelvis and extend the low back. Holding neutral against that is the exercise. Reaching further is only progress if the trunk has not moved to allow it."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a dead bug, what should the lower back be doing?",
+  "o": [
+   "Staying in contact with the floor as the limbs extend away",
+   "Arching progressively as the range increases",
+   "Rotating side to side with the limbs",
+   "Lifting clear of the floor at the end of each rep"
+  ],
+  "a": 0,
+  "e": "The limbs pull the pelvis into anterior tilt, which lifts the lumbar spine. The abdominals resist it. Once the back lifts away the muscle being trained has already stopped working, so that moment defines the usable range."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a Pallof press, what is the setup detail that makes it work?",
+  "o": [
+   "Standing side-on to the cable so the line of pull tries to rotate the trunk",
+   "Standing facing the cable",
+   "Standing with the back to the cable",
+   "Kneeling directly under the pulley"
+  ],
+  "a": 0,
+  "e": "The whole exercise is a rotational force being resisted. Facing toward or away from the stack removes the rotation and turns it into a press or a pull. Side-on is what creates the demand."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a kettlebell swing, what is the difference between the correct pattern and the common fault?",
+  "o": [
+   "It is a hip hinge with the bell floating, not a squat with an arm lift",
+   "It is a squat with the arms locked",
+   "It is a front raise with a bent knee",
+   "It is an upright row with momentum"
+  ],
+  "a": 0,
+  "e": "The hips snap open and send the bell forward; the arms are ropes. Squatting the movement drops the hips too low and the bell ends up being lifted by the shoulders, which is the fault that makes people feel it in the front of the shoulder."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a farmer's carry, what should the shoulders and ribcage do?",
+  "o": [
+   "Shoulders stay packed down and back, with the ribs down and the trunk braced",
+   "Shoulders shrug up to protect the neck",
+   "The trunk leans away from the load",
+   "The ribs flare to open the chest"
+  ],
+  "a": 0,
+  "e": "The load pulls the shoulder girdle down and forward and tries to bend the trunk. Holding the shoulder blades set and the ribcage stacked over the pelvis is what makes it a postural exercise rather than just a grip test."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a goblet squat, where should the weight sit?",
+  "o": [
+   "Held close to the chest, so the load counterbalances the hips travelling back",
+   "At arm's length in front",
+   "Overhead",
+   "At the side in one hand"
+  ],
+  "a": 0,
+  "e": "Holding the bell tight to the sternum creates a forward moment the trunk resists, which keeps the chest up and lets the hips sit down between the knees. Moving it away from the body increases the demand disproportionately and usually breaks the position."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a cable triceps pushdown, what is the fault that changes the exercise?",
+  "o": [
+   "Letting the upper arm drift forward and back, which brings the lats and shoulder into it",
+   "Standing too close to the stack",
+   "Using a rope rather than a bar",
+   "Extending the elbow fully at the bottom"
+  ],
+  "a": 0,
+  "e": "Only the elbow should move. If the humerus swings, the shoulder is extending too and the lats contribute, which is a different exercise that happens to be easier. Pinning the upper arm to the ribs is the whole setup."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a standing curl, what is the giveaway that the shoulder is doing the work?",
+  "o": [
+   "The elbow travelling forward as the weight rises",
+   "The wrist staying straight",
+   "The knees being soft",
+   "The grip being supinated"
+  ],
+  "a": 0,
+  "e": "The biceps flexes the shoulder as well as the elbow, so when the load gets heavy the elbow drifts forward and the shoulder takes over. Keeping the elbow beside the ribs is what confines the movement to one joint."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a face pull, where should the hands finish?",
+  "o": [
+   "Level with or above the eyes, with the hands ending outside the elbows",
+   "At chest height with the hands inside the elbows",
+   "At the waist",
+   "Behind the head"
+  ],
+  "a": 0,
+  "e": "The point is combining horizontal abduction with external rotation. Finishing high with the hands outside the elbows produces both. Pulling to the chest with the hands low makes it an ordinary row and loses the rotation entirely."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In a dumbbell lateral raise, what does turning the thumb down do?",
+  "o": [
+   "Internally rotates the shoulder while abducting it, which narrows the subacromial space",
+   "Increases the lateral deltoid's leverage safely",
+   "Recruits the supraspinatus more effectively",
+   "Reduces trapezius involvement"
+  ],
+  "a": 0,
+  "e": "The pouring cue is widespread and it recreates the impingement position under load. Keeping the thumb level or slightly up loads the same muscle without putting the shoulder in the position that pinches."
+ },
+ {
+  "t": "Setting it up",
+  "q": "In an assisted pull-up, what is the most common setup error?",
+  "o": [
+   "Selecting so much assistance that the target muscles barely work",
+   "Kneeling rather than standing on the pad",
+   "Using a neutral grip",
+   "Holding the top position"
+  ],
+  "a": 0,
+  "e": "The weight stack is counterweight: more plates means an easier rep. It is the one machine where a heavier selection makes the exercise lighter, which is the mistake almost everyone makes on their first attempt."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Machines only, and the target is the rhomboids and middle trapezius. Which machine and which setting?",
+  "o": [
+   "A seated row, pulling with the elbows high and wide",
+   "A seated row with the elbows tucked low",
+   "A lat pulldown with a wide grip",
+   "A chest press machine"
+  ],
+  "a": 0,
+  "e": "Elbows high and wide makes the movement horizontal abduction with scapular retraction, which is what the mid-back muscles do. Tucking the elbows on the same machine biases the lats instead, so the setting matters more than the machine."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Machines only, and the aim is pectoralis major with the elbow excluded. Which one?",
+  "o": [
+   "A chest fly machine with the elbows fixed on pads",
+   "A chest press machine",
+   "An assisted dip machine",
+   "A cable pushdown"
+  ],
+  "a": 0,
+  "e": "Fixing the elbow angle leaves the shoulder as the only moving joint, so the triceps cannot contribute. Any pressing machine involves elbow extension by design, which is the difference between a press and a fly."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine trains the hip flexors, and why is it uncommon?",
+  "o": [
+   "A cable stack with an ankle strap, flexing the hip against resistance; few gyms have a dedicated hip flexor machine",
+   "The leg extension, since it flexes the hip",
+   "The leg press at a high foot position",
+   "The hip adduction machine"
+  ],
+  "a": 0,
+  "e": "Resisted hip flexion needs a cable and a strap in most gyms. The leg extension moves the knee, not the hip, and neither of the others flexes it. The hip flexors are among the least catered-for muscle groups on a standard gym floor."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine would you use for the erector spinae working dynamically?",
+  "o": [
+   "A back extension bench, allowing the spine to flex and extend through range",
+   "A seated row with a chest pad",
+   "A leg press",
+   "An abdominal crunch machine"
+  ],
+  "a": 0,
+  "e": "Moving the spine into extension against gravity is what loads the erectors concentrically. A chest-supported row deliberately removes them, and the crunch machine trains the opposite action."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Only a cable stack is available and the target is the gluteus maximus. What setup?",
+  "o": [
+   "A cable kickback or a cable pull-through, both producing resisted hip extension",
+   "A cable curl",
+   "A cable lateral raise",
+   "A cable rotation"
+  ],
+  "a": 0,
+  "e": "Glute max extends the hip, so the resistance has to oppose hip extension. A pull-through gives a hinge pattern against the stack; a kickback isolates it. Neither is as loadable as a hip thrust, but both work with one machine."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine best trains the triceps with the shoulder in flexion rather than neutral?",
+  "o": [
+   "A cable stack used for an overhead extension",
+   "A cable pushdown",
+   "An assisted dip machine",
+   "A chest press machine"
+  ],
+  "a": 0,
+  "e": "Shoulder position decides how much the long head is stretched. Overhead puts it at length before the set; a pushdown keeps the arm at the side. Same muscle, different starting length, which is the reason to include both."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "A client needs the lats but cannot grip a bar because of a hand injury. What machine option remains?",
+  "o": [
+   "A pullover machine or a lat pulldown with cuffs, which load the shoulder without gripping",
+   "A seated row with a thick handle",
+   "An assisted pull-up",
+   "A cable curl"
+  ],
+  "a": 0,
+  "e": "Both remaining options transmit force through the elbow or upper arm rather than the hand. Any rowing or pulling movement held by the fingers is out, which is a common constraint and one machines happen to solve well."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine loads the hamstrings eccentrically with the least skill required?",
+  "o": [
+   "A seated or lying leg curl, lowering the weight slowly",
+   "A back extension bench",
+   "A leg press",
+   "The hip adduction machine"
+  ],
+  "a": 0,
+  "e": "The leg curl's fixed path means the only variable is tempo, so lengthening under load is just a matter of lowering slowly. A Nordic curl trains the same thing far harder but needs technique and a tolerance most beginners do not have."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine setting would you change first if a client feels a lat pulldown entirely in their arms?",
+  "o": [
+   "Cue the elbows to drive down and back rather than the hands to pull, before changing anything on the machine",
+   "Increase the weight to force the lats to work",
+   "Widen the grip as far as the bar allows",
+   "Raise the thigh pad"
+  ],
+  "a": 0,
+  "e": "The lats move the upper arm, so thinking about where the elbow goes recruits them; thinking about the hands recruits the elbow flexors. It is a cueing fix rather than a machine fix, which is worth trying before touching the settings."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine most closely reproduces the demand of a farmer's carry?",
+  "o": [
+   "None of them; the demand is bracing and holding under load while walking, which no fixed machine reproduces",
+   "The shrug machine",
+   "The seated row",
+   "The cable stack with heavy handles"
+  ],
+  "a": 0,
+  "e": "A shrug loads the traps and a row loads the back, but neither asks the trunk to stay stacked while moving under an external load. Some qualities are only trainable away from machines, and this is one of the clearest examples."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine would you select to train knee extension for a client who cannot bear weight through the leg?",
+  "o": [
+   "The leg extension, since it is non weight-bearing and seated",
+   "The leg press",
+   "The hack squat",
+   "The Smith machine squat"
+  ],
+  "a": 0,
+  "e": "Bearing weight is exactly what the other three require. A leg extension loads the knee with the body supported, which is why it appears so often in early rehabilitation despite being an unfashionable exercise."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which two machines together cover both functions of the hamstrings?",
+  "o": [
+   "A leg curl for the knee action and a back extension or hip thrust machine for the hip action",
+   "A leg curl and a leg extension",
+   "A leg press and a hip adduction machine",
+   "A hack squat and a calf machine"
+  ],
+  "a": 0,
+  "e": "The hamstrings flex the knee and extend the hip. A curl covers the first and a hip extension movement covers the second. Training only one leaves half the group's function untouched, which is the argument against relying on the curl alone."
  }
 ]
