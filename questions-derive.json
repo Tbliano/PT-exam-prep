@@ -574,5 +574,1757 @@
   ],
   "a": 0,
   "e": "Derive it from the attachments rather than recalling it. Sternocleidomastoid runs from sternum, clavicle to mastoid process (on temporal bone). Shorten that line and the insertion is drawn toward the origin, which produces cervical flexion, rotation, lateral flexion. The opposite, cervical extension, rotation, lateral flexion, is the same muscle lengthening under control, which is its eccentric job."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Anterior tibialis runs from tibia to medial cuneiform and base of the first metatarsal. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Plantar flexion and eversion",
+   "Ankle dorsiflexion",
+   "Ankle dorsiflexion and inversion",
+   "Dorsiflexion and eversion of the foot"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Anterior tibialis shortens to produce dorsiflexion and inversion, so lengthening under load it controls plantar flexion and eversion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Soleus runs from posterior tibia and fibula to calcaneus via Achilles tendon. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Ankle dorsiflexion",
+   "Ankle dorsiflexion and inversion",
+   "Dorsiflexion and eversion of the foot",
+   "Plantar flexion and eversion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Soleus shortens to produce plantar flexion, so lengthening under load it controls ankle dorsiflexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Gastrocnemius runs from posterior femur to calcaneus via Achilles tendon. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Ankle dorsiflexion",
+   "Ankle dorsiflexion and inversion",
+   "Dorsiflexion and eversion of the foot",
+   "Plantar flexion and eversion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Gastrocnemius shortens to produce plantar flexion, so lengthening under load it controls ankle dorsiflexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Fibularis (peroneus) longus runs from fibula to medial cuneiform and base of the first metatarsal. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Ankle dorsiflexion and inversion",
+   "Plantar flexion and eversion",
+   "Dorsiflexion and eversion of the foot",
+   "Ankle dorsiflexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Fibularis (peroneus) longus shortens to produce plantarflexion and eversion of the foot, so lengthening under load it controls ankle dorsiflexion and inversion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Posterior tibialis runs from posterior tibia and fibula to navicular and the plantar surface of the foot. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Dorsiflexion and eversion of the foot",
+   "Ankle dorsiflexion",
+   "Ankle dorsiflexion and inversion",
+   "Plantar flexion and eversion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Posterior tibialis shortens to produce plantar flexion and inversion of the foot, so lengthening under load it controls dorsiflexion and eversion of the foot. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Biceps femoris, long head runs from the ischial tuberosity to head of the fibula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee extension, hip flexion, tibial internal rotation",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Knee extension and tibial internal rotation",
+   "Elbow flexion and shoulder flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Biceps femoris, long head shortens to produce knee flexion, hip extension, tibial external rotation, so lengthening under load it controls knee extension, hip flexion, tibial internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Biceps femoris, short head runs from the linea aspera of the femur to head of the fibula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee extension and tibial internal rotation",
+   "Knee extension, hip flexion, tibial internal rotation",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Elbow extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Biceps femoris, short head shortens to produce knee flexion and tibial external rotation, so lengthening under load it controls knee extension and tibial internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Semimembranosus runs from the ischial tuberosity to the tibia. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee extension, hip flexion, tibial external rotation",
+   "Spinal extension, lateral flexion and rotation",
+   "Elbow extension",
+   "Hip extension and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Semimembranosus shortens to produce knee flexion, hip extension, tibial internal rotation, so lengthening under load it controls knee extension, hip flexion, tibial external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Semitendinosus runs from the ischial tuberosity to the tibia. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee extension, hip flexion, tibial external rotation",
+   "Shoulder extension and external rotation",
+   "Contralateral lateral spinal flexion",
+   "Cervical extension, rotation and lateral flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Semitendinosus shortens to produce knee flexion, hip extension, tibial internal rotation, so lengthening under load it controls knee extension, hip flexion, tibial external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus lateralis runs from the femur to the tibia via the patella. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee flexion",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Elbow flexion and shoulder flexion",
+   "Scapular retraction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Vastus lateralis shortens to produce knee extension, so lengthening under load it controls knee flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus medialis runs from the femur to the tibia via the patella. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee flexion",
+   "Plantar flexion and eversion",
+   "Hip abduction, flexion, internal rotation",
+   "Elbow extension, forearm pronation and shoulder extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Vastus medialis shortens to produce knee extension, so lengthening under load it controls knee flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Vastus intermedius runs from the femur to the tibia via the patella. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee flexion",
+   "Shoulder external rotation, abduction and flexion",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Shoulder flexion, abduction and external rotation, and spinal flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Vastus intermedius shortens to produce knee extension, so lengthening under load it controls knee flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Rectus femoris runs from the iliac bone to the tibia via the patella. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Knee flexion and hip extension",
+   "Knee flexion",
+   "Hip extension and internal rotation",
+   "Knee extension and tibial internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Rectus femoris shortens to produce knee extension and hip flexion, so lengthening under load it controls knee flexion and hip extension. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor longus runs from the pubic bone to the medial femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip abduction, flexion, internal rotation",
+   "Hip extension and internal rotation",
+   "Hip adduction and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Adductor longus shortens to produce hip adduction, flexion, internal rotation, so lengthening under load it controls hip abduction, extension, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor brevis runs from the pubic bone to the medial femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip extension, adduction, external rotation",
+   "Hip abduction, flexion, internal rotation",
+   "Hip internal rotation and hip extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Adductor brevis shortens to produce hip adduction, flexion, internal rotation, so lengthening under load it controls hip abduction, extension, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor magnus, anterior fibres runs from the pubic bone to the medial femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip extension, adduction, external rotation",
+   "Hip extension and internal rotation",
+   "Hip flexion and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Adductor magnus, anterior fibres shortens to produce hip adduction, flexion, internal rotation, so lengthening under load it controls hip abduction, extension, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor magnus, posterior fibres runs from the pubic bone to the medial femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, flexion, internal rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip internal rotation and hip extension",
+   "Hip extension and internal rotation, with knee extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Adductor magnus, posterior fibres shortens to produce hip adduction, extension, external rotation, so lengthening under load it controls hip abduction, flexion, internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Gracilis runs from the pubic bone to the medial tibia. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip internal rotation, adduction, flexion",
+   "Hip abduction, flexion, internal rotation",
+   "Hip flexion and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Gracilis shortens to produce hip adduction, flexion, internal rotation, assisting tibial internal rotation, so lengthening under load it controls hip abduction, extension, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Pectineus runs from the pubic bone to the posterior femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip abduction, extension, external rotation",
+   "Hip extension and internal rotation",
+   "Hip adduction and external rotation",
+   "Hip abduction, flexion, internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Pectineus shortens to produce hip adduction, flexion, internal rotation, so lengthening under load it controls hip abduction, extension, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus minimus runs from the innominate bone to the femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip adduction and external rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip abduction, flexion, internal rotation",
+   "Hip extension and internal rotation, with knee extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Gluteus minimus shortens to produce hip abduction and internal rotation, so lengthening under load it controls hip adduction and external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus maximus runs from the innominate bone, sacrum and coccyx to the femur and iliotibial band. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip flexion and internal rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip extension, adduction, external rotation",
+   "Hip internal rotation and hip extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Gluteus maximus shortens to produce hip extension and external rotation, so lengthening under load it controls hip flexion and internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Tensor fasciae latae (including the iliotibial band) runs from the ilium to the tibia via the iliotibial tract. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip extension, adduction, external rotation",
+   "Hip extension and internal rotation, with knee extension and external rotation",
+   "Hip internal rotation and hip extension",
+   "Hip flexion and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Tensor fasciae latae (including the iliotibial band) shortens to produce hip flexion, abduction, internal rotation, so lengthening under load it controls hip extension, adduction, external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Psoas runs from the lumbar spine to the femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip internal rotation and hip extension",
+   "Hip extension, adduction, external rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip extension and internal rotation, with knee extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Psoas shortens to produce hip flexion and external rotation, so lengthening under load it controls hip internal rotation and hip extension. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Iliacus runs from the iliac bones to the femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip extension and internal rotation",
+   "Hip flexion and internal rotation",
+   "Hip abduction, extension, external rotation",
+   "Hip abduction, flexion, internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Iliacus shortens to produce hip flexion and external rotation, so lengthening under load it controls hip extension and internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Sartorius runs from the iliac bone to the tibia. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip extension and internal rotation, with knee extension and external rotation",
+   "Hip internal rotation and hip extension",
+   "Hip extension, adduction, external rotation",
+   "Hip abduction, extension, external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Sartorius shortens to produce hip flexion, external rotation and abduction, with knee flexion and internal rotation, so lengthening under load it controls hip extension and internal rotation, with knee extension and external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Hip",
+  "q": "Piriformis runs from the sacrum to the femur. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Hip internal rotation, adduction, flexion",
+   "Hip abduction, extension, external rotation",
+   "Hip extension and internal rotation, with knee extension and external rotation",
+   "Hip internal rotation and hip extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Piriformis shortens to produce hip external rotation, abduction, extension, so lengthening under load it controls hip internal rotation, adduction, flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Rectus abdominis runs from the pubis to the ribs and sternum. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Spinal extension, lateral flexion and rotation",
+   "Shoulder internal rotation",
+   "Hip abduction, extension, external rotation",
+   "Plantar flexion and eversion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Rectus abdominis shortens to produce spinal flexion, lateral flexion and rotation, so lengthening under load it controls spinal extension, lateral flexion and rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Abdominal",
+  "q": "External oblique runs from the lower ribs to the iliac crest and linea alba. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Spinal extension, lateral flexion and rotation",
+   "Cervical extension, rotation and lateral flexion",
+   "Hip abduction, extension, external rotation",
+   "Shoulder flexion and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. External oblique shortens to produce spinal flexion, lateral flexion and contralateral rotation, so lengthening under load it controls spinal extension, lateral flexion and rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Internal oblique runs from the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Spinal extension, rotation and lateral flexion",
+   "Shoulder flexion, abduction and external rotation, and spinal flexion",
+   "Knee flexion",
+   "Ankle dorsiflexion and inversion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Internal oblique shortens to produce spinal flexion, lateral flexion and ipsilateral rotation, so lengthening under load it controls spinal extension, rotation and lateral flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Back",
+  "q": "Superficial erector spinae runs from the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Spinal flexion, rotation and lateral flexion",
+   "Spinal flexion and rotation",
+   "Shoulder flexion, abduction and external rotation, and spinal flexion",
+   "Contralateral lateral spinal flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Superficial erector spinae shortens to produce spinal extension, rotation and lateral flexion, so lengthening under load it controls spinal flexion, rotation and lateral flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Back",
+  "q": "Quadratus lumborum runs from the iliac crest to the 12th rib and lumbar vertebrae. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Contralateral lateral spinal flexion",
+   "Spinal flexion and rotation",
+   "Shoulder flexion, abduction and external rotation, and spinal flexion",
+   "Spinal flexion, rotation and lateral flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Quadratus lumborum shortens to produce ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis, so lengthening under load it controls contralateral lateral spinal flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Back",
+  "q": "Multifidus runs from the sacrum and vertebrae to adjacent vertebrae above. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Spinal flexion and rotation",
+   "Contralateral lateral spinal flexion",
+   "Spinal flexion, rotation and lateral flexion",
+   "Shoulder flexion, abduction and external rotation, and spinal flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Multifidus shortens to produce spinal extension and contralateral rotation, so lengthening under load it controls spinal flexion and rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Back",
+  "q": "Latissimus dorsi runs from the thoracic spine, lumbar spine and iliac crest to the anterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder flexion, abduction and external rotation, and spinal flexion",
+   "Spinal flexion, rotation and lateral flexion",
+   "Contralateral lateral spinal flexion",
+   "Spinal flexion and rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Latissimus dorsi shortens to produce shoulder extension, adduction and internal rotation, so lengthening under load it controls shoulder flexion, abduction and external rotation, and spinal flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Serratus anterior runs from the upper nine ribs to the anterior scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular retraction",
+   "Scapular protraction and upward rotation",
+   "Shoulder adduction",
+   "Scapular protraction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Serratus anterior shortens to produce scapular protraction, so lengthening under load it controls scapular retraction. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Rhomboid major runs from the thoracic spine to the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular protraction and upward rotation",
+   "Scapular protraction",
+   "Scapular retraction",
+   "Shoulder extension, horizontal abduction and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Rhomboid major shortens to produce scapular retraction and downward rotation, so lengthening under load it controls scapular protraction and upward rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Rhomboid minor runs from the thoracic spine to the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular protraction and upward rotation",
+   "Shoulder extension, horizontal abduction and external rotation",
+   "Shoulder extension and external rotation",
+   "Scapular protraction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Rhomboid minor shortens to produce scapular retraction and downward rotation, so lengthening under load it controls scapular protraction and upward rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Lower trapezius runs from the spinous processes of the lower thoracic vertebrae to the spine of the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular elevation",
+   "Scapular retraction",
+   "Scapular protraction and upward rotation",
+   "Shoulder extension, horizontal abduction and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Lower trapezius shortens to produce scapular depression, so lengthening under load it controls scapular elevation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Middle trapezius runs from the spinous processes of C7 to T3 to the acromion and spine of the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular protraction",
+   "Scapular retraction",
+   "Shoulder adduction",
+   "Cervical flexion, lateral flexion and rotation, with scapular depression"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Middle trapezius shortens to produce scapular retraction, so lengthening under load it controls scapular protraction. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Upper trapezius runs from the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Cervical flexion, lateral flexion and rotation, with scapular depression",
+   "Shoulder extension, horizontal abduction and external rotation",
+   "Shoulder external rotation, abduction and flexion",
+   "Shoulder adduction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Upper trapezius shortens to produce cervical extension, lateral flexion and rotation, with scapular elevation, so lengthening under load it controls cervical flexion, lateral flexion and rotation, with scapular depression. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Pectoralis major runs from the sternum, clavicle and upper ribs to the anterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder extension, horizontal abduction and external rotation",
+   "Shoulder adduction",
+   "Scapular protraction and upward rotation",
+   "Shoulder external rotation, abduction and flexion"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Pectoralis major shortens to produce shoulder flexion, horizontal adduction and internal rotation, so lengthening under load it controls shoulder extension, horizontal abduction and external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Pectoralis minor runs from the third to fifth ribs to the coracoid process of the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Scapular retraction",
+   "Shoulder extension, horizontal abduction and external rotation",
+   "Scapular elevation",
+   "Shoulder flexion and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Pectoralis minor shortens to produce scapular protraction, so lengthening under load it controls scapular retraction. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Anterior deltoid runs from the clavicle to the humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder extension and external rotation",
+   "Shoulder extension, horizontal abduction and external rotation",
+   "Cervical flexion, lateral flexion and rotation, with scapular depression",
+   "Scapular retraction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Anterior deltoid shortens to produce shoulder flexion and internal rotation, so lengthening under load it controls shoulder extension and external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Lateral (middle) deltoid runs from the acromion to the humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder adduction",
+   "Shoulder external rotation, abduction and flexion",
+   "Cervical flexion, lateral flexion and rotation, with scapular depression",
+   "Shoulder extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Lateral (middle) deltoid shortens to produce shoulder abduction, so lengthening under load it controls shoulder adduction. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Posterior deltoid runs from the spine of the scapula to the humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder flexion and internal rotation",
+   "Scapular retraction",
+   "Scapular protraction",
+   "Shoulder extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Posterior deltoid shortens to produce shoulder extension and external rotation, so lengthening under load it controls shoulder flexion and internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Teres major runs from the scapula to the anterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder external rotation, abduction and flexion",
+   "Scapular protraction",
+   "Scapular protraction and upward rotation",
+   "Scapular elevation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Teres major shortens to produce shoulder internal rotation, adduction and extension, so lengthening under load it controls shoulder external rotation, abduction and flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Teres minor runs from the scapula to the posterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder internal rotation",
+   "Knee flexion",
+   "Scapular retraction",
+   "Hip extension and internal rotation, with knee extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Teres minor shortens to produce shoulder external rotation, so lengthening under load it controls shoulder internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Infraspinatus runs from the scapula to the posterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder internal rotation",
+   "Knee extension, hip flexion, tibial external rotation",
+   "Hip internal rotation, adduction, flexion",
+   "Elbow extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Infraspinatus shortens to produce shoulder external rotation, so lengthening under load it controls shoulder internal rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Subscapularis runs from the anterior scapula to the anterior humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Shoulder external rotation",
+   "Adduction of the arm",
+   "Shoulder internal rotation",
+   "Knee flexion and hip extension"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Subscapularis shortens to produce shoulder internal rotation, so lengthening under load it controls shoulder external rotation. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Supraspinatus runs from the scapula to the humerus. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Adduction of the arm",
+   "Shoulder external rotation",
+   "Shoulder internal rotation",
+   "Hip adduction and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Supraspinatus shortens to produce abduction of the arm, so lengthening under load it controls adduction of the arm. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Arm",
+  "q": "Biceps brachii runs from the scapula to the radial tuberosity. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Elbow extension, forearm pronation and shoulder extension",
+   "Elbow extension",
+   "Elbow flexion and shoulder flexion",
+   "Hip extension and internal rotation, with knee extension and external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Biceps brachii shortens to produce elbow flexion, forearm supination and shoulder flexion, so lengthening under load it controls elbow extension, forearm pronation and shoulder extension. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Arm",
+  "q": "Triceps brachii runs from the scapula and humerus to the ulna. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Elbow flexion and shoulder flexion",
+   "Elbow extension",
+   "Elbow extension, forearm pronation and shoulder extension",
+   "Dorsiflexion and eversion of the foot"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Triceps brachii shortens to produce elbow extension and shoulder extension, so lengthening under load it controls elbow flexion and shoulder flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachioradialis runs from the humerus to the radius. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Elbow extension",
+   "Shoulder adduction",
+   "Plantar flexion and eversion",
+   "Knee extension, hip flexion, tibial external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Brachioradialis shortens to produce elbow flexion, so lengthening under load it controls elbow extension. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachialis runs from the humerus to the ulna. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Elbow extension",
+   "Scapular retraction",
+   "Ankle dorsiflexion",
+   "Hip abduction, extension, external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Brachialis shortens to produce elbow flexion, so lengthening under load it controls elbow extension. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Neck",
+  "q": "Sternocleidomastoid runs from the sternum and clavicle to the mastoid process. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Cervical extension, rotation and lateral flexion",
+   "Hip flexion and internal rotation",
+   "Hip adduction and external rotation",
+   "Scapular retraction"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Sternocleidomastoid shortens to produce cervical flexion, rotation and lateral flexion, so lengthening under load it controls cervical extension, rotation and lateral flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Neck",
+  "q": "Levator scapulae runs from the cervical spine to the scapula. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Cervical flexion, with contralateral rotation and lateral flexion",
+   "Hip extension, adduction, external rotation",
+   "Knee flexion and hip extension",
+   "Hip extension and internal rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Levator scapulae shortens to produce cervical extension, lateral flexion and ipsilateral rotation when the scapula is anchored, so lengthening under load it controls cervical flexion, with contralateral rotation and lateral flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Neck",
+  "q": "Scalenes runs from the cervical vertebrae to the first and second ribs. It is lengthening under load. What is it decelerating?",
+  "o": [
+   "Cervical extension, rotation and lateral flexion",
+   "Ankle dorsiflexion",
+   "Shoulder internal rotation",
+   "Knee extension, hip flexion, tibial external rotation"
+  ],
+  "a": 0,
+  "e": "Eccentric work is the same line of pull paying out under control, so the muscle decelerates whatever it would otherwise accelerate. Scalenes shortens to produce cervical flexion, rotation and lateral flexion, assisting rib elevation on inhalation, so lengthening under load it controls cervical extension, rotation and lateral flexion. This is the half of the job where most injuries happen, which is why the tables list it separately."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Anterior tibialis: what does it stabilise, and by what mechanism?",
+  "o": [
+   "The arch of the foot",
+   "The LPHC and knee",
+   "The LPHC",
+   "The shoulder girdle"
+  ],
+  "a": 0,
+  "e": "It crosses the ankle and inserts on the medial cuneiform and first metatarsal, on the underside of the medial arch. Holding that line isometrically supports the arch, which is a job no amount of dorsiflexion strength describes."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Posterior tibialis: what does it stabilise, and by what mechanism?",
+  "o": [
+   "The arch of the foot",
+   "The spine during functional movement",
+   "The LPHC and knee",
+   "The LPHC"
+  ],
+  "a": 0,
+  "e": "It passes behind the medial malleolus and fans into the navicular and plantar surface, so its isometric job is holding the arch up. A collapsing arch is usually a posterior tibialis problem before it is anything else."
+ },
+ {
+  "t": "Back",
+  "q": "Quadratus lumborum: what does it stabilise, and by what mechanism?",
+  "o": [
+   "The 12th rib, which anchors the diaphragm during inspiration",
+   "The knee",
+   "The elbow",
+   "The LPHC"
+  ],
+  "a": 0,
+  "e": "QL attaches the iliac crest to the 12th rib. Fixing that rib gives the diaphragm something solid to pull against, so a muscle filed under lateral flexion is also part of how you breathe."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Transversus abdominis: what does it stabilise, and by what mechanism?",
+  "o": [
+   "The LPHC, by increasing intra-abdominal pressure",
+   "The LPHC and knee",
+   "The shoulder girdle",
+   "The spine"
+  ],
+  "a": 0,
+  "e": "TVA runs horizontally and inserts into the linea alba, so it cannot move the spine at all. It compresses. That is why it is the flagship stabilisation muscle and why the drawing-in manoeuvre exists to recruit it."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Serratus anterior: what does it stabilise, and by what mechanism?",
+  "o": [
+   "The scapula against the ribcage",
+   "The foot and ankle complex",
+   "The arch of the foot",
+   "The elbow"
+  ],
+  "a": 0,
+  "e": "It runs from the ribs to the anterior scapula, so holding it keeps the medial border flat to the chest wall. Lose it and the scapula wings, which is a stabilisation failure rather than a weakness in any movement."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Which attachment pattern would produce dorsiflexion and inversion?",
+  "o": [
+   "From tibia to medial cuneiform and base of the first metatarsal",
+   "From the scapula to the radial tuberosity",
+   "From fibula to medial cuneiform and base of the first metatarsal",
+   "From the scapula and humerus to the ulna"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce dorsiflexion and inversion the line of pull has to cross the joint on the side that shortens during it. Anterior tibialis runs from tibia to medial cuneiform and base of the first metatarsal, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Which attachment pattern would produce plantar flexion?",
+  "o": [
+   "From posterior tibia and fibula to calcaneus via Achilles tendon",
+   "From the lower ribs to the iliac crest and linea alba",
+   "From the ilium to the tibia via the iliotibial tract",
+   "From the innominate bone to the femur"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce plantar flexion the line of pull has to cross the joint on the side that shortens during it. Soleus runs from posterior tibia and fibula to calcaneus via Achilles tendon, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Which attachment pattern would produce plantarflexion and eversion of the foot?",
+  "o": [
+   "From fibula to medial cuneiform and base of the first metatarsal",
+   "From posterior tibia and fibula to navicular and the plantar surface of the foot",
+   "From the scapula to the posterior humerus",
+   "From the third to fifth ribs to the coracoid process of the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce plantarflexion and eversion of the foot the line of pull has to cross the joint on the side that shortens during it. Fibularis (peroneus) longus runs from fibula to medial cuneiform and base of the first metatarsal, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Which attachment pattern would produce plantar flexion and inversion of the foot?",
+  "o": [
+   "From posterior tibia and fibula to navicular and the plantar surface of the foot",
+   "From the humerus to the radius",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon",
+   "From the pubic bone to the medial femur"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce plantar flexion and inversion of the foot the line of pull has to cross the joint on the side that shortens during it. Posterior tibialis runs from posterior tibia and fibula to navicular and the plantar surface of the foot, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Which attachment pattern would produce knee flexion, hip extension, tibial external rotation?",
+  "o": [
+   "From the ischial tuberosity to head of the fibula",
+   "From the thoracic spine to the scapula",
+   "From the iliac bone to the tibia via the patella",
+   "From the ischial tuberosity to the tibia"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce knee flexion, hip extension, tibial external rotation the line of pull has to cross the joint on the side that shortens during it. Biceps femoris, long head runs from the ischial tuberosity to head of the fibula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Which attachment pattern would produce knee flexion and tibial external rotation?",
+  "o": [
+   "From the linea aspera of the femur to head of the fibula",
+   "From posterior femur to calcaneus via Achilles tendon",
+   "From the scapula to the posterior humerus",
+   "From the scapula to the humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce knee flexion and tibial external rotation the line of pull has to cross the joint on the side that shortens during it. Biceps femoris, short head runs from the linea aspera of the femur to head of the fibula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Which attachment pattern would produce knee flexion, hip extension, tibial internal rotation?",
+  "o": [
+   "From the ischial tuberosity to the tibia",
+   "From the spinous processes of the lower thoracic vertebrae to the spine of the scapula",
+   "From posterior tibia and fibula to navicular and the plantar surface of the foot",
+   "From the upper nine ribs to the anterior scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce knee flexion, hip extension, tibial internal rotation the line of pull has to cross the joint on the side that shortens during it. Semimembranosus runs from the ischial tuberosity to the tibia, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Which attachment pattern would produce knee extension?",
+  "o": [
+   "From the femur to the tibia via the patella",
+   "From the innominate bone to the femur",
+   "From the pubic bone to the medial femur",
+   "From the thoracic spine to the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce knee extension the line of pull has to cross the joint on the side that shortens during it. Vastus lateralis runs from the femur to the tibia via the patella, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Which attachment pattern would produce knee extension and hip flexion?",
+  "o": [
+   "From the iliac bone to the tibia via the patella",
+   "From the thoracic spine to the scapula",
+   "From the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba",
+   "From the thoracic spine, lumbar spine and iliac crest to the anterior humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce knee extension and hip flexion the line of pull has to cross the joint on the side that shortens during it. Rectus femoris runs from the iliac bone to the tibia via the patella, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip adduction, flexion, internal rotation?",
+  "o": [
+   "From the pubic bone to the medial femur",
+   "From the ischial tuberosity to the tibia",
+   "From the humerus to the radius",
+   "From the sternum and clavicle to the mastoid process"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip adduction, flexion, internal rotation the line of pull has to cross the joint on the side that shortens during it. Adductor longus runs from the pubic bone to the medial femur, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip adduction, extension, external rotation?",
+  "o": [
+   "From the pubic bone to the medial femur",
+   "From the clavicle to the humerus",
+   "From the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba",
+   "From the thoracic spine, lumbar spine and iliac crest to the anterior humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip adduction, extension, external rotation the line of pull has to cross the joint on the side that shortens during it. Adductor magnus, posterior fibres runs from the pubic bone to the medial femur, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip adduction, flexion, internal rotation, assisting tibial internal rotation?",
+  "o": [
+   "From the pubic bone to the medial tibia",
+   "From posterior tibia and fibula to navicular and the plantar surface of the foot",
+   "From the ilium to the tibia via the iliotibial tract",
+   "From the cervical vertebrae to the first and second ribs"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip adduction, flexion, internal rotation, assisting tibial internal rotation the line of pull has to cross the joint on the side that shortens during it. Gracilis runs from the pubic bone to the medial tibia, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip abduction and internal rotation?",
+  "o": [
+   "From the innominate bone to the femur",
+   "From the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone",
+   "From the scapula to the radial tuberosity",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip abduction and internal rotation the line of pull has to cross the joint on the side that shortens during it. Gluteus minimus runs from the innominate bone to the femur, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip extension and external rotation?",
+  "o": [
+   "From the innominate bone, sacrum and coccyx to the femur and iliotibial band",
+   "From the lumbar spine to the femur",
+   "From the femur to the tibia via the patella",
+   "From the cervical spine to the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip extension and external rotation the line of pull has to cross the joint on the side that shortens during it. Gluteus maximus runs from the innominate bone, sacrum and coccyx to the femur and iliotibial band, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip flexion, abduction, internal rotation?",
+  "o": [
+   "From the ilium to the tibia via the iliotibial tract",
+   "From the scapula to the posterior humerus",
+   "From the cervical vertebrae to the first and second ribs",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip flexion, abduction, internal rotation the line of pull has to cross the joint on the side that shortens during it. Tensor fasciae latae (including the iliotibial band) runs from the ilium to the tibia via the iliotibial tract, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip flexion and external rotation?",
+  "o": [
+   "From the lumbar spine to the femur",
+   "From posterior femur to calcaneus via Achilles tendon",
+   "From the thoracic spine, lumbar spine and iliac crest to the anterior humerus",
+   "From the humerus to the radius"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip flexion and external rotation the line of pull has to cross the joint on the side that shortens during it. Psoas runs from the lumbar spine to the femur, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip flexion, external rotation and abduction, with knee flexion and internal rotation?",
+  "o": [
+   "From the iliac bone to the tibia",
+   "From the pubic bone to the medial femur",
+   "From the ilium to the tibia via the iliotibial tract",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip flexion, external rotation and abduction, with knee flexion and internal rotation the line of pull has to cross the joint on the side that shortens during it. Sartorius runs from the iliac bone to the tibia, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment pattern would produce hip external rotation, abduction, extension?",
+  "o": [
+   "From the sacrum to the femur",
+   "From the pubic bone to the posterior femur",
+   "From the lower ribs to the iliac crest and linea alba",
+   "From the pubic bone to the medial femur"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce hip external rotation, abduction, extension the line of pull has to cross the joint on the side that shortens during it. Piriformis runs from the sacrum to the femur, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Which attachment pattern would produce spinal flexion, lateral flexion and rotation?",
+  "o": [
+   "From the pubis to the ribs and sternum",
+   "From the thoracic spine, lumbar spine and iliac crest to the anterior humerus",
+   "From the ilium to the tibia via the iliotibial tract",
+   "From the sternum, clavicle and upper ribs to the anterior humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce spinal flexion, lateral flexion and rotation the line of pull has to cross the joint on the side that shortens during it. Rectus abdominis runs from the pubis to the ribs and sternum, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Which attachment pattern would produce spinal flexion, lateral flexion and contralateral rotation?",
+  "o": [
+   "From the lower ribs to the iliac crest and linea alba",
+   "From the scapula and humerus to the ulna",
+   "From the ischial tuberosity to head of the fibula",
+   "From the ischial tuberosity to the tibia"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce spinal flexion, lateral flexion and contralateral rotation the line of pull has to cross the joint on the side that shortens during it. External oblique runs from the lower ribs to the iliac crest and linea alba, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Which attachment pattern would produce spinal flexion, lateral flexion and ipsilateral rotation?",
+  "o": [
+   "From the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba",
+   "From the scapula to the anterior humerus",
+   "From the ischial tuberosity to head of the fibula",
+   "From the scapula and humerus to the ulna"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce spinal flexion, lateral flexion and ipsilateral rotation the line of pull has to cross the joint on the side that shortens during it. Internal oblique runs from the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Back",
+  "q": "Which attachment pattern would produce spinal extension, rotation and lateral flexion?",
+  "o": [
+   "From the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone",
+   "From the innominate bone, sacrum and coccyx to the femur and iliotibial band",
+   "From the ischial tuberosity to the tibia",
+   "From the sacrum and vertebrae to adjacent vertebrae above"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce spinal extension, rotation and lateral flexion the line of pull has to cross the joint on the side that shortens during it. Superficial erector spinae runs from the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Back",
+  "q": "Which attachment pattern would produce ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis?",
+  "o": [
+   "From the iliac crest to the 12th rib and lumbar vertebrae",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon",
+   "From the sternum and clavicle to the mastoid process",
+   "From the upper nine ribs to the anterior scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce ipsilateral spinal lateral flexion and ipsilateral elevation of the pelvis the line of pull has to cross the joint on the side that shortens during it. Quadratus lumborum runs from the iliac crest to the 12th rib and lumbar vertebrae, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Back",
+  "q": "Which attachment pattern would produce spinal extension and contralateral rotation?",
+  "o": [
+   "From the sacrum and vertebrae to adjacent vertebrae above",
+   "From the third to fifth ribs to the coracoid process of the scapula",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon",
+   "From the sternum and clavicle to the mastoid process"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce spinal extension and contralateral rotation the line of pull has to cross the joint on the side that shortens during it. Multifidus runs from the sacrum and vertebrae to adjacent vertebrae above, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Back",
+  "q": "Which attachment pattern would produce shoulder extension, adduction and internal rotation?",
+  "o": [
+   "From the thoracic spine, lumbar spine and iliac crest to the anterior humerus",
+   "From the innominate bone, sacrum and coccyx to the femur and iliotibial band",
+   "From the femur to the tibia via the patella",
+   "From the clavicle to the humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder extension, adduction and internal rotation the line of pull has to cross the joint on the side that shortens during it. Latissimus dorsi runs from the thoracic spine, lumbar spine and iliac crest to the anterior humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce scapular protraction?",
+  "o": [
+   "From the upper nine ribs to the anterior scapula",
+   "From the humerus to the ulna",
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the cervical spine to the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce scapular protraction the line of pull has to cross the joint on the side that shortens during it. Serratus anterior runs from the upper nine ribs to the anterior scapula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce scapular retraction and downward rotation?",
+  "o": [
+   "From the thoracic spine to the scapula",
+   "From the ischial tuberosity to the tibia",
+   "From posterior tibia and fibula to calcaneus via Achilles tendon",
+   "From the linea aspera of the femur to head of the fibula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce scapular retraction and downward rotation the line of pull has to cross the joint on the side that shortens during it. Rhomboid major runs from the thoracic spine to the scapula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce scapular depression?",
+  "o": [
+   "From the spinous processes of the lower thoracic vertebrae to the spine of the scapula",
+   "From the iliac crest, inguinal ligament and lumbar fascia to the lower ribs and linea alba",
+   "From the pubic bone to the posterior femur",
+   "From the humerus to the radius"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce scapular depression the line of pull has to cross the joint on the side that shortens during it. Lower trapezius runs from the spinous processes of the lower thoracic vertebrae to the spine of the scapula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce scapular retraction?",
+  "o": [
+   "From the spinous processes of C7 to T3 to the acromion and spine of the scapula",
+   "From the innominate bone, sacrum and coccyx to the femur and iliotibial band",
+   "From the femur to the tibia via the patella",
+   "From the pubis to the ribs and sternum"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce scapular retraction the line of pull has to cross the joint on the side that shortens during it. Middle trapezius runs from the spinous processes of C7 to T3 to the acromion and spine of the scapula, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce cervical extension, lateral flexion and rotation, with scapular elevation?",
+  "o": [
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the ilium to the tibia via the iliotibial tract",
+   "From the femur to the tibia via the patella",
+   "From the linea aspera of the femur to head of the fibula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce cervical extension, lateral flexion and rotation, with scapular elevation the line of pull has to cross the joint on the side that shortens during it. Upper trapezius runs from the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce shoulder flexion, horizontal adduction and internal rotation?",
+  "o": [
+   "From the sternum, clavicle and upper ribs to the anterior humerus",
+   "From the pubis to the ribs and sternum",
+   "From the spinous processes of C7 to T3 to the acromion and spine of the scapula",
+   "From the linea aspera of the femur to head of the fibula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder flexion, horizontal adduction and internal rotation the line of pull has to cross the joint on the side that shortens during it. Pectoralis major runs from the sternum, clavicle and upper ribs to the anterior humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce shoulder flexion and internal rotation?",
+  "o": [
+   "From the clavicle to the humerus",
+   "From fibula to medial cuneiform and base of the first metatarsal",
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the spinous processes of the lower thoracic vertebrae to the spine of the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder flexion and internal rotation the line of pull has to cross the joint on the side that shortens during it. Anterior deltoid runs from the clavicle to the humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce shoulder abduction?",
+  "o": [
+   "From the acromion to the humerus",
+   "From the lumbar spine to the femur",
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the spine of the scapula to the humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder abduction the line of pull has to cross the joint on the side that shortens during it. Lateral (middle) deltoid runs from the acromion to the humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce shoulder extension and external rotation?",
+  "o": [
+   "From the spine of the scapula to the humerus",
+   "From the upper nine ribs to the anterior scapula",
+   "From the thoracic spine to the scapula",
+   "From the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder extension and external rotation the line of pull has to cross the joint on the side that shortens during it. Posterior deltoid runs from the spine of the scapula to the humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Which attachment pattern would produce shoulder internal rotation, adduction and extension?",
+  "o": [
+   "From the scapula to the anterior humerus",
+   "From the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone",
+   "From the ischial tuberosity to the tibia",
+   "From the scapula to the radial tuberosity"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder internal rotation, adduction and extension the line of pull has to cross the joint on the side that shortens during it. Teres major runs from the scapula to the anterior humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Which attachment pattern would produce shoulder external rotation?",
+  "o": [
+   "From the scapula to the posterior humerus",
+   "From the iliac bone to the tibia via the patella",
+   "From the sacrum to the femur",
+   "From the humerus to the ulna"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder external rotation the line of pull has to cross the joint on the side that shortens during it. Teres minor runs from the scapula to the posterior humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Which attachment pattern would produce shoulder internal rotation?",
+  "o": [
+   "From the anterior scapula to the anterior humerus",
+   "From the sacrum to the femur",
+   "From the cervical spine to the scapula",
+   "From the lower ribs to the iliac crest and linea alba"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce shoulder internal rotation the line of pull has to cross the joint on the side that shortens during it. Subscapularis runs from the anterior scapula to the anterior humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Which attachment pattern would produce abduction of the arm?",
+  "o": [
+   "From the scapula to the humerus",
+   "From the femur to the tibia via the patella",
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the scapula and humerus to the ulna"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce abduction of the arm the line of pull has to cross the joint on the side that shortens during it. Supraspinatus runs from the scapula to the humerus, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Arm",
+  "q": "Which attachment pattern would produce elbow flexion, forearm supination and shoulder flexion?",
+  "o": [
+   "From the scapula to the radial tuberosity",
+   "From the pubic bone to the medial femur",
+   "From the occipital bone, nuchal ligament and spinous process of C7 to the lateral third of the clavicle and the acromion",
+   "From the third to fifth ribs to the coracoid process of the scapula"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce elbow flexion, forearm supination and shoulder flexion the line of pull has to cross the joint on the side that shortens during it. Biceps brachii runs from the scapula to the radial tuberosity, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Arm",
+  "q": "Which attachment pattern would produce elbow extension and shoulder extension?",
+  "o": [
+   "From the scapula and humerus to the ulna",
+   "From the innominate bone, sacrum and coccyx to the femur and iliotibial band",
+   "From the scapula to the humerus",
+   "From the vertebrae, iliac crest and ribs to adjacent vertebrae, ribs and the occipital bone"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce elbow extension and shoulder extension the line of pull has to cross the joint on the side that shortens during it. Triceps brachii runs from the scapula and humerus to the ulna, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Arm",
+  "q": "Which attachment pattern would produce elbow flexion?",
+  "o": [
+   "From the humerus to the radius",
+   "From the iliac bone to the tibia",
+   "From the third to fifth ribs to the coracoid process of the scapula",
+   "From the acromion to the humerus"
+  ],
+  "a": 0,
+  "e": "Work backwards from the movement. To produce elbow flexion the line of pull has to cross the joint on the side that shortens during it. Brachioradialis runs from the humerus to the radius, which does exactly that. Naming the muscle is optional; seeing why the line works is the skill."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Rectus femoris crosses both the hip and the knee. Why is it a weaker knee extensor when the hip is already flexed?",
+  "o": [
+   "It is shortened at the hip end, so it has less range left to shorten at the knee",
+   "The patella changes position and removes its leverage",
+   "Hip flexion switches the muscle off neurologically",
+   "The vastii take over and inhibit it"
+  ],
+  "a": 0,
+  "e": "A muscle can only shorten so far. Rectus femoris runs from the iliac bone to the tibia via the patella, so sitting with the hip flexed has already used up part of its available shortening. That is active insufficiency, and it is why the other three quadriceps, which cross only the knee, do relatively more work in a seated leg extension."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Gastrocnemius originates on the posterior femur, above the knee. What follows for a calf raise performed with the knee bent?",
+  "o": [
+   "Gastrocnemius contributes less, so the work shifts toward soleus",
+   "Gastrocnemius contributes more, because the knee flexion pre-stretches it",
+   "Nothing changes, since both muscles insert on the calcaneus",
+   "The Achilles tendon takes the load instead of either muscle"
+  ],
+  "a": 0,
+  "e": "Bending the knee brings the femoral origin closer to the calcaneus, slackening gastrocnemius before the movement starts. Soleus originates below the knee on the tibia and fibula, so it is unaffected. That is the whole logic of the seated calf raise: it is not a different exercise so much as a way of removing one of the two muscles."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Why is it difficult to produce maximal hip extension and maximal knee flexion at the same moment?",
+  "o": [
+   "The hamstrings cross both joints, so both actions shorten the same muscle at once",
+   "The hip and knee are controlled by antagonistic reflex arcs",
+   "Gluteus maximus inhibits the hamstrings during knee flexion",
+   "The rectus femoris blocks the knee from flexing fully under load"
+  ],
+  "a": 0,
+  "e": "Biceps femoris long head, semimembranosus and semitendinosus all run from the ischial tuberosity past the knee. Extending the hip shortens them at one end and flexing the knee shortens them at the other, so the muscle runs out of range. It is why a stiff-legged deadlift and a leg curl train the same muscles in genuinely different ways."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Biceps femoris short head originates on the linea aspera of the femur rather than the pelvis. What does that mean it cannot do?",
+  "o": [
+   "Extend the hip",
+   "Flex the knee",
+   "Externally rotate the tibia",
+   "Stabilise the knee"
+  ],
+  "a": 0,
+  "e": "A muscle can only act on joints its line of pull crosses. The short head starts on the femur itself, below the hip, so the hip is not in its path at all. It flexes the knee and externally rotates the tibia like the long head, but it is the one part of the hamstring complex that does nothing for hip extension."
+ },
+ {
+  "t": "Arm",
+  "q": "The long head of triceps brachii originates on the scapula rather than the humerus. What follows for an overhead triceps extension?",
+  "o": [
+   "It is stretched at the shoulder, which lengthens it before the elbow extends",
+   "It is switched off, so only the medial and lateral heads work",
+   "It becomes a shoulder abductor rather than an elbow extensor",
+   "It loses all leverage at the elbow once the arm is overhead"
+  ],
+  "a": 0,
+  "e": "Raising the arm overhead moves the scapular origin away from the ulna, putting the long head on stretch before the set begins. That is the argument for overhead variations: the head that crosses the shoulder is the one that is loaded differently by arm position, while the other two heads are unaffected."
+ },
+ {
+  "t": "Arm",
+  "q": "Biceps brachii originates on the scapula, not the humerus. What does that add to its job list beyond the elbow and forearm?",
+  "o": [
+   "Shoulder flexion",
+   "Shoulder abduction",
+   "Scapular retraction",
+   "Shoulder external rotation"
+  ],
+  "a": 0,
+  "e": "Crossing the shoulder gives it a third action. Biceps flexes the elbow, supinates the forearm and assists shoulder flexion, which is why a preacher curl with the upper arm fixed feels different from a standing curl where the shoulder is free to contribute."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus maximus inserts partly into the iliotibial band, which runs down to the tibia. What does that let it influence?",
+  "o": [
+   "Tibial internal rotation, which it decelerates",
+   "Ankle plantar flexion",
+   "Knee extension torque directly",
+   "Patellar tracking through the quadriceps tendon"
+  ],
+  "a": 0,
+  "e": "Most of glute max inserts on the femur, but the fibres running into the iliotibial band continue past the knee. That is how a hip muscle ends up controlling rotation at the tibia, and it is the mechanical basis for treating weak glutes as a knee problem rather than only a hip one."
+ },
+ {
+  "t": "Hip",
+  "q": "Tensor fasciae latae and gluteus maximus both insert into the iliotibial band. How do their hip actions compare?",
+  "o": [
+   "They oppose each other: TFL flexes and internally rotates, glute max extends and externally rotates",
+   "They are synergists, both extending and externally rotating the hip",
+   "They are synergists, both flexing and internally rotating the hip",
+   "TFL abducts and glute max adducts, with no rotational difference"
+  ],
+  "a": 0,
+  "e": "A shared insertion does not mean a shared action; what matters is where each one starts. TFL comes off the ilium in front of the hip, glute max from behind it. So the same band is tensioned from two opposite directions, which is why the pairing shows up constantly in discussions of lateral knee pain."
+ },
+ {
+  "t": "Hip",
+  "q": "Sartorius runs from the iliac bone across the thigh to the medial tibia. Which combination does that diagonal line produce?",
+  "o": [
+   "Hip flexion, external rotation and abduction, with knee flexion",
+   "Hip extension, internal rotation and adduction, with knee extension",
+   "Hip flexion, internal rotation and adduction, with knee extension",
+   "Hip abduction and internal rotation, with knee extension"
+  ],
+  "a": 0,
+  "e": "Trace the line and the answer falls out. It starts in front of and outside the hip and finishes inside the knee, so shortening it flexes, externally rotates and abducts the hip while flexing the knee. That is the position of sitting cross-legged, which is where its name comes from: it is the tailor's muscle."
+ },
+ {
+  "t": "Hip",
+  "q": "Gracilis is the only adductor that reaches past the knee, inserting on the medial tibia. What does that add?",
+  "o": [
+   "It assists knee flexion and tibial internal rotation",
+   "It assists knee extension",
+   "It produces ankle inversion",
+   "It has no action beyond the hip despite the insertion"
+  ],
+  "a": 0,
+  "e": "Every other adductor stops on the femur, so it can only act at the hip. Gracilis carries on to the tibia, which is why it turns up in the knee flexor list as well and why adductor strains sometimes present with symptoms nearer the knee than expected."
+ },
+ {
+  "t": "Hip",
+  "q": "Gluteus medius has anterior and posterior fibres with opposite rotational actions. What produces that split?",
+  "o": [
+   "The fibres sit on either side of the hip's axis of rotation, so they pull in opposite directions",
+   "The anterior and posterior fibres have different nerve supplies",
+   "The posterior fibres attach to the sacrum rather than the ilium",
+   "Only the anterior fibres cross the joint"
+  ],
+  "a": 0,
+  "e": "Both sets abduct, because both run from the ilium down to the greater trochanter. But the anterior fibres lie in front of the rotational axis and the posterior fibres behind it, so one internally rotates and the other externally rotates. One muscle, two opposed jobs, decided by geometry."
+ },
+ {
+  "t": "Hip",
+  "q": "Adductor magnus is often described as having a hamstring part. Which fibres earn that description and why?",
+  "o": [
+   "The posterior fibres, which extend and externally rotate the hip rather than flexing and internally rotating it",
+   "The anterior fibres, because they attach nearest the ischium",
+   "All of it, because the whole muscle crosses the knee",
+   "Neither: the name refers only to its size"
+  ],
+  "a": 0,
+  "e": "The posterior fibres run from nearer the ischial tuberosity down the back of the femur, which is the hamstring line of pull. They adduct like the rest of the muscle but extend the hip where the anterior fibres flex it, so the same muscle appears on both sides of the hip action list."
+ },
+ {
+  "t": "Abdominal",
+  "q": "External oblique produces contralateral rotation and internal oblique ipsilateral rotation. What explains the difference?",
+  "o": [
+   "Their fibres run in opposite diagonals, so each pulls the trunk toward a different side",
+   "The external oblique is stronger, so it dominates the direction",
+   "Internal oblique attaches to the spine and external oblique does not",
+   "The difference is in timing rather than direction"
+  ],
+  "a": 0,
+  "e": "External oblique runs downward and forward, internal oblique downward and backward, forming an X across the abdomen. Rotating left uses the right external oblique together with the left internal oblique. They work as diagonal pairs, which is why trunk rotation is never a one-muscle job."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Transversus abdominis runs horizontally and inserts into the linea alba. What follows for what it can do?",
+  "o": [
+   "It cannot move the spine at all; it can only compress",
+   "It rotates the spine more powerfully than the obliques",
+   "It flexes the spine but cannot extend it",
+   "It laterally flexes the spine only"
+  ],
+  "a": 0,
+  "e": "Movement needs a line of pull that crosses a joint at an angle to it. TVA wraps round the abdomen and ends in a midline seam, so shortening it draws the waist inward and raises intra-abdominal pressure. That is why it is the flagship stabilisation muscle and why it is trained with the drawing-in manoeuvre rather than with any movement."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Rectus abdominis has vertical fibres running from pubis to ribs. Why is it a poor rotator despite appearing in the rotation column?",
+  "o": [
+   "A vertical line of pull sits almost along the spine's rotational axis, so it has very little leverage for twisting",
+   "It is separated by tendinous intersections, which prevent rotation",
+   "It is too superficial to reach the vertebrae",
+   "It only rotates when the obliques are inhibited"
+  ],
+  "a": 0,
+  "e": "Flexion is what a vertical anterior line does well: it draws the ribs toward the pubis directly. Rotation needs a diagonal, which is what the obliques supply. The tables list rotation for rectus abdominis, but the geometry says it is a minor contributor."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Pectoralis major has clavicular and sternal fibres. What does the split mean in practice?",
+  "o": [
+   "The clavicular fibres are better placed for shoulder flexion, the sternal fibres for horizontal adduction from a lower angle",
+   "The clavicular fibres internally rotate and the sternal fibres externally rotate",
+   "Only the sternal fibres cross the shoulder joint",
+   "The two parts have identical actions but different nerve supplies"
+  ],
+  "a": 0,
+  "e": "Both converge on the anterior humerus, but one starts high on the clavicle and the other low on the sternum and ribs. The angle of pull differs, which is the honest mechanical basis for incline versus flat pressing, rather than a claim about training an upper or lower half of a single sheet."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Serratus anterior and the rhomboids act on the same bone in opposite directions. What is the pairing?",
+  "o": [
+   "Serratus protracts and upwardly rotates the scapula; the rhomboids retract and downwardly rotate it",
+   "Serratus elevates and the rhomboids depress the scapula",
+   "Serratus retracts and the rhomboids protract the scapula",
+   "Both protract, differing only in the degree of upward rotation"
+  ],
+  "a": 0,
+  "e": "Serratus runs from the ribs round to the front of the scapula and pulls it forward round the ribcage. The rhomboids run from the thoracic spine to the medial border and pull it back and down. Overhead pressing needs the first; rowing emphasises the second."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Supraspinatus and the lateral deltoid both abduct the arm. What distinguishes their contributions?",
+  "o": [
+   "Supraspinatus initiates the movement, where the deltoid's line of pull has little leverage",
+   "The deltoid initiates and supraspinatus finishes the last portion",
+   "Supraspinatus works only above shoulder height",
+   "They are interchangeable, which is why cuff tears rarely affect abduction"
+  ],
+  "a": 0,
+  "e": "With the arm at the side the deltoid pulls almost straight up the humerus, which compresses rather than rotates the joint. Supraspinatus sits above the joint and can start the movement, after which the deltoid gains leverage. That is why a cuff tear often shows up as difficulty starting a lift rather than finishing one."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Three of the four rotator cuff muscles externally rotate or abduct. Which is the exception and why?",
+  "o": [
+   "Subscapularis, because it is the only one attaching to the anterior surface of the scapula",
+   "Supraspinatus, because it passes under the acromion",
+   "Teres minor, because it attaches lowest on the scapula",
+   "Infraspinatus, because its fibres run horizontally"
+  ],
+  "a": 0,
+  "e": "Position decides action. Teres minor and infraspinatus lie on the back of the scapula and pull the humerus into external rotation; supraspinatus sits on top and abducts. Subscapularis is on the front, between scapula and ribcage, so it is the cuff's internal rotator and the only anterior one."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Anterior and posterior deltoid share an insertion on the humerus but oppose each other. Which pair of actions separates them?",
+  "o": [
+   "Anterior flexes and internally rotates; posterior extends and externally rotates",
+   "Anterior abducts and posterior adducts",
+   "Anterior externally rotates and posterior internally rotates",
+   "Anterior elevates the scapula and posterior depresses it"
+  ],
+  "a": 0,
+  "e": "The three heads are one muscle only by name. The anterior head comes off the clavicle in front of the joint and the posterior head off the scapular spine behind it, so they sit on opposite sides of the axis and do opposite things. The middle head, directly lateral, abducts."
+ },
+ {
+  "t": "Back",
+  "q": "Latissimus dorsi runs from the lumbar spine, iliac crest and thoracic spine to the anterior humerus. What does that unusual span let it do?",
+  "o": [
+   "Connect the arm to the pelvis, so it also decelerates spinal flexion",
+   "Rotate the lumbar spine as its primary role",
+   "Elevate the scapula",
+   "Act as a hip extensor through a direct femoral attachment"
+  ],
+  "a": 0,
+  "e": "Almost nothing else in the body bridges the pelvis to the humerus. That span is why a tight lat limits overhead reach by tethering the arm to the trunk, and why it appears in the spinal deceleration column despite being thought of as an arm muscle."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Teres major is sometimes called the lat's little helper. What does it share, and what does it lack?",
+  "o": [
+   "The same shoulder actions, but no attachment to the spine or pelvis",
+   "The same spinal attachments, but no humeral insertion",
+   "The same actions plus scapular retraction",
+   "The same origin, but opposite rotational action"
+  ],
+  "a": 0,
+  "e": "Both insert on the anterior humerus and both extend, adduct and internally rotate the shoulder. Teres major starts on the scapula rather than the spine and pelvis, so it does the arm half of the job without any of the trunk connection."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Fibularis longus starts on the lateral fibula but inserts on the medial side of the foot. How does it evert?",
+  "o": [
+   "Its tendon passes behind the lateral malleolus, which acts as a pulley and reverses the direction of pull",
+   "It changes direction inside the ankle joint capsule",
+   "It everts only when posterior tibialis is inactive",
+   "The medial insertion is a naming convention rather than a real attachment"
+  ],
+  "a": 0,
+  "e": "The straight line from origin to insertion is not the line of pull; the tendon's path is. Wrapping behind the lateral malleolus and under the foot turns a laterally placed muscle into one that pulls the medial side downward, which is eversion. Bony pulleys change actions, so attachments alone can mislead."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Posterior tibialis and fibularis longus both attach near the medial cuneiform and first metatarsal, yet oppose each other. Why?",
+  "o": [
+   "They approach from opposite sides of the ankle, so their tendons pull the same bones in opposite directions",
+   "One inserts on bone and the other on fascia",
+   "Posterior tibialis acts only during gait",
+   "Their actions are identical and the tables disagree"
+  ],
+  "a": 0,
+  "e": "Posterior tibialis passes behind the medial malleolus and inverts; fibularis longus passes behind the lateral malleolus and everts. Shared insertion, opposite approach, opposite action. Together they form a stirrup under the arch, which is why both are listed as stabilising it."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Soleus originates below the knee, on the tibia and fibula. What does that make it well suited to?",
+  "o": [
+   "Postural work at the ankle regardless of knee position",
+   "Producing power only when the knee is fully extended",
+   "Assisting knee flexion during running",
+   "Controlling the arch during pronation"
+  ],
+  "a": 0,
+  "e": "Because it does not cross the knee, its length is unaffected by whether you are standing, sitting or squatting. That independence is why it carries much of the continuous, low-level work of holding the body upright over the ankles."
+ },
+ {
+  "t": "Lower leg",
+  "q": "Anterior tibialis runs down the front of the shin to the medial cuneiform. What is its most common eccentric job in walking?",
+  "o": [
+   "Controlling the foot's descent to the ground after heel strike",
+   "Driving push-off at the end of stance",
+   "Holding the knee extended through mid-stance",
+   "Resisting eversion during the swing phase"
+  ],
+  "a": 0,
+  "e": "It accelerates dorsiflexion and inversion, so lengthening under load it controls the opposite. After the heel lands, the forefoot would slap down under gravity; anterior tibialis pays out to lower it. That eccentric role is why shin pain so often follows a sharp increase in walking or running volume."
+ },
+ {
+  "t": "Back",
+  "q": "Quadratus lumborum runs from the iliac crest to the 12th rib and lumbar vertebrae. What does shortening it on one side do to the pelvis?",
+  "o": [
+   "Hitches that side of the pelvis upward and laterally flexes the spine toward the same side",
+   "Drops that side of the pelvis and laterally flexes away",
+   "Rotates the pelvis toward the opposite side",
+   "Tilts the pelvis anteriorly without lateral movement"
+  ],
+  "a": 0,
+  "e": "Either end can be the moving one. Fix the ribs and the pelvis rises on that side; fix the pelvis and the spine bends toward it. Both are the same shortening, and which one you see depends on what is anchored, which is a general rule worth carrying to every muscle."
+ },
+ {
+  "t": "Neck",
+  "q": "Levator scapulae attaches the cervical spine to the scapula. Why does the tables list two quite different sets of actions for it?",
+  "o": [
+   "Either end can be the anchor, so it moves the neck when the scapula is fixed and the scapula when the neck is fixed",
+   "It has two separate bellies with different innervation",
+   "The action depends on whether the head is rotated",
+   "One set is concentric and the other is a different muscle's"
+  ],
+  "a": 0,
+  "e": "A muscle pulls both of its ends toward each other. Whichever end is held still becomes the origin for that moment. With the shoulder anchored it extends and side-bends the neck; with the neck anchored it elevates and downwardly rotates the scapula. Same contraction, different anchor."
+ },
+ {
+  "t": "Neck",
+  "q": "Scalenes run from the cervical vertebrae to the first and second ribs. What does that give them besides neck movement?",
+  "o": [
+   "A role in inhalation, by elevating the upper ribs",
+   "A role in swallowing",
+   "Scapular elevation",
+   "Thoracic rotation"
+  ],
+  "a": 0,
+  "e": "Anything attaching to a rib can move it. With the neck fixed, the scalenes lift the first two ribs, which assists inspiration. That is why they are often tight in people who breathe shallowly into the upper chest, and why neck symptoms and breathing pattern are worth considering together."
+ },
+ {
+  "t": "Back",
+  "q": "Erector spinae accelerate spinal extension. What are they doing during the lowering phase of a hip hinge?",
+  "o": [
+   "Lengthening under load to decelerate spinal flexion and hold position",
+   "Shortening to drive the movement downward",
+   "Relaxing, since gravity produces the movement",
+   "Working isometrically only at the very bottom"
+  ],
+  "a": 0,
+  "e": "Gravity supplies the downward movement, so the muscles that would extend the spine are the ones paying out to stop it flexing. That is the whole job of the back in a deadlift or a good morning: it is an isometric and eccentric task, not a concentric one."
+ },
+ {
+  "t": "Back",
+  "q": "Multifidus produces spinal extension and contralateral rotation. What makes it suited to segmental control rather than gross movement?",
+  "o": [
+   "It spans only a few vertebrae at a time, so it controls one segment against the next",
+   "It is the largest of the spinal extensors",
+   "It attaches to the ribs rather than the vertebrae",
+   "It contracts only during rotation"
+  ],
+  "a": 0,
+  "e": "Short muscles crossing few joints are positioned for fine control rather than large movement, in the same way the rotator cuff is positioned relative to the deltoid. Multifidus is why segmental stability and gross trunk strength are different qualities."
+ },
+ {
+  "t": "Hip",
+  "q": "Psoas originates on the lumbar spine rather than the pelvis. What consequence does that have that iliacus does not share?",
+  "o": [
+   "Contracting it pulls on the lumbar spine as well as the femur",
+   "It cannot flex the hip without the knee also flexing",
+   "It externally rotates the hip where iliacus internally rotates it",
+   "It has no effect on the femur at all"
+  ],
+  "a": 0,
+  "e": "Iliacus runs from the iliac fossa to the femur, so it acts only at the hip. Psoas starts on the lumbar vertebrae, so tension in it reaches the low back. That is the anatomical basis for the link commonly drawn between tight hip flexors and lumbar position, and the reason the two muscles are worth distinguishing despite the shared tendon."
+ },
+ {
+  "t": "Hip",
+  "q": "Piriformis extends, abducts and externally rotates the hip in neutral. Why is it sometimes described as changing role in deep hip flexion?",
+  "o": [
+   "Deep flexion moves its line of pull across the joint axis, so it can act as an internal rotator instead",
+   "It becomes inactive beyond ninety degrees of flexion",
+   "It converts from a stabiliser to a prime mover",
+   "The sciatic nerve blocks it mechanically"
+  ],
+  "a": 0,
+  "e": "Its action depends on where the femur sits relative to the muscle. Flex the hip far enough and the same line of pull arrives on the other side of the axis, reversing what it does. This is a good reminder that muscle actions are stated for anatomical position and are not fixed properties."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachialis runs from the humerus to the ulna. Why is it unaffected by whether the forearm is supinated or pronated?",
+  "o": [
+   "The ulna does not rotate during pronation and supination, so its line of pull is unchanged",
+   "It is too deep to be influenced by forearm position",
+   "It crosses the shoulder, which compensates",
+   "Its tendon rotates with the radius to compensate"
+  ],
+  "a": 0,
+  "e": "Pronation and supination are the radius crossing over a relatively fixed ulna. Biceps inserts on the radius, so forearm position changes its leverage; brachialis inserts on the ulna and is therefore a pure elbow flexor in any grip. That is the reasoning behind the hammer and reverse curl."
+ },
+ {
+  "t": "Arm",
+  "q": "Brachioradialis runs from the humerus to the distal radius. In which forearm position is it best placed to flex the elbow?",
+  "o": [
+   "Neutral, with the thumb upward",
+   "Fully supinated, palm upward",
+   "Fully pronated, palm downward",
+   "Position makes no difference to it"
+  ],
+  "a": 0,
+  "e": "Its line of pull is most favourable when the forearm is midway between pronation and supination, which is why a hammer curl loads it more than a standard curl. Attachment sites explain grip choices more reliably than exercise names do."
+ },
+ {
+  "t": "Hamstring complex",
+  "q": "Semitendinosus and semimembranosus internally rotate the tibia, while biceps femoris externally rotates it. What explains the split?",
+  "o": [
+   "The two medial hamstrings insert on the medial tibia and biceps femoris on the lateral fibula",
+   "They have different origins on the ischium",
+   "Biceps femoris crosses the hip and the others do not",
+   "Only biceps femoris crosses the knee"
+  ],
+  "a": 0,
+  "e": "All three descend from the ischium, but they finish on opposite sides of the knee. A medial insertion turns the tibia inward when it shortens; a lateral one turns it outward. Insertion side decides rotation, which is derivable without memorising it."
+ },
+ {
+  "t": "Quadriceps",
+  "q": "Three of the four quadriceps originate on the femur and one on the pelvis. What single difference does that create?",
+  "o": [
+   "Only rectus femoris can flex the hip",
+   "Only rectus femoris can extend the knee",
+   "The vastii cannot stabilise the knee",
+   "Rectus femoris cannot contribute to knee extension"
+  ],
+  "a": 0,
+  "e": "All four converge on the patella and extend the knee. Rectus femoris is the only one whose origin lies above the hip, so it is the only one that crosses two joints and the only one that flexes the hip. Everything distinctive about it follows from that one attachment."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Upper trapezius attaches to the occipital bone and C7 at one end and the clavicle and acromion at the other. What two regions can it therefore act on?",
+  "o": [
+   "The cervical spine and the scapula",
+   "The cervical spine and the humerus",
+   "The scapula and the ribcage",
+   "The thoracic spine and the humerus"
+  ],
+  "a": 0,
+  "e": "It spans from skull and neck to shoulder girdle, so it appears in both lists: cervical extension, lateral flexion and rotation, and scapular elevation. A muscle that crosses two regions has a job in each, and which one moves depends on which end is anchored."
+ },
+ {
+  "t": "Shoulder",
+  "q": "Pectoralis minor runs from the ribs to the coracoid process of the scapula. What does shortening it do?",
+  "o": [
+   "Draws the scapula forward and down into protraction",
+   "Retracts and elevates the scapula",
+   "Internally rotates the humerus",
+   "Flexes the shoulder"
+  ],
+  "a": 0,
+  "e": "It never touches the humerus, so it cannot move the arm directly. It acts on the scapula, pulling the coracoid toward the ribs. That is why a short pec minor is discussed as a postural issue at the shoulder blade rather than as chest strength."
+ },
+ {
+  "t": "Hip",
+  "q": "Which muscle would you expect to decelerate hip adduction during single-leg stance?",
+  "o": [
+   "Gluteus medius",
+   "Adductor longus",
+   "Psoas",
+   "Piriformis"
+  ],
+  "a": 0,
+  "e": "Standing on one leg, the unsupported side of the pelvis tends to drop, which is adduction at the stance hip. The abductors are what resist it, and gluteus medius is the main one. This is the mechanism behind the Trendelenburg sign and the reason single-leg work exposes it."
+ },
+ {
+  "t": "Rotator cuff",
+  "q": "Which muscle would be lengthening under load during the cocking phase of a throw, as the shoulder externally rotates to its limit?",
+  "o": [
+   "Subscapularis",
+   "Infraspinatus",
+   "Teres minor",
+   "Posterior deltoid"
+  ],
+  "a": 0,
+  "e": "External rotation is being produced, so the muscles that internally rotate are the ones paying out to control it. Subscapularis is the cuff's internal rotator, which is why it is loaded eccentrically at the end of the cocking phase and why it features in throwing injuries."
+ },
+ {
+  "t": "Abdominal",
+  "q": "Rotating the trunk to the left uses which oblique pair?",
+  "o": [
+   "Right external oblique with left internal oblique",
+   "Left external oblique with left internal oblique",
+   "Right external oblique with right internal oblique",
+   "Left external oblique with right internal oblique"
+  ],
+  "a": 0,
+  "e": "External oblique produces contralateral rotation, so turning left uses the right one. Internal oblique produces ipsilateral rotation, so it is the left one. The pair forms a continuous diagonal across the front of the trunk, which is why rotation is always a two-sided action."
+ },
+ {
+  "t": "Lower leg",
+  "q": "A client reports calf tightness that eases when they sit but returns on standing. Which muscle does the attachment anatomy point toward?",
+  "o": [
+   "Soleus, because it does not cross the knee and so is unaffected by sitting",
+   "Gastrocnemius, because sitting shortens it at the femur",
+   "Anterior tibialis, because it works hardest in standing",
+   "Fibularis longus, because it stabilises the arch"
+  ],
+  "a": 0,
+  "e": "Read the symptom against the attachments. Sitting flexes the knee, which slackens gastrocnemius but does nothing to soleus. If the sensation persists in standing and eases in sitting, the muscle whose length changed is gastrocnemius. Attachment reasoning is a diagnostic tool, not just an exam topic."
+ },
+ {
+  "t": "Hip",
+  "q": "Which attachment detail explains why the hip flexors are described as tilting the pelvis anteriorly?",
+  "o": [
+   "They attach to the pelvis and lumbar spine above and the femur below, so with the leg fixed they pull the pelvis forward and down",
+   "They insert on the sacrum, which rotates the whole pelvis",
+   "They attach to the iliotibial band, which tilts the ilium",
+   "They pull the pubic bone upward toward the ribs"
+  ],
+  "a": 0,
+  "e": "With the femur planted, the moving end is the pelvis. Iliacus and psoas run from the ilium and lumbar spine to the femur, so shortening them rolls the top of the pelvis forward. Same contraction as hip flexion, different anchored end."
  }
 ]
