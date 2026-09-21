@@ -42,6 +42,15 @@ nav a{display:block;color:var(--muted);text-decoration:none;padding:4px 10px;bor
 nav a.l3{padding-left:22px;font-size:12px;color:var(--muted2)}
 nav a:hover{color:var(--ink)}
 nav a.here{color:var(--ink);border-left-color:var(--magenta);font-weight:600}
+a.srcref{cursor:pointer;border-bottom:1px dashed var(--magenta);text-decoration:none}
+#srcov{position:fixed;inset:0;z-index:80;background:var(--page);overflow:auto;display:none}
+#srcov.open{display:block}
+#srcov .bar{position:sticky;top:0;z-index:2;background:var(--page);padding:10px 16px;
+  display:flex;gap:14px;align-items:center;border-bottom:1px solid rgba(128,128,128,.25)}
+#srcov .bar strong{font-size:14px}
+#srcov .bar button{font:inherit;cursor:pointer;background:none;border:0;color:var(--magenta);padding:4px 0}
+#srcov .body{padding:6px 16px 60px;max-width:820px;margin:0 auto}
+#srcov .body h1{margin-top:12px}
 
 main{flex:1;min-width:0;padding:22px 0 80px;max-width:720px}
 h1{font-family:var(--serif);font-weight:400;font-size:32px;color:var(--ink);line-height:1.2;margin:8px 0 18px}
@@ -159,6 +168,14 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
 <button id="fab" class="hidden" aria-label="Contents" aria-expanded="false">&#9776;</button>
 <div class="foot hidden" id="foot">__FOOT__</div>
 
+<div id="srcov" role="dialog" aria-modal="true" aria-labelledby="srctitle">
+  <div class="bar">
+    <button id="srcclose">&larr; Back</button>
+    <strong id="srctitle"></strong>
+  </div>
+  <div class="body" id="srcbody"></div>
+</div>
+
 <script>
 const PAYLOAD = __PAYLOAD__;
 const KEYNAME = 'rt-pt-key';
@@ -191,6 +208,37 @@ function render(json){
   $('#foot').classList.remove('hidden');
   wire();
   figures();
+}
+
+/* The capture folders behind the practice reference are separate encrypted payloads,
+   fetched the first time their name is tapped and shown over the page rather than as
+   a document of their own. */
+const SRC_CACHE = {};
+
+async function openSource(slug, label){
+  const ov = $('#srcov'), body = $('#srcbody');
+  $('#srctitle').textContent = label;
+  ov.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  ov.scrollTop = 0;
+  if (!SRC_CACHE[slug]) body.innerHTML = '<p>Decrypting\u2026</p>';
+  try {
+    if (!SRC_CACHE[slug]) {
+      const buf = new Uint8Array(await (await fetch('sources/' + slug + '.enc')).arrayBuffer());
+      const plain = await crypto.subtle.decrypt(
+        {name:'AES-GCM', iv: buf.slice(0, 12)}, KEY, buf.slice(12));
+      SRC_CACHE[slug] = JSON.parse(new TextDecoder().decode(plain));
+    }
+    body.innerHTML = '<h1>' + SRC_CACHE[slug].title + '</h1>' + SRC_CACHE[slug].html;
+    ov.scrollTop = 0;
+  } catch(e){
+    body.innerHTML = '<p>That source could not be loaded. It may not have been downloaded yet.</p>';
+  }
+}
+
+function closeSource(){
+  $('#srcov').classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 /* Diagrams are encrypted too, so decrypt each one to a blob URL as it comes into view. */
@@ -237,6 +285,17 @@ function wire(){
   fab.onclick = () => setNav(!nav.classList.contains('open'));
   fab.classList.remove('hidden');
   document.addEventListener('keydown', e => { if (e.key === 'Escape') setNav(false); });
+
+  $('#doc').addEventListener('click', e => {
+    const a = e.target.closest('a.srcref');
+    if (!a) return;
+    e.preventDefault();
+    openSource(a.dataset.src, a.textContent);
+  });
+  $('#srcclose').onclick = closeSource;
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && $('#srcov').classList.contains('open')) closeSource();
+  });
 }
 
 async function tryUnlock(pass, remember){

@@ -25,11 +25,6 @@ def deck(fn):
     return out
 
 data = {
-    'exam': {
-        'name': 'NASM exam prep',
-        'blurb': 'Everything examinable, from scope of practice through to the energy systems.',
-        'q': deck('questions-exam.json'),
-    },
     'muscles': {
         'name': 'Muscles',
         'blurb': 'Origin, insertion, action and role. NASM Appendix C, the A&P notes and standard anatomy.',

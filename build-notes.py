@@ -18,9 +18,24 @@ ITER = 250_000
 
 # Two separate documents, two separate pages.
 DOCS = [
-    ('exam-prep.md', 'exam-prep.html', 'NASM exam preparation', 'Exam prep'),
     ('learning.md',  'learning.html',  'The body and training', 'Learning'),
     ('exercise-reference.md', 'exercise-reference.html', 'The practice reference', 'Practice'),
+]
+
+# The capture folders the practice reference points at. Each becomes its own
+# encrypted payload, fetched and shown in an overlay when its name is tapped.
+# They are source material rather than another set of notes, so they get no
+# page and no place in the navigation.
+SOURCES = [
+    ('fitness-programming', '_fitness-programming', 'Understanding Fitness Programming',
+     ['00-course-structure.md', 'raw-transcripts.md']),
+    ('biomechanics', '_biomechanics', 'Clinical Biomechanics',
+     ['00-course-structure.md', 'module1-upper-quadrant.md', 'module1-workbook.md',
+      'modules2-6-raw-transcripts.md']),
+    ('groundwork', '_groundwork', 'Prehab Rehab 101 Groundwork',
+     ['00-course-structure.md', 'raw-transcripts.md']),
+    ('sc-rehab', '_sc-rehab', 'S&C for Injury Prevention',
+     ['00-course-structure.md', 'raw-transcripts.md']),
 ]
 
 # ---------- key ----------
@@ -107,11 +122,18 @@ def main():
             used.add(m.group(1))
         html = re.sub(r'<img src="assets/([^"]+)"', r'<img data-enc="notes-assets/\1.enc"', html)
         # rewrite cross-document links, keeping any #anchor on the end
-        html = html.replace('href="exam-prep.md', 'href="exam-prep.html')
         html = html.replace('href="learning.md', 'href="learning.html')
         html = html.replace('href="exercise-reference.md', 'href="exercise-reference.html')
         html = html.replace(f'href="{out}#', 'href="#')   # same-page links stay in-page
         html = html.replace('>exam-prep.md<', '>the exam preparation notes<')
+        # The exam preparation notes are no longer published, so unwrap those
+        # links and leave the sentence intact.
+        html = re.sub(r'<a href="exam-prep\.md[^"]*">(.*?)</a>', r'\1', html, flags=re.S)
+        # Capture folders open in an overlay instead of linking nowhere.
+        for slug, folder, label, _files in SOURCES:
+            html = html.replace(
+                f'<a href="{folder}/">{folder}/</a>',
+                f'<a class="srcref" data-src="{slug}" href="#">{label}</a>')
         html = html.replace('>learning.md<', '>the learning notes<')
         html = html.replace('>exercise-reference.md<', '>the practice reference<')
 
@@ -133,6 +155,31 @@ def main():
         (HERE / out).write_text(page)
         print(f'{out:18} {len(page)/1024:6.0f} KB   {len(toc)} sections, '
               f'{html.count("<table>")} tables, {html.count("<figure>")} figures')
+
+    # ---------- source appendices ----------
+    SOURCES_OUT = HERE / 'sources'
+    SOURCES_OUT.mkdir(exist_ok=True)
+    for old in SOURCES_OUT.glob('*.enc'):
+        old.unlink()
+    stotal = 0
+    for slug, folder, label, files in SOURCES:
+        parts = []
+        for fn in files:
+            f = SRC / folder / fn
+            if f.exists():
+                parts.append(f.read_text())
+            else:
+                print('  missing:', folder + '/' + fn)
+        if not parts:
+            continue
+        shtml, _stoc = convert('\n\n---\n\n'.join(parts))
+        iv, ct = encrypt(key, json.dumps({'title': label, 'html': shtml},
+                                         ensure_ascii=False).encode())
+        (SOURCES_OUT / (slug + '.enc')).write_bytes(iv + ct)
+        stotal += len(ct)
+    if stotal:
+        print(f'sources/           {stotal/1024/1024:6.1f} MB   '
+              f'{len(list(SOURCES_OUT.glob("*.enc")))} encrypted source appendices')
 
     if used:
         n, size = images(key, used)

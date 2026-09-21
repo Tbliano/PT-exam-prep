@@ -7,17 +7,25 @@ tooling to install, works offline.
 
 **Two quiz decks, played independently.**
 
-- **NASM exam prep** — everything examinable, from scope of practice through to the energy systems.
 - **Muscles** — origin, insertion, action and role, drawn from the NASM Appendix C tables, the
   anatomy and physiology notes, and standard anatomy.
+- **Derive the action** — given only where a muscle attaches, work out what it does when it
+  shortens. Reasoning rather than recall.
+
+**The NASM exam preparation notes and question deck were removed once the exam was passed**, on
+21 September 2026. The markdown still exists locally; it is simply no longer published.
 
 Rounds of twenty. Wrong answers show the correct one with a short explanation, are stored as
 **difficult**, and come back in later rounds until answered correctly twice in a row. At most a
 quarter of any round is difficult questions, so rounds stay mixed. Progress is kept in the browser on
 that device only and is never sent anywhere.
 
-**Both notes documents**, the exam preparation one and the longer learning one, laid out for
-reading with a table of contents that follows the scroll.
+**Both notes documents**, the learning one and the practice reference, laid out for reading with a
+table of contents that follows the scroll.
+
+**The capture folders behind the practice reference** open in an overlay when their name is tapped,
+rather than becoming documents of their own. Each is a separate encrypted payload under `sources/`,
+fetched the first time it is opened and kept for the session, so the page itself stays small.
 
 ## Offline
 
@@ -49,7 +57,7 @@ remembered key survives a rebuild; delete `.salt` and every device has to unlock
 
 ## Editing the questions
 
-Edit `questions-exam.json` or `questions-muscles.json`, then:
+Edit `questions-muscles.json` or `questions-derive.json`, then:
 
 ```
 python3 build.py
