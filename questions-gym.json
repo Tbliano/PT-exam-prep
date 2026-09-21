@@ -1,0 +1,1226 @@
+[
+ {
+  "t": "Exercise to muscle",
+  "q": "Barbell back squat to parallel, feet shoulder width: which muscles are the prime movers?",
+  "o": [
+   "Quadriceps and gluteus maximus",
+   "Hamstrings and erector spinae",
+   "Gluteus medius and adductors",
+   "Quadriceps and hamstrings"
+  ],
+  "a": 0,
+  "e": "The squat extends the knee and the hip, so the knee extensors and the main hip extensor do the driving. The hamstrings work hard but largely isometrically and eccentrically, controlling the trunk and the tibia rather than producing the movement. The erectors hold the spine rather than move it."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Romanian deadlift with a soft knee: which muscle group is the prime mover?",
+  "o": [
+   "The hamstrings and gluteus maximus, extending the hip",
+   "The quadriceps, extending the knee",
+   "The erector spinae, extending the spine",
+   "The latissimus dorsi, extending the shoulder"
+  ],
+  "a": 0,
+  "e": "The knee barely changes angle, so this is a hip hinge. The hamstrings act at their hip end and the glutes extend the hip. The erectors are working hard but isometrically, holding the spine still while the hips move, which is why a rounding back means the load has shifted to the wrong tissue."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Conventional deadlift from the floor: why is it not simply a hip hinge?",
+  "o": [
+   "The knees start flexed and extend, so the quadriceps contribute meaningfully off the floor",
+   "The spine extends through the lift, so the erectors are the prime movers",
+   "The latissimus dorsi produces the upward movement",
+   "The calves drive the initial break from the floor"
+  ],
+  "a": 0,
+  "e": "Starting position decides the muscles. A deadlift from the floor has more knee flexion at the start than an RDL, so the quadriceps share the early work before the movement becomes mostly hip extension. It is why the two look similar and load differently."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Barbell hip thrust: which muscle is the prime mover, and what makes the exercise distinctive?",
+  "o": [
+   "Gluteus maximus, loaded with the hip near full extension where a squat unloads it",
+   "The hamstrings, which are lengthened throughout",
+   "The erector spinae, which extend the lumbar spine against the load",
+   "The quadriceps, because the knees are flexed"
+  ],
+  "a": 0,
+  "e": "Resistance in a squat is highest at the bottom, where the glutes are long. A hip thrust puts peak resistance at the top, where the hip is nearly straight and glute max is short. Same muscle, opposite point of maximum demand, which is the honest reason to do both."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Walking lunge: which muscle works harder than in a bilateral squat, and why?",
+  "o": [
+   "Gluteus medius, because the single-leg stance requires it to resist the pelvis dropping",
+   "Rectus abdominis, because the trunk flexes at each step",
+   "Soleus, because the rear leg plantarflexes",
+   "Latissimus dorsi, because it stabilises the arms"
+  ],
+  "a": 0,
+  "e": "Standing on one leg lets the unsupported side of the pelvis fall, which is adduction at the stance hip. The abductors resist it. That frontal-plane demand is what single-leg work adds, and it is absent from a two-legged squat."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Flat barbell bench press: name the prime mover and the two main synergists.",
+  "o": [
+   "Pectoralis major, with anterior deltoid and triceps brachii",
+   "Anterior deltoid, with pectoralis major and biceps brachii",
+   "Triceps brachii, with latissimus dorsi and posterior deltoid",
+   "Pectoralis major, with latissimus dorsi and biceps brachii"
+  ],
+  "a": 0,
+  "e": "The movement is shoulder horizontal adduction plus elbow extension. Pec major produces the first, the anterior deltoid assists it, and the triceps produce the second. The lats work, but as antagonist control and as a stable shelf rather than as a mover."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Overhead press standing: which muscles are working that a seated press loads much less?",
+  "o": [
+   "The trunk and hip musculature, holding the body rigid under an overhead load",
+   "The triceps, which have more range standing",
+   "The lateral deltoid, which has better leverage standing",
+   "The serratus anterior, which only works standing"
+  ],
+  "a": 0,
+  "e": "The pressing muscles are the same. What changes is everything below: standing, the core and hips must resist the load's tendency to tip you backward. That is the argument for standing pressing, and the reason it usually allows less weight."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Pull-up with a pronated grip: what is the prime mover, and which muscle is loaded more with a supinated grip?",
+  "o": [
+   "Latissimus dorsi is the prime mover; a supinated grip increases biceps brachii involvement",
+   "Biceps brachii is the prime mover; a pronated grip increases latissimus involvement",
+   "Posterior deltoid is the prime mover; grip does not change it",
+   "Teres major is the prime mover; a supinated grip reduces arm involvement"
+  ],
+  "a": 0,
+  "e": "Both are shoulder adduction and extension, which is lat work. Supinating puts the biceps in its strongest position, since it is both an elbow flexor and a supinator, so a chin-up shifts more to the arms. Neither version excludes the biceps."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Barbell row with the torso near horizontal, elbows tucked close to the body: which muscles dominate?",
+  "o": [
+   "Latissimus dorsi and teres major, with the biceps flexing the elbow",
+   "Middle trapezius and rhomboids, with minimal lat involvement",
+   "Posterior deltoid and infraspinatus",
+   "Erector spinae, which produce the pulling movement"
+  ],
+  "a": 0,
+  "e": "Elbow path decides the answer. Pulling with the elbows close to the body is shoulder extension and adduction, which is the lat and teres major line. Flaring the elbows out turns the same exercise into horizontal abduction, which loads the rear delt and the scapular retractors instead."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Face pull with the rope at eye height: which muscles is it chosen for?",
+  "o": [
+   "Posterior deltoid with infraspinatus and teres minor",
+   "Latissimus dorsi with teres major",
+   "Middle trapezius with biceps brachii",
+   "Anterior deltoid with pectoralis major"
+  ],
+  "a": 0,
+  "e": "The movement combines horizontal abduction with external rotation, which is precisely the posterior deltoid plus the two external rotators of the cuff. That combination is why it is prescribed so often for people who press a lot and rotate internally all day."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Dumbbell lateral raise to shoulder height: which muscle is the prime mover, and which one starts the movement?",
+  "o": [
+   "Lateral deltoid is the prime mover; supraspinatus initiates the first part of the range",
+   "Supraspinatus is the prime mover throughout",
+   "Anterior deltoid is the prime mover; the trapezius initiates",
+   "Upper trapezius is the prime mover; the deltoid initiates"
+  ],
+  "a": 0,
+  "e": "With the arm hanging, the deltoid's line of pull runs almost straight up the humerus and has poor leverage for abduction. Supraspinatus, sitting above the joint, can start it. Once the arm is moving the deltoid takes over, which is why cuff problems often show as difficulty beginning a raise."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Standing barbell curl versus preacher curl: what does fixing the upper arm on a pad change?",
+  "o": [
+   "It removes the shoulder flexion contribution of biceps brachii, so the elbow does all the work",
+   "It removes the brachialis, leaving only the biceps",
+   "It changes the biceps from a supinator to a pronator",
+   "It shifts the work to brachioradialis entirely"
+  ],
+  "a": 0,
+  "e": "Biceps crosses the shoulder as well as the elbow, so in a standing curl the shoulder can drift forward and contribute. A preacher pad stops that. The muscle list barely changes; what changes is whether a second joint is allowed to help."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Plank held with a neutral spine: what is the abdominal wall actually doing?",
+  "o": [
+   "Working isometrically to resist the spine extending under gravity",
+   "Working concentrically to flex the spine",
+   "Working eccentrically to lower the spine into extension",
+   "Producing intra-abdominal pressure with no muscular demand"
+  ],
+  "a": 0,
+  "e": "Nothing is moving, so nothing is shortening. The load tends to drop the hips and extend the lumbar spine, and the abdominals hold against it. That is core stabilisation in NASM's sense, and it is why the plank sits at the bottom of the core continuum rather than with the crunches."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Pallof press: what is the demand, and which muscles meet it?",
+  "o": [
+   "Anti-rotation, met largely by the obliques working isometrically",
+   "Rotation, met concentrically by the obliques",
+   "Spinal flexion, met by rectus abdominis",
+   "Lateral flexion, met by quadratus lumborum"
+  ],
+  "a": 0,
+  "e": "A cable pulling from the side tries to rotate the trunk, and the job is to not let it. The obliques resist rather than produce the twist. It is a clean example of a core exercise defined by what it prevents rather than by what it moves."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Farmer's carry: name the main demands beyond grip.",
+  "o": [
+   "The trapezius and scapular stabilisers, and the trunk resisting lateral flexion",
+   "The biceps, working isometrically to hold the elbow flexed",
+   "The quadriceps, producing knee extension against the load",
+   "The latissimus dorsi, producing shoulder extension"
+  ],
+  "a": 0,
+  "e": "The load hangs from the shoulders, so the upper traps and scapular muscles hold the girdle against it, and if the weight is uneven the trunk resists side bending. It trains a set of stabilising qualities that no machine asks for."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Nordic hamstring curl: which contraction type dominates and why does that matter?",
+  "o": [
+   "Eccentric, because the hamstrings lengthen under load to control the descent",
+   "Concentric, because the hamstrings shorten to lower the body",
+   "Isometric, because the knee angle is held",
+   "Concentric at the hip and isometric at the knee"
+  ],
+  "a": 0,
+  "e": "Gravity lowers you; the hamstrings pay out to slow it. That is the whole exercise, and it is why it appears in hamstring injury prevention work, since sprinting injuries happen during the eccentric phase of the swing."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Copenhagen plank: which muscle group is it specifically loading?",
+  "o": [
+   "The hip adductors of the top leg, working isometrically",
+   "The gluteus medius of the bottom leg",
+   "The obliques on the upper side",
+   "The quadratus lumborum on the lower side"
+  ],
+  "a": 0,
+  "e": "Supporting the body from a leg held against a bench loads the adductors of that leg to hold the position. It is one of the few common exercises that trains the adductors in a stabilising role rather than through a machine's fixed arc."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Push-up compared with a bench press of equivalent load: which muscle works noticeably more?",
+  "o": [
+   "Serratus anterior, because the scapula is free to move on the ribcage",
+   "Triceps brachii, because the elbow range is greater",
+   "Pectoralis major, because the line of pull is different",
+   "Latissimus dorsi, because the trunk is unsupported"
+  ],
+  "a": 0,
+  "e": "Lying on a bench pins the scapula against the bench. In a push-up the scapula is free and has to protract at the top, which is serratus anterior's job. Same pressing muscles, one extra demand created by what the torso is resting on."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Back extension on a 45 degree bench, performed with a neutral spine: what is being trained?",
+  "o": [
+   "Hip extension by the glutes and hamstrings, with the erectors holding isometrically",
+   "Spinal extension by the erectors through full range",
+   "Spinal flexion controlled eccentrically",
+   "Hip flexion by the iliopsoas"
+  ],
+  "a": 0,
+  "e": "With the spine kept neutral, the movement happens at the hip, so the hip extensors do the work and the back muscles hold a position. Allowing the spine to round and then extend turns it into a different exercise, loading the erectors dynamically."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Which muscles does a standing calf raise with straight knees emphasise, compared with a seated calf raise?",
+  "o": [
+   "Gastrocnemius, because it crosses the knee and is not slackened when the knee is straight",
+   "Soleus, because it is longer when the knee is straight",
+   "Tibialis posterior, because the knee position changes its line",
+   "Both equally, since they share the Achilles tendon"
+  ],
+  "a": 0,
+  "e": "Gastrocnemius originates above the knee on the femur, so bending the knee shortens it before the movement begins. Straight knees keep it long and load it. Soleus starts below the knee and is unaffected, which is why the seated version is the way to bias it."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A seated machine with a horizontal pressing path and handles at chest height: which muscles?",
+  "o": [
+   "Pectoralis major, anterior deltoid and triceps brachii",
+   "Latissimus dorsi, teres major and biceps brachii",
+   "Anterior deltoid, upper trapezius and triceps brachii",
+   "Pectoralis major, serratus anterior and biceps brachii"
+  ],
+  "a": 0,
+  "e": "Whatever the machine is called, a horizontal press is shoulder horizontal adduction plus elbow extension, so the muscle list matches a bench press. What the fixed path removes is the stabilising demand, not the prime movers."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you sit and bring padded arms together in front of you, elbows fixed at about ninety degrees: what is loaded, and what does the elbow position achieve?",
+  "o": [
+   "Pectoralis major with anterior deltoid; fixing the elbow removes the triceps from the movement",
+   "Pectoralis major with triceps brachii; the elbow position increases triceps load",
+   "Anterior deltoid alone; the pec is not involved with a bent elbow",
+   "Serratus anterior with pectoralis minor"
+  ],
+  "a": 0,
+  "e": "With the elbow angle fixed by the pads, the only joint moving is the shoulder, so this is pure horizontal adduction and the elbow extensors are excluded. A version with handles and straighter arms lengthens the lever and changes where in the range the resistance peaks."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "The same frame as a chest fly machine, used facing into the pad with the arms travelling backward: what does it train?",
+  "o": [
+   "Posterior deltoid, with the rhomboids and middle trapezius",
+   "Pectoralis major through a longer range",
+   "Latissimus dorsi and teres major",
+   "Infraspinatus and teres minor in isolation"
+  ],
+  "a": 0,
+  "e": "Reversing the direction reverses the muscles. Moving the arms backward is horizontal abduction, which is the posterior deltoid's job, with the scapular retractors joining as the shoulder blades draw together. One frame, two opposite exercises."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you sit and extend the knees against a padded lever with the hips flexed: which muscles, and what is the caveat?",
+  "o": [
+   "The quadriceps; rectus femoris contributes less than usual because the flexed hip has already shortened it",
+   "The quadriceps and hamstrings equally, because both cross the knee",
+   "The quadriceps and gluteus maximus, because the hip is loaded",
+   "The vastii only; rectus femoris does not cross the knee"
+  ],
+  "a": 0,
+  "e": "It is the one common machine that isolates knee extension. All four quadriceps extend the knee, but rectus femoris also crosses the hip, and sitting has used part of its available shortening. Isolation is real here, but it is not perfectly even across the four heads."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you lie face down and flex the knees against a padded lever: which muscles, and which action of theirs is trained?",
+  "o": [
+   "The hamstrings, at their knee end only",
+   "The hamstrings, at the hip end only",
+   "The gluteus maximus and hamstrings together",
+   "The gastrocnemius alone"
+  ],
+  "a": 0,
+  "e": "The hamstrings cross both hip and knee. A leg curl uses only the knee action. A Romanian deadlift uses only the hip action. Training the group properly means doing both, which is why the two exercises are not substitutes."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A lat pulldown taken with a wide pronated grip: name the prime mover and the main synergists.",
+  "o": [
+   "Latissimus dorsi, with teres major, the biceps and the scapular retractors",
+   "Latissimus dorsi alone, since a wide grip removes the arms",
+   "Biceps brachii, with the posterior deltoid",
+   "Middle trapezius and rhomboids, with minimal lat involvement"
+  ],
+  "a": 0,
+  "e": "Pulling the arms down and in is shoulder adduction, which is the lat's main job, with teres major assisting on the same line. The biceps flex the elbow throughout, however wide the grip. Anyone who says a wide grip takes the arms out of it is describing a wish rather than the anatomy."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A seated row machine with a chest pad, using a neutral grip and pulling the elbows close to the ribs: what is emphasised?",
+  "o": [
+   "The latissimus dorsi and teres major, with the scapular retractors assisting",
+   "The rhomboids and middle trapezius almost exclusively",
+   "The posterior deltoid and external rotators",
+   "The erector spinae, since the torso is supported"
+  ],
+  "a": 0,
+  "e": "The elbow path is the variable that matters. Elbows in and low is shoulder extension, which favours the lats. Elbows high and wide turns the same machine into a rear delt and mid-back exercise. The chest pad removes the lower back from the equation either way."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A seated machine where you push a platform away with your feet while the back is supported: which muscles, and what changes with foot placement?",
+  "o": [
+   "Quadriceps and gluteus maximus; a higher foot position increases hip extensor and adductor magnus involvement",
+   "Quadriceps only; foot position changes nothing",
+   "Hamstrings and glutes; a lower foot position increases hamstring involvement",
+   "Gluteus medius and adductors; foot position changes only the knee angle"
+  ],
+  "a": 0,
+  "e": "It extends the knee and the hip, so quadriceps and glutes. Sliding the feet higher increases hip flexion at the start and deepens the hip extension demand, pulling in more glute and adductor magnus; lower and narrower biases the quadriceps. The machine has not changed, only the geometry you set up."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you sit with pads on the outside of your knees and push outward: which muscles, and what does the seated position do to them?",
+  "o": [
+   "Gluteus medius and minimus with tensor fasciae latae; the flexed hip alters their line of pull compared with standing",
+   "The adductor group, working eccentrically",
+   "Gluteus maximus alone",
+   "Quadratus lumborum and the obliques"
+  ],
+  "a": 0,
+  "e": "Pushing outward is hip abduction, so the abductors. Sitting flexes the hip, which changes the angle at which these muscles pull and is not the position in which they usually have to work, since their main job is resisting the pelvis dropping in single-leg stance."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you sit with pads on the inside of your knees and squeeze inward: which muscles?",
+  "o": [
+   "The hip adductor group, including adductor longus, brevis, magnus, pectineus and gracilis",
+   "The hamstrings and gluteus maximus",
+   "Gluteus medius and minimus",
+   "The iliopsoas and rectus femoris"
+  ],
+  "a": 0,
+  "e": "Squeezing the knees together is hip adduction, so it is the adductor group. Worth knowing that adductor magnus also extends the hip through its posterior fibres, so it is trained by hinging as well, which the machine does not reveal."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A cable stack with a straight bar at head height, pushing the bar down by extending the elbows: which muscle?",
+  "o": [
+   "Triceps brachii",
+   "Biceps brachii",
+   "Latissimus dorsi",
+   "Anterior deltoid"
+  ],
+  "a": 0,
+  "e": "The only joint moving is the elbow, and it is extending, so the elbow extensor does the work. Keeping the upper arm still is what stops it becoming a lat exercise, since a straight-arm pushdown from the same position loads the lats instead."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A cable stack with a straight bar at head height, pushing the bar down with the elbows locked straight: which muscle now?",
+  "o": [
+   "Latissimus dorsi",
+   "Triceps brachii",
+   "Pectoralis minor",
+   "Posterior deltoid"
+  ],
+  "a": 0,
+  "e": "Locking the elbow removes the triceps and makes the shoulder the only moving joint. Drawing a straight arm down and back is shoulder extension, which is lat territory. Two exercises on the same cable at the same height, separated only by whether one joint is allowed to move."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine with a seat, a back pad and handles pressed vertically overhead: which muscles?",
+  "o": [
+   "Anterior and lateral deltoid with triceps brachii, and the upper trapezius assisting the scapula",
+   "Pectoralis major with biceps brachii",
+   "Latissimus dorsi with posterior deltoid",
+   "Supraspinatus alone"
+  ],
+  "a": 0,
+  "e": "Pressing overhead is shoulder flexion and abduction plus elbow extension. The deltoid and triceps do the moving; the upper trap and serratus rotate the scapula upward to let the arm get there, which is why restricted scapular movement shows up as shoulder pain in pressing."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "An assisted pull-up machine with a platform you kneel on: what does the assistance do?",
+  "o": [
+   "It reduces the effective bodyweight, without changing which muscles work",
+   "It changes the prime mover from the lats to the biceps",
+   "It removes the scapular muscles from the movement",
+   "It converts the movement to shoulder flexion"
+  ],
+  "a": 0,
+  "e": "The counterweight offsets part of your mass so the same movement happens with less load. The muscle list is identical to an unassisted pull-up. It is a load adjustment, which makes it one of the cleaner progressions on the gym floor."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A machine where you sit and flex the trunk forward against a padded chest support: where does it sit on NASM's core continuum?",
+  "o": [
+   "Core strength, because it moves the spine dynamically",
+   "Core stabilisation, because the pad supports the trunk",
+   "Core power, because resistance is adjustable",
+   "It is a balance exercise rather than a core one"
+  ],
+  "a": 0,
+  "e": "The defining feature of the strength level is dynamic eccentric and concentric movement of the spine, which is exactly what a loaded crunch does. Stabilisation exercises hold position instead. The machine's support pad does not change which tier it belongs to."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A rotary torso machine, where the trunk turns against resistance with the hips fixed: which muscles, and what is the reservation?",
+  "o": [
+   "The obliques; the reservation is that loaded lumbar rotation has a limited safe range",
+   "The erector spinae; the reservation is that it works them only isometrically",
+   "The rectus abdominis; the reservation is that the range is too short",
+   "The latissimus dorsi; the reservation is grip strength"
+  ],
+  "a": 0,
+  "e": "Rotation against resistance is oblique work. The caveat is anatomical: most trunk rotation comes from the thoracic spine, and the lumbar segments allow very little, so loading rotation aggressively asks for movement where the joints are not built to give it."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A hack squat machine with the back against an angled pad: how does it compare with a barbell squat?",
+  "o": [
+   "Similar prime movers, with the fixed path removing much of the balance and trunk demand",
+   "Different prime movers, since the hamstrings lead the movement",
+   "Identical in every respect, including stabiliser demand",
+   "It removes the quadriceps and loads the glutes only"
+  ],
+  "a": 0,
+  "e": "Knee and hip extension either way, so quadriceps and glutes. What the machine removes is the requirement to balance the bar and hold the trunk, which is a genuine reduction in demand rather than a refinement of the target."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A Smith machine: what is the single most important thing to know about it?",
+  "o": [
+   "The bar travels in a fixed path, so the stabilisers are largely unloaded",
+   "It loads the same muscles as free weights with the same demands",
+   "It increases the range of motion at every joint",
+   "It removes the prime movers and loads only stabilisers"
+  ],
+  "a": 0,
+  "e": "The defining feature is the fixed track. Prime movers work; the muscles that would normally keep the bar on course do not. That is the free weight against machine trade-off in its clearest form, and it is why it suits some rehabilitation settings and suits athletic carryover less well."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client needs work for gluteus medius. Which exercise targets it most directly?",
+  "o": [
+   "Single-leg stance work such as a step-up or single-leg squat",
+   "Barbell back squat",
+   "Leg press with a wide stance",
+   "Romanian deadlift"
+  ],
+  "a": 0,
+  "e": "Gluteus medius abducts the hip and, more importantly, stops the pelvis dropping when you stand on one leg. Two-legged exercises never ask for that. Anything on one leg does, which is why single-leg work exposes and trains it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the hamstrings at their hip end rather than their knee end?",
+  "o": [
+   "Romanian deadlift",
+   "Seated leg curl",
+   "Lying leg curl",
+   "Leg extension"
+  ],
+  "a": 0,
+  "e": "The hamstrings extend the hip and flex the knee. A hinge uses the hip action with the knee nearly fixed; a curl uses the knee action with the hip fixed. Training only one leaves half the muscle group's function untouched."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "You want to load gluteus maximus where it is short, near full hip extension. Which exercise does that?",
+  "o": [
+   "Hip thrust",
+   "Back squat",
+   "Leg press",
+   "Walking lunge"
+  ],
+  "a": 0,
+  "e": "Resistance in squatting patterns peaks at the bottom, with the hip flexed and the glutes long. A hip thrust peaks at the top with the hip straight. If the aim is strength in the shortened position, the resistance profile has to match it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise biases soleus over gastrocnemius?",
+  "o": [
+   "Seated calf raise",
+   "Standing calf raise",
+   "Calf press on the leg press with straight legs",
+   "Jump rope"
+  ],
+  "a": 0,
+  "e": "Gastrocnemius crosses the knee, so bending it takes that muscle out of useful range. Soleus originates below the knee and is unaffected. Knee position is the only variable that separates the two."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads the latissimus dorsi most directly, with minimal scapular retraction?",
+  "o": [
+   "Straight-arm pulldown with a cable",
+   "Seated row with elbows flared",
+   "Face pull",
+   "Rear delt fly"
+  ],
+  "a": 0,
+  "e": "A straight-arm pulldown makes the shoulder the only moving joint and the movement pure shoulder extension, which is the lat's main line. The rowing variations bring in the retractors, and the last two are posterior deltoid exercises."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the external rotators of the shoulder?",
+  "o": [
+   "Cable external rotation with the elbow at the side",
+   "Lateral raise",
+   "Upright row",
+   "Lat pulldown"
+  ],
+  "a": 0,
+  "e": "Infraspinatus and teres minor externally rotate the humerus, so an exercise that rotates the arm outward against resistance is what loads them. None of the other three rotates the shoulder outward; the upright row does the opposite under load."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise most directly trains serratus anterior?",
+  "o": [
+   "A push-up plus, protracting the scapula at the top",
+   "Barbell bench press",
+   "Seated row",
+   "Lat pulldown"
+  ],
+  "a": 0,
+  "e": "Serratus protracts the scapula around the ribcage. Pressing with the shoulder blade pinned to a bench never asks for it; adding a deliberate protraction at the end of a push-up does. The rowing movements train its antagonists."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the adductors in a way the adduction machine does not?",
+  "o": [
+   "Copenhagen plank",
+   "Leg press with a narrow stance",
+   "Leg extension",
+   "Seated calf raise"
+  ],
+  "a": 0,
+  "e": "The machine trains hip adduction through a fixed arc while seated. A Copenhagen plank asks the adductors to hold the body against gravity, which is the stabilising role they play in real movement. Different demand on the same muscle group."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the quadratus lumborum in its main role?",
+  "o": [
+   "Suitcase carry with the weight in one hand",
+   "Back extension",
+   "Barbell row",
+   "Plank"
+  ],
+  "a": 0,
+  "e": "QL laterally flexes the spine and hitches the pelvis. Carrying a load on one side threatens to bend you toward it, and QL on the opposite side holds against it. That anti-lateral-flexion demand is exactly what a single-sided carry creates."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the deep spinal stabilisers rather than the large spinal movers?",
+  "o": [
+   "Bird dog",
+   "Loaded back extension through full range",
+   "Barbell good morning",
+   "Weighted sit-up"
+  ],
+  "a": 0,
+  "e": "Multifidus and the deep segmental muscles control one vertebra against the next. Slow, low-load exercises where the demand is holding a neutral spine while limbs move are what target them. The other three are all large-range, high-load movements of the trunk."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "A client can only train with a fixed machine circuit but needs hip extension strength. Which machine serves that best?",
+  "o": [
+   "Leg press with a high foot position",
+   "Leg extension",
+   "Seated leg curl",
+   "Hip adduction machine"
+  ],
+  "a": 0,
+  "e": "Feet high on the platform increases the hip flexion at the start and so the hip extension demand, pulling in glute max and adductor magnus. Leg extension is knee only, the leg curl is knee flexion, and the adduction machine does not extend the hip."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the rotator cuff's stabilising role rather than its rotational strength?",
+  "o": [
+   "Overhead carry with the arm locked out",
+   "Cable internal rotation",
+   "Dumbbell external rotation lying on the side",
+   "Face pull"
+  ],
+  "a": 0,
+  "e": "Holding a load overhead asks the cuff to keep the humeral head centred while nothing rotates. That is its stabilising job, and it is the one most exercises miss because they train the rotation instead."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise loads the biceps brachii in its shoulder-flexing role as well as at the elbow?",
+  "o": [
+   "Standing curl, where the shoulder is free to move",
+   "Preacher curl",
+   "Concentration curl",
+   "Cable curl with the elbow pinned"
+  ],
+  "a": 0,
+  "e": "Biceps crosses the shoulder, so it flexes the shoulder as well as the elbow. Only the version that leaves the upper arm free allows both. The other three deliberately fix the humerus to prevent exactly that."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the anterior tibialis?",
+  "o": [
+   "Resisted dorsiflexion, for example toe raises against a band",
+   "Standing calf raise",
+   "Seated calf raise",
+   "Leg extension"
+  ],
+  "a": 0,
+  "e": "Anterior tibialis dorsiflexes and inverts the foot, so it is loaded by lifting the foot upward against resistance. Everything else listed trains the opposite action or a different joint entirely, which is why the front of the shin is so rarely trained directly."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise would you choose to train hip extension without loading the spine?",
+  "o": [
+   "Hip thrust or glute bridge",
+   "Conventional deadlift",
+   "Barbell good morning",
+   "Barbell back squat"
+  ],
+  "a": 0,
+  "e": "All four extend the hip. The difference is where the load sits: a bridge or thrust places it across the hips with the spine supported and horizontal, while the other three transmit load through the spinal column. That is the usual reason to select it."
+ },
+ {
+  "t": "Muscle to exercise",
+  "q": "Which exercise trains the obliques without loading lumbar rotation?",
+  "o": [
+   "Pallof press, resisting rotation isometrically",
+   "Rotary torso machine",
+   "Russian twist with a weight",
+   "Cable woodchop at speed"
+  ],
+  "a": 0,
+  "e": "The obliques can be trained by resisting rotation as well as by producing it, and resisting avoids asking the lumbar spine for a range it does not have. The other three all load rotation through the trunk."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Only fixed machines are available and the target is the quadriceps in isolation. Which one?",
+  "o": [
+   "Leg extension",
+   "Leg press",
+   "Seated leg curl",
+   "Hip abduction machine"
+  ],
+  "a": 0,
+  "e": "Isolation means one joint, and the quadriceps' shared action is knee extension. Leg extension is the only common machine that moves the knee alone. The leg press works them well but involves the hip too."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine trains the hamstrings without involving the hip?",
+  "o": [
+   "Lying or seated leg curl",
+   "Leg press",
+   "Back extension bench",
+   "Hip adduction machine"
+  ],
+  "a": 0,
+  "e": "A leg curl flexes the knee with the hip fixed, which uses one of the hamstrings' two actions. It is the complement to hinging, not a replacement for it."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine is the closest fixed-path option for training the lats?",
+  "o": [
+   "Lat pulldown",
+   "Chest press machine",
+   "Shoulder press machine",
+   "Rotary torso machine"
+  ],
+  "a": 0,
+  "e": "Pulling the arms down and in against resistance is shoulder adduction and extension, which is the lat's main function. The seated row is the other good option, depending on whether you want a vertical or horizontal pulling angle."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine option best trains the posterior deltoid?",
+  "o": [
+   "Reverse pec deck, facing into the pad",
+   "Chest press machine",
+   "Lat pulldown",
+   "Leg press"
+  ],
+  "a": 0,
+  "e": "Moving the arms backward against resistance is horizontal abduction, which is the posterior deltoid's action. The reverse setting of a chest fly frame does exactly that, which is why one machine covers both sides of the shoulder."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "A client cannot load the spine but needs a lower-body pressing pattern. Which machine?",
+  "o": [
+   "Leg press, which supports the back and loads through the feet",
+   "Smith machine squat",
+   "Hack squat",
+   "Standing calf raise machine"
+  ],
+  "a": 0,
+  "e": "The leg press puts the back against a pad and transmits load through the legs rather than down the spine. The other three all place the load on the shoulders or the trunk, which is the thing being avoided."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine trains the triceps with the shoulder held still?",
+  "o": [
+   "Cable pushdown with the upper arm fixed at the side",
+   "Chest press machine",
+   "Assisted dip machine",
+   "Lat pulldown"
+  ],
+  "a": 0,
+  "e": "The triceps extend the elbow, and pinning the upper arm means the elbow is the only joint moving. An assisted dip trains them too, but as part of a compound press rather than in isolation."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine loads the gluteus medius, and what is its limitation?",
+  "o": [
+   "The hip abduction machine; it trains abduction seated, not the single-leg stability the muscle mainly provides",
+   "The hip adduction machine; it has no limitation",
+   "The leg press; the limitation is foot position",
+   "The leg curl; the limitation is the fixed knee angle"
+  ],
+  "a": 0,
+  "e": "It does load the right muscles, so it is not useless. But gluteus medius earns its keep stopping the pelvis dropping in single-leg stance, and no seated machine reproduces that. It is a supplement to single-leg work rather than a substitute."
+ },
+ {
+  "t": "Muscle to machine",
+  "q": "Which machine trains the calf complex with the knee bent, and which muscle does that favour?",
+  "o": [
+   "The seated calf raise, favouring soleus",
+   "The standing calf raise, favouring soleus",
+   "The leg press calf press, favouring gastrocnemius",
+   "The leg extension, favouring neither"
+  ],
+  "a": 0,
+  "e": "The seat bends the knee, which slackens gastrocnemius because it originates above the knee. Soleus is unaffected and takes the load. It is one of the clearest cases where a machine's geometry selects a muscle."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Moving your feet higher on the leg press platform shifts emphasis toward which muscles?",
+  "o": [
+   "The hip extensors, particularly gluteus maximus and adductor magnus",
+   "The quadriceps, particularly vastus medialis",
+   "The calf complex",
+   "The hip abductors"
+  ],
+  "a": 0,
+  "e": "A higher foot position deepens hip flexion at the start and reduces the knee's range, so more of the work becomes hip extension. Lower feet do the reverse and bias the quadriceps. The machine is identical; the joint angles are not."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Widening your stance on a leg press or squat increases the contribution of which muscle group?",
+  "o": [
+   "The adductors, which assist hip extension from an abducted position",
+   "The calves",
+   "The rectus abdominis",
+   "The hamstrings at the knee"
+  ],
+  "a": 0,
+  "e": "A wider stance places the femur in more abduction and external rotation, which lengthens the adductors and lets them contribute to extending the hip. Adductor magnus in particular behaves much like a hamstring through its posterior fibres."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Changing a lat pulldown from a wide pronated grip to a narrow supinated grip does what?",
+  "o": [
+   "Increases the biceps contribution and changes the angle of shoulder adduction",
+   "Removes the biceps from the movement",
+   "Converts it into a triceps exercise",
+   "Removes the latissimus dorsi"
+  ],
+  "a": 0,
+  "e": "Supinating puts the biceps in its strongest position, since it flexes the elbow and supinates the forearm. The lats still do most of the work. Anyone claiming a grip change removes the arms is selling something."
+ },
+ {
+  "t": "What changes the target",
+  "q": "On a seated row, raising the elbows so they travel out wide rather than close to the ribs shifts the work toward what?",
+  "o": [
+   "The posterior deltoid and scapular retractors, and away from the latissimus dorsi",
+   "The latissimus dorsi, and away from the rear deltoid",
+   "The biceps",
+   "The erector spinae"
+  ],
+  "a": 0,
+  "e": "Elbows close to the body makes the movement shoulder extension, which is lat work. Elbows high and wide makes it horizontal abduction, which is rear delt and mid-back. The handle and the machine have not changed at all."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Performing a bench press on an incline rather than flat changes what?",
+  "o": [
+   "The angle of pull favours the clavicular fibres of pectoralis major and increases anterior deltoid involvement",
+   "It removes the triceps from the movement",
+   "It converts the exercise into a shoulder press",
+   "It removes pectoralis major entirely"
+  ],
+  "a": 0,
+  "e": "Pec major runs from the clavicle, sternum and ribs to a single insertion, so the angle of the torso changes which fibres are best placed to pull. Tilting up also moves the movement toward shoulder flexion, which brings in the front delt."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Allowing the spine to round and then extend during a back extension, rather than holding it neutral, changes the exercise how?",
+  "o": [
+   "It shifts the work from the hip extensors to the spinal erectors moving dynamically",
+   "It removes the hamstrings entirely",
+   "It converts it into an abdominal exercise",
+   "It has no meaningful effect"
+  ],
+  "a": 0,
+  "e": "With a neutral spine the movement happens at the hip and the erectors hold isometrically. Letting the spine move makes the erectors the prime movers through range. Both are defensible choices; the important thing is knowing which one you are doing."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Holding a dumbbell in one hand only during a walking lunge or carry adds what demand?",
+  "o": [
+   "Resisting lateral flexion of the trunk, loading the opposite quadratus lumborum and obliques",
+   "Resisting rotation, loading the multifidus",
+   "Increasing the quadriceps load on the loaded side",
+   "Increasing grip demand only"
+  ],
+  "a": 0,
+  "e": "An offset load pulls you sideways, and the muscles on the other side hold against it. This is the simplest way to turn a lower-body or carrying exercise into a frontal-plane core exercise, and it costs nothing in equipment."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Fixing the upper arm against a pad in a curl removes what?",
+  "o": [
+   "The shoulder flexion contribution of biceps brachii",
+   "The brachialis",
+   "The supination function of the biceps",
+   "The elbow flexion itself"
+  ],
+  "a": 0,
+  "e": "The biceps crosses the shoulder as well as the elbow, so an unfixed upper arm lets the shoulder assist. A pad removes that second joint. The muscle is not removed; one of its jobs is."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Standing rather than sitting to press overhead changes what, and what does it not change?",
+  "o": [
+   "It adds a large trunk and hip stability demand; it does not change the pressing muscles",
+   "It changes the prime mover from deltoid to trapezius",
+   "It increases the range of motion at the shoulder",
+   "It removes the triceps"
+  ],
+  "a": 0,
+  "e": "The shoulder and elbow do the same thing either way. What changes is whether the body below has to resist being tipped backward. That is why standing usually means less weight on the bar and is not a sign of weaker pressing."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Performing a squat with the heels elevated shifts emphasis toward what?",
+  "o": [
+   "The quadriceps, by allowing more knee flexion and a more upright torso",
+   "The hamstrings, by increasing hip flexion",
+   "The gluteus medius",
+   "The erector spinae"
+  ],
+  "a": 0,
+  "e": "Raising the heels lets the knee travel further forward without the ankle running out of dorsiflexion, so the knee does more and the hip does less. It is also how a restricted ankle gets worked around, which is worth distinguishing from a deliberate quadriceps bias."
+ },
+ {
+  "t": "What changes the target",
+  "q": "A seated leg curl places the hip in flexion, a lying leg curl does not. What does that change?",
+  "o": [
+   "The hamstrings are lengthened at the hip in the seated version, so the knee flexion happens from a longer starting position",
+   "Only the seated version involves the hamstrings",
+   "The lying version removes the gastrocnemius",
+   "Nothing at all changes"
+  ],
+  "a": 0,
+  "e": "The hamstrings cross both joints, so hip position sets how much length is available at the knee. Sitting lengthens them at the hip; lying does not. Two versions of one machine action, differing in where on the length curve the work happens."
+ },
+ {
+  "t": "What changes the target",
+  "q": "On a cable stack, what single change turns a triceps pushdown into a lat exercise?",
+  "o": [
+   "Locking the elbow straight, so the shoulder becomes the only moving joint",
+   "Increasing the weight",
+   "Using a rope instead of a bar",
+   "Standing further from the stack"
+  ],
+  "a": 0,
+  "e": "With the elbow bending, the elbow extensors work. Lock it and the arm becomes a rigid lever, so the only movement left is at the shoulder, which is extension and therefore lat work. One joint decides the entire answer."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Turning to face into a chest fly machine instead of away from it changes the exercise how?",
+  "o": [
+   "From horizontal adduction to horizontal abduction, so from pectoralis major to posterior deltoid and retractors",
+   "From shoulder to elbow work",
+   "From concentric to eccentric loading",
+   "It changes the range but not the muscles"
+  ],
+  "a": 0,
+  "e": "Direction of resistance relative to the body decides the muscle, not the frame. Facing away, the arms come together against resistance. Facing in, they travel apart. The same machine covers the front and the back of the shoulder."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Adding a pause at the bottom of a squat, rather than bouncing out of it, changes what?",
+  "o": [
+   "It removes the stretch-shortening contribution, so more of the work is done by the muscles concentrically",
+   "It increases the hamstring contribution at the knee",
+   "It reduces the quadriceps involvement",
+   "It converts the exercise to an isometric one"
+  ],
+  "a": 0,
+  "e": "A fast reversal stores and returns elastic energy through the stretch-shortening cycle. Pausing lets that dissipate, so the ascent starts from nothing. Same muscles, less free assistance, which is the point of the variation."
+ },
+ {
+  "t": "What changes the target",
+  "q": "A client's chest press machine has an adjustable seat height. What does raising the seat do?",
+  "o": [
+   "Lowers the handle path relative to the shoulders, shifting the angle toward a decline press",
+   "Increases the triceps involvement only",
+   "Removes the anterior deltoid",
+   "Changes nothing but comfort"
+  ],
+  "a": 0,
+  "e": "Seat height sets where the handles sit relative to the shoulder joint, which sets the angle of push. Higher seat means pressing at a downward angle, lower seat means an upward one. It is the machine's equivalent of the incline setting, and it is routinely ignored."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Dip with the torso upright: which muscles dominate, and what changes if the torso leans forward?",
+  "o": [
+   "Triceps dominate upright; leaning forward shifts work toward pectoralis major",
+   "Pectoralis major dominates upright; leaning forward shifts work to the triceps",
+   "Latissimus dorsi dominates in both positions",
+   "Anterior deltoid dominates, and torso angle is irrelevant"
+  ],
+  "a": 0,
+  "e": "Upright, the movement is mostly elbow extension. Leaning forward turns it into shoulder adduction and flexion as well, which is pec territory. The same bars produce two different exercises depending on what the trunk does."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Bulgarian split squat with the rear foot elevated: what does the elevation add over a standing split squat?",
+  "o": [
+   "More hip flexion on the front leg and a stretch on the rear hip flexors",
+   "More quadriceps work on the rear leg",
+   "More calf involvement on the front leg",
+   "More spinal loading"
+  ],
+  "a": 0,
+  "e": "Raising the rear foot removes its ability to share the load and increases the range at the front hip. The front leg's glute and quadriceps do more, and the trailing hip flexors are lengthened, which is often the point of choosing it."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Kettlebell swing: which muscles produce the movement, and what is the common error?",
+  "o": [
+   "Hip extensors drive it; the common error is squatting the movement and turning it into a leg press",
+   "The shoulders lift the bell; the error is using the hips",
+   "The erector spinae extend the spine; the error is keeping the back neutral",
+   "The quadriceps produce it; the error is hinging"
+  ],
+  "a": 0,
+  "e": "It is a ballistic hip hinge, so glutes and hamstrings snap the hip open and the arms merely hang on. Bending the knees too much converts it to a squat and the bell gets lifted by the shoulders, which is the most common fault and the one that makes it feel like an arm exercise."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Goblet squat compared with a back squat: what does the front-loaded position change?",
+  "o": [
+   "It demands more upright torso and more anterior core work to resist flexion",
+   "It removes the quadriceps",
+   "It shifts the movement to the hamstrings",
+   "It eliminates ankle dorsiflexion demand"
+  ],
+  "a": 0,
+  "e": "Holding the load in front creates a forward-tipping moment the trunk must resist, so the upper back and abdominals work harder to stay upright. It is why the goblet squat is used to teach position: the load itself corrects the pattern."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Hanging leg raise performed with a posterior pelvic tilt at the top: what distinguishes it from lifting the legs alone?",
+  "o": [
+   "Tilting the pelvis brings in the rectus abdominis; lifting the legs alone is mostly hip flexors",
+   "Tilting removes the abdominals",
+   "Lifting the legs alone is mostly rectus abdominis",
+   "Neither version involves the hip flexors"
+  ],
+  "a": 0,
+  "e": "Raising the thigh is hip flexion, which is iliopsoas and rectus femoris. The abdominals attach pelvis to ribs, so they only work when the pelvis tilts. It is why so many people feel a leg raise entirely in the front of the hip."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Upright row taken with a narrow grip to chin height: what is the reservation?",
+  "o": [
+   "It combines abduction with internal rotation, which narrows the subacromial space",
+   "It provides no deltoid stimulus",
+   "It loads only the biceps",
+   "It cannot be loaded heavily enough to be useful"
+  ],
+  "a": 0,
+  "e": "The muscles worked are real enough, mainly the deltoid and upper traps. The concern is the position: raising the arm while internally rotated is the classic impingement combination. A wider grip and a lower finish keeps most of the benefit with less of it."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Barbell shrug: which muscle, and what does it not do?",
+  "o": [
+   "Upper trapezius, elevating the scapula; it does not meaningfully retract it",
+   "Middle trapezius, retracting the scapula",
+   "Levator scapulae only",
+   "Rhomboids, downwardly rotating the scapula"
+  ],
+  "a": 0,
+  "e": "Shrugging is scapular elevation, which is the upper trap's job with levator scapulae assisting. Rolling the shoulders adds nothing useful, since retraction and elevation are separate actions produced by different parts of the trapezius."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Front squat versus back squat: what does moving the bar to the front change?",
+  "o": [
+   "It demands a more upright torso, increasing quadriceps and upper-back demand",
+   "It removes the glutes from the movement",
+   "It shifts the work to the hamstrings",
+   "It reduces core demand"
+  ],
+  "a": 0,
+  "e": "Bar position sets the torso angle needed to keep the load over the feet. Front-racked means upright, which increases knee flexion and the quadriceps' share, and asks the thoracic extensors to resist being folded forward."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Side plank: which muscles hold the position?",
+  "o": [
+   "The lateral trunk muscles, principally quadratus lumborum and the obliques, with gluteus medius on the lower side",
+   "Rectus abdominis and the hip flexors",
+   "The erector spinae and latissimus dorsi",
+   "The adductors of the top leg"
+  ],
+  "a": 0,
+  "e": "Gravity tries to drop the hips toward the floor, which is lateral flexion, so the muscles on the upper side hold against it. The bottom hip's abductors contribute too, which is why it doubles as gluteus medius work."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Dead bug performed slowly with the low back flat: what is being trained?",
+  "o": [
+   "The abdominal wall resisting extension of the lumbar spine while the limbs move",
+   "Hip flexor strength through range",
+   "Spinal flexion under load",
+   "Rotational control of the thoracic spine"
+  ],
+  "a": 0,
+  "e": "Reaching an arm and the opposite leg away pulls the pelvis into anterior tilt and the lumbar spine into extension. Keeping the back flat is the exercise. It is stabilisation in the strict sense: the trunk holds still while something else moves."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Good morning: which muscles, and how does it differ from a Romanian deadlift?",
+  "o": [
+   "The same hip extensors, but the bar on the back gives a longer lever and more spinal load",
+   "Different muscles entirely; it is a spinal extension exercise",
+   "It loads the quadriceps rather than the hip",
+   "It removes the hamstrings"
+  ],
+  "a": 0,
+  "e": "Both are hip hinges driven by hamstrings and glutes. Carrying the bar on the shoulders rather than in the hands lengthens the lever arm to the hip and increases the demand on the spinal erectors to hold position, which is why it is usually loaded much lighter."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Step-up onto a box: which leg is doing the work, and what is the common error?",
+  "o": [
+   "The leg on the box; the error is pushing off the trailing foot to assist",
+   "The trailing leg; the error is leaning forward",
+   "Both equally; there is no common error",
+   "The leg on the box, and the error is going too slowly"
+  ],
+  "a": 0,
+  "e": "The point is that one leg extends the hip and knee to lift the whole body. Pushing off the floor with the back foot quietly removes most of the load. It is the most common way a step-up stops being a single-leg exercise."
+ },
+ {
+  "t": "Exercise to muscle",
+  "q": "Sled push: what distinguishes it from other lower-body work?",
+  "o": [
+   "It is almost entirely concentric, with very little eccentric loading",
+   "It is almost entirely eccentric",
+   "It loads the hamstrings at the knee",
+   "It is primarily an upper-body exercise"
+  ],
+  "a": 0,
+  "e": "There is no lowering phase, so the muscles shorten and never pay out under load. That is why it produces so little soreness and why it is used when training has to continue without adding eccentric damage."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A pullover machine, where the arms move from overhead to the front of the body with the elbows fairly straight: which muscle?",
+  "o": [
+   "Latissimus dorsi, through shoulder extension",
+   "Pectoralis minor",
+   "Triceps brachii",
+   "Rhomboids"
+  ],
+  "a": 0,
+  "e": "Pulling a straight arm from overhead down toward the trunk is shoulder extension, which is the lat's main action. Pec major contributes at the start of the range, which is why the machine has a long history of disputed claims about what it trains."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A cable crossover with the pulleys set high, bringing the hands together low in front: which fibres does the angle favour?",
+  "o": [
+   "The sternal fibres of pectoralis major, since the arms travel downward and inward",
+   "The clavicular fibres, since the arms start high",
+   "The posterior deltoid",
+   "The serratus anterior"
+  ],
+  "a": 0,
+  "e": "Line of pull decides it. Coming from high to low means the humerus finishes low relative to the trunk, which matches the sternal fibres' direction. Setting the pulleys low and finishing high does the reverse and favours the clavicular fibres."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A standing calf raise machine with pads on the shoulders: what is the knee position doing?",
+  "o": [
+   "Keeping the knee straight, which keeps gastrocnemius under load",
+   "Bending the knee to isolate soleus",
+   "Removing the Achilles tendon from the movement",
+   "Nothing, since knee position is irrelevant"
+  ],
+  "a": 0,
+  "e": "Gastrocnemius originates on the femur above the knee, so a straight knee keeps it at a length where it can contribute. That is the entire difference between the standing and seated versions of the same movement."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A hip thrust machine with a padded belt or lap restraint: what does it offer over a barbell hip thrust?",
+  "o": [
+   "The same hip extension pattern with the load applied more comfortably and no barbell to balance",
+   "A different prime mover",
+   "Greater range of motion at the hip",
+   "Additional hamstring involvement at the knee"
+  ],
+  "a": 0,
+  "e": "The movement is the same: hip extension with peak resistance near lockout, driven by gluteus maximus. What the machine changes is the setup and comfort, which matters more than it sounds for an exercise people abandon because of the bar digging in."
+ },
+ {
+  "t": "Machine to muscle",
+  "q": "A preacher curl machine: what does the angled pad accomplish?",
+  "o": [
+   "It fixes the upper arm in slight shoulder flexion, preventing the shoulder from assisting",
+   "It increases the biceps' shoulder flexion contribution",
+   "It removes the brachialis",
+   "It shifts work to the forearm extensors"
+  ],
+  "a": 0,
+  "e": "The pad holds the humerus still and slightly forward, so the elbow is the only joint that can move and the biceps cannot recruit its shoulder action. It also puts the muscle at a shorter starting length, which makes the bottom of the range the hardest part."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Narrowing the grip on a bench press does what?",
+  "o": [
+   "Increases the triceps' share by increasing the elbow's range of motion",
+   "Increases the pectoralis major's share",
+   "Removes the anterior deltoid",
+   "Reduces the range of motion overall"
+  ],
+  "a": 0,
+  "e": "A narrower grip means the elbow bends and straightens through a greater angle, so the elbow extensors do more of the total work. The pecs still work; their share falls as the triceps' rises."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Turning the toes out on a leg press or squat changes what?",
+  "o": [
+   "It externally rotates the femur, allowing more contribution from the adductors and glutes",
+   "It removes the quadriceps",
+   "It increases calf involvement",
+   "It reduces hip involvement"
+  ],
+  "a": 0,
+  "e": "Foot position sets femoral rotation, which sets which muscles are best placed to extend the hip. Turned out and wider recruits more from the adductor group and glutes; straight and narrow biases the quadriceps."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Slowing the lowering phase of any lift to four seconds primarily increases what?",
+  "o": [
+   "Time under tension during the eccentric phase, where the muscle lengthens under load",
+   "The concentric force required",
+   "The stretch-shortening contribution",
+   "The stabiliser demand only"
+  ],
+  "a": 0,
+  "e": "Nothing about the muscles involved changes; what changes is how long they spend lengthening under load. That is the half of the movement where most damage and most soreness originate, which is worth knowing before prescribing it to a beginner."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Using a single arm or leg instead of both, with the same relative load, adds what demand?",
+  "o": [
+   "Resistance to rotation and lateral flexion of the trunk",
+   "Greater prime mover load only",
+   "Reduced core involvement",
+   "A change in the prime mover"
+  ],
+  "a": 0,
+  "e": "An asymmetrical load tries to twist and bend the trunk, and the core has to prevent it. It is the cheapest way to add a stability demand to almost any exercise, without changing the muscles the limb itself is using."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Deliberately restricting a squat to the top half of the range changes what?",
+  "o": [
+   "It trains the pattern where the muscles are short and the resistance is lowest, missing the hardest position",
+   "It increases the hamstring contribution",
+   "It removes the glutes entirely",
+   "It increases the range at the ankle"
+  ],
+  "a": 0,
+  "e": "Partial ranges load the part of the curve where you are strongest. That can be deliberate, for example working around an injury, but it is not the same stimulus as the full movement and should not be mistaken for it."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Elevating the front foot in a split squat or lunge shifts emphasis toward what?",
+  "o": [
+   "The hip extensors, by increasing hip flexion at the bottom",
+   "The quadriceps, by increasing knee flexion",
+   "The calf complex",
+   "The adductors"
+  ],
+  "a": 0,
+  "e": "Raising the front foot deepens the hip without needing more knee travel, so the glutes work through a longer range. Raising the heel instead does the opposite and biases the quadriceps. Two small elevations, two different exercises."
+ },
+ {
+  "t": "What changes the target",
+  "q": "Switching a row from a pronated to a neutral grip typically does what?",
+  "o": [
+   "Allows the elbows to travel closer to the body, which favours the latissimus dorsi",
+   "Removes the biceps",
+   "Shifts the work to the posterior deltoid",
+   "Reduces the lat contribution"
+  ],
+  "a": 0,
+  "e": "Grip orientation influences the comfortable elbow path. Neutral tends to tuck the elbows, which makes the movement more shoulder extension and more lat. Pronated tends to flare them, which moves it toward the rear delt and retractors."
+ }
+]

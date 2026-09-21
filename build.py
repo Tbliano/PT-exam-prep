@@ -30,6 +30,12 @@ data = {
         'blurb': 'Origin, insertion, action and role. NASM Appendix C, the A&P notes and standard anatomy.',
         'q': deck('questions-muscles.json'),
     },
+    'gym': {
+        'name': 'What works what',
+        'blurb': 'Exercises, machines and muscles, in both directions. The mapping that gets used every day on the gym floor.',
+        'round': 15,
+        'q': deck('questions-gym.json'),
+    },
     'derive': {
         'name': 'Derive the action',
         'blurb': 'Given only where a muscle attaches, work out what it does when it shortens. Reasoning, not recall.',

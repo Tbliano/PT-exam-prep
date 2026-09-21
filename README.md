@@ -5,12 +5,17 @@ tooling to install, works offline.
 
 ## What is here
 
-**Two quiz decks, played independently.**
+**Three quiz decks, played independently.**
 
 - **Muscles** — origin, insertion, action and role, drawn from the NASM Appendix C tables, the
   anatomy and physiology notes, and standard anatomy.
+- **What works what** — exercises, machines and muscles, in both directions, plus a set where the
+  variation is the point rather than the mapping.
 - **Derive the action** — given only where a muscle attaches, work out what it does when it
-  shortens. Reasoning rather than recall.
+  shortens, what it decelerates, and what it stabilises. Reasoning rather than recall.
+
+Rounds are twenty questions, or fifteen and ten where the thinking is heavier; a deck sets its own
+length in `build.py`.
 
 **The NASM exam preparation notes and question deck were removed once the exam was passed**, on
 21 September 2026. The markdown still exists locally; it is simply no longer published.
@@ -57,7 +62,7 @@ remembered key survives a rebuild; delete `.salt` and every device has to unlock
 
 ## Editing the questions
 
-Edit `questions-muscles.json` or `questions-derive.json`, then:
+Edit `questions-muscles.json`, `questions-gym.json` or `questions-derive.json`, then:
 
 ```
 python3 build.py
