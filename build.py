@@ -33,6 +33,7 @@ data = {
     'derive': {
         'name': 'Derive the action',
         'blurb': 'Given only where a muscle attaches, work out what it does when it shortens. Reasoning, not recall.',
+        'round': 10,   # harder thinking per question, so a shorter round
         'q': deck('questions-derive.json'),
     },
 }

@@ -133,7 +133,7 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
   <div id="home">
     <div class="card">
       <h2>Pick a deck</h2>
-      <p class="sub">Twenty questions a round. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
+      <p class="sub">A round is twenty questions, or ten where the thinking is heavier. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
       <div id="decks"></div>
     </div>
     <div class="card">
@@ -200,8 +200,8 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 
 <script>
 const DECKS = __DATA__;
-const ROUND = 20;
-const HARD_SLICE = 5;        // at most this many difficult questions per round
+const ROUND = 20;            // default; a deck may set its own in build.py
+const HARD_FRACTION = 0.25;  // at most this share of a round is difficult questions
 const CLEAR_STREAK = 2;      // correct answers in a row to stop being difficult
 
 const $ = s => document.querySelector(s);
@@ -227,11 +227,12 @@ function shuffle(a){
 /* Build a round: some difficult, the rest weighted toward the least-seen. */
 function buildRound(d){
   const st = load(d), qs = DECKS[d].q.slice();
-  const hard = shuffle(qs.filter(q => isHard(st[q.id]))).slice(0, HARD_SLICE);
+  const size = DECKS[d].round || ROUND;
+  const hard = shuffle(qs.filter(q => isHard(st[q.id]))).slice(0, Math.ceil(size * HARD_FRACTION));
   const hardIds = new Set(hard.map(q => q.id));
   const rest = shuffle(qs.filter(q => !hardIds.has(q.id)))
     .sort((a,b) => ((st[a.id]||{}).seen||0) - ((st[b.id]||{}).seen||0))
-    .slice(0, ROUND - hard.length);
+    .slice(0, size - hard.length);
   return shuffle(hard.concat(rest)).map(q => scramble({...q, hard: hardIds.has(q.id)}));
 }
 
