@@ -2146,5 +2146,1145 @@
   ],
   "a": 0,
   "e": "The hamstrings flex the knee and extend the hip. A curl covers the first and a hip extension movement covers the second. Training only one leaves half the group's function untouched, which is the argument against relying on the curl alone."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Rowing machine: what is the correct sequence of the drive?",
+  "o": [
+   "Legs, then hips and back, then arms",
+   "Arms, then back, then legs",
+   "Legs and arms together, then the back",
+   "Back, then legs, then arms"
+  ],
+  "a": 0,
+  "e": "The strongest segment goes first and the weakest last. Legs drive the seat back, the hips and trunk swing open, and only then do the arms finish the pull. Reversing it means the arms try to move a load the legs should have shifted."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Rowing machine: roughly how is the work distributed?",
+  "o": [
+   "About sixty per cent legs, thirty per cent hips and back, ten per cent arms",
+   "About sixty per cent arms, thirty per cent back, ten per cent legs",
+   "Evenly across legs, back and arms",
+   "Almost entirely the back"
+  ],
+  "a": 0,
+  "e": "It reads as an upper-body machine because that is where the handle is, but it is a leg press with a pull attached. People who feel rowing entirely in their arms and grip are almost always sequencing it backwards."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Rowing machine: what is the most common fault on the recovery?",
+  "o": [
+   "Bending the knees before the handle has passed them, so the handle has to travel over them",
+   "Straightening the arms too early",
+   "Leaning forward too late",
+   "Keeping the back too upright"
+  ],
+  "a": 0,
+  "e": "The recovery reverses the drive: arms away, then hinge forward, then bend the knees. Breaking the knees early puts them in the handle's path, which forces an awkward lift over the top and wastes the stroke."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stationary bike: how should the saddle height be set?",
+  "o": [
+   "So the knee retains a slight bend at the bottom of the pedal stroke, roughly twenty-five to thirty-five degrees",
+   "So the leg fully straightens at the bottom",
+   "So the knee stays at ninety degrees throughout",
+   "So the rider can place both feet flat on the floor while seated"
+  ],
+  "a": 0,
+  "e": "Too low and the knee never opens, which loads the front of the joint and limits power. Too high and the hips rock side to side reaching for the pedal. A small residual bend at the bottom is the target, and it is the single most commonly wrong setting in any gym."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stationary bike: what does a saddle set too high produce?",
+  "o": [
+   "Rocking hips and strain at the back of the knee",
+   "Pain at the front of the knee",
+   "An inability to reach the handlebars",
+   "Excessive quadriceps fatigue only"
+  ],
+  "a": 0,
+  "e": "Reaching for the bottom of the stroke makes the pelvis tip side to side and overextends the knee, which stresses the hamstring attachment behind it. A saddle too low does the opposite and irritates the front of the knee."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Treadmill: what does raising the incline do to the muscular demand?",
+  "o": [
+   "Increases the demand on the hip extensors, the glutes and hamstrings",
+   "Increases the demand on the anterior tibialis",
+   "Reduces the demand on the calf complex",
+   "Shifts the work to the quadriceps only"
+  ],
+  "a": 0,
+  "e": "Climbing requires more hip extension to drive the body upward, so the glutes and hamstrings do more. It is also a way of raising intensity without raising speed, which matters for anyone whose joints do not tolerate faster running."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Treadmill: what is wrong with holding the handrails?",
+  "o": [
+   "It offloads bodyweight, so the work done is less than the display suggests",
+   "It improves posture but reduces balance training",
+   "It has no effect beyond comfort",
+   "It increases the cardiovascular demand"
+  ],
+  "a": 0,
+  "e": "Leaning on the rails transfers part of the body's weight into the arms, so both the muscular and the metabolic cost fall. The machine has no way of knowing, so the calorie and workload readouts become fiction."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stair climber: which muscle group does it emphasise compared with a flat treadmill walk?",
+  "o": [
+   "The hip extensors, especially gluteus maximus",
+   "The anterior tibialis",
+   "The adductors",
+   "The latissimus dorsi"
+  ],
+  "a": 0,
+  "e": "Stepping up is repeated hip and knee extension against bodyweight, which is why it is felt in the glutes. Flat walking has far less hip extension range and demand per step."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Elliptical: what is its defining characteristic?",
+  "o": [
+   "A fixed low-impact path, which reduces joint loading and also reduces the balance demand",
+   "A free path that trains coordination",
+   "Greater muscular demand than running",
+   "A purely upper-body stimulus"
+  ],
+  "a": 0,
+  "e": "The feet never leave the pedals, so impact is low and the stride is dictated by the machine. That makes it useful when impact must be limited, and less useful when the aim is running-specific carry-over."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Assault or air bike: what distinguishes it from a standard stationary bike?",
+  "o": [
+   "The arms drive as well as the legs, so more total muscle mass is working",
+   "It uses magnetic rather than air resistance",
+   "It cannot be used seated",
+   "It loads the arms only"
+  ],
+  "a": 0,
+  "e": "Moving handles mean the upper body contributes, which raises the metabolic cost sharply for the same leg effort. The fan also means resistance rises with effort, so it self-scales rather than needing a level selected."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Ski erg: which muscles does the pulling action emphasise?",
+  "o": [
+   "The latissimus dorsi and triceps, with the trunk flexing to assist",
+   "The biceps and anterior deltoid",
+   "The quadriceps",
+   "The rotator cuff"
+  ],
+  "a": 0,
+  "e": "Pulling from overhead down past the hips is shoulder extension plus elbow extension, which is lats and triceps. The trunk contributes by flexing, which is why it is felt in the abdominals as much as the arms."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "A client wants a cardio machine that loads the hip extensors and tolerates a sore knee. What fits best?",
+  "o": [
+   "An inclined treadmill walk",
+   "A stair climber",
+   "A rowing machine at high resistance",
+   "A leg press performed quickly"
+  ],
+  "a": 0,
+  "e": "Incline walking increases hip extension demand without the repeated deep knee flexion of stair climbing or the compressive load of rowing hard. The last option is not a cardio machine at all."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "What happens to a resistance band's tension through the range?",
+  "o": [
+   "It increases as the band stretches, so the exercise is hardest at the end range",
+   "It stays constant throughout",
+   "It decreases as the band stretches",
+   "It peaks in the middle of the range"
+  ],
+  "a": 0,
+  "e": "Elastic resistance is a function of how far it has been stretched. That makes bands useful where the muscle is strongest at the short end, and a poor match where the hardest part of the lift is at the start."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "What is the defining property of cable resistance compared with a free weight?",
+  "o": [
+   "The line of pull can be set in any direction, and tension stays roughly constant through the range",
+   "It increases through the range like a band",
+   "It requires more stabiliser work than a dumbbell",
+   "It only works vertically"
+  ],
+  "a": 0,
+  "e": "A free weight always pulls straight down, so the difficulty depends on the limb's angle to gravity. A cable pulls toward the pulley wherever that is, which is why it can load positions gravity cannot reach."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "Why is a dumbbell lateral raise hardest when the arm is horizontal?",
+  "o": [
+   "The moment arm between the shoulder and the weight is longest there",
+   "The deltoid is at its weakest length there",
+   "The supraspinatus disengages at that point",
+   "Gravity acts more strongly at that height"
+  ],
+  "a": 0,
+  "e": "The load always falls straight down, so the torque at the shoulder depends on how far the weight is horizontally from the joint. At shoulder height that distance is at its maximum, which is why the last part of the raise feels disproportionately hard."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "Why is a barbell curl hardest at about ninety degrees of elbow flexion?",
+  "o": [
+   "The forearm is horizontal there, so the moment arm at the elbow is longest",
+   "The biceps is fully shortened there",
+   "The brachialis disengages at that angle",
+   "The wrist flexors take over past that point"
+  ],
+  "a": 0,
+  "e": "Same principle as the lateral raise. Torque is the weight multiplied by its horizontal distance from the joint, and that distance peaks when the moving segment is parallel to the floor. Nothing about the muscle changes; the leverage does."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "Where is a squat hardest, and why?",
+  "o": [
+   "Near the bottom, where the hips and knees are most flexed and the moment arms are longest",
+   "At the top, where the bar is highest",
+   "In the middle, where speed is greatest",
+   "At the point where the knees pass the toes"
+  ],
+  "a": 0,
+  "e": "Depth increases the horizontal distance from the bar to both the hip and the knee, which is what makes the torque demand peak there. It is also why partial squats allow so much more weight without training the hard part."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "How does a well-designed machine cam try to improve on a free weight?",
+  "o": [
+   "By varying the resistance through the range to match the strength curve of the movement",
+   "By removing the eccentric phase",
+   "By increasing resistance continuously like a band",
+   "By eliminating the need to stabilise"
+  ],
+  "a": 0,
+  "e": "A free weight is hardest where the leverage is worst, not where the muscle is strongest. A cam alters the effective load through the range to fit the muscle better. Whether any given machine succeeds is a separate question."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "What does a dumbbell bench press offer over a barbell version?",
+  "o": [
+   "A greater range of motion and more stabiliser demand, at the cost of absolute load",
+   "More absolute load for the same effort",
+   "Less shoulder involvement",
+   "A fixed path that is easier to learn"
+  ],
+  "a": 0,
+  "e": "The hands are free, so they can travel lower than a bar would allow and must be controlled independently. That is more range and more demand on the small stabilising muscles, and it is why the same person presses less with dumbbells."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "Why can a kettlebell be swung in ways a dumbbell cannot?",
+  "o": [
+   "The mass hangs below and away from the handle, which suits ballistic and rotational movements",
+   "It is always heavier",
+   "It has a fixed centre of mass at the handle",
+   "It cannot be used for slow lifts"
+  ],
+  "a": 0,
+  "e": "The offset centre of mass creates an arc and a pendulum effect, which is what makes swings, cleans and snatches work. A dumbbell's mass sits in line with the hand, which suits controlled lifting rather than ballistics."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "What does adding chains or bands to a barbell achieve?",
+  "o": [
+   "Accommodating resistance: the load increases as the lift progresses into its stronger range",
+   "A reduction in load at the top of the lift",
+   "A constant load with less bar whip",
+   "An increase in stabiliser demand only"
+  ],
+  "a": 0,
+  "e": "Most lifts are weakest at the bottom and strongest near lockout, so a constant barbell load underloads the top. Chains lift off the floor and bands stretch as the bar rises, adding resistance where there is capacity for it."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "A client cannot load a movement heavily but needs a challenge at the end range. What implement suits?",
+  "o": [
+   "A band, which is hardest where it is most stretched",
+   "A dumbbell",
+   "A kettlebell",
+   "A weight stack machine with a cam"
+  ],
+  "a": 0,
+  "e": "The band's ascending profile puts the hardest part where the muscle is short, which is exactly the end range. It is why bands suit things like glute bridges and external rotation work where the top is otherwise trivially easy."
+ },
+ {
+  "t": "Implement and resistance",
+  "q": "Why does a cable lateral raise feel different from a dumbbell one?",
+  "o": [
+   "The cable maintains tension at the bottom, where a dumbbell's moment arm is nearly zero",
+   "The cable is heavier at the top",
+   "The cable removes the supraspinatus",
+   "The cable changes the prime mover"
+  ],
+  "a": 0,
+  "e": "With the arm hanging, a dumbbell produces almost no torque at the shoulder because it sits directly under the joint. A cable pulling from the side keeps loading it there, which is why the bottom of the range suddenly has something to do."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Sumo against conventional deadlift: what changes?",
+  "o": [
+   "Sumo gives a more upright torso, a shorter bar path and more adductor and quadriceps involvement",
+   "Sumo increases spinal loading and range",
+   "Conventional removes the hamstrings",
+   "They are mechanically identical"
+  ],
+  "a": 0,
+  "e": "The wide stance lowers the hips, shortens the distance the bar travels and turns the femurs out, which brings the adductors in and reduces the forward lean. Neither is easier in general; they suit different proportions."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "High-bar against low-bar back squat: what changes?",
+  "o": [
+   "Low bar allows more forward lean and more hip contribution; high bar keeps the torso upright and loads the knees more",
+   "High bar increases hip involvement",
+   "Low bar removes the quadriceps",
+   "Bar position changes only comfort"
+  ],
+  "a": 0,
+  "e": "Where the bar sits determines the torso angle needed to keep it over the midfoot. Further down the back means more lean and a longer moment arm at the hip. Same exercise name, meaningfully different distribution."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Leg press against hack squat: what is the practical difference?",
+  "o": [
+   "The hack squat keeps the torso upright and the body moving, which feels closer to a squat; the leg press keeps the back supported and the body fixed",
+   "The leg press loads the hamstrings and the hack squat does not",
+   "They load entirely different muscles",
+   "The hack squat removes the quadriceps"
+  ],
+  "a": 0,
+  "e": "Both extend the knee and hip against a fixed path. The difference is orientation and how much of the body moves, which affects comfort and spinal loading more than it affects which muscles work."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Pull-up against lat pulldown: what is the substantive difference?",
+  "o": [
+   "The pull-up moves the body toward a fixed bar and cannot be loaded below bodyweight without assistance",
+   "The pulldown trains different muscles",
+   "The pull-up removes the biceps",
+   "The pulldown allows no scapular movement"
+  ],
+  "a": 0,
+  "e": "The muscle actions are the same. What differs is what moves and how the load is set: the pulldown lets you select anything from very light upward, while the pull-up starts at your bodyweight and needs a machine or a band to go lower."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Seated row against bent-over barbell row: what does the seated version remove?",
+  "o": [
+   "The demand on the erectors and hips to hold a hinged position under load",
+   "The latissimus dorsi",
+   "The biceps",
+   "The scapular retractors"
+  ],
+  "a": 0,
+  "e": "The pulling is much the same. Sitting with the chest supported removes the isometric back and hip work that makes the bent-over version fatiguing well beyond the muscles being trained."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Front squat against back squat: which is more limited by upper-back strength?",
+  "o": [
+   "The front squat, since the load must be held in front and resists trunk flexion",
+   "The back squat, because the bar sits on the traps",
+   "Neither; both are limited by the legs",
+   "Both equally"
+  ],
+  "a": 0,
+  "e": "A front-racked bar constantly tries to pull the torso forward, so the thoracic extensors and the rack position often fail before the legs do. It is why many people front squat considerably less than they back squat."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Incline against flat dumbbell press: what actually changes?",
+  "o": [
+   "The angle of the humerus to the torso, which shifts emphasis toward the clavicular pec and anterior deltoid",
+   "The muscles involved change completely",
+   "The triceps are removed",
+   "The range of motion decreases"
+  ],
+  "a": 0,
+  "e": "Pec major inserts at one point but originates along the clavicle, sternum and ribs. Changing the torso angle changes which fibres are best aligned with the movement, and tilting up also brings the movement closer to shoulder flexion."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Goblet squat against back squat for a beginner: what is the argument for the goblet?",
+  "o": [
+   "The front-loaded position self-corrects trunk posture and limits the load to what can be held",
+   "It loads the legs more heavily",
+   "It removes the need for ankle mobility",
+   "It trains different muscles"
+  ],
+  "a": 0,
+  "e": "Holding weight at the chest makes rounding forward difficult and caps the load at what the arms can support, which is usually well within what the back can tolerate. It teaches the pattern with a built-in safety limit."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client cannot perform a full push-up. What is the first regression to try?",
+  "o": [
+   "Raise the hands onto a bench or box, reducing the proportion of bodyweight carried",
+   "Drop to the knees immediately",
+   "Reduce the range to the top few inches",
+   "Move to a machine chest press"
+  ],
+  "a": 0,
+  "e": "Elevating the hands keeps the whole body in one line and simply tilts it, which reduces load while preserving the pattern and the trunk demand. Going to the knees also works but removes the hip and trunk position that makes a push-up worth doing."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "How would you make a push-up harder without adding external weight?",
+  "o": [
+   "Elevate the feet, increasing the share of bodyweight over the hands",
+   "Widen the hands as far as possible",
+   "Increase the repetitions only",
+   "Hold the top position"
+  ],
+  "a": 0,
+  "e": "Tilting the body the other way shifts more mass toward the shoulders. It is the same adjustment as the regression, run in reverse, which is why hand and foot height is the main dial on any press-up variation."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client cannot do a single pull-up. Which progression preserves the movement best?",
+  "o": [
+   "Band-assisted pull-ups or slow eccentric-only lowers from the top",
+   "Lat pulldowns exclusively",
+   "Bicep curls to build arm strength",
+   "Isometric holds at the bottom"
+  ],
+  "a": 0,
+  "e": "Both options keep the actual movement and reduce the load or use only the strong phase. A pulldown is a reasonable supplement but never requires moving bodyweight, which is the specific capacity being built."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "What is the standard regression when a client cannot squat to depth without rounding?",
+  "o": [
+   "Squat to a box set at the depth they can control",
+   "Add weight to force better position",
+   "Squat on an unstable surface",
+   "Increase the repetitions at partial depth"
+  ],
+  "a": 0,
+  "e": "A box gives an unambiguous target and stops the descent before the spine gives way. It also lets depth be lowered a little at a time, which turns depth into a progression rather than a pass or fail."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "What makes a deadlift easier without reducing the weight on the bar?",
+  "o": [
+   "Starting from an elevated position, such as a rack pull",
+   "Starting from a deficit",
+   "Using a wider grip",
+   "Holding at the top for longer"
+  ],
+  "a": 0,
+  "e": "Raising the start shortens the range and skips the hardest part off the floor, where the leverages are worst. Standing on a plate does the reverse, which is why a deficit is the harder variant rather than the easier one."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client cannot hold a plank with a neutral spine for more than a few seconds. What do you change first?",
+  "o": [
+   "Raise the hands onto a bench, shortening the lever",
+   "Add a weight to the back",
+   "Extend the hold time and accept the sagging",
+   "Move to a side plank instead"
+  ],
+  "a": 0,
+  "e": "Shortening the lever reduces the demand while the position is still being held correctly. Accepting a poor position trains the compensation rather than the muscle, and time is only a useful variable once the position holds."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "Put these in order from easiest to hardest: walking lunge, static split squat, Bulgarian split squat.",
+  "o": [
+   "Static split squat, walking lunge, Bulgarian split squat",
+   "Walking lunge, static split squat, Bulgarian split squat",
+   "Bulgarian split squat, static split squat, walking lunge",
+   "Static split squat, Bulgarian split squat, walking lunge"
+  ],
+  "a": 0,
+  "e": "Standing still in a split stance is the most stable. Walking adds the transition and the balance demand of each step. Elevating the rear foot removes its contribution and increases the front hip's range, which makes it the hardest of the three."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "What is the correct progression of surfaces for balance work?",
+  "o": [
+   "Floor, then balance beam, then half foam roll, foam pad, balance disc, wobble board, BOSU ball",
+   "BOSU ball first, then progressively firmer surfaces",
+   "Foam pad, then floor, then wobble board",
+   "Any order, since all are equally unstable"
+  ],
+  "a": 0,
+  "e": "The sequence runs from most stable to least. Working backwards down it is a regression rather than a progression, which is why a balance disc to a BOSU is a valid step and the reverse is not."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "According to the progression hierarchy, what should be the last variable you change?",
+  "o": [
+   "The load",
+   "The tempo",
+   "The rest between sets",
+   "The exercise selection"
+  ],
+  "a": 0,
+  "e": "Pace, set length, rest, exercise choice and reducing feedback all come first. Adding weight is the final option because it is the crudest, and reaching for it first hides all the other progress that was available."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client can hold a single-leg stance but wobbles. What is the next step rather than making it harder?",
+  "o": [
+   "Hold the same position longer or add a reaching movement while keeping the foot planted",
+   "Move immediately to a BOSU ball",
+   "Add a weight to the hand",
+   "Close the eyes"
+  ],
+  "a": 0,
+  "e": "Consolidate before destabilising. Adding time or a controlled limb movement raises the demand within a position that is nearly mastered, where an unstable surface or removing vision usually collapses the pattern entirely."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "How do you regress a Nordic curl?",
+  "o": [
+   "Use a band for assistance or restrict the range to the portion that can be controlled",
+   "Perform it faster",
+   "Add weight to the upper body",
+   "Switch to a leg extension"
+  ],
+  "a": 0,
+  "e": "The exercise is defined by controlled lengthening, so the two useful dials are how much help is given and how far down the control extends. Speeding it up removes the eccentric quality that is the whole point."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "How would you progress a glute bridge?",
+  "o": [
+   "Elevate the feet, move to a single leg, then add external load across the hips",
+   "Increase the repetitions indefinitely",
+   "Add an unstable surface under the shoulders",
+   "Hold at the bottom instead of the top"
+  ],
+  "a": 0,
+  "e": "Range, then limb number, then load. Each step raises the demand on the same pattern in a defined order, which is what a progression is, as distinct from simply doing more of the easy version."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "Seated to standing to single-arm overhead press: what is being progressed?",
+  "o": [
+   "The stability demand, increasing from a supported trunk to an unsupported and asymmetrically loaded one",
+   "The load on the deltoid, which rises each step",
+   "The range of motion at the shoulder",
+   "The elbow extension demand"
+  ],
+  "a": 0,
+  "e": "The pressing muscles do the same job throughout. What changes is how much the trunk and hips must resist, first the load tipping you back, then the load twisting you sideways. Weight usually has to fall at each step."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client finds a Romanian deadlift uncomfortable in the lower back. What is the most useful first change?",
+  "o": [
+   "Reduce the range to where they can hold a neutral spine, and check the movement is coming from the hips",
+   "Add weight to force better bracing",
+   "Round the back deliberately to reduce hamstring tension",
+   "Switch to a full deadlift from the floor"
+  ],
+  "a": 0,
+  "e": "The exercise is defined by the spine staying still while the hips move. If the back is complaining, either the range has exceeded hamstring length or the spine is moving. Shortening the range fixes the first and exposes the second."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "What makes a carry harder without changing the weight?",
+  "o": [
+   "Holding it on one side only, or overhead rather than at the side",
+   "Walking faster",
+   "Walking further",
+   "Using a thicker handle"
+  ],
+  "a": 0,
+  "e": "Position changes the demand more than distance does. One-sided loading adds an anti-lateral-flexion requirement, and overhead adds a shoulder stability requirement. Distance and speed change the conditioning element rather than the stability one."
+ },
+ {
+  "t": "Easier or harder",
+  "q": "A client can leg press comfortably but cannot squat. What does that tell you?",
+  "o": [
+   "The limitation is probably balance, trunk control or mobility rather than leg strength",
+   "Their quadriceps are too weak for squatting",
+   "The leg press is a harder exercise",
+   "They require a heavier load to learn the pattern"
+  ],
+  "a": 0,
+  "e": "The leg press supports the back, fixes the path and removes balance. If the legs can press a substantial load, the missing pieces are the things the machine was providing. That is where to look rather than at leg strength."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "The lat pulldown is occupied. What is the closest substitute?",
+  "o": [
+   "A band pulldown anchored overhead, or an assisted pull-up",
+   "A seated row",
+   "A bicep curl",
+   "A face pull"
+  ],
+  "a": 0,
+  "e": "The defining feature is resistance from overhead producing shoulder adduction. A band or an assisted pull-up keeps that line of pull; a row changes it to horizontal, which trains an overlapping but different emphasis."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No leg curl machine. How do you train the hamstrings at their knee end?",
+  "o": [
+   "A Nordic curl, a sliding leg curl or a band leg curl",
+   "A Romanian deadlift",
+   "A back extension",
+   "A leg press"
+  ],
+  "a": 0,
+  "e": "Knee flexion against resistance is the requirement. All three substitutes provide it. The other options are all hip extension, which trains the same muscles through their other action and is not a replacement."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No bench available. What replaces a barbell bench press?",
+  "o": [
+   "A floor press or a push-up variation",
+   "A shoulder press",
+   "A lat pulldown",
+   "A dip"
+  ],
+  "a": 0,
+  "e": "A floor press keeps the horizontal pressing pattern with a shortened range. Push-ups keep it with bodyweight. A dip is closer to a decline press and involves much more shoulder extension, so it is a substitute with a caveat."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No barbell for hip thrusts. What are the options?",
+  "o": [
+   "A single-leg glute bridge, a band around the hips, or dumbbells held across the pelvis",
+   "A leg extension",
+   "A seated calf raise",
+   "A back squat"
+  ],
+  "a": 0,
+  "e": "The requirement is resistance to hip extension with peak load near lockout. Removing a leg, adding a band or holding weight on the hips all achieve it. A squat loads the same muscle but peaks at the opposite end of the range."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No calf machine. What is the substitute?",
+  "o": [
+   "A single-leg standing calf raise off a step, holding a dumbbell if needed",
+   "A leg press with the feet high",
+   "A seated leg curl",
+   "A wall sit"
+  ],
+  "a": 0,
+  "e": "Removing a leg doubles the relative load and a step restores the full range. Knee position still selects between gastrocnemius and soleus, so bend the knee if soleus is the target."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No cable machine. What replaces cable work most faithfully?",
+  "o": [
+   "Resistance bands, since both allow the line of pull to be set in any direction",
+   "Dumbbells",
+   "A barbell",
+   "Machines with fixed paths"
+  ],
+  "a": 0,
+  "e": "Direction is the property that matters. Only a band can be anchored anywhere and pull from that angle. The trade-off is that tension rises through the range where a cable's stays roughly constant."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No leg extension machine, and the client needs knee extension work without loading the spine. What works?",
+  "o": [
+   "A Spanish squat with a band behind the knees, or a reverse Nordic",
+   "A back squat",
+   "A walking lunge",
+   "A stiff-legged deadlift"
+  ],
+  "a": 0,
+  "e": "Both substitutes load knee extension with the trunk near vertical and no external load on the shoulders. A reverse Nordic also lengthens rectus femoris at the hip, which the machine cannot do at all."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "Travelling with no equipment and the goal is hip extension strength. What is the best available option?",
+  "o": [
+   "Single-leg glute bridges and single-leg hinge patterns",
+   "Bodyweight squats",
+   "Push-ups",
+   "Plank holds"
+  ],
+  "a": 0,
+  "e": "Removing a leg is the only way to raise relative load without equipment. Both options keep the emphasis on hip extension, where a bodyweight squat shares the work with the knee and is usually too easy to be a stimulus."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "No rowing machine. What trains the same movement pattern?",
+  "o": [
+   "A hip hinge combined with a horizontal pull, for example a bent-over row alternated with an RDL",
+   "A lat pulldown",
+   "A leg press",
+   "A bicep curl"
+  ],
+  "a": 0,
+  "e": "The stroke is a leg drive, a hip extension and a pull. No single substitute reproduces the sequence, so the honest answer is to train the components. The conditioning element needs a separate machine."
+ },
+ {
+  "t": "No equipment for that",
+  "q": "A client has only a set of light dumbbells and needs a genuine lower-body stimulus. What is the strategy?",
+  "o": [
+   "Use single-leg variations, so the light load becomes a meaningful relative load",
+   "Increase repetitions into the hundreds",
+   "Focus on upper body instead",
+   "Add jumping to every exercise"
+  ],
+  "a": 0,
+  "e": "Halving the base of support roughly doubles the load per leg before anything is held. That turns light dumbbells into an adequate stimulus for split squats, single-leg RDLs and step-ups, which repetitions alone will not do."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "Where should a spotter stand and place their hands for a barbell bench press?",
+  "o": [
+   "Behind the head of the bench, hands close to the bar without touching it, using an alternating grip if assistance is needed",
+   "At the side of the bench with hands on the lifter's elbows",
+   "Behind the head with hands on the lifter's wrists",
+   "Standing over the lifter with hands on the bar throughout"
+  ],
+  "a": 0,
+  "e": "The bar is what needs catching, so the spotter is positioned to take it and stays close without adding or subtracting force. Spotting the wrists or elbows gives no control of the bar, and holding it throughout means neither party knows what the lifter lifted."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "What is the correct way to bail out of a heavy dumbbell bench press alone?",
+  "o": [
+   "Lower the dumbbells out to the sides and set them down, keeping control of both",
+   "Let them fall behind the head",
+   "Drop them straight down onto the chest",
+   "Roll them up the torso to the knees"
+  ],
+  "a": 0,
+  "e": "Sideways is the one direction that is clear of the body and the floor space of others. Behind the head risks the shoulders and anyone walking past, and letting them fall inward is exactly what a spotter exists to prevent."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "How should the safety pins in a squat rack be set?",
+  "o": [
+   "Just below the lowest point the bar reaches, so a failed rep can be set down without dropping",
+   "At the height of the lifter's shoulders",
+   "At the very bottom of the rack",
+   "They are unnecessary if a spotter is present"
+  ],
+  "a": 0,
+  "e": "The pins have to catch the bar in the failure position, which means just below the bottom of the movement. Set too high and they block the rep, set too low and the lifter is pinned before they engage."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "How do you spot a barbell back squat?",
+  "o": [
+   "Stand close behind the lifter and, if needed, assist around the chest or under the arms, moving with them",
+   "Hold the bar throughout the set",
+   "Stand to one side and hold one end of the bar",
+   "Hold the lifter's hips"
+  ],
+  "a": 0,
+  "e": "The lifter and the bar move as one unit, so the spot supports the whole torso. A one-sided spot on the bar would tip it, and holding the hips does not stop the bar descending."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "What is the reason for using collars on a loaded barbell?",
+  "o": [
+   "They stop the plates sliding off if the bar tilts, which would send the load asymmetric instantly",
+   "They increase the total weight measurably",
+   "They prevent the bar spinning",
+   "They are only needed for competition"
+  ],
+  "a": 0,
+  "e": "An uneven bar is the danger, not a plate hitting the floor. If one side slides while the other does not, the bar becomes suddenly asymmetric under load, which is how people get injured on lifts they can otherwise handle."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "What is the safest way to fail a deadlift?",
+  "o": [
+   "Keep hold and lower it under control, or set it down before the position breaks down",
+   "Release the bar at the top and step back",
+   "Drop it from mid-shin height",
+   "Twist to one side while lowering"
+  ],
+  "a": 0,
+  "e": "A deadlift is the one big lift where failure has a safe default, because the bar can simply go back where it came from. Dropping it risks feet and bar; twisting under load is how backs get hurt."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "What should a spotter establish before the set begins?",
+  "o": [
+   "How many repetitions are intended, whether a lift-off is wanted, and what cue signals help",
+   "The lifter's one-rep maximum",
+   "Whether the lifter prefers a wide or close grip",
+   "The rest interval to be used"
+  ],
+  "a": 0,
+  "e": "A spot only works if both people expect the same thing. Ambiguity about when to intervene is what produces either a ruined set or a missed catch. The conversation costs ten seconds."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "Why should a treadmill's safety clip be attached?",
+  "o": [
+   "It stops the belt if the user falls or moves too far back",
+   "It measures heart rate",
+   "It records the workout data",
+   "It prevents the incline changing"
+  ],
+  "a": 0,
+  "e": "The clip is a dead man's switch. Without it, a fall means the belt keeps running under the person on it, which is the mechanism behind most treadmill injuries."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "What is the risk when returning a heavy cable or weight stack at the end of a set?",
+  "o": [
+   "Letting it drop uncontrolled, which can jolt the joint under load and damage the machine",
+   "Returning it too slowly",
+   "Standing too close to the stack",
+   "Using both hands"
+  ],
+  "a": 0,
+  "e": "The last eccentric is still a loaded eccentric, and releasing suddenly puts a jerk through the joint at its end range. Controlling the return to the stack is part of the set, not an afterthought."
+ },
+ {
+  "t": "Spotting and safety",
+  "q": "A client is pressing overhead and the bar starts drifting forward. What is the appropriate action?",
+  "o": [
+   "Have them lower it under control to the shoulders, since the forward drift means the lift has already failed",
+   "Push the elbows from behind to help finish it",
+   "Have them lean back further to complete the rep",
+   "Have them let go and step back"
+  ],
+  "a": 0,
+  "e": "Once the bar is forward of the shoulder it cannot be pressed up, and leaning back to compensate loads the lumbar spine instead. Bringing it down to the front rack is the controlled way out. Overhead lifts are poorly suited to spotting at all."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "What usually determines the hardest point of a free-weight exercise?",
+  "o": [
+   "Where the moving segment is closest to horizontal, since the moment arm to the joint is longest there",
+   "Where the muscle is fully shortened",
+   "Where the bar is moving fastest",
+   "Where the joint is at its end range"
+  ],
+  "a": 0,
+  "e": "Torque is the load multiplied by its horizontal distance from the joint. That distance peaks when the limb or the bar is furthest out sideways, which is almost always where the lift stalls. The muscle's own strength curve matters less than the geometry."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a bench press hardest, and why?",
+  "o": [
+   "Near the chest, where the horizontal distance from the bar to the shoulder is greatest",
+   "At lockout, where the triceps are shortest",
+   "In the middle, where the bar moves fastest",
+   "At the moment the bar leaves the rack"
+  ],
+  "a": 0,
+  "e": "At the bottom the upper arm is furthest from the shoulder joint horizontally, so the torque demand peaks. Lockout is easy because the bar sits almost directly over the joint. It is why a board press or a pin press allows so much more weight."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a dip hardest?",
+  "o": [
+   "At the bottom, where the shoulder is most extended and the elbow most flexed",
+   "At lockout",
+   "At the midpoint",
+   "It is constant throughout"
+  ],
+  "a": 0,
+  "e": "Depth increases the distance from the hands to both the shoulder and the elbow, so both joints face their largest demand at once. That is also the position most likely to trouble a shoulder, which is why depth is worth choosing deliberately."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is an overhead press hardest for most people?",
+  "o": [
+   "Just above the shoulders, before the bar passes the head",
+   "At full lockout overhead",
+   "At the moment of unracking",
+   "At the bottom of the descent"
+  ],
+  "a": 0,
+  "e": "Starting from the shoulders, the bar is at its furthest horizontal distance from the shoulder joint and the deltoid has poor leverage. Once it is overhead the load sits almost above the joint and the position becomes a matter of stability rather than force."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a lying leg curl hardest?",
+  "o": [
+   "At the start, with the shin horizontal and the moment arm at the knee longest",
+   "At full knee flexion",
+   "In the middle of the range",
+   "At the point the hips lift off the pad"
+  ],
+  "a": 0,
+  "e": "With the leg straight, the pad sits furthest horizontally from the knee. As the knee bends, the shin rotates upward and the moment arm shortens, so the exercise gets easier exactly as the hamstrings shorten. Machines with a cam try to correct that."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a seated leg extension hardest?",
+  "o": [
+   "At full extension, with the shin horizontal",
+   "At the start, with the knee fully bent",
+   "In the middle of the range",
+   "At the point the hips leave the seat"
+  ],
+  "a": 0,
+  "e": "The moment arm at the knee is longest when the shin is parallel to the floor, which is the finish. That is also where the quadriceps are shortest, which is why the last few degrees are where people fail and why the top of the range gets cut."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a Romanian deadlift hardest?",
+  "o": [
+   "At the bottom, where the bar is furthest horizontally from the hip",
+   "At lockout",
+   "At the midpoint",
+   "Where the knees begin to bend"
+  ],
+  "a": 0,
+  "e": "Hinging forward increases the horizontal distance from the bar to the hip joint, which is what makes the bottom the demanding part. It also coincides with the hamstrings being at their longest, which is why range should be set by position rather than ambition."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a hip thrust hardest?",
+  "o": [
+   "At the top, with the hip extended and the bar highest",
+   "At the bottom",
+   "In the middle",
+   "It is constant throughout"
+  ],
+  "a": 0,
+  "e": "At lockout the bar sits directly above the hip with the shin vertical, which is where the moment arm peaks. That is the opposite of a squat and the reason both are worth doing: peak demand at opposite ends of the same muscle's range."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Where is a pull-up hardest for most people?",
+  "o": [
+   "Near the top, as the chin approaches the bar",
+   "At the very bottom, from a dead hang",
+   "At the midpoint",
+   "During the descent"
+  ],
+  "a": 0,
+  "e": "Approaching the bar means the elbow is deeply flexed and the shoulder nearly fully adducted, so both the lats and the elbow flexors are short and at poor leverage. It is why partial pull-ups from the bottom are comparatively easy."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Why does restricting an exercise to a partial range allow so much more weight?",
+  "o": [
+   "The restricted portion usually avoids the position where the moment arm is longest",
+   "Muscles are stronger when they contract less",
+   "Shorter ranges recruit more motor units",
+   "The nervous system adapts faster"
+  ],
+  "a": 0,
+  "e": "Partial ranges skip the hard part by definition. That is legitimate when the aim is to overload a specific portion or to work around an injury, and misleading when it is treated as the same lift with a bigger number on it."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "What is a sticking point, stated mechanically?",
+  "o": [
+   "The joint angle at which the demand exceeds what can be produced, usually where the moment arm peaks",
+   "The point at which the muscle runs out of glycogen",
+   "The moment the nervous system inhibits the movement",
+   "The top of the range, where the muscle is shortest"
+  ],
+  "a": 0,
+  "e": "It is where torque required crosses torque available. Since required torque peaks with the moment arm, the sticking point is usually predictable from geometry rather than being a mysterious property of the lifter."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "How does accommodating resistance address the mismatch between load and leverage?",
+  "o": [
+   "It adds resistance as the lift moves into the range where leverage improves",
+   "It reduces resistance at the bottom of the lift",
+   "It keeps resistance perfectly constant",
+   "It removes the eccentric phase"
+  ],
+  "a": 0,
+  "e": "A constant barbell load is matched to the hardest point and is therefore too light everywhere else. Bands and chains add load as the bar rises into stronger positions, which is why they are used on presses and deadlifts rather than on curls."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "A plank gets harder the longer it is held. Why is that different from the other exercises here?",
+  "o": [
+   "Nothing is moving, so the difficulty comes from accumulating fatigue rather than from a changing moment arm",
+   "The moment arm increases as the hips drop",
+   "The muscle shortens progressively",
+   "The load increases with time"
+  ],
+  "a": 0,
+  "e": "Isometric holds have one position and one demand. What changes is the muscle's capacity to keep meeting it. That is why a plank is progressed by lever length or added load rather than by finding a harder point in the range."
+ },
+ {
+  "t": "Where it is hardest",
+  "q": "Why does a cable keep a lateral raise hard at the bottom where a dumbbell does not?",
+  "o": [
+   "The cable's line of pull is sideways, so torque exists even with the arm hanging",
+   "The cable is heavier at the bottom",
+   "The cable engages the supraspinatus earlier",
+   "Gravity acts differently on a cable"
+  ],
+  "a": 0,
+  "e": "A hanging dumbbell sits almost directly below the shoulder, so its moment arm is near zero and the bottom of the range is free. A cable pulling horizontally still produces torque there, which is why the two versions feel unrelated despite being the same movement."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stationary bike: how should the saddle's fore and aft position be set?",
+  "o": [
+   "So the front knee sits roughly over the pedal spindle when the crank is horizontal",
+   "As far forward as it will go",
+   "So the knee is behind the heel at the bottom",
+   "It has no effect and only height matters"
+  ],
+  "a": 0,
+  "e": "Fore and aft position sets where the force is applied relative to the knee. Too far back overextends the reach and loads the back of the knee; too far forward pushes the knee past the foot. Knee over spindle is the working reference."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stationary bike: what does a saddle set too low cause?",
+  "o": [
+   "Excessive knee flexion through the stroke and load on the front of the knee",
+   "Rocking hips",
+   "Strain behind the knee",
+   "An inability to keep the feet on the pedals"
+  ],
+  "a": 0,
+  "e": "Never letting the knee open keeps it in deep flexion under load, which is the classic setup cause of anterior knee pain on a bike. It is the opposite failure to a saddle set too high."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Rowing machine: what does the damper setting actually change?",
+  "o": [
+   "How much air enters the flywheel housing, which changes how the stroke feels rather than the resistance level",
+   "The total resistance, like a weight stack",
+   "The stroke rate the machine allows",
+   "The distance recorded per stroke"
+  ],
+  "a": 0,
+  "e": "The damper controls airflow, so a high setting feels heavy and slow and a low setting feels light and fast. Power output depends on how hard you pull, not on where the lever sits, which is why a high damper is not a harder workout by itself."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Rowing machine: what does a high stroke rate with low power output usually indicate?",
+  "o": [
+   "Rushing the recovery and pulling with the arms rather than driving with the legs",
+   "Excellent technique and efficiency",
+   "A damper set too high",
+   "A seat set too far back"
+  ],
+  "a": 0,
+  "e": "Power comes from the legs, which take time to apply. Fast, weak strokes are the signature of someone moving the handle rather than the flywheel. Slowing the rate and driving harder usually raises output immediately."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Treadmill: why is a one per cent incline sometimes recommended for running?",
+  "o": [
+   "It approximates the air resistance and effort of running the same speed outdoors",
+   "It reduces impact on the knees",
+   "It prevents the belt slipping",
+   "It increases calorie burn substantially"
+  ],
+  "a": 0,
+  "e": "A belt moving under you removes the cost of displacing air and driving yourself forward across ground. A small incline is the usual correction so that treadmill pace and outdoor pace mean roughly the same thing."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Why are handrail heart rate sensors on cardio machines unreliable?",
+  "o": [
+   "Grip pressure, sweat and movement all disturb the contact, and holding on changes the workload anyway",
+   "They measure blood pressure rather than heart rate",
+   "They only work at low intensities",
+   "They are calibrated for one body size"
+  ],
+  "a": 0,
+  "e": "The measurement needs steady skin contact, which a moving, sweating hand does not provide. Beyond that, holding the rails offloads bodyweight, so the reading and the workload are both altered by the act of taking it."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Elliptical: what does increasing the stride length change?",
+  "o": [
+   "The range of hip and knee movement, and therefore the muscular demand per stride",
+   "Only the calorie readout",
+   "The resistance level",
+   "The impact on the joints"
+  ],
+  "a": 0,
+  "e": "A longer stride means more hip extension and flexion per cycle, which asks more of the hip musculature. It is the equivalent of changing range of motion on any other exercise, and it is routinely left on the default."
+ },
+ {
+  "t": "Cardio machines",
+  "q": "Stair climber: what does leaning on the handrails do?",
+  "o": [
+   "Transfers bodyweight into the arms, reducing the hip extension demand the machine exists to provide",
+   "Improves posture and safety without cost",
+   "Increases the cardiovascular demand",
+   "Changes the muscles worked to the upper body"
+  ],
+  "a": 0,
+  "e": "The point of the machine is repeatedly lifting bodyweight with the hips. Taking weight through the arms removes exactly that. It is the same problem as holding a treadmill's rails, and it is more common because the machine is harder."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Glute bridge against barbell hip thrust: what is the real difference?",
+  "o": [
+   "Range of motion, since the shoulders are on the floor in a bridge and elevated in a thrust",
+   "The muscles worked are different",
+   "The bridge loads the hamstrings and the thrust the glutes",
+   "There is no meaningful difference"
+  ],
+  "a": 0,
+  "e": "Elevating the shoulders lets the hip start in more flexion, so the range is longer and the glutes work through more of it. Same pattern, same peak position, more range and usually more load."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Stiff-legged deadlift against Romanian deadlift: what distinguishes them?",
+  "o": [
+   "The stiff-legged version keeps the knees almost locked and usually starts from the floor; the RDL keeps a soft knee and starts from the top",
+   "They are the same exercise under two names",
+   "The RDL involves no hip movement",
+   "The stiff-legged version loads the quadriceps"
+  ],
+  "a": 0,
+  "e": "Both are hinges. The differences are knee angle and starting point, which change how much hamstring length is demanded and how much of the lift happens near the floor. The names are often used loosely, which is worth knowing when reading a programme."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Chin-up against pull-up: what changes besides grip?",
+  "o": [
+   "The supinated grip increases biceps contribution and slightly alters the shoulder's line of adduction",
+   "The chin-up removes the latissimus dorsi",
+   "The pull-up removes the biceps",
+   "Only the grip comfort changes"
+  ],
+  "a": 0,
+  "e": "Supinating puts the biceps in its strongest position, since it both flexes the elbow and supinates. Most people manage more chin-ups than pull-ups for that reason, and neither version leaves the arms out."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Cable crossover against a pec deck: what is the substantive difference?",
+  "o": [
+   "The crossover leaves the path free and the elbow angle variable; the pec deck fixes both",
+   "The crossover trains a different muscle",
+   "The pec deck allows more range",
+   "The crossover removes the anterior deltoid"
+  ],
+  "a": 0,
+  "e": "Both produce horizontal adduction. A cable lets the hands cross the midline and the elbow bend as it likes, which adds range and stabiliser demand. The machine trades that away for a fixed, easily loaded path."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "T-bar row against chest-supported row: what does the chest support remove?",
+  "o": [
+   "The isometric demand on the hips and lower back to hold the hinged position",
+   "The latissimus dorsi",
+   "The scapular retractors",
+   "The biceps"
+  ],
+  "a": 0,
+  "e": "The pulling is the same. Supporting the torso removes the fatigue and the spinal loading of holding yourself bent over, which is why chest-supported rowing is the choice when the back is the limiting factor rather than the target."
+ },
+ {
+  "t": "Two that look alike",
+  "q": "Smith machine squat against a free barbell squat: what is the trade-off?",
+  "o": [
+   "A fixed bar path removes the balance and stabiliser demand, and also removes the freedom to find a natural path",
+   "The Smith machine increases stabiliser demand",
+   "The Smith machine trains different muscles",
+   "There is no trade-off; it is simply safer"
+  ],
+  "a": 0,
+  "e": "The track is both the benefit and the cost. It lets the load be pushed without balancing it, which suits some rehabilitation and some isolation goals, and it forces a path the joints may not want, which is the reason it suits others badly."
  }
 ]
