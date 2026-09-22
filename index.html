@@ -32,7 +32,7 @@ body{
   background:var(--ink);color:#fff;border-radius:0 0 26px 26px;
   padding:22px 22px 24px;display:flex;align-items:center;gap:14px;
 }
-.logo{width:56px;height:56px;border-radius:50%;overflow:hidden;flex:0 0 56px;background:#000}
+.logo{width:56px;height:56px;border-radius:50%;overflow:hidden;flex:0 0 56px;background:#000;display:block;cursor:pointer}
 .logo svg{display:block;width:100%;height:100%}
 .brandname{font-family:var(--serif);font-size:23px;line-height:1.1;color:#fff}
 .brandtag{font-size:9px;text-transform:uppercase;letter-spacing:.26em;color:var(--pink);margin-top:5px}
@@ -122,7 +122,7 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 <div class="wrap">
 
   <div class="hero">
-    <div class="logo"><svg viewBox="0 0 1868 1868" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a class="logo" id="logo" href="./" aria-label="Home"><svg viewBox="0 0 1868 1868" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_2)">
 <circle cx="934" cy="934" r="934" fill="black"/>
 <mask id="mask0_1_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="31" y="31" width="1806" height="1806">
@@ -165,7 +165,7 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 <rect width="1868" height="1868" fill="white"/>
 </clipPath>
 </defs>
-</svg></div>
+</svg></a>
     <div>
       <div class="brandname">Raccoon Touch</div>
       <div class="brandtag">PT Exam Prep</div>
@@ -377,6 +377,7 @@ $('#next').onclick = () => {
 };
 $('#quit').onclick = () => { renderHome(); show('home'); };
 $('#home2').onclick = () => { renderHome(); show('home'); };
+$('#logo').onclick = e => { e.preventDefault(); renderHome(); show('home'); };
 $('#again').onclick = () => start(deck);
 $('#reset').onclick = () => {
   if (!confirm('Clear all progress on this device?')) return;
