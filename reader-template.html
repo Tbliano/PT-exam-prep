@@ -29,8 +29,10 @@ body{background:var(--page);color:var(--text);font-family:var(--serif);font-size
 .logo svg{display:block;width:100%;height:100%}
 .brandname{font-family:var(--serif);font-size:20px;line-height:1.1;color:#fff}
 .brandtag{font-size:9px;text-transform:uppercase;letter-spacing:.26em;color:var(--pink);margin-top:5px}
-.hero a{color:var(--pink);text-decoration:none;font-family:var(--sans);font-size:12px;
-  margin-left:auto;border:1px solid rgba(255,202,255,.35);border-radius:20px;padding:7px 13px;white-space:nowrap}
+.hero .acts{margin-left:auto;display:flex;gap:8px;align-items:center}
+.hero a,.hero button.link{color:var(--pink);text-decoration:none;font-family:var(--sans);font-size:12px;
+  background:none;border:1px solid rgba(255,202,255,.35);border-radius:20px;padding:7px 13px;white-space:nowrap;cursor:pointer}
+.hero button.link:active{transform:scale(.96)}
 
 .shell{max-width:1180px;margin:0 auto;display:flex;gap:34px;padding:0 18px}
 nav{width:250px;flex:0 0 250px;position:sticky;top:14px;align-self:flex-start;
@@ -87,6 +89,9 @@ figure img{display:block;width:100%;height:auto;border-radius:8px;background:var
 figure.failed img{display:none}
 figure.failed::before{content:'Diagram could not be loaded';display:block;font-family:var(--sans);
   font-size:12px;color:var(--muted2);padding:20px 0;text-align:center}
+figure.pending img{display:none}
+figure.pending::before{content:'Diagram (shown once published)';display:block;font-family:var(--sans);
+  font-size:12px;color:var(--muted2);padding:20px 0;text-align:center}
 figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:9px;line-height:1.45}
 
 .foot{max-width:720px;margin:0 auto;padding:0 18px 60px;font-family:var(--sans);
@@ -115,6 +120,42 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
   font-family:var(--sans);font-size:22px;line-height:1;padding:0}
 #fab:active{transform:scale(.94)}
 
+/* ---------------- editor ---------------- */
+#editor{position:fixed;inset:0;z-index:90;background:var(--page);display:none;flex-direction:column;font-family:var(--sans)}
+#editor.open{display:flex}
+#editor .ebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  padding:10px 16px;border-bottom:1px solid var(--line2);background:var(--card)}
+#editor .ebar .etitle{font-family:var(--serif);font-size:16px;color:var(--ink);margin-right:auto}
+#editor button{font:inherit;font-size:13px;cursor:pointer;border-radius:20px;padding:8px 14px;
+  border:1px solid var(--line2);background:var(--page);color:var(--ink)}
+#editor button.primary{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:700}
+#editor button.accent{background:var(--magenta);color:#fff;border-color:var(--magenta);font-weight:700}
+#editor button:disabled{opacity:.5;cursor:default}
+#estatus{font-size:12px;color:var(--muted);min-width:120px}
+#estatus.ok{color:#2f7d5b} #estatus.busy{color:var(--magenta)} #estatus.bad{color:#8A3A35}
+#ebanner{display:none;padding:8px 16px;font-size:13px;background:var(--addbg);border-bottom:1px solid var(--addbd);
+  color:var(--ink);align-items:center;gap:12px}
+#ebanner.show{display:flex}
+#ebanner button{font:inherit;font-size:12px;background:none;border:0;color:var(--magenta);cursor:pointer;padding:2px 0}
+.epanes{flex:1;display:flex;min-height:0}
+#emd{flex:1 1 50%;min-width:0;border:0;outline:0;resize:none;padding:18px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;line-height:1.55;
+  background:var(--page);color:var(--text);tab-size:2}
+.epreview{flex:1 1 50%;min-width:0;overflow:auto;padding:18px 22px;border-left:1px solid var(--line2);
+  font-family:var(--serif);background:var(--card)}
+.epreview h1{margin-top:6px}
+#tokenrow{display:none;padding:10px 16px;border-bottom:1px solid var(--line2);background:var(--apbg);
+  gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+#tokenrow.show{display:flex}
+#tokenrow input{flex:1;min-width:180px;padding:9px 12px;font-size:14px;font-family:var(--sans);
+  border:1px solid var(--line2);border-radius:10px;background:var(--card);color:var(--text)}
+@media (max-width:820px){
+  .epanes{flex-direction:column}
+  .epreview{border-left:0;border-top:1px solid var(--line2);flex-basis:40%}
+  #emd{flex-basis:60%}
+  #editor .ebar .etitle{width:100%;margin-bottom:2px}
+}
+
 @media (max-width:900px){
   .shell{display:block;padding:0 16px}
   nav{width:auto;position:static;max-height:none;padding:0;border:0;margin:0}
@@ -141,7 +182,10 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
     <div class="brandname">Raccoon Touch</div>
     <div class="brandtag">__TAG__</div>
   </div>
-  <a href="./">Quiz</a>
+  <div class="acts">
+    <button class="link hidden" id="editbtn">Edit</button>
+    <a href="./">Quiz</a>
+  </div>
 </div>
 
 <div id="gate">
@@ -176,52 +220,213 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
   <div class="body" id="srcbody"></div>
 </div>
 
+<!-- editor -->
+<div id="editor" role="dialog" aria-modal="true">
+  <div class="ebar">
+    <span class="etitle" id="etitle">Editing</span>
+    <span id="estatus"></span>
+    <button id="edraft">Save draft</button>
+    <button id="epublish" class="accent">Publish</button>
+    <button id="edone" class="primary">Done</button>
+  </div>
+  <div id="ebanner">
+    <span id="ebannertext"></span>
+    <button id="ediscard">Discard draft</button>
+  </div>
+  <div id="tokenrow">
+    <span>To publish, paste a GitHub token (Contents: read and write on this repo). Stored on this device only.</span>
+    <input type="password" id="etoken" placeholder="github_pat_..." autocomplete="off">
+    <button id="etokensave">Save token</button>
+  </div>
+  <div class="epanes">
+    <textarea id="emd" spellcheck="true" placeholder="Your notes, in Markdown..."></textarea>
+    <div class="epreview" id="epreview"></div>
+  </div>
+</div>
+
 <script>
-const PAYLOAD = __PAYLOAD__;
+const STEM = '__STEM__';
+const REPO = '__REPO__';
+const BRANCH = '__BRANCH__';
+const SOURCES = __SOURCES__;
 const KEYNAME = 'rt-pt-key';
-let KEY = null;   // the AES key, kept for decrypting diagrams on demand
+const TOKENNAME = 'rt-gh-token';
+const DRAFTNAME = 'rt-draft-' + STEM;
+let PAYLOAD = null;
+let KEY = null;   // the AES key, kept for decrypting diagrams and re-encrypting edits
+let CURRENT = null;   // {title, md, html, toc} of what is displayed
 
 const $ = s => document.querySelector(s);
 const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+function b64bytes(u){
+  let s = '', CH = 0x8000;
+  for (let i = 0; i < u.length; i += CH) s += String.fromCharCode.apply(null, u.subarray(i, i + CH));
+  return btoa(s);
+}
+const b64utf8 = str => b64bytes(new TextEncoder().encode(str));
 
+/* ---------------- markdown renderer ----------------
+   A faithful port of md2html.py, plus the same post-processing the build does,
+   so an edited page renders identically to a built one. */
+function esc(t){ return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function mdslug(text){
+  let s = text.replace(/<[^>]+>/g, '').toLowerCase();
+  s = s.replace(/[^a-z0-9\s-]/g, '');
+  return s.trim().replace(/\s+/g, '-').slice(0, 60);
+}
+function inlineMd(text){
+  text = esc(text);
+  const codes = [];
+  text = text.replace(/`([^`]+)`/g, (m, c) => { codes.push(c); return '\x00' + (codes.length - 1) + '\x00'; });
+  text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">');
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/(?<![*\w])\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+  text = text.replace(/\x00(\d+)\x00/g, (m, n) => '<code>' + codes[+n] + '</code>');
+  return text;
+}
+function convertMd(md){
+  const lines = md.split('\n');
+  const out = [], toc = [];
+  let i = 0, n = lines.length;
+  const cells = row => row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+  while (i < n){
+    const line = lines[i];
+    if (!line.trim()){ i++; continue; }
+    let m = line.match(/^(#{1,6})\s+(.*)$/);
+    if (m){
+      const lvl = m[1].length, text = m[2].trim(), sid = mdslug(text);
+      if (lvl === 2 || lvl === 3) toc.push([lvl, text, sid]);
+      out.push('<h' + lvl + ' id="' + sid + '">' + inlineMd(text) + '</h' + lvl + '>');
+      i++; continue;
+    }
+    if (/^-{3,}\s*$/.test(line)){ out.push('<hr>'); i++; continue; }
+    m = line.match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/);
+    if (m){
+      const alt = m[1].replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+      const cap = m[1] ? '<figcaption>' + inlineMd(m[1]) + '</figcaption>' : '';
+      out.push('<figure><img src="' + m[2] + '" alt="' + alt + '" loading="lazy">' + cap + '</figure>');
+      i++; continue;
+    }
+    if (line.trimStart().startsWith('|') && i + 1 < n && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i+1])){
+      const head = cells(line);
+      const aligns = cells(lines[i+1]).map(spec =>
+        spec.startsWith(':') && spec.endsWith(':') ? 'center' : spec.endsWith(':') ? 'right' : 'left');
+      i += 2;
+      const body = [];
+      while (i < n && lines[i].trimStart().startsWith('|')){ body.push(cells(lines[i])); i++; }
+      const al = k => aligns[k] || 'left';
+      const th = head.map((c, k) => '<th style="text-align:' + al(k) + '">' + inlineMd(c) + '</th>').join('');
+      const trs = body.map(row =>
+        '<tr>' + row.map((c, k) => '<td style="text-align:' + al(k) + '">' + inlineMd(c) + '</td>').join('') + '</tr>').join('');
+      out.push('<div class="tw"><table><thead><tr>' + th + '</tr></thead><tbody>' + trs + '</tbody></table></div>');
+      continue;
+    }
+    if (line.trimStart().startsWith('>')){
+      const block = [];
+      while (i < n){
+        const ls = lines[i].trimStart();
+        const cont = ls.startsWith('>') ||
+          (block.length && lines[i].trim() && !'#-|'.includes(ls[0]));
+        if (!cont) break;
+        block.push(lines[i].replace(/^\s*>\s?/, ''));
+        i++;
+      }
+      const inner = convertMd(block.join('\n')).html;
+      let cls = 'note';
+      const joined = block.join(' ').slice(0, 80);
+      for (const [key, k] of [['From the A&P notes','ap'],['From Science of Exercise','soe'],['Added','added']]){
+        if (joined.includes(key)){ cls = 'note ' + k; break; }
+      }
+      out.push('<blockquote class="' + cls + '">' + inner + '</blockquote>');
+      continue;
+    }
+    m = line.match(/^(\s*)([-*]|\d+\.)\s+(.*)$/);
+    if (m){
+      const ordered = !(m[2] === '-' || m[2] === '*');
+      const base = m[1].length, items = [];
+      while (i < n){
+        const mm = lines[i].match(/^(\s*)([-*]|\d+\.)\s+(.*)$/);
+        if (mm && mm[1].length === base){ items.push([mm[3]]); i++; }
+        else if (items.length && lines[i].trim() && lines[i].startsWith(' '.repeat(base + 2))){
+          items[items.length - 1].push(lines[i].trim()); i++;
+        } else break;
+      }
+      const tag = ordered ? 'ol' : 'ul';
+      out.push('<' + tag + '>' + items.map(it => '<li>' + inlineMd(it.join(' ')) + '</li>').join('') + '</' + tag + '>');
+      continue;
+    }
+    const para = [];
+    while (i < n && lines[i].trim() && !/^(#{1,6}\s|>|\s*[-*]\s|\s*\d+\.\s|\|)/.test(lines[i]) && !/^-{3,}\s*$/.test(lines[i])){
+      para.push(lines[i].trim()); i++;
+    }
+    if (para.length) out.push('<p>' + inlineMd(para.join(' ')) + '</p>');
+    else i++;
+  }
+  return { html: out.join('\n'), toc };
+}
+function postprocess(html){
+  html = html.replace(/<img src="assets\/([^"]+)"/g, '<img data-enc="notes-assets/$1.enc"');
+  html = html.split('href="learning.md').join('href="learning.html');
+  html = html.split('href="exercise-reference.md').join('href="exercise-reference.html');
+  html = html.split('href="' + STEM + '.html#').join('href="#');
+  html = html.split('>exam-prep.md<').join('>the exam preparation notes<');
+  html = html.replace(/<a href="exam-prep\.md[^"]*">([\s\S]*?)<\/a>/g, '$1');
+  for (const [slug, folder, label] of SOURCES){
+    html = html.split('<a href="' + folder + '/">' + folder + '/</a>')
+               .join('<a class="srcref" data-src="' + slug + '" href="#">' + label + '</a>');
+  }
+  html = html.split('>learning.md<').join('>the learning notes<');
+  html = html.split('>exercise-reference.md<').join('>the practice reference<');
+  return html;
+}
+function renderMarkdown(md){
+  const r = convertMd(md);
+  return { html: postprocess(r.html), toc: r.toc };
+}
+
+/* ---------------- crypto ---------------- */
 async function deriveKey(pass, salt){
   const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
   return crypto.subtle.deriveKey(
     {name:'PBKDF2', salt, iterations: PAYLOAD.iter, hash:'SHA-256'},
-    base, {name:'AES-GCM', length:256}, true, ['decrypt']);
+    base, {name:'AES-GCM', length:256}, true, ['encrypt', 'decrypt']);
 }
-
-async function decrypt(key){
+async function decryptPayload(key){
   const plain = await crypto.subtle.decrypt(
     {name:'AES-GCM', iv: b64(PAYLOAD.iv)}, key, b64(PAYLOAD.ct));
   return new TextDecoder().decode(plain);
 }
+async function encryptBlob(obj){
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = new Uint8Array(await crypto.subtle.encrypt(
+    {name:'AES-GCM', iv}, KEY, new TextEncoder().encode(JSON.stringify(obj))));
+  return JSON.stringify({ salt: PAYLOAD.salt, iv: b64bytes(iv), ct: b64bytes(ct), iter: PAYLOAD.iter });
+}
 
-function render(json){
-  const data = JSON.parse(json);
+/* ---------------- reading view ---------------- */
+function renderData(data){
+  CURRENT = data;
   document.title = data.title + ' · Raccoon Touch';
-  $('#doc').innerHTML = '<h1>' + data.title + '</h1>' + data.html;
+  $('#doc').innerHTML = '<h1>' + esc(data.title) + '</h1>' + data.html;
   $('#toc').innerHTML = data.toc.map(t =>
     '<a href="#' + t[2] + '" class="' + (t[0] === 3 ? 'l3' : '') + '">' + t[1] + '</a>').join('');
   $('#gate').classList.add('hidden');
   $('#shell').classList.remove('hidden');
   $('#foot').classList.remove('hidden');
+  $('#editbtn').classList.remove('hidden');
   wire();
-  figures();
+  figures($('#doc'));
 }
 
-/* The capture folders behind the practice reference are separate encrypted payloads,
-   fetched the first time their name is tapped and shown over the page rather than as
-   a document of their own. */
 const SRC_CACHE = {};
-
 async function openSource(slug, label){
   const ov = $('#srcov'), body = $('#srcbody');
   $('#srctitle').textContent = label;
   ov.classList.add('open');
   document.body.style.overflow = 'hidden';
   ov.scrollTop = 0;
-  if (!SRC_CACHE[slug]) body.innerHTML = '<p>Decrypting\u2026</p>';
+  if (!SRC_CACHE[slug]) body.innerHTML = '<p>Decrypting…</p>';
   try {
     if (!SRC_CACHE[slug]) {
       const buf = new Uint8Array(await (await fetch('sources/' + slug + '.enc')).arrayBuffer());
@@ -235,15 +440,14 @@ async function openSource(slug, label){
     body.innerHTML = '<p>That source could not be loaded. It may not have been downloaded yet.</p>';
   }
 }
-
 function closeSource(){
   $('#srcov').classList.remove('open');
   document.body.style.overflow = '';
 }
 
 /* Diagrams are encrypted too, so decrypt each one to a blob URL as it comes into view. */
-function figures(){
-  const pending = [...document.querySelectorAll('img[data-enc]')];
+function figures(root){
+  const pending = [...root.querySelectorAll('img[data-enc]')];
   const reveal = async img => {
     const url = img.dataset.enc;
     delete img.dataset.enc;
@@ -253,7 +457,7 @@ function figures(){
         {name:'AES-GCM', iv: buf.slice(0, 12)}, KEY, buf.slice(12));
       img.src = URL.createObjectURL(new Blob([plain], {type:'image/png'}));
     } catch(e){
-      img.closest('figure').classList.add('failed');
+      const fig = img.closest('figure'); if (fig) fig.classList.add('failed');
     }
   };
   if (!('IntersectionObserver' in window)) return pending.forEach(reveal);
@@ -298,25 +502,163 @@ function wire(){
   });
 }
 
+/* ---------------- editor ---------------- */
+let draftTimer = null, previewTimer = null;
+const getToken = () => { try { return localStorage.getItem(TOKENNAME); } catch(e){ return null; } };
+const readDraft = () => { try { return JSON.parse(localStorage.getItem(DRAFTNAME) || 'null'); } catch(e){ return null; } };
+const setStatus = (msg, cls) => { const el = $('#estatus'); el.textContent = msg || ''; el.className = cls || ''; };
+const when = ts => { try { return new Date(ts).toLocaleString(); } catch(e){ return 'earlier'; } };
+
+function updatePreview(){
+  const { html } = renderMarkdown($('#emd').value);
+  const box = $('#epreview');
+  box.innerHTML = '<h1>' + esc(CURRENT.title) + '</h1>' + html;
+  // Existing diagrams are not decrypted in preview (kept light); flag them instead.
+  box.querySelectorAll('figure').forEach(f => { if (f.querySelector('img[data-enc]')) f.classList.add('pending'); });
+}
+function saveDraftNow(quiet){
+  try { localStorage.setItem(DRAFTNAME, JSON.stringify({ md: $('#emd').value, ts: Date.now() })); } catch(e){}
+  if (!quiet) setStatus('Draft saved', 'ok');
+}
+function showBanner(text){ $('#ebannertext').textContent = text; $('#ebanner').classList.add('show'); }
+function hideBanner(){ $('#ebanner').classList.remove('show'); }
+
+function openEditor(){
+  const draft = readDraft();
+  if (draft && typeof draft.md === 'string' && draft.md !== CURRENT.md){
+    $('#emd').value = draft.md;
+    showBanner('Unsaved draft from ' + when(draft.ts) + ' restored.');
+  } else {
+    $('#emd').value = CURRENT.md;
+    hideBanner();
+  }
+  $('#etitle').textContent = 'Editing: ' + CURRENT.title;
+  setStatus('');
+  $('#tokenrow').classList.toggle('show', !getToken());
+  updatePreview();
+  $('#editor').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeEditor(){
+  $('#editor').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+async function publish(){
+  const md = $('#emd').value;
+  if (!getToken()){ $('#tokenrow').classList.add('show'); setStatus('Add a token to publish', 'bad'); return; }
+  if (md === CURRENT.md){ setStatus('No changes to publish', ''); return; }
+  const btn = $('#epublish');
+  btn.disabled = true; setStatus('Encrypting…', 'busy');
+  try {
+    const { html, toc } = renderMarkdown(md);
+    const data = { title: CURRENT.title, md, html, toc };
+    const blob = await encryptBlob(data);
+    setStatus('Saving to GitHub…', 'busy');
+    await githubPut(STEM + '.enc', blob, 'Edit ' + STEM + ' notes');
+    // Success: adopt the new content locally and clear the draft.
+    try { localStorage.removeItem(DRAFTNAME); } catch(e){}
+    renderData(data);
+    figures($('#doc'));
+    hideBanner();
+    setStatus('Published ✓', 'ok');
+  } catch(e){
+    const msg = e && e.message === 'no-token' ? 'Add a token to publish'
+      : e && e.message ? e.message : 'Could not publish';
+    setStatus(msg, 'bad');
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function ghHeaders(token){
+  return { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json',
+           'Content-Type': 'application/json', 'X-GitHub-Api-Version': '2022-11-28' };
+}
+async function githubPut(path, text, message){
+  const token = getToken();
+  if (!token) throw new Error('no-token');
+  const api = 'https://api.github.com/repos/' + REPO + '/contents/' + path;
+  let sha = null;
+  const g = await fetch(api + '?ref=' + encodeURIComponent(BRANCH), { headers: ghHeaders(token) });
+  if (g.status === 200) sha = (await g.json()).sha;
+  else if (g.status === 401) throw new Error('Token was rejected (401). Check it is valid.');
+  else if (g.status === 403) throw new Error('Token lacks permission (403). Needs Contents: write.');
+  else if (g.status !== 404) throw new Error('GitHub read failed (' + g.status + ')');
+  const body = { message, content: b64utf8(text), branch: BRANCH };
+  if (sha) body.sha = sha;
+  const p = await fetch(api, { method: 'PUT', headers: ghHeaders(token), body: JSON.stringify(body) });
+  if (!p.ok){
+    if (p.status === 409) throw new Error('Conflict (409): the file changed elsewhere. Reopen and try again.');
+    const t = await p.text();
+    throw new Error('GitHub save failed (' + p.status + ') ' + t.slice(0, 100));
+  }
+  return p.json();
+}
+
+function wireEditor(){
+  $('#editbtn').onclick = openEditor;
+  $('#edone').onclick = () => {
+    if ($('#emd').value !== CURRENT.md){
+      saveDraftNow(true);
+      if (!confirm('You have unpublished changes, saved as a draft on this device. Close the editor?')) return;
+    }
+    closeEditor();
+  };
+  $('#edraft').onclick = () => saveDraftNow(false);
+  $('#epublish').onclick = publish;
+  $('#ediscard').onclick = () => {
+    try { localStorage.removeItem(DRAFTNAME); } catch(e){}
+    $('#emd').value = CURRENT.md;
+    hideBanner(); updatePreview(); setStatus('Draft discarded', '');
+  };
+  $('#etokensave').onclick = () => {
+    const v = $('#etoken').value.trim();
+    if (!v) return;
+    try { localStorage.setItem(TOKENNAME, v); } catch(e){}
+    $('#etoken').value = '';
+    $('#tokenrow').classList.remove('show');
+    setStatus('Token saved on this device', 'ok');
+  };
+  $('#emd').addEventListener('input', () => {
+    setStatus('Editing…', '');
+    clearTimeout(previewTimer); previewTimer = setTimeout(updatePreview, 250);
+    clearTimeout(draftTimer); draftTimer = setTimeout(() => saveDraftNow(true), 900);
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && $('#editor').classList.contains('open')) $('#edone').click();
+  });
+}
+
+/* ---------------- unlock + boot ---------------- */
 async function tryUnlock(pass, remember){
   const key = await deriveKey(pass, b64(PAYLOAD.salt));
-  const json = await decrypt(key);       // throws if the passphrase is wrong
+  const json = await decryptPayload(key);   // throws if the passphrase is wrong
   KEY = key;
   if (remember) {
     const raw = await crypto.subtle.exportKey('raw', key);
     try { localStorage.setItem(KEYNAME, btoa(String.fromCharCode(...new Uint8Array(raw)))); } catch(e){}
   }
-  render(json);
+  renderData(JSON.parse(json));
+}
+
+async function loadPayload(){
+  const res = await fetch(STEM + '.enc', { cache: 'no-cache' });
+  PAYLOAD = await res.json();
 }
 
 (async () => {
+  wireEditor();
+  try { await loadPayload(); }
+  catch(e){ $('#err').textContent = 'Could not load the notes file.'; $('#err').style.display = 'block'; return; }
+
   const saved = (() => { try { return localStorage.getItem(KEYNAME); } catch(e){ return null; } })();
   if (saved) {
     try {
-      const key = await crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['decrypt']);
-      const json = await decrypt(key);
+      const key = await crypto.subtle.importKey('raw', b64(saved), 'AES-GCM', true, ['encrypt', 'decrypt']);
+      const json = await decryptPayload(key);
       KEY = key;
-      return render(json);
+      return renderData(JSON.parse(json));
     } catch(e){ try { localStorage.removeItem(KEYNAME); } catch(e2){} }
   }
   $('#pw').focus();

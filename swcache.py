@@ -11,7 +11,8 @@ import hashlib, pathlib, re
 
 # The pages sw.js precaches. Missing ones are skipped, so this stays correct
 # while a document is being added.
-PAGES = ['index.html', 'learning.html', 'exercise-reference.html']
+PAGES = ['index.html', 'learning.html', 'exercise-reference.html',
+         'learning.enc', 'exercise-reference.enc']
 
 
 def stamp(here):

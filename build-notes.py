@@ -16,6 +16,12 @@ SRC = pathlib.Path.home() / 'personal' / 'coursera'
 ASSETS_OUT = HERE / 'notes-assets'
 ITER = 250_000
 
+# Where the in-browser editor commits published notes back to. The page fetches
+# each note's ciphertext as a separate <stem>.enc file, re-encrypts an edit in
+# the browser, and writes that one file back through the GitHub contents API.
+REPO = 'Tbliano/PT-exam-prep'
+BRANCH = 'main'
+
 # Two separate documents, two separate pages.
 DOCS = [
     ('learning.md',  'learning.html',  'The body and training', 'Learning'),
@@ -137,7 +143,9 @@ def main():
         html = html.replace('>learning.md<', '>the learning notes<')
         html = html.replace('>exercise-reference.md<', '>the practice reference<')
 
-        payload = json.dumps({'title': title, 'html': html, 'toc': toc}, ensure_ascii=False)
+        # The markdown travels inside the encrypted payload too, so the browser
+        # can edit the real source rather than round-tripping the rendered HTML.
+        payload = json.dumps({'title': title, 'md': md, 'html': html, 'toc': toc}, ensure_ascii=False)
         iv, ct = encrypt(key, payload.encode())
         blob = json.dumps({
             'salt': base64.b64encode(salt()).decode(),
@@ -146,15 +154,24 @@ def main():
             'iter': ITER,
         }, separators=(',', ':'))
 
+        # The ciphertext lives in its own file, fetched at runtime, so an edit
+        # rewrites this one small file instead of a large HTML page.
+        stem = out[:-5]  # drop '.html'
+        (HERE / (stem + '.enc')).write_text(blob)
+
+        srcmap = json.dumps([[s, f, l] for s, f, l, _ in SOURCES])
         page = (template
                 .replace('__LOGO__', logo)
                 .replace('__TITLE__', title)
                 .replace('__TAG__', tag)
                 .replace('__FOOT__', f'{len(md.split()):,} words. Encrypted; readable offline once unlocked.')
-                .replace('__PAYLOAD__', blob))
+                .replace('__STEM__', stem)
+                .replace('__REPO__', REPO)
+                .replace('__BRANCH__', BRANCH)
+                .replace('__SOURCES__', srcmap))
         (HERE / out).write_text(page)
-        print(f'{out:18} {len(page)/1024:6.0f} KB   {len(toc)} sections, '
-              f'{html.count("<table>")} tables, {html.count("<figure>")} figures')
+        print(f'{out:18} {len(page)/1024:6.0f} KB page + {len(blob)/1024:5.0f} KB payload   '
+              f'{len(toc)} sections, {html.count("<table>")} tables, {html.count("<figure>")} figures')
 
     # ---------- source appendices ----------
     SOURCES_OUT = HERE / 'sources'
