@@ -754,6 +754,7 @@ function wireEditor(){
 const STUDYNAME = 'rt-study-' + STEM;
 const STUDYFILE = 'study-' + STEM + '.enc';
 const STATUS = { know: 'Know', shaky: 'Shaky', new: 'New' };
+const TEST_MAX = 10;   // a section with a bigger pool gives a fresh ten each time
 let STUDY = { v: 1, sec: {}, hl: {}, qz: {} };
 const COLNAME = 'rt-col-' + STEM;   // manual fold state, this device only
 let COL = {};
@@ -827,7 +828,8 @@ function buildSections(){
     if (qs && qs.length){
       const sc = document.createElement('span'); sc.className = 'score'; bar.appendChild(sc);
       const t = document.createElement('button');
-      t.className = 'test'; t.textContent = 'Test me (' + qs.length + ')';
+      t.className = 'test';
+      t.textContent = 'Test me (' + (qs.length > TEST_MAX ? TEST_MAX + ' of ' + qs.length : qs.length) + ')';
       bar.appendChild(t);
     }
     s.head.appendChild(bar);
@@ -1012,7 +1014,7 @@ function openQuiz(sid){
   const s = SECTIONS.find(x => x.sid === sid);
   const qs = ((CURRENT && CURRENT.quiz) || {})[sid];
   if (!s || !qs || !qs.length) return;
-  QZ = { sid, title: s.title, qs: shuffle(qs.slice()), i: 0, right: 0, wrong: [] };
+  QZ = { sid, title: s.title, qs: shuffle(qs.slice()).slice(0, TEST_MAX), i: 0, right: 0, wrong: [] };
   $('#qztitle').textContent = 'Test me: ' + s.title;
   $('#qzov').classList.add('open');
   document.body.style.overflow = 'hidden';
