@@ -466,7 +466,8 @@ function allQuestions(){
   for (const d in DECKS) if (DECKS[d].exam !== false) for (const q of DECKS[d].q) out.push({...q, deck: d});
   return out;
 }
-/* Every area gets a fair share: at least five questions, the rest in proportion to its size. */
+/* Every area gets an equal share, so the results say something about each one;
+   an area too small for its share passes the rest to the others. */
 function buildExam(){
   const byArea = {};
   for (const q of allQuestions()) (byArea[q.ar] = byArea[q.ar] || []).push(q);
@@ -474,10 +475,9 @@ function buildExam(){
   const size = Math.min(EXAM_SIZE, total);
   const quota = {};
   let given = 0;
-  for (const a of areas){ quota[a] = Math.min(byArea[a].length, Math.max(5, Math.floor(size * byArea[a].length / total))); given += quota[a]; }
-  // Trim or top up to exactly the exam size, largest areas first.
+  for (const a of areas){ quota[a] = Math.min(byArea[a].length, Math.floor(size / areas.length)); given += quota[a]; }
+  // Top up to exactly the exam size, one at a time, from the areas with the most to spare.
   const big = areas.slice().sort((x, y) => byArea[y].length - byArea[x].length);
-  for (let i = 0; given > size; i++){ const a = big[i % big.length]; if (quota[a] > 5){ quota[a]--; given--; } }
   for (let i = 0; given < size && i < 10000; i++){ const a = big[i % big.length]; if (quota[a] < byArea[a].length){ quota[a]++; given++; } }
   let picked = [];
   for (const a of areas) picked = picked.concat(shuffle(byArea[a].slice()).slice(0, quota[a]));

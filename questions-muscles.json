@@ -9,7 +9,8 @@
    "Ischial tuberosity and the sacrotuberous ligament"
   ],
   "a": 1,
-  "e": "It arises broadly from the posterior ilium behind the posterior gluteal line, the sacrum, coccyx and sacrotuberous ligament, and inserts on the iliotibial band and the gluteal tuberosity of the femur."
+  "e": "It arises broadly from the posterior ilium behind the posterior gluteal line, the sacrum, coccyx and sacrotuberous ligament, and inserts on the iliotibial band and the gluteal tuberosity of the femur.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -21,7 +22,8 @@
    "Hip adduction"
   ],
   "a": 1,
-  "e": "Hip extension and external rotation, with the upper fibres also assisting abduction. It is the prime mover for standing up from a squat and for driving the hip forward."
+  "e": "Hip extension and external rotation, with the upper fibres also assisting abduction. It is the prime mover for standing up from a squat and for driving the hip forward.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -33,7 +35,8 @@
    "Gerdy's tubercle, via the iliotibial band"
   ],
   "a": 1,
-  "e": "It runs from the outer surface of the ilium between the anterior and posterior gluteal lines to the lateral greater trochanter, which is why it abducts and stabilises the pelvis."
+  "e": "It runs from the outer surface of the ilium between the anterior and posterior gluteal lines to the lateral greater trochanter, which is why it abducts and stabilises the pelvis.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -45,7 +48,8 @@
    "Rotating the trunk over the stance leg"
   ],
   "a": 1,
-  "e": "It stabilises the pelvis in the frontal plane. Weakness produces a Trendelenburg sign, the contralateral pelvis dropping, and contributes to knee valgus in a squat."
+  "e": "It stabilises the pelvis in the frontal plane. When it cannot hold, the opposite side of the pelvis drops, the Trendelenburg sign.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -57,19 +61,21 @@
    "Only abduction"
   ],
   "a": 1,
-  "e": "Anterior fibres internally rotate the hip, posterior fibres externally rotate it. Gluteus minimus lies deep to medius and shares its abduction role."
+  "e": "Anterior fibres internally rotate the hip, posterior fibres externally rotate it. Gluteus minimus lies deep to medius and shares its abduction role.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
   "q": "Tensor fasciae latae inserts into which structure?",
   "o": [
-   "Greater trochanter",
+   "The greater trochanter",
    "The iliotibial band",
-   "Lesser trochanter",
-   "Patella directly"
+   "The lesser trochanter",
+   "The patella directly"
   ],
   "a": 1,
-  "e": "TFL runs from the anterior superior iliac spine into the iliotibial band, which continues to Gerdy's tubercle on the tibia. It flexes, abducts and internally rotates the hip."
+  "e": "TFL runs from the anterior superior iliac spine into the iliotibial band, which continues to Gerdy's tubercle on the tibia. It flexes, abducts and internally rotates the hip.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -81,7 +87,8 @@
    "Psoas minor and pectineus"
   ],
   "a": 1,
-  "e": "Psoas major arises from the bodies and transverse processes of T12 to L5; iliacus from the iliac fossa. They share an insertion on the lesser trochanter of the femur."
+  "e": "Psoas major arises from the bodies and transverse processes of T12 to L5; iliacus from the iliac fossa. They share an insertion on the lesser trochanter of the femur.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -93,19 +100,21 @@
    "The pectineal line of the femur"
   ],
   "a": 1,
-  "e": "The lesser trochanter, on the medial femur. That line of pull makes it the strongest hip flexor and gives it an influence on the lumbar spine."
+  "e": "The lesser trochanter, on the inner side of the upper femur. Psoas and iliacus share this tendon, which is why they are often treated as one hip flexor.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
-  "q": "Why does a tight psoas affect the lumbar spine?",
+  "q": "Psoas originates on the lumbar vertebrae. What do biomechanical studies find it mainly does to the lumbar spine?",
   "o": [
-   "It attaches to the sacrum, so shortening pulls the sacrum forward and down",
-   "It originates on the lumbar vertebrae and pulls them forward",
-   "It passes through the pelvic floor, so it tightens with every breath",
-   "It shares a tendon with erector spinae, which shortens with it"
+   "Compresses it, with very small moments for moving it",
+   "Pulls it into extension, increasing the lumbar curve",
+   "Rotates it strongly to the opposite side",
+   "Flexes it forward as the main trunk flexor"
   ],
-  "a": 1,
-  "e": "Psoas major spans from the lumbar vertebrae to the femur. Prolonged sitting shortens it, and standing then pulls the pelvis and lower back forward, the LPHC distortion pattern."
+  "a": 0,
+  "e": "Psoas has very small moments on the lumbar spine and mainly compresses it. That is one reason the notes grade the tight-hip-flexor, tilted-pelvis story weak to poor.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -117,7 +126,8 @@
    "Biceps femoris"
   ],
   "a": 0,
-  "e": "Sartorius runs from the anterior superior iliac spine to the medial tibia at the pes anserinus. It flexes, abducts and externally rotates the hip and flexes the knee, the cross-legged sitting position."
+  "e": "Sartorius runs from the anterior superior iliac spine to the medial tibia at the pes anserinus. It flexes, abducts and externally rotates the hip and flexes the knee, the cross-legged sitting position.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -129,7 +139,8 @@
    "Adduction"
   ],
   "a": 1,
-  "e": "It runs from the anterior sacrum to the greater trochanter and externally rotates the extended hip. With the hip flexed beyond about 90 degrees its line of pull changes and it abducts."
+  "e": "It runs from the anterior sacrum to the greater trochanter and externally rotates the extended hip. Once the hip is flexed past roughly 60 to 90 degrees its line of pull crosses the rotation axis and it becomes an internal rotator and horizontal abductor.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hip",
@@ -141,7 +152,8 @@
    "Psoas, iliacus and rectus femoris"
   ],
   "a": 1,
-  "e": "The abductors oppose the adductors in the frontal plane. Overactive adductors against a weak outer hip is the pattern behind knees buckling inward in an overhead squat."
+  "e": "The abductors, gluteus medius, minimus and tensor fasciae latae, oppose the adductors in the frontal plane.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Adductors",
@@ -153,7 +165,8 @@
    "The greater trochanter and the linea aspera of the femur"
   ],
   "a": 1,
-  "e": "Adductor longus, brevis and magnus, pectineus and gracilis all arise from the pubic region. The posterior head of adductor magnus adds an ischial tuberosity origin, which gives it a hamstring-like extension action."
+  "e": "Adductor longus, brevis and magnus, pectineus and gracilis all arise from the pubic region. The posterior head of adductor magnus adds an ischial tuberosity origin, which gives it a hamstring-like extension action.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Adductors",
@@ -165,7 +178,8 @@
    "The patella and patellar ligament"
   ],
   "a": 0,
-  "e": "The linea aspera, the ridge on the posterior femur. Gracilis is the exception: it crosses the knee to the medial tibia, so it also flexes the knee."
+  "e": "The linea aspera, the ridge on the posterior femur. Gracilis is the exception: it crosses the knee to the medial tibia, so it also flexes the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Adductors",
@@ -177,7 +191,8 @@
    "Pectineus"
   ],
   "a": 2,
-  "e": "The posterior or hamstring part of adductor magnus arises from the ischial tuberosity and inserts on the adductor tubercle, giving it a powerful extension action alongside adduction."
+  "e": "The posterior or hamstring part of adductor magnus arises from the ischial tuberosity and inserts on the adductor tubercle, giving it a powerful extension action alongside adduction.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Adductors",
@@ -189,7 +204,8 @@
    "Adductor longus"
   ],
   "a": 1,
-  "e": "Gracilis runs from the pubis to the medial tibia at the pes anserinus, crossing both hip and knee. It adducts the hip and assists knee flexion and internal rotation."
+  "e": "Gracilis runs from the pubis to the medial tibia at the pes anserinus, crossing both hip and knee. It adducts the hip and assists knee flexion and internal rotation.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Quadriceps",
@@ -201,7 +217,8 @@
    "Vastus intermedius"
   ],
   "a": 2,
-  "e": "Rectus femoris arises from the anterior inferior iliac spine, so it flexes the hip as well as extending the knee. The three vasti arise from the femur and only extend the knee."
+  "e": "Rectus femoris arises from the anterior inferior iliac spine, so it flexes the hip as well as extending the knee. The three vasti arise from the femur and only extend the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Quadriceps",
@@ -213,7 +230,8 @@
    "Onto the head of the fibula, alongside biceps femoris"
   ],
   "a": 1,
-  "e": "They converge on the patella, a sesamoid bone that increases the lever arm, and the patellar ligament carries the force to the tibial tuberosity."
+  "e": "They converge on the patella, a sesamoid bone that increases the lever arm, and the patellar ligament carries the force to the tibial tuberosity.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Quadriceps",
@@ -221,11 +239,12 @@
   "o": [
    "Reciprocal inhibition from the hamstrings shuts it down",
    "Active insufficiency: it is already shortened at the hip",
-   "The patella no longer increases its lever arm",
+   "The patella no longer increases its lever arm at the knee",
    "Passive tension in the hamstrings blocks the range"
   ],
   "a": 1,
-  "e": "A two-joint muscle shortened at one end cannot produce full force at the other. That is why seated leg extension emphasises the vasti and a hip-extended position favours rectus femoris."
+  "e": "A two-joint muscle shortened at one end cannot produce full force at the other. That is why seated leg extension emphasises the vasti and a hip-extended position favours rectus femoris.",
+  "sec": "learning#length-tension-torque-and-leverage"
  },
  {
   "t": "Quadriceps",
@@ -237,7 +256,8 @@
    "Rectus femoris"
   ],
   "a": 1,
-  "e": "Vastus medialis, and specifically the vastus medialis obliquus fibres, counters the lateral pull of vastus lateralis and keeps the patella tracking centrally."
+  "e": "Vastus medialis, especially its lower oblique fibres, pulls medially against vastus lateralis. It cannot be trained in isolation: exercises that load the quadriceps load all four.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -249,7 +269,8 @@
    "Biceps femoris, semimembranosus, gastrocnemius"
   ],
   "a": 0,
-  "e": "Biceps femoris sits laterally with two heads; semitendinosus and semimembranosus sit medially. All but the short head of biceps femoris cross both hip and knee."
+  "e": "Biceps femoris sits laterally with two heads; semitendinosus and semimembranosus sit medially. All but the short head of biceps femoris cross both hip and knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -261,19 +282,21 @@
    "The linea aspera, bar the long head of biceps femoris"
   ],
   "a": 1,
-  "e": "The ischial tuberosity is the common origin. The short head of biceps femoris arises from the linea aspera of the femur instead, so it crosses only the knee."
+  "e": "The ischial tuberosity is the common origin. The short head of biceps femoris arises from the linea aspera of the femur instead, so it crosses only the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
   "q": "Where does biceps femoris insert?",
   "o": [
-   "Medial tibia",
-   "Head of the fibula",
-   "Tibial tuberosity",
-   "Patella"
+   "The medial tibia",
+   "The head of the fibula",
+   "The tibial tuberosity",
+   "The base of the patella"
   ],
   "a": 1,
-  "e": "The fibular head, laterally. Semitendinosus inserts on the medial tibia at the pes anserinus and semimembranosus on the posterior medial tibial condyle."
+  "e": "The fibular head, laterally. Semitendinosus inserts on the medial tibia at the pes anserinus and semimembranosus on the posterior medial tibial condyle.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -285,7 +308,8 @@
    "Hip adduction and ankle plantar flexion"
   ],
   "a": 1,
-  "e": "They extend the hip and flex the knee. Because they cross two joints they also decelerate knee extension eccentrically, which is where sprinting strains occur."
+  "e": "They extend the hip and flex the knee. Because they cross two joints they also decelerate knee extension eccentrically, which is where sprinting strains occur.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -297,7 +321,8 @@
    "None of them rotate the knee"
   ],
   "a": 2,
-  "e": "Biceps femoris is lateral, so it externally rotates the flexed knee. The two medial hamstrings, semitendinosus and semimembranosus, internally rotate it."
+  "e": "Biceps femoris is lateral, so it externally rotates the flexed knee. The two medial hamstrings, semitendinosus and semimembranosus, internally rotate it.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -309,7 +334,8 @@
    "Stabiliser"
   ],
   "a": 1,
-  "e": "Gluteus maximus and quadriceps are the agonists, and the hamstrings assist hip extension as synergists. At the knee they oppose the quadriceps, so the same muscle reads as an antagonist at the other joint."
+  "e": "Gluteus maximus and quadriceps are the agonists, and the hamstrings assist hip extension as synergists. At the knee they oppose the quadriceps, so the same muscle reads as an antagonist at the other joint.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Knee",
@@ -333,7 +359,8 @@
    "The posterior calcaneus"
   ],
   "a": 1,
-  "e": "Two heads from the medial and lateral femoral condyles, so it crosses the knee as well as the ankle. It therefore both plantarflexes the ankle and assists knee flexion."
+  "e": "Two heads from the medial and lateral femoral condyles, so it crosses the knee as well as the ankle. It therefore both plantarflexes the ankle and assists knee flexion.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Calf",
@@ -345,7 +372,8 @@
    "Soleus dorsiflexes while gastrocnemius plantarflexes"
   ],
   "a": 1,
-  "e": "Because soleus does not cross the knee it plantarflexes regardless of knee angle, which is why a bent-knee calf raise targets it while a straight-leg raise favours gastrocnemius."
+  "e": "Because soleus does not cross the knee it plantarflexes regardless of knee angle, which is why a bent-knee calf raise targets it while a straight-leg raise favours gastrocnemius.",
+  "sec": "learning#length-tension-torque-and-leverage"
  },
  {
   "t": "Calf",
@@ -357,7 +385,8 @@
    "The tibialis posterior tendon"
   ],
   "a": 1,
-  "e": "The Achilles, or calcaneal, tendon is the thickest and strongest tendon in the body, and both muscles are collectively called triceps surae."
+  "e": "The Achilles, or calcaneal, tendon is the thickest and strongest tendon in the body, and both muscles are collectively called triceps surae.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shin",
@@ -369,19 +398,21 @@
    "Lateral femoral condyle to the navicular tuberosity"
   ],
   "a": 1,
-  "e": "From the lateral surface of the tibia, crossing the front of the ankle to the medial cuneiform and base of the first metatarsal. It dorsiflexes and inverts the foot."
+  "e": "From the lateral surface of the tibia, crossing the front of the ankle to the medial cuneiform and base of the first metatarsal. It dorsiflexes and inverts the foot.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shin",
   "q": "Tibialis anterior is the antagonist to which muscles?",
   "o": [
-   "The peroneals",
+   "Extensor digitorum longus",
    "Gastrocnemius and soleus",
-   "Tibialis posterior",
-   "Extensor digitorum longus"
+   "Extensor hallucis longus",
+   "Popliteus and the hamstrings"
   ],
   "a": 1,
-  "e": "It dorsiflexes against their plantar flexion. In the lower-extremity distortion pattern the calves are stretched and the anterior tibialis is strengthened as a foot and ankle stabiliser."
+  "e": "Tibialis anterior dorsiflexes the ankle and gastrocnemius and soleus plantarflex it, so each decelerates the other's action. The long toe extensors cross the front of the ankle with it, so they are synergists, not antagonists.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shin",
@@ -393,7 +424,8 @@
    "Soleus"
   ],
   "a": 1,
-  "e": "Tibialis posterior runs from the posterior tibia and fibula, behind the medial malleolus, to the navicular and other tarsals. It plantarflexes and inverts and is a key arch support."
+  "e": "Tibialis posterior runs from the posterior tibia and fibula, behind the medial malleolus, to the navicular and other tarsals. It plantarflexes and inverts and is a key arch support.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shin",
@@ -405,7 +437,8 @@
    "Flex the knee and plantarflex the ankle"
   ],
   "a": 1,
-  "e": "Peroneus longus and brevis run down the lateral fibula behind the lateral malleolus. They evert the foot and resist excessive inversion, protecting against ankle sprains."
+  "e": "Peroneus longus and brevis run down the lateral fibula behind the lateral malleolus. They evert the foot and resist excessive inversion, protecting against ankle sprains.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -417,7 +450,8 @@
    "Sternum and lower ribs to the iliac crest"
   ],
   "a": 0,
-  "e": "It runs vertically from pubis to lower ribs and sternum, so it flexes the trunk in the sagittal plane and posteriorly tilts the pelvis."
+  "e": "It runs vertically from pubis to lower ribs and sternum, so it flexes the trunk in the sagittal plane and posteriorly tilts the pelvis.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -429,7 +463,8 @@
    "Transversus abdominis"
   ],
   "a": 3,
-  "e": "Transversus abdominis is the deepest layer, with fibres running horizontally from the thoracolumbar fascia, iliac crest and lower ribs to the linea alba. It compresses the abdomen and stabilises the spine."
+  "e": "Transversus abdominis is the deepest layer, with fibres running horizontally from the thoracolumbar fascia, iliac crest and lower ribs to the linea alba. It compresses the abdomen and stabilises the spine.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -453,7 +488,8 @@
    "Both internal obliques"
   ],
   "a": 1,
-  "e": "The external oblique rotates the trunk to the opposite side, the internal oblique to the same side. So left rotation pairs the right external with the left internal."
+  "e": "The external oblique rotates the trunk to the opposite side, the internal oblique to the same side. So left rotation pairs the right external with the left internal.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -465,7 +501,8 @@
    "Rectus abdominis"
   ],
   "a": 1,
-  "e": "Multifidus spans from the sacrum and transverse processes to the spinous processes two to four levels above, controlling intersegmental motion. It works with transversus abdominis in the deep core."
+  "e": "Multifidus spans from the sacrum and transverse processes to the spinous processes two to four levels above, controlling intersegmental motion. It works with transversus abdominis in the deep core.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -477,7 +514,8 @@
    "The thoracic spine to the medial border of the scapula"
   ],
   "a": 1,
-  "e": "It laterally flexes the trunk, elevates the hip, and stabilises the twelfth rib during breathing. Unilateral tightness contributes to a hip hike and pelvic asymmetry."
+  "e": "It laterally flexes the trunk, hitches the pelvis on the same side, and fixes the twelfth rib to steady the diaphragm during breathing.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -501,7 +539,8 @@
    "Latissimus dorsi"
   ],
   "a": 1,
-  "e": "Erector spinae extends the trunk, rectus abdominis flexes it. Their balance, along with the hip flexors and gluteals, determines pelvic tilt."
+  "e": "Erector spinae extends the trunk and rectus abdominis flexes it, so each decelerates the other's action.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Core",
@@ -513,7 +552,8 @@
    "Lower ribs to the iliac crest and linea alba"
   ],
   "a": 0,
-  "e": "It attaches around the lower thoracic outlet, from the lumbar vertebrae, lower ribs and xiphoid process, and converges on a central tendon. Contraction flattens the dome, increasing thoracic volume, which is the primary mechanism of inspiration."
+  "e": "It attaches around the lower thoracic outlet, from the lumbar vertebrae, lower ribs and xiphoid process, and converges on a central tendon. Contraction flattens the dome, increasing thoracic volume, which is the primary mechanism of inspiration.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -525,7 +565,8 @@
    "The cervical spine, nuchal ligament and the occipital bone"
   ],
   "a": 1,
-  "e": "It has a broad origin across the lower back and inserts into the intertubercular groove of the humerus, which is why it links the arm to the pelvis and lumbar spine."
+  "e": "It has a broad origin across the lower back and inserts into the intertubercular groove of the humerus, which is why it links the arm to the pelvis and lumbar spine.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -537,7 +578,8 @@
    "Elbow flexion and forearm supination"
   ],
   "a": 1,
-  "e": "Extension, adduction and internal rotation of the humerus. It is the agonist in a row and a pull-up, with the biceps as a synergist."
+  "e": "Extension, adduction and internal rotation of the humerus. It is the agonist in a row and a pull-up, with the biceps as a synergist.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -549,7 +591,8 @@
    "Deltoid"
   ],
   "a": 1,
-  "e": "Deltoid is the agonist, triceps the synergist, rotator cuff the stabiliser and latissimus dorsi the antagonist, because it pulls the arm back down."
+  "e": "Deltoid is the agonist, triceps the synergist, rotator cuff the stabiliser and latissimus dorsi the antagonist, because it pulls the arm back down.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Back",
@@ -561,7 +604,8 @@
    "The occiput, to the superior angle of the scapula"
   ],
   "a": 0,
-  "e": "Rhomboid minor above, major below. They retract the scapulae and rotate them downward, and they are strengthened in the upper-extremity distortion pattern."
+  "e": "Rhomboid minor sits above rhomboid major. Both run from the spinous processes to the medial border of the scapula, retracting it and rotating it downward.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -573,7 +617,8 @@
    "Retracts the scapula; from the spinous processes of T2 to T5"
   ],
   "a": 1,
-  "e": "It runs from the transverse processes of C1 to C4 to the superior medial border of the scapula, elevating it and rotating it downward, and it laterally flexes the neck. Chronically tight in forward-head, rounded-shoulder posture."
+  "e": "It runs from the transverse processes of C1 to C4 to the upper medial border of the scapula. It elevates and downwardly rotates the scapula, and side-bends the neck when the scapula is fixed.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -585,7 +630,8 @@
    "Upper retracts, middle elevates, lower protracts"
   ],
   "a": 1,
-  "e": "Upper fibres elevate the scapula and extend the neck, middle fibres retract, lower fibres depress. Upper and lower together produce upward rotation, needed for overhead reaching."
+  "e": "Upper fibres elevate the scapula and extend the neck, middle fibres retract, lower fibres depress. Upper and lower together produce upward rotation, needed for overhead reaching.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Back",
@@ -597,7 +643,8 @@
    "Strengthen all three"
   ],
   "a": 1,
-  "e": "Upper trapezius is overactive and gets flexibility work; middle and lower trapezius, along with the rhomboids and rotator cuff, are underactive and get strengthening."
+  "e": "In NASM's model upper trapezius is overactive and gets flexibility work, while middle and lower trapezius, the rhomboids and the rotator cuff get strengthening. The pattern organises what you see; static posture predicts pain poorly.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Back",
@@ -609,7 +656,8 @@
    "Teres major"
   ],
   "a": 1,
-  "e": "Serratus anterior runs from the outer surfaces of ribs 1 to 8 or 9 to the medial border of the scapula. Weakness produces winging, and it also upwardly rotates the scapula during overhead reaching."
+  "e": "Serratus anterior runs from the outer surfaces of ribs 1 to 8 or 9 to the medial border of the scapula. Weakness produces winging, and it also upwardly rotates the scapula during overhead reaching.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -621,11 +669,12 @@
    "Subscapularis, teres major, teres minor, coracobrachialis"
   ],
   "a": 0,
-  "e": "Remember SITS. Teres major is not part of the cuff. All four run from the scapula to the humerus and stabilise the shoulder girdle."
+  "e": "Remember SITS. Teres major is not part of the cuff. All four run from the scapula to the humerus and stabilise the shoulder girdle.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
-  "q": "Which rotator cuff muscle initiates abduction of the arm?",
+  "q": "Which rotator cuff muscle abducts the arm?",
   "o": [
    "Infraspinatus",
    "Supraspinatus",
@@ -633,7 +682,8 @@
    "Teres minor"
   ],
   "a": 1,
-  "e": "Supraspinatus accelerates abduction of the arm and decelerates adduction. It runs from the scapula, above the spine of the scapula, to the humerus."
+  "e": "Supraspinatus runs from the fossa above the spine of the scapula to the top of the humerus. It works with the deltoid from the start of the movement; the old teaching that it alone performs the first 15 degrees is a simplification.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -645,7 +695,8 @@
    "Supraspinatus"
   ],
   "a": 2,
-  "e": "Subscapularis sits on the anterior scapula and inserts on the anterior humerus, accelerating internal rotation. Infraspinatus and teres minor sit posteriorly and externally rotate."
+  "e": "Subscapularis sits on the anterior scapula and inserts on the anterior humerus, accelerating internal rotation. Infraspinatus and teres minor sit posteriorly and externally rotate.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -657,7 +708,8 @@
    "Scapular retraction"
   ],
   "a": 1,
-  "e": "Both run from the scapula to the posterior humerus, accelerating external rotation and decelerating internal rotation while stabilising the shoulder girdle."
+  "e": "Both run from the scapula to the posterior humerus, accelerating external rotation and decelerating internal rotation while stabilising the shoulder girdle.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -669,7 +721,8 @@
    "Lateral clavicle; elevation and scapular protraction"
   ],
   "a": 1,
-  "e": "From the scapula to the medial lip of the intertubercular groove on the anterior humerus, mirroring latissimus dorsi, which is why it is nicknamed lat's little helper. It is not a rotator cuff muscle."
+  "e": "From the scapula to the medial lip of the intertubercular groove on the anterior humerus, mirroring latissimus dorsi, which is why it is nicknamed lat's little helper. It is not a rotator cuff muscle.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -681,7 +734,8 @@
    "All three parts equally"
   ],
   "a": 1,
-  "e": "Anterior deltoid accelerates shoulder flexion and internal rotation, lateral accelerates abduction, posterior accelerates extension and external rotation. All three run from the scapula and clavicle to the humerus."
+  "e": "Anterior deltoid accelerates shoulder flexion and internal rotation, lateral accelerates abduction, posterior accelerates extension and external rotation. All three run from the scapula and clavicle to the humerus.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -693,7 +747,8 @@
    "Both abduct and externally rotate the shoulder"
   ],
   "a": 0,
-  "e": "Each decelerates what the other accelerates, which is why the posterior deltoid is the antagonist in a chest press and the anterior deltoid a synergist."
+  "e": "Each decelerates what the other accelerates, which is why the posterior deltoid is the antagonist in a chest press and the anterior deltoid a synergist.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -705,7 +760,8 @@
    "The thoracic spine and thoracolumbar fascia"
   ],
   "a": 1,
-  "e": "It inserts on the anterior humerus and accelerates shoulder horizontal adduction and internal rotation, with the clavicular fibres also producing flexion."
+  "e": "It inserts on the anterior humerus and accelerates shoulder horizontal adduction and internal rotation, with the clavicular fibres also producing flexion.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -717,7 +773,8 @@
    "Elbow flexion and forearm pronation"
   ],
   "a": 1,
-  "e": "It decelerates the opposite of what it accelerates. In the upper-extremity distortion pattern it is the muscle stretched, because it is chronically shortened in rounded-shoulder posture."
+  "e": "A muscle decelerates the opposite of what it accelerates. Pectoralis major produces flexion, horizontal adduction and internal rotation, so it controls extension, horizontal abduction and external rotation, as in lowering a bench press.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -729,19 +786,21 @@
    "Elbow extension"
   ],
   "a": 1,
-  "e": "It protracts the scapulae and decelerates retraction. It is a secondary respiratory muscle in heavy or forced breathing, alongside the scalenes and sternocleidomastoid."
+  "e": "It protracts the scapulae and decelerates retraction. It is a secondary respiratory muscle in heavy or forced breathing, alongside the scalenes and sternocleidomastoid.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
   "q": "Serratus anterior originates on which structures?",
   "o": [
    "The upper nine ribs",
-   "The thoracic spine",
-   "The clavicle",
-   "The sternum"
+   "The thoracic spinous processes",
+   "The clavicle and acromion",
+   "The sternum and costal cartilages"
   ],
   "a": 0,
-  "e": "From the upper nine ribs to the anterior scapula. It accelerates scapular protraction, decelerates retraction, and stabilises the scapulae against the rib cage."
+  "e": "From the upper nine ribs to the anterior scapula. It accelerates scapular protraction, decelerates retraction, and stabilises the scapulae against the rib cage.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -753,7 +812,8 @@
    "Depression and upward rotation"
   ],
   "a": 1,
-  "e": "Rhomboid major and minor run from the thoracic spine to the scapula, retracting and downwardly rotating it, and decelerating protraction and upward rotation."
+  "e": "Rhomboid major and minor run from the thoracic spine to the scapula, retracting and downwardly rotating it, and decelerating protraction and upward rotation.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -765,7 +825,8 @@
    "Levator scapulae"
   ],
   "a": 2,
-  "e": "Lower trapezius depresses, middle retracts, upper elevates the scapula and extends, laterally flexes and rotates the neck. One muscle, three parts pulling in different directions."
+  "e": "Lower trapezius depresses, middle retracts, upper elevates the scapula and extends, laterally flexes and rotates the neck. One muscle, three parts pulling in different directions.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -777,19 +838,21 @@
    "Abducts the arm past ninety degrees"
   ],
   "a": 1,
-  "e": "From the coracoid process of the scapula to the medial shaft of the humerus. It flexes the humerus at the shoulder and assists adduction."
+  "e": "From the coracoid process of the scapula to the medial shaft of the humerus. It flexes the humerus at the shoulder and assists adduction.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
-  "q": "In the NASM table, biceps brachii is listed as inserting on which bones?",
+  "q": "Where does biceps brachii insert?",
   "o": [
-   "Humerus only",
-   "Radius and ulna",
-   "Ulna only",
-   "Scapula"
+   "The radial tuberosity and the bicipital aponeurosis",
+   "The olecranon process of the ulna and the forearm fascia",
+   "The coronoid process and the tuberosity of the ulna",
+   "The lateral epicondyle and the radial collateral ligament"
   ],
-  "a": 1,
-  "e": "The table lists radius and ulna. The tendon proper goes to the radial tuberosity, with the bicipital aponeurosis spreading over the fascia on the ulnar side. It originates on the scapula, so it crosses the shoulder as well as the elbow."
+  "a": 0,
+  "e": "The tendon goes to the radial tuberosity, which is why biceps supinates, and the bicipital aponeurosis spreads into the fascia over the forearm flexors. Brachialis, not biceps, inserts on the coronoid process of the ulna.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -801,7 +864,8 @@
    "Wrist flexion, elbow flexion, shoulder flexion"
   ],
   "a": 1,
-  "e": "Elbow flexion, supination at the radioulnar joint and shoulder flexion. It decelerates elbow extension, pronation and shoulder extension, and stabilises the elbow and shoulder girdle."
+  "e": "Elbow flexion, supination at the radioulnar joint and shoulder flexion. It decelerates elbow extension, pronation and shoulder extension, and stabilises the elbow and shoulder girdle.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -813,7 +877,8 @@
    "The radius crossing over the ulna shortens the forearm"
   ],
   "a": 1,
-  "e": "Pronation partially unwinds the biceps tendon on the radius and reduces its mechanical advantage, leaving more of the work to brachialis and brachioradialis."
+  "e": "Pronation partially unwinds the biceps tendon on the radius and reduces its mechanical advantage, leaving more of the work to brachialis and brachioradialis.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -825,7 +890,8 @@
    "The scapula alone"
   ],
   "a": 0,
-  "e": "The long head arises from the scapula and the medial and lateral heads from the humerus. All insert on the ulna, at the olecranon."
+  "e": "The long head arises from the scapula and the medial and lateral heads from the humerus. All insert on the ulna, at the olecranon.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -837,7 +903,8 @@
    "Forearm pronation and elbow extension"
   ],
   "a": 1,
-  "e": "Because the long head crosses the shoulder, triceps extends the shoulder as well as the elbow, and decelerates elbow and shoulder flexion."
+  "e": "Because the long head crosses the shoulder, triceps extends the shoulder as well as the elbow, and decelerates elbow and shoulder flexion.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -849,7 +916,8 @@
    "Extends the elbow rather than flexing it"
   ],
   "a": 1,
-  "e": "From the humerus to the ulna. Because the ulna does not rotate, brachialis is a pure elbow flexor regardless of forearm position."
+  "e": "From the humerus to the ulna. Because the ulna does not rotate, brachialis is a pure elbow flexor regardless of forearm position.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -861,7 +929,8 @@
    "Metacarpals"
   ],
   "a": 1,
-  "e": "Humerus to radius, accelerating elbow flexion and decelerating elbow extension. It is strongest with the forearm in a neutral, thumbs-up position, as in a hammer curl."
+  "e": "Humerus to radius, accelerating elbow flexion and decelerating elbow extension. It is best placed with the forearm neutral, thumbs up, as in a hammer curl.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -873,7 +942,8 @@
    "Flexes the wrist"
   ],
   "a": 1,
-  "e": "From the A&P notes: a small muscle assisting triceps in elbow extension."
+  "e": "From the A&P notes: a small muscle assisting triceps in elbow extension.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
@@ -885,19 +955,21 @@
    "Extends the fingers at the knuckle joints"
   ],
   "a": 1,
-  "e": "Pronation turns the palm from up to down. Its antagonist, supinator radii brevis, runs from the lateral humerus and ulna to the radius and supinates."
+  "e": "Pronation turns the palm from up to down. Its antagonist, supinator radii brevis, runs from the lateral humerus and ulna to the radius and supinates.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
-  "q": "Which muscle supinates the forearm at the elbow joint, from the lateral humerus and ulna?",
+  "q": "Which muscle runs from the lateral humerus and the ulna to the radius?",
   "o": [
    "Pronator teres",
    "Supinator radii brevis",
    "Brachioradialis",
-   "Extensor carpi radialis longus"
+   "Extensor carpi radialis"
   ],
   "a": 1,
-  "e": "Supinator radii brevis inserts on the radius. Biceps brachii is the other, more powerful, supinator, but only when the elbow is flexed."
+  "e": "Supinator radii brevis runs from the lateral humerus and ulna to the radius and supinates the forearm. Pronator teres mirrors it from the medial humerus, brachioradialis arises from the humerus alone, and extensor carpi radialis ends on a metacarpal.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
@@ -909,7 +981,8 @@
    "Extends the fingers"
   ],
   "a": 0,
-  "e": "Radialis means thumb side, so it flexes and abducts. Flexor carpi ulnaris, on the little-finger side, flexes and adducts."
+  "e": "Radialis means thumb side, so it flexes and abducts. Flexor carpi ulnaris, on the little-finger side, flexes and adducts.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
@@ -921,7 +994,8 @@
    "Nothing else"
   ],
   "a": 1,
-  "e": "Ulnaris means little-finger side, so its pull adducts the hand. It runs from the medial humerus to the metacarpals."
+  "e": "Ulnaris means little-finger side, so its pull adducts the hand. It runs from the medial humerus to the pisiform, hamate and base of the fifth metacarpal.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
@@ -933,7 +1007,8 @@
    "Scapula"
   ],
   "a": 1,
-  "e": "The flexors arise from the medial humerus, at the medial epicondyle, and the extensors from the lateral humerus, at the lateral epicondyle. That is the anatomy behind golfer's and tennis elbow respectively."
+  "e": "The flexors arise from the medial humerus, at the medial epicondyle, and the extensors from the lateral humerus, at the lateral epicondyle. That is the anatomy behind golfer's and tennis elbow respectively.",
+  "sec": "learning#palpable-landmarks"
  },
  {
   "t": "Forearm",
@@ -945,31 +1020,34 @@
    "Pronates the forearm"
   ],
   "a": 1,
-  "e": "Radialis, thumb side, so abduction. Extensor carpi ulnaris extends and adducts. Both originate on the lateral humerus and insert on a metacarpal."
+  "e": "Radialis, thumb side, so abduction. Extensor carpi ulnaris extends and adducts. Both originate on the lateral humerus and insert on a metacarpal.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Forearm",
-  "q": "Flexor carpi digitorum inserts on the phalanges. What does it do?",
+  "q": "Flexor digitorum superficialis runs from the medial epicondyle and radius to the phalanges. What does it do?",
   "o": [
    "Flexes the hand at the wrist and the finger joints",
-   "Extends the fingers without acting at the wrist",
+   "Extends the fingers without acting at the wrist joint",
    "Abducts the thumb away from the palm",
    "Flexes the hand at the wrist but not the fingers"
   ],
   "a": 0,
-  "e": "Because it crosses the wrist and continues to the phalanges it acts on both. Standard anatomy names these the flexor digitorum superficialis and profundus. Extensor carpi digitorum is the mirror, extending the hand at the wrist and the fingers."
+  "e": "It crosses the wrist and continues to the phalanges, so it flexes both the wrist and the fingers. Extensor digitorum is its mirror on the back of the forearm.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hand",
   "q": "The thenar eminence is the muscle mass on which side of the palm, and what does it do?",
   "o": [
    "Little finger side; abduction and flexion of the little finger",
-   "Thumb side; adduction, abduction and flexion of the thumb",
+   "Thumb side; flexion, abduction and opposition of the thumb",
    "Centre of the palm; finger flexion",
    "Back of the hand; finger extension"
   ],
   "a": 1,
-  "e": "Thenar is the thumb side, hypothenar the little finger side, which abducts and flexes the little finger. Strictly the thenar group is abductor pollicis brevis, flexor pollicis brevis and opponens pollicis; adductor pollicis sits in its own compartment."
+  "e": "Thenar is the thumb side and hypothenar the little-finger side. The thenar muscles flex, abduct and oppose the thumb; adductor pollicis sits in its own compartment.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Neck",
@@ -981,7 +1059,8 @@
    "The first rib and its costal cartilage"
   ],
   "a": 1,
-  "e": "The name itself gives the attachments. It accelerates cervical flexion, rotation and lateral flexion, and stabilises the cervical spine and acromioclavicular joint."
+  "e": "The name gives the attachments: sternum, clavicle, mastoid. It flexes, rotates and laterally flexes the neck, and stabilises the cervical spine and sternoclavicular joint.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Neck",
@@ -993,7 +1072,8 @@
    "Flex the elbow against resistance"
   ],
   "a": 1,
-  "e": "They are secondary respiratory muscles, recruited in heavy or forced breathing alongside sternocleidomastoid and pectoralis minor. They also flex, rotate and laterally flex the cervical spine."
+  "e": "They are secondary respiratory muscles, recruited in heavy or forced breathing alongside sternocleidomastoid and pectoralis minor. They also flex, rotate and laterally flex the cervical spine.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Neck",
@@ -1005,7 +1085,8 @@
    "The head laterally flexes to the opposite side"
   ],
   "a": 1,
-  "e": "One side rotates the head towards that same side; both sides together extend it."
+  "e": "One side rotates the head towards that same side; both sides together extend it.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Neck",
@@ -1017,7 +1098,8 @@
    "Rib elevation"
   ],
   "a": 1,
-  "e": "Longus colli produces cervical flexion, lateral flexion and ipsilateral rotation; longus capitis produces cervical flexion and lateral flexion. Both stabilise the cervical spine, and both are typically weak in forward-head posture."
+  "e": "Longus colli produces cervical flexion, lateral flexion and ipsilateral rotation; longus capitis flexes and laterally flexes. Together they are the deep neck flexors and stabilise the cervical spine.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Foot",
@@ -1029,7 +1111,8 @@
    "Flexes the four lateral toes"
   ],
   "a": 1,
-  "e": "It crosses the front of the ankle and continues to the toes, so it dorsiflexes and extends. Its counterpart, flexor digitorum longus, runs from the tibia to the phalanges and flexes the lateral four toes."
+  "e": "It crosses the front of the ankle and continues to the toes, so it dorsiflexes and extends. Its counterpart, flexor digitorum longus, runs from the tibia to the phalanges and flexes the lateral four toes.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Foot",
@@ -1041,19 +1124,21 @@
    "Peroneus brevis"
   ],
   "a": 1,
-  "e": "Flexor digitorum longus runs from the tibia to the phalanges. Together with tibialis posterior it contributes to arch support and toe-off."
+  "e": "Flexor digitorum longus runs from the tibia to the phalanges. Together with tibialis posterior it contributes to arch support and toe-off.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
   "q": "In the NASM muscle tables, what does 'accelerates' mean?",
   "o": [
-   "The muscle contracts eccentrically",
+   "The eccentric action that the muscle controls",
    "The concentric action the muscle produces",
    "The isometric hold the muscle provides",
-   "The speed of contraction"
+   "How fast the muscle can contract"
   ],
   "a": 1,
-  "e": "Accelerates is the concentric action, decelerates the eccentric action it controls, and stabilises the isometric role. Each muscle is described in all three."
+  "e": "Accelerates is the concentric action, decelerates the eccentric action it controls, and stabilises the isometric role. Each muscle is described in all three.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1065,11 +1150,12 @@
    "Knee extension and ankle plantar flexion"
   ],
   "a": 1,
-  "e": "It decelerates the opposite of what it accelerates, and its iliotibial band attachment gives it influence on the tibia as well. It stabilises the LPHC."
+  "e": "It decelerates the opposite of what it accelerates, and its iliotibial band attachment gives it influence on the tibia as well. It stabilises the LPHC.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
-  "q": "Which structure does the psoas stabilise, and what does it rotate?",
+  "q": "In NASM's muscle table, what does psoas stabilise, and what spinal action is it listed with?",
   "o": [
    "The knee; the tibia",
    "The LPHC; the lumbar spine",
@@ -1077,7 +1163,8 @@
    "The shoulder girdle; the humerus"
   ],
   "a": 1,
-  "e": "Psoas runs from the lumbar spine to the femur, accelerating hip flexion and external rotation and rotating the lumbar spine, while stabilising the LPHC. Iliacus shares the hip actions but not the spinal one."
+  "e": "NASM lists psoas as stabilising the LPHC and rotating the lumbar spine. Biomechanical studies find it has very small moments on the lumbar spine and mainly compresses it, so treat the rotation as a table entry, not a strong action.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1089,19 +1176,8 @@
    "Sartorius and gracilis"
   ],
   "a": 1,
-  "e": "Psoas originates on the lumbar spine, iliacus on the iliac bones. Both insert on the femur and accelerate hip flexion and external rotation, but only psoas can rotate the lumbar spine."
- },
- {
-  "t": "NASM framing",
-  "q": "Gluteus medius has different actions in its anterior and posterior fibres. Which is correct?",
-  "o": [
-   "Anterior abduct and externally rotate; posterior abduct and internally rotate",
-   "Anterior abduct and internally rotate; posterior abduct and externally rotate",
-   "Both internally rotate",
-   "Both adduct"
-  ],
-  "a": 1,
-  "e": "Anterior fibres accelerate abduction and internal rotation; posterior fibres accelerate abduction and external rotation. Gluteus minimus abducts and internally rotates."
+  "e": "Psoas originates on the lumbar spine and iliacus in the iliac fossa. Both insert on the lesser trochanter and flex the hip; only psoas crosses the lumbar spine, though its leverage there is small.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1113,7 +1189,8 @@
    "It adducts the extended hip but abducts the flexed femur"
   ],
   "a": 1,
-  "e": "Both sets adduct, but the anterior fibres accelerate hip flexion and internal rotation and the posterior fibres accelerate hip extension and external rotation."
+  "e": "Both sets adduct, but the anterior fibres accelerate hip flexion and internal rotation and the posterior fibres accelerate hip extension and external rotation.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1125,7 +1202,8 @@
    "Knee flexion, hip abduction, internal rotation"
   ],
   "a": 1,
-  "e": "From the ilium via the iliotibial tract to the tibia. It decelerates hip extension, adduction and external rotation, and stabilises the LPHC."
+  "e": "From the ilium via the iliotibial tract to the tibia. It decelerates hip extension, adduction and external rotation, and stabilises the LPHC.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1137,7 +1215,8 @@
    "No rotation"
   ],
   "a": 1,
-  "e": "Medial hamstrings internally rotate the tibia. It runs from the ischial tuberosity to the tibia and stabilises the LPHC and knee."
+  "e": "Medial hamstrings internally rotate the tibia. It runs from the ischial tuberosity to the tibia and stabilises the LPHC and knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1149,7 +1228,8 @@
    "The spine and the knee"
   ],
   "a": 1,
-  "e": "Because it crosses both hip and knee, running from the iliac bone to the tibia via the patella, it accelerates knee extension and hip flexion. The three vasti stabilise only the knee."
+  "e": "Because it crosses both hip and knee, running from the iliac bone to the tibia via the patella, it accelerates knee extension and hip flexion. The three vasti stabilise only the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1161,7 +1241,8 @@
    "Latissimus dorsi"
   ],
   "a": 1,
-  "e": "QL runs from the iliac crest to the twelfth rib and lumbar vertebrae, accelerating ipsilateral lateral flexion and hip hiking, and fixing the twelfth rib to stabilise the diaphragm's attachments during inspiration."
+  "e": "QL runs from the iliac crest to the twelfth rib and lumbar vertebrae, accelerating ipsilateral lateral flexion and hip hiking, and fixing the twelfth rib to stabilise the diaphragm's attachments during inspiration.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1173,7 +1254,8 @@
    "Posterior pelvic tilt and lumbar flexion"
   ],
   "a": 1,
-  "e": "It runs from the iliac crest, inguinal ligament, lumbar fascia and lower ribs to the linea alba, and its job is pressure and stability rather than movement. It stabilises the LPHC."
+  "e": "It runs from the iliac crest, inguinal ligament, lumbar fascia and lower ribs to the linea alba, and its job is pressure and stability rather than movement. It stabilises the LPHC.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1185,7 +1267,8 @@
    "It does not rotate"
   ],
   "a": 1,
-  "e": "External oblique accelerates contralateral rotation, internal oblique ipsilateral rotation. Both also flex and laterally flex the spine and stabilise the LPHC."
+  "e": "External oblique accelerates contralateral rotation, internal oblique ipsilateral rotation. Both also flex and laterally flex the spine and stabilise the LPHC.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1197,7 +1280,8 @@
    "Both"
   ],
   "a": 1,
-  "e": "Spinal extension and contralateral rotation, decelerating spinal flexion and rotation. It stabilises the spine segment by segment."
+  "e": "Spinal extension and contralateral rotation, decelerating spinal flexion and rotation. It stabilises the spine segment by segment.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1209,7 +1293,8 @@
    "Elbow extension"
   ],
   "a": 1,
-  "e": "Because it attaches to the thoracic and lumbar spine and iliac crest, it also decelerates spinal flexion. It stabilises the LPHC and shoulder, linking the arm to the pelvis."
+  "e": "Because it attaches to the thoracic and lumbar spine and iliac crest, it also decelerates spinal flexion. It stabilises the LPHC and shoulder, linking the arm to the pelvis.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "NASM framing",
@@ -1221,11 +1306,12 @@
    "Cervical flexion and scapular depression"
   ],
   "a": 1,
-  "e": "With the neck stabilised instead, it assists scapular elevation and downward rotation. Which end is fixed determines which end moves."
+  "e": "With the neck stabilised instead, it assists scapular elevation and downward rotation. Which end is fixed determines which end moves.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
-  "q": "A client's knees buckle inward during a squat. Which muscles are overactive and which underactive?",
+  "q": "In NASM's overhead squat assessment, knees moving inward are read as which pattern?",
   "o": [
    "Overactive gluteus medius, underactive adductor complex",
    "Overactive adductors, underactive gluteus medius",
@@ -1233,7 +1319,8 @@
    "Overactive TFL, underactive psoas"
   ],
   "a": 1,
-  "e": "The adductor complex pulls the femur into adduction and internal rotation; the outer hip fails to resist it. Release and stretch the adductors, strengthen the outer hip."
+  "e": "NASM reads it as overactive adductors and an underactive outer hip, and also checks ankle dorsiflexion. Observers agree only moderately and inferring specific muscles is unvalidated, so treat it as a hypothesis to test.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -1245,19 +1332,21 @@
    "Antagonist"
   ],
   "a": 2,
-  "e": "It contracts isometrically to hold the humeral head centred in the glenoid while pectoralis major, anterior deltoid and triceps do the moving. That is the stabiliser role in NASM's terms."
+  "e": "It contracts isometrically to hold the humeral head centred in the glenoid while pectoralis major, anterior deltoid and triceps do the moving. That is the stabiliser role in NASM's terms.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
-  "q": "In anterior pelvic tilt, which pair is short at one end and weak at the other, two ends of the same lever?",
+  "q": "NASM links tight hip flexors and weak glutes to anterior pelvic tilt and back pain. What does the evidence say?",
   "o": [
-   "Rectus abdominis and erector spinae",
-   "Psoas and gluteus maximus",
-   "Quadratus lumborum and multifidus",
-   "Hamstrings and quadriceps"
+   "The link is weak; hip flexor length barely tracks tilt",
+   "Prospective studies have established it as a cause of back pain",
+   "Stretching the hip flexors reliably corrects pelvic tilt",
+   "Anterior tilt is caused by a weak rectus abdominis alone"
   ],
-  "a": 1,
-  "e": "A short psoas pulls the lumbar spine and pelvis forward; a weak gluteus maximus fails to pull it back. Tight hip flexors and weak glutes are not two findings but two ends of one lever."
+  "a": 0,
+  "e": "Psoas has little leverage on the lumbar curve and hip flexor length barely relates to pelvic tilt. Train hip extension because it matters, but do not promise it will change posture or pain.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1269,7 +1358,8 @@
    "Both insert on the medial border of the scapula, so they pull together"
   ],
   "a": 1,
-  "e": "Two joints move at once, so two muscle groups contribute. NASM lists latissimus dorsi as the agonist and biceps as the synergist in a pull-up."
+  "e": "Two joints move at once, so two muscle groups contribute. NASM lists latissimus dorsi as the agonist and biceps as the synergist in a pull-up.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -1281,7 +1371,8 @@
    "Contracting isometrically to hold the load"
   ],
   "a": 1,
-  "e": "The muscle exerts less force than the load, so it lengthens under control. That is exactly what the NASM tables mean by decelerating elbow extension."
+  "e": "The muscle exerts less force than the load, so it lengthens under control. That is exactly what the NASM tables mean by decelerating elbow extension.",
+  "sec": "learning#the-muscle-action-spectrum"
  },
  {
   "t": "Applied",
@@ -1293,31 +1384,21 @@
    "Lengthen serratus anterior; work pectoralis minor"
   ],
   "a": 1,
-  "e": "Overhead reaching needs scapular upward rotation, produced by serratus anterior with the upper and lower trapezius, and it is blocked by tight pectorals and latissimus dorsi. That is why arms fall forward in the overhead squat."
- },
- {
-  "t": "Applied",
-  "q": "Which single muscle would you suspect first if a client cannot hold a level pelvis in single-leg stance?",
-  "o": [
-   "Gluteus maximus",
-   "Gluteus medius",
-   "Psoas",
-   "Rectus femoris"
-  ],
-  "a": 1,
-  "e": "Gluteus medius is the primary frontal-plane pelvic stabiliser. Its weakness shows as the opposite hip dropping and often as knee valgus further down the chain."
+  "e": "Reaching overhead needs the scapula to rotate upward, which comes from serratus anterior with upper and lower trapezius. Latissimus dorsi and the pectorals pull the arm down and forward, so they need enough length for full range.",
+  "sec": "learning#scapular-motion"
  },
  {
   "t": "Applied",
   "q": "A muscle crossing two joints can be limited by active insufficiency. Which is an example?",
   "o": [
    "Soleus during a seated calf raise",
-   "Hamstrings flexing the knee with the hip already extended",
+   "Finger flexors gripping with the wrist already fully flexed",
    "Brachialis during a curl with the forearm pronated",
    "Supraspinatus during the first fifteen degrees of abduction"
   ],
   "a": 1,
-  "e": "Shortened at both ends, a two-joint muscle cannot generate full force. The same principle explains why rectus femoris is a weaker knee extensor when the hip is flexed."
+  "e": "Flexor digitorum superficialis crosses the wrist and the finger joints, so with the wrist already flexed it is shortened at one end and cannot grip hard at the other. Soleus, brachialis and supraspinatus each cross only one joint.",
+  "sec": "learning#length-tension-torque-and-leverage"
  },
  {
   "t": "Applied",
@@ -1329,19 +1410,8 @@
    "Peroneus longus and brevis"
   ],
   "a": 1,
-  "e": "Gastrocnemius crosses the knee, so it is at better length with the knee straight. Bending the knee shortens it and shifts the work to soleus."
- },
- {
-  "t": "Applied",
-  "q": "Which muscle group would you strengthen to reduce excessive pronation at the foot?",
-  "o": [
-   "The peroneals, longus and brevis",
-   "Tibialis posterior and tibialis anterior",
-   "Gastrocnemius and soleus",
-   "Extensor digitorum longus and extensor hallucis longus"
-  ],
-  "a": 1,
-  "e": "The invertors resist the arch collapsing; the peroneals evert and would do the opposite. In the lower-extremity distortion pattern the foot and ankle stabilisers, notably anterior tibialis, are the ones strengthened."
+  "e": "Gastrocnemius crosses the knee, so it is at better length with the knee straight. Bending the knee shortens it and shifts the work to soleus.",
+  "sec": "learning#length-tension-torque-and-leverage"
  },
  {
   "t": "Reverse",
@@ -1353,7 +1423,8 @@
    "Adductor longus"
   ],
   "a": 1,
-  "e": "Psoas major and iliacus share that insertion. Gluteus medius, minimus and piriformis all insert on the greater trochanter; the adductors insert on the linea aspera."
+  "e": "Psoas major and iliacus share that insertion. Gluteus medius, minimus and piriformis all insert on the greater trochanter; the adductors insert on the linea aspera.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1365,7 +1436,8 @@
    "Sartorius and gracilis"
   ],
   "a": 1,
-  "e": "The abductors and the deep external rotators converge on the greater trochanter, the lateral bony prominence at the top of the femur."
+  "e": "The abductors and the deep external rotators converge on the greater trochanter, the lateral bony prominence at the top of the femur.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1377,7 +1449,8 @@
    "The hip flexors, psoas major and iliacus together"
   ],
   "a": 1,
-  "e": "Biceps femoris long head, semitendinosus and semimembranosus all arise there, which is why sitting bone pain often traces back to hamstring attachment. The short head of biceps femoris is the exception, arising from the linea aspera."
+  "e": "Biceps femoris long head, semitendinosus and semimembranosus all arise there, which is why sitting bone pain often traces back to hamstring attachment. The short head of biceps femoris is the exception, arising from the linea aspera.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1389,7 +1462,8 @@
    "Sartorius, popliteus and gracilis"
   ],
   "a": 0,
-  "e": "Say goodbye to my grandmother: Sartorius, Gracilis, semiTendinosus. Three muscles from three different groups, sharing one insertion."
+  "e": "Say goodbye to my grandmother: Sartorius, Gracilis, semiTendinosus. Three muscles from three different groups, sharing one insertion.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1401,7 +1475,8 @@
    "Rhomboid major"
   ],
   "a": 1,
-  "e": "Latissimus dorsi. Its span from the pelvis to the arm is why it links shoulder motion to the LPHC and why it decelerates spinal flexion as well as shoulder flexion."
+  "e": "Latissimus dorsi. Its span from the pelvis to the arm is why it links shoulder motion to the LPHC and why it decelerates spinal flexion as well as shoulder flexion.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1413,7 +1488,8 @@
    "Supraspinatus and infraspinatus"
   ],
   "a": 0,
-  "e": "The rhomboids pull it medially from the spine, serratus anterior pulls it laterally from the ribs. They are direct antagonists across the same border."
+  "e": "The rhomboids pull it medially from the spine, serratus anterior pulls it laterally from the ribs. They are direct antagonists across the same border.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1425,7 +1501,8 @@
    "Semimembranosus"
   ],
   "a": 1,
-  "e": "Piriformis runs from the anterior sacrum to the greater trochanter. Gluteus maximus also has a sacral origin, but it inserts on the gluteal tuberosity of the femur and the iliotibial band, not the trochanter."
+  "e": "Piriformis runs from the anterior sacrum to the greater trochanter. Gluteus maximus also has a sacral origin, but it inserts on the gluteal tuberosity of the femur and the iliotibial band, not the trochanter.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1437,7 +1514,8 @@
    "Vastus medialis"
   ],
   "a": 1,
-  "e": "Rectus femoris is the only quadriceps with a pelvic origin, so it is the only one that flexes the hip. The three vasti arise from the femur itself."
+  "e": "Rectus femoris is the only quadriceps with a pelvic origin, so it is the only one that flexes the hip. The three vasti arise from the femur itself.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1449,7 +1527,8 @@
    "Splenius capitis"
   ],
   "a": 1,
-  "e": "The name lists the attachments in order: sterno, cleido (clavicle), mastoid."
+  "e": "The name lists the attachments in order: sterno, cleido (clavicle), mastoid.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1461,7 +1540,8 @@
    "Internal oblique"
   ],
   "a": 1,
-  "e": "That vertical line of pull produces spinal flexion. External oblique runs the other way, from the lower ribs down to the iliac crest and linea alba."
+  "e": "That vertical line of pull produces spinal flexion. External oblique runs the other way, from the lower ribs down to the iliac crest and linea alba.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Reverse",
@@ -1473,7 +1553,8 @@
    "Internal oblique"
   ],
   "a": 1,
-  "e": "QL. Besides lateral flexion and hip hiking, it fixes the twelfth rib to stabilise the diaphragm's attachments during inspiration."
+  "e": "QL. Besides lateral flexion and hip hiking, it fixes the twelfth rib to stabilise the diaphragm's attachments during inspiration.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Deep rotators",
@@ -1491,13 +1572,14 @@
   "t": "Deep rotators",
   "q": "Why does piriformis change its action when the hip is flexed past about 90 degrees?",
   "o": [
-   "Reciprocal inhibition switches it off in that position",
-   "Its line of pull relative to the joint axis changes, so it abducts",
-   "Its sacral attachment slackens and it can no longer generate tension",
-   "The sciatic nerve compresses it and limits its action"
+   "Reciprocal inhibition from the hip flexors switches it off there",
+   "Its line of pull crosses the joint axis, so it rotates inwards",
+   "Its sacral attachment slackens, so it cannot generate tension",
+   "The sciatic nerve compresses it, which limits its action"
   ],
   "a": 1,
-  "e": "Line of pull, not the muscle, determines the action. This is the same principle behind role switching, where one muscle acts as agonist, synergist or stabiliser depending on the position."
+  "e": "Line of pull relative to the joint axis, not the muscle itself, decides the action. Flex the hip far enough and piriformis sits on the other side of the rotation axis, so it internally rotates.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -1509,7 +1591,8 @@
    "The tibial tuberosity, via the patellar ligament"
   ],
   "a": 1,
-  "e": "Semimembranosus goes to the posterior medial tibial condyle, semitendinosus to the pes anserinus. Both are medial hamstrings and both internally rotate the flexed knee."
+  "e": "Semimembranosus goes to the posterior medial tibial condyle, semitendinosus to the pes anserinus. Both are medial hamstrings and both internally rotate the flexed knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Hamstrings",
@@ -1521,7 +1604,8 @@
    "All three hamstrings have two heads"
   ],
   "a": 1,
-  "e": "The long head arises from the ischial tuberosity and the short head from the linea aspera of the femur. Only the long head crosses the hip, which is why the short head flexes the knee but does not extend the hip."
+  "e": "The long head arises from the ischial tuberosity and the short head from the linea aspera of the femur. Only the long head crosses the hip, which is why the short head flexes the knee but does not extend the hip.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Quadriceps",
@@ -1533,7 +1617,8 @@
    "Rectus femoris"
   ],
   "a": 2,
-  "e": "Vastus intermedius sits under rectus femoris on the anterior femur. Like the other vasti it arises from the femur, inserts on the tibia via the patella, and only extends the knee."
+  "e": "Vastus intermedius sits under rectus femoris on the anterior femur. Like the other vasti it arises from the femur, inserts on the tibia via the patella, and only extends the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Calf",
@@ -1557,19 +1642,8 @@
    "The pes anserinus"
   ],
   "a": 1,
-  "e": "Three muscle bellies, two heads of gastrocnemius plus soleus, sharing the Achilles tendon into the calcaneus."
- },
- {
-  "t": "Erector spinae",
-  "q": "Which erector spinae column lies closest to the spinous processes?",
-  "o": [
-   "Iliocostalis",
-   "Longissimus",
-   "Spinalis",
-   "Multifidus"
-  ],
-  "a": 2,
-  "e": "From lateral to medial: iliocostalis, longissimus, spinalis. Iliocostalis attaches out toward the ribs, hence the name."
+  "e": "Three muscle bellies, two heads of gastrocnemius plus soleus, sharing the Achilles tendon into the calcaneus.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Erector spinae",
@@ -1581,7 +1655,8 @@
    "Spinal extension, as when both sides contract"
   ],
   "a": 1,
-  "e": "Bilaterally they extend the spine; unilaterally they laterally flex and rotate. They decelerate spinal flexion, rotation and lateral flexion and stabilise the spine during functional movement."
+  "e": "Bilaterally they extend the spine; unilaterally they laterally flex and rotate. They decelerate spinal flexion, rotation and lateral flexion and stabilise the spine during functional movement.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Breathing",
@@ -1605,7 +1680,8 @@
    "Erector spinae"
   ],
   "a": 1,
-  "e": "They are the secondary respiratory muscles. Visible contraction of the neck muscles at rest is a sign of the abnormal upper-chest breathing pattern that warrants referral."
+  "e": "They are the secondary respiratory muscles, recruited when breathing is heavy. Quiet inspiration relies on the diaphragm and external intercostals.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Breathing",
@@ -1629,7 +1705,8 @@
    "On the lateral border"
   ],
   "a": 1,
-  "e": "Supra means above. Infraspinatus sits below the spine of the scapula, subscapularis on the anterior, costal surface, and teres minor along the lateral border."
+  "e": "Supra means above. Infraspinatus sits below the spine of the scapula, subscapularis on the anterior, costal surface, and teres minor along the lateral border.",
+  "sec": "learning#palpable-landmarks"
  },
  {
   "t": "Shoulder",
@@ -1641,7 +1718,8 @@
    "Teres minor"
   ],
   "a": 2,
-  "e": "Sub-scapular means under the scapula. Its anterior position is exactly why it is the internal rotator of the group."
+  "e": "Sub-scapular means under the scapula. Its anterior position is exactly why it is the internal rotator of the group.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -1653,7 +1731,8 @@
    "Levator scapulae"
   ],
   "a": 1,
-  "e": "Serratus anterior holds the medial border flat against the ribs. Weakness lets the border lift, and it also impairs the scapular upward rotation needed for overhead reaching."
+  "e": "Serratus anterior holds the medial border flat against the ribs. Weakness lets the border lift, and it also impairs the scapular upward rotation needed for overhead reaching.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -1665,7 +1744,8 @@
    "Latissimus dorsi with the middle trapezius"
   ],
   "a": 1,
-  "e": "Three muscles pulling in different directions produce one rotation, a force couple. The rhomboids and levator scapulae do the opposite, downward rotation."
+  "e": "Three muscles pulling in different directions produce one rotation, a force couple. The rhomboids and levator scapulae do the opposite, downward rotation.",
+  "sec": "learning#scapular-motion"
  },
  {
   "t": "Shoulder",
@@ -1677,7 +1757,8 @@
    "Pectoralis major and minor"
   ],
   "a": 1,
-  "e": "Both accelerate retraction or elevation with downward rotation, and both decelerate the upward rotation produced by serratus anterior and trapezius."
+  "e": "Both accelerate retraction or elevation with downward rotation, and both decelerate the upward rotation produced by serratus anterior and trapezius.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Shoulder",
@@ -1689,7 +1770,8 @@
    "All three equally"
   ],
   "a": 0,
-  "e": "Only the upper fibres reach the occipital bone and nuchal ligament, so only they move the head. The middle and lower fibres act on the scapula alone."
+  "e": "Only the upper fibres reach the occipital bone and nuchal ligament, so only they move the head. The middle and lower fibres act on the scapula alone.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
@@ -1701,19 +1783,21 @@
    "All three"
   ],
   "a": 2,
-  "e": "The long head arises from the scapula, the other two from the humerus. That is why triceps extends the shoulder as well as the elbow."
+  "e": "The long head arises from the scapula, the other two from the humerus. That is why triceps extends the shoulder as well as the elbow.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Arm",
-  "q": "Which three muscles flex the elbow, and which is strongest in a neutral grip?",
+  "q": "Which three muscles flex the elbow, and which is best placed in a neutral grip?",
   "o": [
-   "Biceps, brachialis and brachioradialis; brachioradialis is strongest",
-   "Biceps, triceps and anconeus; biceps is strongest in neutral",
-   "Brachialis, supinator and pronator teres; the supinator is strongest",
-   "Biceps, coracobrachialis and brachialis; biceps is strongest neutral"
+   "Biceps, brachialis and brachioradialis; brachioradialis is best placed",
+   "Biceps, triceps and anconeus; biceps is best placed",
+   "Brachialis, supinator and pronator teres; the supinator is best placed",
+   "Biceps, coracobrachialis and brachialis; biceps is best placed"
   ],
   "a": 0,
-  "e": "Biceps is strongest supinated, brachialis works in any position because it inserts on the non-rotating ulna, and brachioradialis is best placed in the neutral, hammer-curl grip."
+  "e": "Biceps is strongest supinated, brachialis works in any position because it inserts on the non-rotating ulna, and brachioradialis is best placed in the neutral, hammer-curl grip.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1725,7 +1809,8 @@
    "Adductors and quadriceps"
   ],
   "a": 1,
-  "e": "Agonists gluteus maximus and quadriceps, synergist hamstrings, stabiliser transversus abdominis, antagonist psoas."
+  "e": "Agonists gluteus maximus and quadriceps, synergist hamstrings, stabiliser transversus abdominis, antagonist psoas.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -1737,7 +1822,8 @@
    "Quadriceps, hamstrings, gluteus maximus"
   ],
   "a": 1,
-  "e": "From Table 2.5. A cable row pairs latissimus dorsi, rhomboids and posterior deltoid; a chest press pairs pectoralis major, anterior deltoid and triceps brachii."
+  "e": "In NASM's overhead press row, trapezius works with the deltoid and rotator cuff. A row groups latissimus dorsi, rhomboids and posterior deltoid; a chest press groups pectoralis major, anterior deltoid and triceps brachii.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -1749,19 +1835,21 @@
    "Quadriceps, hamstrings and gluteus maximus"
   ],
   "a": 0,
-  "e": "All three pull the arm and scapula backward. NASM separately lists latissimus dorsi as the agonist in a row, posterior deltoid and biceps as synergists, rotator cuff as stabiliser and pectoralis major as antagonist."
+  "e": "All three pull the arm and scapula backward. NASM separately lists latissimus dorsi as the agonist in a row, posterior deltoid and biceps as synergists, rotator cuff as stabiliser and pectoralis major as antagonist.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
-  "q": "A client's arms fall forward in the overhead squat. Which muscles get flexibility work?",
+  "q": "In NASM's overhead squat model, arms falling forward calls for flexibility work on which muscles?",
   "o": [
-   "The rhomboids with the middle and lower trapezius and rotator cuff",
-   "Pectoralis major and minor, latissimus dorsi and upper trapezius",
+   "The rhomboids, middle and lower trapezius and rotator cuff",
+   "Latissimus dorsi, teres major and the pectorals",
    "The rotator cuff and serratus anterior",
    "Serratus anterior and the deltoids"
   ],
   "a": 1,
-  "e": "Overactivity across the front of the shoulder and the lat pulls the arms down and forward. The underactive side, the middle and lower trapezius, rhomboids and rotator cuff, gets activation and strengthening."
+  "e": "NASM reads it as overactivity at the front of the shoulder and in the lats, with the upper back underactive. It is a hypothesis to test: inferring specific muscles from a squat is unvalidated.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -1773,19 +1861,8 @@
    "Hamstrings and adductors"
   ],
   "a": 1,
-  "e": "Both cross the front of the hip and shorten with sitting, so both go on the stretch list. Their opposites, the gluteals and deep core, are the ones strengthened."
- },
- {
-  "t": "Applied",
-  "q": "Why can weakness of gluteus maximus show up as low back pain?",
-  "o": [
-   "It attaches directly to the lumbar vertebrae and pulls them forward",
-   "Erector spinae and hamstrings compensate, tilting the pelvis",
-   "It shares a nerve root with the lumbar spine segments",
-   "Its weakness lets the lumbar discs compress directly"
-  ],
-  "a": 1,
-  "e": "The lumbar spine carries the most weight and the largest forces already. Compensation by muscles not designed for the job increases that load."
+  "e": "In NASM's LPHC pattern, psoas and rectus femoris cross the front of the hip and go on the stretch list. The evidence that hip flexor length drives pelvic tilt or back pain is weak to poor.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -1797,7 +1874,8 @@
    "Tensor fasciae latae"
   ],
   "a": 1,
-  "e": "Part of the gluteus maximus insertion goes into the iliotibial band rather than the femur, which is how it reaches the tibia. Tensor fasciae latae also feeds the band, but the table lists it decelerating hip actions only."
+  "e": "Part of the gluteus maximus insertion goes into the iliotibial band rather than the femur, which is how it reaches the tibia. Tensor fasciae latae also feeds the band, but the table lists it decelerating hip actions only.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1809,7 +1887,8 @@
    "Sartorius and gracilis"
   ],
   "a": 1,
-  "e": "One from behind, one from in front, so the band is tensioned from both directions. That is why lateral knee pain often traces back to the hip rather than the knee."
+  "e": "Gluteus maximus pulls on the band from behind and tensor fasciae latae from in front, so both can tension it.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1821,7 +1900,8 @@
    "Contracting isometrically at a fixed length"
   ],
   "a": 1,
-  "e": "Gravity produces the flexion; the quadriceps control the rate of it. In the NASM tables this is exactly what decelerates knee flexion means."
+  "e": "Gravity produces the flexion; the quadriceps control the rate of it. In the NASM tables this is exactly what decelerates knee flexion means.",
+  "sec": "learning#the-muscle-action-spectrum"
  },
  {
   "t": "Applied",
@@ -1833,7 +1913,8 @@
    "Psoas major and iliacus together"
   ],
   "a": 1,
-  "e": "They contract eccentrically to stop the femur collapsing inward. Failure of this is the mechanism behind knee valgus on landing."
+  "e": "They contract eccentrically to stop the femur dropping into adduction as the body lands on one leg.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1845,7 +1926,8 @@
    "The adductor group and gracilis"
   ],
   "a": 1,
-  "e": "They are the antagonists to hip extension. If they cannot lengthen, the pelvis tips anteriorly and the lumbar spine extends to fake the range."
+  "e": "They are the antagonists to hip extension. If they cannot lengthen, the pelvis tips anteriorly and the lumbar spine extends to fake the range.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -1857,19 +1939,21 @@
    "Flexor digitorum against gastrocnemius"
   ],
   "a": 0,
-  "e": "Dorsiflexion against plantar flexion in the sagittal plane. In the frontal plane the pairing is the invertors, tibialis anterior and posterior, against the evertors, the peroneals."
+  "e": "Dorsiflexion against plantar flexion in the sagittal plane. In the frontal plane the pairing is the invertors, tibialis anterior and posterior, against the evertors, the peroneals.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
   "q": "Limited ankle dorsiflexion often shows up in an overhead squat as:",
   "o": [
-   "Knees buckling inward, with the trunk upright",
+   "The lower back arching, with the trunk upright",
    "Excessive forward lean, as the shin cannot travel forward",
    "The knees moving outward, away from the midline of the body",
    "Arms falling forward from overhead"
   ],
   "a": 1,
-  "e": "The ideal is a parallel line between shin and torso. If the shin cannot come forward, the torso must lean instead to keep the centre of mass over the feet."
+  "e": "The ideal is a parallel line between shin and torso. If the shin cannot come forward, the torso leans instead to keep the centre of mass over the feet; NASM also checks dorsiflexion when the knees buckle in.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -1881,7 +1965,8 @@
    "The hamstrings against gastrocnemius and soleus"
   ],
   "a": 0,
-  "e": "Posterior tilters are the abdominals and gluteals; anterior tilters are the hip flexors and erector spinae. Anterior pelvic tilt is the second pair winning."
+  "e": "The abdominals and gluteals tilt the pelvis backward; the hip flexors and erector spinae tilt it forward. Resting tilt varies widely between people and barely tracks muscle length.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Nerve",
@@ -1905,19 +1990,21 @@
    "In the joint capsule"
   ],
   "a": 1,
-  "e": "Parallel, which is what lets them sense change in muscle length and its rate. Golgi tendon organs sit where the fibres insert into the tendon and sense tension instead."
+  "e": "Parallel, which is what lets them sense change in muscle length and its rate. Golgi tendon organs sit where the fibres insert into the tendon and sense tension instead.",
+  "sec": "learning#mechanoreceptors-in-detail"
  },
  {
   "t": "Nerve",
-  "q": "Which receptor makes a held static stretch possible?",
+  "q": "NASM says the Golgi tendon organ relaxes a muscle during a held stretch. What does the evidence say?",
   "o": [
-   "The muscle spindle",
-   "The Golgi tendon organ",
-   "Joint capsule receptors",
-   "Nociceptors"
+   "Its inhibition is brief; most short-term gain is stretch tolerance",
+   "It is well established, and it explains nearly all flexibility gains",
+   "The spindle, not the GTO, causes the relaxation during a hold",
+   "Holding a stretch permanently resets the GTO's tension threshold"
   ],
-  "a": 1,
-  "e": "The spindle fires first and resists a fast stretch; sustained tension then activates the Golgi tendon organ, which causes the muscle to relax. That is the physiology behind holding a stretch rather than bouncing."
+  "a": 0,
+  "e": "Autogenic inhibition is brief and inconsistent. Short-term flexibility gains come mostly from tolerating more stretch, with a temporary drop in tissue stiffness; lasting change needs weeks of loading at long lengths.",
+  "sec": "learning#mechanoreceptors-in-detail"
  },
  {
   "t": "Structure",
@@ -1929,7 +2016,8 @@
    "Sarcolemma"
   ],
   "a": 1,
-  "e": "Epimysium wraps the whole muscle, perimysium each fascicle, endomysium the individual fibres. All three converge at the ends to form the tendon."
+  "e": "Epimysium wraps the whole muscle, perimysium each fascicle, endomysium the individual fibres. All three converge at the ends to form the tendon.",
+  "sec": "learning#from-whole-muscle-down-to-sarcomere"
  },
  {
   "t": "Structure",
@@ -1941,7 +2029,8 @@
    "A repeating unit of actin and myosin filaments"
   ],
   "a": 1,
-  "e": "Muscle to fascicle to fibre to myofibril to myofilament. Each level has its own connective tissue wrapping."
+  "e": "Muscle to fascicle to fibre to myofibril to myofilament. Each level has its own connective tissue wrapping.",
+  "sec": "learning#from-whole-muscle-down-to-sarcomere"
  },
  {
   "t": "Structure",
@@ -1953,7 +2042,8 @@
    "Periosteum"
   ],
   "a": 1,
-  "e": "Tendons attach muscle to bone and provide the anchor from which the muscle exerts force. Ligaments attach bone to bone. Both have poor vascularity."
+  "e": "Tendons attach muscle to bone and provide the anchor from which the muscle exerts force. Ligaments attach bone to bone. Both have poor vascularity.",
+  "sec": "learning#from-whole-muscle-down-to-sarcomere"
  },
  {
   "t": "Structure",
@@ -1965,7 +2055,8 @@
    "They all share a common origin on the anterior inferior iliac spine"
   ],
   "a": 1,
-  "e": "Connective tissue lets muscles work as functional groups, which is why the four quadriceps extend the knee together despite different origins."
+  "e": "Connective tissue lets muscles work as functional groups, which is why the four quadriceps extend the knee together despite different origins.",
+  "sec": "learning#from-whole-muscle-down-to-sarcomere"
  },
  {
   "t": "Applied",
@@ -1977,7 +2068,8 @@
    "Teres major"
   ],
   "a": 1,
-  "e": "NASM lists anterior deltoid as the prime mover for shoulder flexion, with the clavicular fibres of pectoralis major assisting. The antagonists are the posterior deltoid and latissimus dorsi."
+  "e": "NASM lists anterior deltoid as the prime mover for shoulder flexion, with the clavicular fibres of pectoralis major assisting. The antagonists are the posterior deltoid and latissimus dorsi.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -1989,7 +2081,8 @@
    "Anconeus; brachioradialis"
   ],
   "a": 1,
-  "e": "They swap roles on the return: in elbow flexion the biceps is agonist and the triceps antagonist. Roles depend on the joint motion of the moment, not on the muscle."
+  "e": "They swap roles on the return: in elbow flexion the biceps is agonist and the triceps antagonist. Roles depend on the joint motion of the moment, not on the muscle.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -2001,7 +2094,8 @@
    "Popliteus"
   ],
   "a": 1,
-  "e": "The quadriceps as a group. The hamstrings are the antagonists at the knee, though both groups work together at the hip during a squat."
+  "e": "The quadriceps as a group, with the hamstrings as the antagonists at the knee. In a squat the hamstrings also assist hip extension, which is why they are listed as synergists.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -2013,11 +2107,12 @@
    "They switch fibre type as the load increases"
   ],
   "a": 1,
-  "e": "A two-joint muscle can play different roles at each joint at the same time. This is why NASM insists a muscle's role depends on the joint motion happening at that moment."
+  "e": "A two-joint muscle can play different roles at each joint at the same time. This is why NASM insists a muscle's role depends on the joint motion happening at that moment.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
-  "q": "Which muscles would you strengthen for a client with a forward head posture?",
+  "q": "In NASM's upper-extremity distortion pattern, which muscles are strengthened for a forward head?",
   "o": [
    "The upper trapezius, levator scapulae and the sternocleidomastoid",
    "The deep cervical flexors, with the middle and lower trapezius",
@@ -2025,7 +2120,8 @@
    "Pectoralis minor and the anterior deltoid"
   ],
   "a": 1,
-  "e": "The deep cervical flexors, longus colli and longus capitis, are lengthened and weak, as are the middle and lower trapezius. Upper trapezius, levator scapulae and sternocleidomastoid are short and overactive and get flexibility work instead."
+  "e": "NASM strengthens the deep cervical flexors, longus colli and longus capitis, with middle and lower trapezius, and gives flexibility work to upper trapezius, levator scapulae and sternocleidomastoid. Static posture predicts pain poorly, so use this to organise what you see.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -2037,7 +2133,8 @@
    "Rhomboid major"
   ],
   "a": 1,
-  "e": "Latissimus dorsi extends and adducts the shoulder, which is the movement of pulling the body up. The biceps assist at the elbow as synergists."
+  "e": "Latissimus dorsi extends and adducts the shoulder, which is the movement of pulling the body up. The biceps assist at the elbow as synergists.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -2049,19 +2146,21 @@
    "They are the main producers of trunk rotation"
   ],
   "a": 1,
-  "e": "Neither produces much visible movement: transversus abdominis makes intra-abdominal pressure and multifidus controls intersegmental motion. That is why the LPHC corrective approach strengthens the core alongside the gluteals."
+  "e": "Neither produces much visible movement: transversus abdominis raises intra-abdominal pressure and multifidus controls one segment against the next. Core stability work helps back pain about as much as other exercise, not more.",
+  "sec": "learning#core-training"
  },
  {
   "t": "Applied",
   "q": "Which muscle group is stretched and which strengthened in the lower-extremity distortion pattern?",
   "o": [
    "Stretch the gluteals and anterior tibialis; strengthen the calf complex",
-   "Stretch the calves and adductors; strengthen the ankle stabilisers",
+   "Stretch the calves and adductors; strengthen the tibialis and glutes",
    "Stretch the hamstrings; strengthen the quadriceps and hip flexors",
    "Stretch the peroneals; strengthen the adductors and gastrocnemius"
   ],
   "a": 1,
-  "e": "Flat feet with knock knees. What is held short, the calves and inner thighs, gets flexibility; what is held long, the anterior tibialis and gluteals, gets strengthening."
+  "e": "In NASM's model the calves and adductors get flexibility work, and anterior and posterior tibialis and the gluteals get strengthening. Treat it as a hypothesis to test: pronation itself is normal, and foot shape predicts injury poorly.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -2073,7 +2172,8 @@
    "The hip flexors and quadriceps"
   ],
   "a": 1,
-  "e": "They plantarflex, so shortness limits dorsiflexion and lifts the heel. Note that gastrocnemius is affected by knee angle and soleus is not, which can help distinguish them."
+  "e": "They plantarflex, so shortness limits dorsiflexion and lifts the heel. Note that gastrocnemius is affected by knee angle and soleus is not, which can help distinguish them.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -2085,31 +2185,8 @@
    "Gluteus medius"
   ],
   "a": 1,
-  "e": "Sartorius flexes, abducts and externally rotates the hip while flexing and internally rotating the knee. Rectus femoris is the opposite combination, a hip flexor and a knee extensor."
- },
- {
-  "t": "Applied",
-  "q": "Which muscle would you expect to be short in a client who sits all day and reports a tight lower back?",
-  "o": [
-   "Gluteus maximus",
-   "Psoas",
-   "Rectus abdominis",
-   "Multifidus"
-  ],
-  "a": 1,
-  "e": "Sitting holds it shortened, and it originates on the lumbar spine, so standing pulls the lumbar spine forward. Tight hip flexors and weak glutes are two ends of the same lever."
- },
- {
-  "t": "Actions",
-  "q": "Which muscle accelerates hip flexion and external rotation while also rotating the lumbar spine?",
-  "o": [
-   "Iliacus",
-   "Psoas",
-   "Rectus femoris",
-   "TFL"
-  ],
-  "a": 1,
-  "e": "Only psoas has a spinal attachment, so only psoas rotates the lumbar spine. Iliacus shares the hip actions but arises on the iliac bones."
+  "e": "Sartorius flexes, abducts and externally rotates the hip while flexing and internally rotating the knee. Rectus femoris is the opposite combination, a hip flexor and a knee extensor.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2121,7 +2198,8 @@
    "Adductor magnus"
   ],
   "a": 1,
-  "e": "Gluteus minimus, and the anterior fibres of gluteus medius do the same. The posterior fibres of medius reverse the rotation component."
+  "e": "Gluteus minimus, and the anterior fibres of gluteus medius do the same. The posterior fibres of medius reverse the rotation component.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2133,7 +2211,8 @@
    "Levator scapulae and upper trapezius"
   ],
   "a": 1,
-  "e": "Both pull the scapula forward around the rib cage. Both decelerate retraction, which the rhomboids and middle trapezius produce."
+  "e": "Both pull the scapula forward around the rib cage. Both decelerate retraction, which the rhomboids and middle trapezius produce.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2145,7 +2224,8 @@
    "Posterior deltoid"
   ],
   "a": 2,
-  "e": "Subscapularis accelerates internal rotation and therefore decelerates external rotation. Infraspinatus and teres minor do the reverse."
+  "e": "Subscapularis accelerates internal rotation and therefore decelerates external rotation. Infraspinatus and teres minor do the reverse.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2157,7 +2237,8 @@
    "Rhomboids"
   ],
   "a": 1,
-  "e": "Pectoralis major, with the anterior deltoid assisting. That is the movement of a chest fly, and the posterior deltoid decelerates it."
+  "e": "Pectoralis major, with the anterior deltoid assisting. That is the movement of a chest fly, and the posterior deltoid decelerates it.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2169,7 +2250,8 @@
    "Gastrocnemius"
   ],
   "a": 1,
-  "e": "A medial hamstring, so the rotation is internal. Biceps femoris shares the flexion and extension but rotates the tibia externally."
+  "e": "A medial hamstring, so the rotation is internal. Biceps femoris shares the flexion and extension but rotates the tibia externally.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2181,7 +2263,8 @@
    "Multifidus and the rotatores"
   ],
   "a": 2,
-  "e": "It is listed with no deceleration action in the NASM tables, because it stabilises rather than moves. Its fibres run horizontally like a corset."
+  "e": "It is listed with no deceleration action in the NASM tables, because it stabilises rather than moves. Its fibres run horizontally like a corset.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2190,14 +2273,15 @@
    "External intercostals",
    "The diaphragm",
    "Scalenes",
-   "Transverse abdominis"
+   "Transversus abdominis"
   ],
   "a": 1,
-  "e": "That is the mechanism of inspiration: increasing volume lowers intrapulmonary pressure below atmospheric, so air is drawn in."
+  "e": "That is the mechanism of inspiration: increasing volume lowers intrapulmonary pressure below atmospheric, so air is drawn in.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
-  "q": "Which muscle accelerates cervical flexion, rotation and lateral flexion, and stabilises the acromioclavicular joint?",
+  "q": "Which muscle accelerates cervical flexion, rotation and lateral flexion, and stabilises the sternoclavicular joint?",
   "o": [
    "Upper trapezius",
    "Sternocleidomastoid",
@@ -2205,7 +2289,8 @@
    "Levator scapulae"
   ],
   "a": 1,
-  "e": "Its clavicular attachment is why it is credited with stabilising the acromioclavicular joint as well as the cervical spine."
+  "e": "Sternocleidomastoid. Its sternal and clavicular attachments are why it is credited with stabilising the sternoclavicular joint as well as the cervical spine.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2217,7 +2302,8 @@
    "Levator scapulae"
   ],
   "a": 1,
-  "e": "Middle trapezius purely retracts and decelerates protraction. The rhomboids retract and downwardly rotate at the same time."
+  "e": "Middle trapezius purely retracts and decelerates protraction. The rhomboids retract and downwardly rotate at the same time.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2229,7 +2315,8 @@
    "Horizontal abduction, flexion, internal rotation"
   ],
   "a": 1,
-  "e": "Both run to the anterior humerus and pull it back, in and inward. Teres major differs only in arising from the scapula rather than the spine and pelvis."
+  "e": "Both run to the anterior humerus and pull it back, in and inward. Teres major differs only in arising from the scapula rather than the spine and pelvis.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Actions",
@@ -2241,7 +2328,8 @@
    "Tensor fasciae latae and sartorius"
   ],
   "a": 1,
-  "e": "Adductor longus, brevis, the anterior fibres of magnus, gracilis and pectineus all accelerate hip adduction, flexion and internal rotation, so they decelerate the opposite."
+  "e": "Adductor longus, brevis, the anterior fibres of magnus, gracilis and pectineus all accelerate hip adduction, flexion and internal rotation, so they decelerate the opposite.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -2253,7 +2341,8 @@
    "A muscle performing the action opposite to the prime mover"
   ],
   "a": 1,
-  "e": "Examples: hamstrings with gluteus maximus in hip extension, triceps assisting pectorals in a chest press, biceps assisting latissimus dorsi in a pull-up."
+  "e": "Examples: hamstrings with gluteus maximus in hip extension, triceps assisting pectorals in a chest press, biceps assisting latissimus dorsi in a pull-up.",
+  "sec": "learning#muscles-as-movers"
  },
  {
   "t": "Applied",
@@ -2265,7 +2354,8 @@
    "Because each description belongs to a different plane of motion"
   ],
   "a": 1,
-  "e": "Traditional training emphasises the concentric only. Describing all three reflects that the entire spectrum should be trained to maximise strength, maintain range of motion and prevent injury."
+  "e": "Muscles work concentrically, eccentrically and isometrically. NASM's appendix describes all three to correct the belief that muscles mainly work by shortening, in one plane.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -2277,7 +2367,8 @@
    "Quadratus lumborum"
   ],
   "a": 1,
-  "e": "Piriformis runs directly across the back of the sacroiliac joint from the sacrum to the femur, so its tension affects that joint directly."
+  "e": "Piriformis arises from the anterior sacrum and passes close to the sacroiliac joint on its way to the greater trochanter, so NASM's table lists it as stabilising the hip and sacroiliac joints.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -2289,7 +2380,8 @@
    "The adductor group and pectineus"
   ],
   "a": 0,
-  "e": "All but the short head of biceps femoris cross both joints. Two-joint muscles here are the ones most subject to active and passive insufficiency, and the ones whose tightness shows up as compensation in a squat."
+  "e": "Rectus femoris, sartorius, gracilis, tensor fasciae latae (through the iliotibial band) and the hamstrings, bar the short head of biceps femoris, all cross both joints. The vasti cross only the knee.",
+  "sec": "learning#muscle-reference"
  },
  {
   "t": "Applied",
@@ -2301,7 +2393,8 @@
    "Neither crosses the knee, so the limit is at the hip"
   ],
   "a": 1,
-  "e": "The hamstrings cross the hip and knee, gastrocnemius crosses the knee and ankle. A straight-leg bend loads both chains at once."
+  "e": "The hamstrings cross the hip and knee, gastrocnemius crosses the knee and ankle. A straight-leg bend loads both chains at once.",
+  "sec": "learning#length-tension-torque-and-leverage"
  },
  {
   "t": "Applied",
@@ -2313,7 +2406,8 @@
    "The quadriceps and hip flexors"
   ],
   "a": 1,
-  "e": "Toe-off is plantar flexion combined with supination, finished by flexor hallucis longus and flexor digitorum longus. Tibialis anterior does the opposite job, clearing the foot during the swing phase."
+  "e": "Toe-off is plantar flexion combined with supination, finished by flexor hallucis longus and flexor digitorum longus. Tibialis anterior does the opposite job, clearing the foot during the swing phase.",
+  "sec": "learning#the-foot-and-ankle-complex"
  },
  {
   "t": "Applied",
@@ -2325,11 +2419,12 @@
    "The quadriceps and hip flexors, working from the top of the chain"
   ],
   "a": 1,
-  "e": "Pronation happens during force reduction and must be controlled eccentrically rather than prevented. Tibialis posterior and anterior are the main brakes on it."
+  "e": "Pronation happens during force reduction and must be controlled eccentrically rather than prevented. Tibialis posterior and anterior are the main brakes on it.",
+  "sec": "learning#the-foot-and-ankle-complex"
  },
  {
   "t": "Applied",
-  "q": "A client has weak rhomboids and a tight pectoralis minor. What would you expect to see?",
+  "q": "In NASM's model, weak rhomboids and a short pectoralis minor are linked to which posture?",
   "o": [
    "Anterior pelvic tilt with an increase in lumbar lordosis",
    "Protracted scapulae and rounded shoulders",
@@ -2337,31 +2432,21 @@
    "Flat feet and an everted heel"
   ],
   "a": 1,
-  "e": "Pectoralis minor protracts the scapula and tips it forward into downward rotation; the rhomboids fail to hold it back. That is the scapular half of the upper-extremity distortion pattern."
- },
- {
-  "t": "Applied",
-  "q": "Which muscle is most responsible for hip hiking on one side?",
-  "o": [
-   "Gluteus medius",
-   "Quadratus lumborum",
-   "Psoas",
-   "Adductor magnus"
-  ],
-  "a": 1,
-  "e": "QL accelerates ipsilateral elevation of the pelvis. Unilateral tightness produces a hip hike and a functional leg-length difference."
+  "e": "Pectoralis minor pulls the scapula forward and the rhomboids pull it back, so NASM pairs them in rounded shoulders, its upper-extremity pattern. Rounded-shoulder posture predicts pain poorly.",
+  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
   "q": "Which muscle would you suspect if a client cannot maintain a neutral spine during a plank and their lower back sags?",
   "o": [
-   "Latissimus dorsi, failing to stabilise the shoulder girdle",
-   "Transversus abdominis, failing to resist lumbar extension",
-   "Erector spinae, contracting too little to hold the spine level",
+   "Latissimus dorsi, failing to stabilise the shoulders and trunk",
+   "Rectus abdominis and obliques, not resisting lumbar extension",
+   "Erector spinae, working too little to hold the spine level",
    "Trapezius, failing to hold the scapulae down and back"
   ],
   "a": 1,
-  "e": "A plank is an isometric anti-extension task. Transversus abdominis and rectus abdominis must hold the pelvis and spine against gravity pulling them into extension."
+  "e": "A plank is an anti-extension hold, so the anterior abdominals, which flex the spine, are what resist the sag. Transversus abdominis compresses rather than moves the spine, so it cannot resist extension on its own.",
+  "sec": "learning#core-training"
  },
  {
   "t": "Applied",
@@ -2373,6 +2458,7 @@
    "Feed-forward activation before movement"
   ],
   "a": 1,
-  "e": "The infraspinatus is the standard example: agonist for shoulder external rotation, synergist when the shoulder reaches overhead, stabiliser during other shoulder motions."
+  "e": "The infraspinatus is the standard example: agonist for shoulder external rotation, synergist when the shoulder reaches overhead, stabiliser during other shoulder motions.",
+  "sec": "learning#muscles-as-movers"
  }
 ]
