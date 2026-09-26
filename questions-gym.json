@@ -1356,7 +1356,7 @@
    "Hanging leg raises with bent knees"
   ],
   "a": 0,
-  "e": "Long periods lying flat on the back are best avoided late in pregnancy, and flexion-loading exercises are a poor choice when the abdominal wall is already stretched. Upright anti-rotation work trains the trunk without either problem.",
+  "e": "Late in pregnancy, long periods lying flat on the back are best avoided, which rules out supine crunches. Standing anti-rotation work trains the trunk upright and is easy to scale, so it is the sensible default over high-load options such as rollouts and hanging raises.",
   "sec": "learning#pregnancy"
  },
  {
@@ -1450,7 +1450,7 @@
  },
  {
   "t": "Muscle to exercise",
-  "q": "A client's knee caves inward during a squat. Which muscles are failing to control it?",
+  "q": "A client's knee caves inward during a squat. Which muscles are the usual first suspects?",
   "o": [
    "The hip abductors and external rotators, such as gluteus medius",
    "The quadriceps, especially vastus medialis at the inner knee",
@@ -2917,7 +2917,7 @@
  },
  {
   "t": "Where it is hardest",
-  "q": "Where is a seated leg extension hardest?",
+  "q": "On a plate-loaded seated leg extension, where is the lift hardest?",
   "o": [
    "At full extension, with the shin horizontal",
    "At the start, with the knee fully bent",
@@ -2950,18 +2950,6 @@
   ],
   "a": 0,
   "e": "At lockout the torso is horizontal, so the hip sits furthest horizontally from the shoulders on the bench and the hip extensors' demand peaks. That is the opposite of a squat, which is why both are worth doing."
- },
- {
-  "t": "Where it is hardest",
-  "q": "Where is a pull-up hardest for most people?",
-  "o": [
-   "Near the top, as the chin approaches the bar",
-   "At the very bottom, starting from a dead hang",
-   "At the midpoint",
-   "During the descent, lowering back to the hang"
-  ],
-  "a": 0,
-  "e": "Approaching the bar means the elbow is deeply flexed and the shoulder nearly fully adducted, so both the lats and the elbow flexors are short and at poor leverage. It is why partial pull-ups from the bottom are comparatively easy."
  },
  {
   "t": "Where it is hardest",

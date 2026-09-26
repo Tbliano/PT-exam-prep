@@ -635,19 +635,6 @@
  },
  {
   "t": "Back",
-  "q": "In the upper-extremity distortion pattern, which parts of trapezius are stretched and which strengthened?",
-  "o": [
-   "Stretch the middle and lower, strengthen the upper",
-   "Stretch the upper, strengthen the middle and lower",
-   "Stretch all three",
-   "Strengthen all three"
-  ],
-  "a": 1,
-  "e": "In NASM's model upper trapezius is overactive and gets flexibility work, while middle and lower trapezius, the rhomboids and the rotator cuff get strengthening. The pattern organises what you see; static posture predicts pain poorly.",
-  "sec": "learning#postural-assessment"
- },
- {
-  "t": "Back",
   "q": "Which muscle protracts the scapula and holds it flat against the rib cage?",
   "o": [
    "Rhomboid major and minor",
@@ -1311,19 +1298,6 @@
  },
  {
   "t": "Applied",
-  "q": "In NASM's overhead squat assessment, knees moving inward are read as which pattern?",
-  "o": [
-   "Overactive gluteus medius, underactive adductor complex",
-   "Overactive adductors, underactive gluteus medius",
-   "Overactive hamstrings, underactive quadriceps",
-   "Overactive TFL, underactive psoas"
-  ],
-  "a": 1,
-  "e": "NASM reads it as overactive adductors and an underactive outer hip, and also checks ankle dorsiflexion. Observers agree only moderately and inferring specific muscles is unvalidated, so treat it as a hypothesis to test.",
-  "sec": "learning#postural-assessment"
- },
- {
-  "t": "Applied",
   "q": "In a push-up, what is the role of the rotator cuff?",
   "o": [
    "Agonist",
@@ -1853,19 +1827,6 @@
  },
  {
   "t": "Applied",
-  "q": "Which two muscles are most implicated in the LPHC distortion pattern's stretch list?",
-  "o": [
-   "Gluteus maximus and medius",
-   "Psoas and rectus femoris",
-   "Transversus abdominis and multifidus",
-   "Hamstrings and adductors"
-  ],
-  "a": 1,
-  "e": "In NASM's LPHC pattern, psoas and rectus femoris cross the front of the hip and go on the stretch list. The evidence that hip flexor length drives pelvic tilt or back pain is weak to poor.",
-  "sec": "learning#postural-assessment"
- },
- {
-  "t": "Applied",
   "q": "Which muscle does the NASM table list as decelerating tibial internal rotation through the iliotibial band?",
   "o": [
    "Sartorius",
@@ -2112,19 +2073,6 @@
  },
  {
   "t": "Applied",
-  "q": "In NASM's upper-extremity distortion pattern, which muscles are strengthened for a forward head?",
-  "o": [
-   "The upper trapezius, levator scapulae and the sternocleidomastoid",
-   "The deep cervical flexors, with the middle and lower trapezius",
-   "Sternocleidomastoid and the scalenes",
-   "Pectoralis minor and the anterior deltoid"
-  ],
-  "a": 1,
-  "e": "NASM strengthens the deep cervical flexors, longus colli and longus capitis, with middle and lower trapezius, and gives flexibility work to upper trapezius, levator scapulae and sternocleidomastoid. Static posture predicts pain poorly, so use this to organise what you see.",
-  "sec": "learning#postural-assessment"
- },
- {
-  "t": "Applied",
   "q": "Which muscle is the prime mover in a pull-up?",
   "o": [
    "Biceps brachii",
@@ -2148,19 +2096,6 @@
   "a": 1,
   "e": "Neither produces much visible movement: transversus abdominis raises intra-abdominal pressure and multifidus controls one segment against the next. Core stability work helps back pain about as much as other exercise, not more.",
   "sec": "learning#core-training"
- },
- {
-  "t": "Applied",
-  "q": "Which muscle group is stretched and which strengthened in the lower-extremity distortion pattern?",
-  "o": [
-   "Stretch the gluteals and anterior tibialis; strengthen the calf complex",
-   "Stretch the calves and adductors; strengthen the tibialis and glutes",
-   "Stretch the hamstrings; strengthen the quadriceps and hip flexors",
-   "Stretch the peroneals; strengthen the adductors and gastrocnemius"
-  ],
-  "a": 1,
-  "e": "In NASM's model the calves and adductors get flexibility work, and anterior and posterior tibialis and the gluteals get strengthening. Treat it as a hypothesis to test: pronation itself is normal, and foot shape predicts injury poorly.",
-  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
@@ -2421,19 +2356,6 @@
   "a": 1,
   "e": "Pronation happens during force reduction and must be controlled eccentrically rather than prevented. Tibialis posterior and anterior are the main brakes on it.",
   "sec": "learning#the-foot-and-ankle-complex"
- },
- {
-  "t": "Applied",
-  "q": "In NASM's model, weak rhomboids and a short pectoralis minor are linked to which posture?",
-  "o": [
-   "Anterior pelvic tilt with an increase in lumbar lordosis",
-   "Protracted scapulae and rounded shoulders",
-   "Knee valgus during a squat",
-   "Flat feet and an everted heel"
-  ],
-  "a": 1,
-  "e": "Pectoralis minor pulls the scapula forward and the rhomboids pull it back, so NASM pairs them in rounded shoulders, its upper-extremity pattern. Rounded-shoulder posture predicts pain poorly.",
-  "sec": "learning#postural-assessment"
  },
  {
   "t": "Applied",
