@@ -135,11 +135,11 @@
   "o": [
    "Normal, since the adult range runs 12 to 30",
    "Tachypnoea, since clinical sources use above 20",
-   "Normal, since the course cut-off is above 24",
+   "Normal, since NASM's cut-off is above 24",
    "Bradypnoea, since it is slower than exercise breathing"
   ],
   "a": 1,
-  "e": "Normal adult resting breathing is about 12 to 20 breaths a minute. Clinical sources call anything above 20 tachypnoea; the course uses above 24. Bradypnoea is below 8.",
+  "e": "Normal adult resting breathing is about 12 to 20 breaths a minute. Clinical sources call anything above 20 tachypnoea; NASM uses above 24. Bradypnoea is below 8.",
   "sec": "learning#the-respiratory-system"
  },
  {
@@ -243,7 +243,7 @@
    "About 38"
   ],
   "a": 1,
-  "e": "NASM gives 36 to 38 and Science of Exercise 30; around 30 to 32 is the modern estimate. Either way it is about fifteen times the yield of glycolysis alone.",
+  "e": "Older figures, including NASM's, give 36 to 38; around 30 to 32 is the modern estimate. Either way it is about fifteen times the yield of glycolysis alone.",
   "sec": "learning#the-oxidative-system"
  },
  {
@@ -802,7 +802,7 @@
    "Lighter weeks are only for competitive athletes near a peak"
   ],
   "a": 1,
-  "e": "The course's model rises like a sawtooth, each cycle starting below the last peak and climbing past it. Planned lighter weeks are sensible, though there is little evidence they improve results.",
+  "e": "A periodised plan can rise like a sawtooth, each cycle starting below the last peak and climbing past it. Planned lighter weeks are sensible, though there is little evidence they improve results.",
   "sec": "learning#the-shape-of-progress"
  },
  {
@@ -2044,7 +2044,7 @@
   "t": "Reading an assessment",
   "q": "What should you compare a client's movement battery against?",
   "o": [
-   "An ideal posture chart taken from the course",
+   "An ideal posture chart from a standard textbook",
    "Their own left and right, and their past results",
    "The results of other clients training at the gym",
    "Population norms for someone of their age and sex"
@@ -2523,7 +2523,7 @@
  },
  {
   "t": "Joints",
-  "q": "A client with shoulder pain has been told their tendon is being pinched under the bone. What do the notes say?",
+  "q": "A client with shoulder pain has been told their tendon is being pinched under the bone. What is the accurate reply?",
   "o": [
    "Surgery to remove the bone is the most reliable fix",
    "Rest until the pinching stops is the safest option",
@@ -2549,7 +2549,7 @@
  },
  {
   "t": "Joints",
-  "q": "A client squats well, but one quadriceps is clearly weaker and stronger muscles compensate for it. What do the notes suggest?",
+  "q": "A client squats well, but one quadriceps is clearly weaker and stronger muscles compensate for it. What is the right call?",
   "o": [
    "Add more squat volume until the weak side catches up",
    "Replace all closed chain work with machine exercises",
@@ -2575,7 +2575,7 @@
  },
  {
   "t": "The spine",
-  "q": "A pain-free client is alarmed that a scan showed a disc bulge. What do the notes say?",
+  "q": "A pain-free client is alarmed that a scan showed a disc bulge. What is the accurate reply?",
   "o": [
    "A bulge means they should stop lifting until it heals",
    "A bulge explains any back pain they get in future",
@@ -3432,7 +3432,7 @@
   "sec": "learning#five-principles"
  },
  {
-  "t": "Six more, from the training courses",
+  "t": "Six more principles",
   "q": "Motor units are always recruited smallest to largest. What are the three ways to reach the largest units?",
   "o": [
    "Use isolation exercises, long pauses, or very slow lowering",
@@ -3442,10 +3442,10 @@
   ],
   "a": 3,
   "e": "You cannot skip motor units, so the largest are reached only by heavy load, high speed or fatigue. Each route gives a different result.",
-  "sec": "learning#six-more-from-the-training-courses"
+  "sec": "learning#six-more-principles"
  },
  {
-  "t": "Six more, from the training courses",
+  "t": "Six more principles",
   "q": "A client used to high-intensity classes says a slow, exact groundwork session was not a real workout. Which principle answers them?",
   "o": [
    "Renting is not owning, so the session was only a warm-up",
@@ -3455,7 +3455,7 @@
   ],
   "a": 2,
   "e": "The effort of being exact is the stimulus, not a preliminary to it. Tell clients this before the session, or they will not put the effort in.",
-  "sec": "learning#six-more-from-the-training-courses"
+  "sec": "learning#six-more-principles"
  },
  {
   "t": "Designing a programme",
@@ -3472,7 +3472,7 @@
  },
  {
   "t": "Designing a programme",
-  "q": "Which of these progression rules follows the notes' principle that the client earns the next level?",
+  "q": "Which of these progression rules lets the client earn the next level?",
   "o": [
    "Progress every second Monday, as set out in the written plan",
    "Progress after two complete weeks in a row at the current level",
@@ -3901,7 +3901,7 @@
  },
  {
   "t": "Barriers",
-  "q": "A client with depression says they cannot start exercising until their flat is tidy and their life is more organised. What approach do the notes recommend?",
+  "q": "A client with depression says they cannot start exercising until their flat is tidy and their life is more organised. What is the right approach?",
   "o": [
    "Design the programme so the barrier cannot bite",
    "Treat it as ambivalence and talk through the costs of sitting still",
@@ -3927,7 +3927,7 @@
  },
  {
   "t": "Motivation and adherence",
-  "q": "A client says negative thoughts about their body keep interrupting their sessions. Which approach do the notes favour?",
+  "q": "A client says negative thoughts about their body keep interrupting their sessions. Which approach is best supported?",
   "o": [
    "Tell them to ignore it and push on",
    "Use appearance imagery to picture their ideal body",
@@ -4018,7 +4018,7 @@
  },
  {
   "t": "Compassion and autonomy",
-  "q": "You want to refer a client to a dietitian. Which wording fits the notes' guidance?",
+  "q": "You want to refer a client to a dietitian. Which wording frames the referral best?",
   "o": [
    "'You need to see a specialist about this, not me.'",
    "'This would get you something more tailored than I can give.'",
@@ -4148,7 +4148,7 @@
  },
  {
   "t": "Questions to ask about any diet",
-  "q": "A client is about to start a very restrictive diet they read about. Which question from the notes do you ask?",
+  "q": "A client is about to start a very restrictive diet they read about. Which question is most useful to ask?",
   "o": [
    "'How fast would you like to lose the weight on it?'",
    "'Can you see yourself doing this the rest of your life?'",
@@ -4291,7 +4291,7 @@
  },
  {
   "t": "Scope of practice",
-  "q": "A client asks you to write them a full weekly meal plan. Using ISSA's boundary, what do you do?",
+  "q": "A client asks you to write them a full weekly meal plan. Staying within your scope of practice, what do you do?",
   "o": [
    "Write it, since meal planning counts as general nutrition advice",
    "Refuse to discuss food or eating with them at all",
@@ -4299,7 +4299,7 @@
    "Write it, provided they have no diagnosed medical condition"
   ],
   "a": 2,
-  "e": "Prescribing meal plans is on ISSA's don't list. The line is whether you are making an individual clinical judgement: a plan attached to one person's body is practice.",
+  "e": "Prescribing meal plans is outside a trainer's scope of practice. The line is whether you are making an individual clinical judgement: a plan attached to one person's body is practice.",
   "sec": "learning#scope-of-practice"
  },
  {
@@ -4577,7 +4577,7 @@
  },
  {
   "t": "Early and late maturers",
-  "q": "A coach calls an early-maturing 11-year-old the most talented player in the squad. What do the notes say?",
+  "q": "A coach calls an early-maturing 11-year-old the most talented player in the squad. What is the accurate reply?",
   "o": [
    "Early maturers should be moved up an age group straight away",
    "The advantage is largely size, not talent",
@@ -4616,7 +4616,7 @@
  },
  {
   "t": "Training young people: what to do",
-  "q": "You start coaching a 14-year-old privately in Germany. Which precautions do the notes list?",
+  "q": "You start coaching a 14-year-old privately in Germany. Which precautions apply?",
   "o": [
    "Parental consent and first aid; record checks are for clubs only",
    "Consent from the child, and messaging them directly to plan sessions",
@@ -4668,7 +4668,7 @@
  },
  {
   "t": "Dropout and retention",
-  "q": "Among children who leave a sport, what is the most common reason in the course's figures?",
+  "q": "Among children who leave a sport, what is the most common reason?",
   "o": [
    "The cost of taking part",
    "Injury, which accounts for most who leave",
@@ -4720,7 +4720,7 @@
  },
  {
   "t": "Exercise as medicine",
-  "q": "In the course's depression data, 10 to 29 minutes of activity a day takes relative risk from 1.00 to 0.82. What does 0.82 mean?",
+  "q": "Going from under 10 to 10 to 29 minutes of activity a day takes relative risk of depression from 1.00 to 0.82. What does 0.82 mean?",
   "o": [
    "An 82% lower risk than the baseline group",
    "An 18% lower risk than the baseline group",
@@ -4798,7 +4798,7 @@
  },
  {
   "t": "Starting late",
-  "q": "In the course's data, roughly what relative risk of death did staying fit carry, against 1.00 for staying unfit?",
+  "q": "Against 1.00 for staying unfit, roughly what relative risk of death does staying fit carry?",
   "o": [
    "0.56",
    "0.33",
@@ -4824,7 +4824,7 @@
  },
  {
   "t": "Weight",
-  "q": "A heavier client has heard that 'fitness beats fatness'. For which outcome do the notes warn that this does not hold?",
+  "q": "A heavier client has heard that 'fitness beats fatness'. For which outcome does this not hold?",
   "o": [
    "All-cause mortality in women",
    "Mortality in heavier people who exercise",
@@ -4993,7 +4993,7 @@
  },
  {
   "t": "The selection logic",
-  "q": "With a layered crossed presentation, where does Philippa Oakley suggest you begin?",
+  "q": "With a layered crossed presentation, where do you begin?",
   "o": [
    "The hip flexors and lumbar extensors",
    "The feet and ankles, working upwards through the chain",
@@ -5001,7 +5001,7 @@
    "Wherever the client feels the symptom most"
   ],
   "a": 0,
-  "e": "Easing strain at the core reduces how much you have to do further out. As Chris Frederick puts it, the restriction is rarely where the symptom is.",
+  "e": "Easing strain at the core reduces how much you have to do further out. The restriction is rarely where the symptom is.",
   "sec": "exercise-reference#the-selection-logic"
  },
  {
@@ -5019,7 +5019,7 @@
  },
  {
   "t": "Pain and when to stop",
-  "q": "A client with a sore lower back says their hamstrings feel tight and asks you to stretch them hard. How do the notes frame the tightness?",
+  "q": "A client with a sore lower back says their hamstrings feel tight and asks you to stretch them hard. How is the tightness best framed?",
   "o": [
    "It is causing the pain, so stretching it comes first",
    "It is often the response to pain rather than its cause",
@@ -5045,7 +5045,7 @@
  },
  {
   "t": "Self-myofascial work",
-  "q": "A client with controlled high blood pressure and type 2 diabetes asks whether foam rolling is safe for them. What do the notes say?",
+  "q": "A client with controlled high blood pressure and type 2 diabetes asks whether foam rolling is safe for them. What is the accurate reply?",
   "o": [
    "Neither is a contraindication in expert consensus",
    "Rolling is safe for them only with a vibration roller",
@@ -5123,7 +5123,7 @@
  },
  {
   "t": "A combined stretch",
-  "q": "Which stretch does Philippa Oakley use for lower crossed presentations?",
+  "q": "Which combined stretch suits a lower crossed presentation?",
   "o": [
    "A standing gastrocnemius and hip flexor stretch facing a wall",
    "A kneeling lat stretch with the forearms resting on a ball",
@@ -5136,7 +5136,7 @@
  },
  {
   "t": "A combined stretch",
-  "q": "Philippa Oakley claims her combined stretch has effects that travel up to the head and shoulders. What is the status of that claim?",
+  "q": "A combined gastrocnemius and hip flexor stretch is claimed to affect the head and shoulders. What is the status of that claim?",
   "o": [
    "Untested: it has not been studied",
    "Disproven by several randomised trials",
@@ -5157,7 +5157,7 @@
    "Wall slide, forearms on the wall sliding up"
   ],
   "a": 3,
-  "e": "The wall slide trains the overhead pattern and is Philippa Oakley's first choice for troublesome overhead movement.",
+  "e": "The wall slide trains the overhead pattern and is the first choice for troublesome overhead movement.",
   "sec": "exercise-reference#scapular-and-upper-quadrant"
  },
  {
@@ -5188,7 +5188,7 @@
  },
  {
   "t": "Hip and lower quadrant",
-  "q": "A client has overpronation. Which activation exercise from Philippa Oakley's list fits?",
+  "q": "A client has overpronation. Which activation exercise fits?",
   "o": [
    "Crab walks with the band around the knees",
    "A kneeling lunge for the hip flexors",
@@ -5274,7 +5274,7 @@
    "Level with the knees for everyone"
   ],
   "a": 1,
-  "e": "Hip height depends on arm, leg and trunk length. McGurn's cue 'hips as high as possible' targets the reverse-squat error, but the set-up is the better guide.",
+  "e": "Hip height depends on arm, leg and trunk length. The cue 'hips as high as possible' targets the reverse-squat error, but the set-up is the better guide.",
   "sec": "exercise-reference#load"
  },
  {
@@ -6124,7 +6124,7 @@
  },
  {
   "t": "Regressions for a larger or deconditioned client",
-  "q": "A larger client finds the full range of a kettlebell deadlift too much. What does the course do?",
+  "q": "A larger client finds the full range of a kettlebell deadlift too much. What is the right regression?",
   "o": [
    "Raise the bell on a block or step to reduce the range",
    "Assist by pulling the bell up for them on each rep",
@@ -6132,7 +6132,7 @@
    "Replace it with high-rep swings"
   ],
   "a": 0,
-  "e": "A yoga block is about 10 cm, an aerobic step or box 15 to 30 cm. Raising the load 'helps them feel empowered that they're actually doing the work'.",
+  "e": "A yoga block is about 10 cm, an aerobic step or box 15 to 30 cm. Raising the load reduces the range while the client still does all the work.",
   "sec": "exercise-reference#regressions-for-a-larger-or-deconditioned-client"
  },
  {

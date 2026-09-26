@@ -97,7 +97,7 @@ def convert(md):
             inner = convert('\n'.join(block))[0]
             cls = 'note'
             joined = ' '.join(block)[:80]
-            for key, k in (('From the A&P notes', 'ap'), ('From Science of Exercise', 'soe'), ('Added', 'added')):
+            for key, k in (('**Safety.**', 'safety'), ('**What to say.**', 'say'), ('From the A&P notes', 'ap'), ('From Science of Exercise', 'soe'), ('Added', 'added')):
                 if key in joined:
                     cls = 'note ' + k
                     break
