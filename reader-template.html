@@ -172,6 +172,92 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
   h1{font-size:27px} h2{font-size:22px} h3{font-size:18.5px}
 }
 @media (min-width:901px){ nav .toggle{display:none} #fab{display:none!important} }
+
+/* ---------------- study layer ---------------- */
+:root{ --know:#2f7d5b; --knowbg:#E6F3EC; --shaky:#A8661B; --shakybg:#FBF0DF; --new:#C65FBF; --newbg:#FDF3FB; }
+.sechead{position:relative}
+.secbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:-2px 0 12px;font-family:var(--sans)}
+.secbar button{font:inherit;font-size:11.5px;line-height:1;padding:6px 10px;border-radius:14px;cursor:pointer;
+  border:1px solid var(--line2);background:var(--card);color:var(--muted)}
+.secbar button:active{transform:scale(.96)}
+.secbar button.st-know.on{background:var(--knowbg);border-color:var(--know);color:var(--know);font-weight:700}
+.secbar button.st-shaky.on{background:var(--shakybg);border-color:var(--shaky);color:var(--shaky);font-weight:700}
+.secbar button.st-new.on{background:var(--newbg);border-color:var(--new);color:var(--new);font-weight:700}
+.secbar button.test{margin-left:auto;background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}
+.secbar .score{font-size:11px;color:var(--muted2)}
+section.sec .sechead > h2, section.sec .sechead > h3{cursor:pointer;padding-left:22px;position:relative}
+section.sec .sechead > h2::before, section.sec .sechead > h3::before{content:'';position:absolute;left:3px;top:.5em;
+  width:7px;height:7px;border-right:2px solid var(--muted2);border-bottom:2px solid var(--muted2);transform:rotate(45deg);
+  transition:transform .15s ease}
+section.sec.collapsed > .secbody{display:none}
+section.sec.collapsed .sechead > h2::before, section.sec.collapsed .sechead > h3::before{transform:rotate(-45deg);top:.45em}
+section.sec.collapsed .secbar button:not(.on), section.sec.collapsed .secbar .score, section.sec.collapsed .secbar .test{display:none}
+section.sec.collapsed .secbar{margin-bottom:6px}
+section.sec.collapsed .sechead > h2, section.sec.collapsed .sechead > h3{margin-bottom:4px}
+#progress .folds{display:flex;gap:6px;margin-top:9px}
+#progress .folds button{font:inherit;font-size:11px;padding:5px 9px;border-radius:12px;border:1px solid var(--line2);
+  background:var(--page);color:var(--ink);cursor:pointer}
+nav a .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px;
+  background:transparent;border:1px solid var(--line2)}
+nav a .dot.know{background:var(--know);border-color:var(--know)}
+nav a .dot.shaky{background:var(--shaky);border-color:var(--shaky)}
+nav a .dot.new{background:var(--new);border-color:var(--new)}
+#progress{font-family:var(--sans);font-size:11.5px;color:var(--muted);margin:0 0 14px;padding:10px 12px;
+  background:var(--card);border:1px solid var(--line);border-radius:12px;line-height:1.5}
+#progress .bar{display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--line);margin-top:7px}
+#progress .bar i{display:block;height:100%}
+
+mark.hl{background:rgba(255,202,255,.7);color:inherit;border-radius:2px;padding:0 1px;cursor:pointer}
+mark.hl.noted{border-bottom:2px dotted var(--magenta)}
+#selbar{position:fixed;z-index:85;display:none;gap:6px;background:var(--ink);border-radius:20px;padding:5px;
+  box-shadow:0 4px 16px rgba(42,13,63,.3);font-family:var(--sans)}
+#selbar.show{display:flex}
+#selbar button{font:inherit;font-size:12.5px;background:none;border:0;color:#fff;padding:7px 11px;cursor:pointer;border-radius:14px}
+#selbar button:active{background:rgba(255,255,255,.12)}
+#hlpop{position:fixed;z-index:86;display:none;width:min(320px,calc(100vw - 32px));background:var(--card);
+  border:1px solid var(--line2);border-radius:14px;padding:12px;box-shadow:0 8px 28px rgba(42,13,63,.2);font-family:var(--sans)}
+#hlpop.show{display:block}
+#hlpop .q{font-family:var(--serif);font-size:14px;color:var(--text);margin:0 0 8px;max-height:90px;overflow:auto}
+#hlpop textarea{width:100%;min-height:70px;font:inherit;font-size:14px;padding:9px 10px;border:1px solid var(--line2);
+  border-radius:10px;background:var(--page);color:var(--text);resize:vertical}
+#hlpop .row{display:flex;gap:8px;margin-top:8px;justify-content:flex-end}
+#hlpop button,.ov button.btn{font:inherit;font-size:12.5px;cursor:pointer;border-radius:16px;padding:7px 13px;
+  border:1px solid var(--line2);background:var(--page);color:var(--ink)}
+#hlpop button.primary,.ov button.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:700}
+#hlpop button.danger{color:#8A3A35;margin-right:auto}
+
+.ov{position:fixed;inset:0;z-index:82;background:var(--page);overflow:auto;display:none;font-family:var(--sans)}
+.ov.open{display:block}
+.ov .bar{position:sticky;top:0;z-index:2;background:var(--page);padding:10px 16px;display:flex;gap:14px;
+  align-items:center;border-bottom:1px solid var(--line2)}
+.ov .bar strong{font-size:14px;color:var(--ink)}
+.ov .bar .x{font:inherit;cursor:pointer;background:none;border:0;color:var(--magenta);padding:4px 0}
+.ov .inner{max-width:720px;margin:0 auto;padding:14px 16px 70px}
+.hlitem{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:0 0 10px;cursor:pointer}
+.hlitem .where{font-size:11px;color:var(--muted2);margin-bottom:5px}
+.hlitem .quote{font-family:var(--serif);font-size:15px;color:var(--text);background:rgba(255,202,255,.45);display:inline}
+.hlitem .note{font-size:13px;color:var(--ink);margin-top:8px;padding-left:10px;border-left:2px solid var(--magenta)}
+.ov h3.ch{font-family:var(--serif);font-size:18px;margin:22px 0 10px}
+.ov .empty{color:var(--muted);font-size:14px;padding:30px 0;text-align:center}
+.syncbox{margin-top:26px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--card);
+  font-size:12.5px;color:var(--muted);line-height:1.5}
+.syncbox input{width:100%;margin:8px 0;padding:9px 12px;font-size:14px;border:1px solid var(--line2);border-radius:10px;
+  background:var(--page);color:var(--text)}
+#syncstate{font-size:11px;color:var(--muted2)}
+#syncstate.bad{color:#8A3A35}
+
+.qz{font-family:var(--sans)}
+.qz .qn{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.14em;margin:6px 0 8px}
+.qz .qq{font-family:var(--serif);font-size:19px;color:var(--ink);line-height:1.4;margin:0 0 16px}
+.qz .opt{display:block;width:100%;text-align:left;font:inherit;font-size:15px;line-height:1.4;padding:13px 14px;
+  margin:0 0 9px;border-radius:12px;border:1px solid var(--line2);background:var(--card);color:var(--text);cursor:pointer}
+.qz .opt.right{border-color:var(--know);background:var(--knowbg)}
+.qz .opt.wrong{border-color:#C0645C;background:#FBEAE8}
+.qz .opt:disabled{cursor:default}
+.qz .exp{font-size:14px;line-height:1.5;color:var(--text);background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:12px 14px;margin:6px 0 14px}
+.qz .next{display:flex;gap:8px;justify-content:flex-end}
+.qz .summary{font-family:var(--serif);font-size:20px;color:var(--ink);margin:10px 0 12px}
 </style>
 </head>
 <body>
@@ -183,6 +269,7 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
     <div class="brandtag">__TAG__</div>
   </div>
   <div class="acts">
+    <button class="link hidden" id="hlbtn">Highlights</button>
     <button class="link hidden" id="editbtn">Edit</button>
     <a href="./">Quiz</a>
   </div>
@@ -204,6 +291,7 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
     <button class="toggle" id="toggle">Contents</button>
     <div class="toclist">
       <h4>Contents</h4>
+      <div id="progress"></div>
       <div id="toc"></div>
     </div>
   </nav>
@@ -218,6 +306,29 @@ figcaption{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:
     <strong id="srctitle"></strong>
   </div>
   <div class="body" id="srcbody"></div>
+</div>
+
+<!-- study layer -->
+<div id="selbar"><button id="selhl">Highlight</button><button id="selnote">Highlight + note</button></div>
+<div id="hlpop">
+  <p class="q" id="hlpopq"></p>
+  <textarea id="hlpopnote" placeholder="Add a note (optional)"></textarea>
+  <div class="row">
+    <button class="danger" id="hlpopdel">Remove</button>
+    <button id="hlpopcancel">Cancel</button>
+    <button class="primary" id="hlpopsave">Save</button>
+  </div>
+</div>
+<div class="ov" id="hlov" role="dialog" aria-modal="true">
+  <div class="bar"><button class="x" id="hlovclose">&larr; Back</button><strong>My highlights</strong>
+    <span id="syncstate" style="margin-left:auto"></span></div>
+  <div class="inner"><div id="hllist"></div>
+    <div class="syncbox" id="syncbox"></div>
+  </div>
+</div>
+<div class="ov" id="qzov" role="dialog" aria-modal="true">
+  <div class="bar"><button class="x" id="qzclose">&larr; Back</button><strong id="qztitle">Test me</strong></div>
+  <div class="inner qz" id="qzbody"></div>
 </div>
 
 <!-- editor -->
@@ -416,6 +527,7 @@ function renderData(data){
   $('#foot').classList.remove('hidden');
   $('#editbtn').classList.remove('hidden');
   wire();
+  mountStudy();
   figures($('#doc'));
 }
 
@@ -484,7 +596,11 @@ function wire(){
     fab.setAttribute('aria-expanded', open ? 'true' : 'false');
     document.body.style.overflow = open ? 'hidden' : '';
   };
-  links.forEach(a => a.addEventListener('click', () => setNav(false)));
+  links.forEach(a => a.addEventListener('click', () => {
+    setNav(false);
+    const sid = a.hash.slice(1);
+    if (typeof isCollapsed === 'function' && SECTIONS.some(s => s.sid === sid) && isCollapsed(sid)) setCollapsed(sid, false);
+  }));
   $('#toggle').onclick = () => setNav(!nav.classList.contains('open'));
   fab.onclick = () => setNav(!nav.classList.contains('open'));
   fab.classList.remove('hidden');
@@ -552,7 +668,7 @@ async function publish(){
   btn.disabled = true; setStatus('Encrypting…', 'busy');
   try {
     const { html, toc } = renderMarkdown(md);
-    const data = { title: CURRENT.title, md, html, toc };
+    const data = Object.assign({}, CURRENT, { md, html, toc });   // keeps the section questions
     const blob = await encryptBlob(data);
     setStatus('Saving to GitHub…', 'busy');
     await githubPut(STEM + '.enc', blob, 'Edit ' + STEM + ' notes');
@@ -630,6 +746,474 @@ function wireEditor(){
   });
 }
 
+/* ---------------- study layer ----------------
+   Per-section Know / Shaky / New marks, highlights with notes, and "Test me".
+   State lives on the device and, when a GitHub token is saved, syncs through an
+   encrypted study-<stem>.enc in the repo. Each mark and highlight carries a
+   timestamp, so merging two devices keeps the newest version of each. */
+const STUDYNAME = 'rt-study-' + STEM;
+const STUDYFILE = 'study-' + STEM + '.enc';
+const STATUS = { know: 'Know', shaky: 'Shaky', new: 'New' };
+let STUDY = { v: 1, sec: {}, hl: {}, qz: {} };
+const COLNAME = 'rt-col-' + STEM;   // manual fold state, this device only
+let COL = {};
+let SECTIONS = [];            // [{sid, title, chapter, el}]
+let syncTimer = null, syncSha = null, syncBusy = false, syncDirty = false;
+
+function loadCol(){ try { COL = JSON.parse(localStorage.getItem(COLNAME) || '{}') || {}; } catch(e){ COL = {}; } }
+function saveCol(){ try { localStorage.setItem(COLNAME, JSON.stringify(COL)); } catch(e){} }
+/* A known section starts folded; any section can be folded or opened by tapping its heading. */
+function isCollapsed(sid){
+  if (sid in COL) return COL[sid];
+  return (STUDY.sec[sid] || {}).s === 'know';
+}
+function setCollapsed(sid, v){
+  COL[sid] = v; saveCol();
+  const s = SECTIONS.find(x => x.sid === sid); if (s) paintSection(s);
+}
+function loadStudy(){
+  try { const s = JSON.parse(localStorage.getItem(STUDYNAME) || 'null'); if (s && s.v === 1) STUDY = s; } catch(e){}
+  STUDY.sec = STUDY.sec || {}; STUDY.hl = STUDY.hl || {}; STUDY.qz = STUDY.qz || {};
+}
+function saveStudy(sync = true){
+  try { localStorage.setItem(STUDYNAME, JSON.stringify(STUDY)); } catch(e){}
+  if (sync) scheduleSync();
+}
+function mergeStudy(other){
+  for (const k of ['sec', 'hl', 'qz']){
+    const mine = STUDY[k], theirs = (other && other[k]) || {};
+    for (const id in theirs) if (!mine[id] || (theirs[id].t || 0) > (mine[id].t || 0)) mine[id] = theirs[id];
+  }
+}
+
+/* Wrap each h2 intro and each h3 in a section with a status bar. */
+function buildSections(){
+  const doc = $('#doc');
+  SECTIONS = [];
+  let chapter = '';
+  const kids = [...doc.children];
+  let cur = null;
+  const open = (h) => {
+    const sec = document.createElement('section');
+    sec.className = 'sec';
+    sec.dataset.sid = h.id;
+    const head = document.createElement('div'); head.className = 'sechead';
+    const body = document.createElement('div'); body.className = 'secbody';
+    h.replaceWith(sec);
+    head.appendChild(h);
+    sec.append(head, body);
+    cur = { sid: h.id, title: h.textContent, chapter, el: sec, head, body, level: h.tagName };
+    SECTIONS.push(cur);
+  };
+  for (const el of kids){
+    if (el.tagName === 'H2'){ chapter = el.textContent; open(el); continue; }
+    if (el.tagName === 'H3'){ open(el); continue; }
+    if (cur) cur.body.appendChild(el);
+  }
+  // A chapter heading with no intro of its own gets no bar.
+  SECTIONS = SECTIONS.filter(s => {
+    if (s.body.textContent.trim()) return true;
+    s.el.classList.add('bare'); return false;
+  });
+  const quiz = (CURRENT && CURRENT.quiz) || {};
+  for (const s of SECTIONS){
+    const bar = document.createElement('div'); bar.className = 'secbar';
+    for (const k in STATUS){
+      const b = document.createElement('button');
+      b.className = 'st-' + k; b.textContent = STATUS[k]; b.dataset.st = k;
+      bar.appendChild(b);
+    }
+    const qs = quiz[s.sid];
+    if (qs && qs.length){
+      const sc = document.createElement('span'); sc.className = 'score'; bar.appendChild(sc);
+      const t = document.createElement('button');
+      t.className = 'test'; t.textContent = 'Test me (' + qs.length + ')';
+      bar.appendChild(t);
+    }
+    s.head.appendChild(bar);
+  }
+}
+
+function paintSection(s){
+  const st = (STUDY.sec[s.sid] || {}).s || '';
+  s.el.classList.toggle('collapsed', isCollapsed(s.sid));
+  s.head.querySelectorAll('.secbar button[data-st]').forEach(b => b.classList.toggle('on', b.dataset.st === st));
+  const sc = s.head.querySelector('.score'), q = STUDY.qz[s.sid];
+  if (sc) sc.textContent = q ? 'Last: ' + q.right + '/' + q.total : '';
+  const a = document.querySelector('#toc a[href="#' + s.sid + '"] .dot');
+  if (a) a.className = 'dot ' + st;
+}
+function paintProgress(){
+  const n = SECTIONS.length, c = { know: 0, shaky: 0, new: 0 };
+  for (const s of SECTIONS){ const st = (STUDY.sec[s.sid] || {}).s; if (st) c[st]++; }
+  const none = n - c.know - c.shaky - c.new;
+  const pct = x => (100 * x / (n || 1)).toFixed(2) + '%';
+  $('#progress').innerHTML =
+    '<strong>' + c.know + '</strong> known, <strong>' + c.shaky + '</strong> shaky, <strong>' + c.new +
+    '</strong> new, ' + none + ' not marked, of ' + n + ' sections.' +
+    '<div class="bar"><i style="width:' + pct(c.know) + ';background:var(--know)"></i>' +
+    '<i style="width:' + pct(c.shaky) + ';background:var(--shaky)"></i>' +
+    '<i style="width:' + pct(c.new) + ';background:var(--new)"></i></div>' +
+    '<div class="folds"><button data-fold="all">Fold all</button><button data-fold="none">Open all</button>' +
+    '<button data-fold="known">Fold only known</button></div>';
+}
+function paintAll(){ SECTIONS.forEach(paintSection); paintProgress(); }
+
+function setStatusFor(sid, st){
+  const old = (STUDY.sec[sid] || {}).s;
+  STUDY.sec[sid] = { s: old === st ? '' : st, t: Date.now() };
+  saveStudy();
+  delete COL[sid]; saveCol();   // marking Know folds it; any other mark opens it
+  const s = SECTIONS.find(x => x.sid === sid);
+  if (s) paintSection(s);
+  paintProgress();
+}
+
+/* ----- highlights: anchored by the quoted text plus a little context ----- */
+const CTX = 32;
+function textNodes(root){
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const out = []; let n; while ((n = w.nextNode())) out.push(n); return out;
+}
+function locate(body, h){
+  const nodes = textNodes(body);
+  const full = nodes.map(n => n.nodeValue).join('');
+  let at = full.indexOf((h.pre || '') + h.q + (h.suf || ''));
+  if (at >= 0) at += (h.pre || '').length;
+  else at = full.indexOf(h.q);
+  if (at < 0) return null;
+  return { nodes, start: at, end: at + h.q.length };
+}
+function wrapRange(loc, hid, noted){
+  let pos = 0;
+  for (const node of loc.nodes){
+    const len = node.nodeValue.length, a = pos, b = pos + len;
+    pos = b;
+    if (b <= loc.start || a >= loc.end || !node.parentNode) continue;
+    if (node.parentNode.closest && node.parentNode.closest('mark.hl')) continue;
+    let target = node;
+    const s = Math.max(0, loc.start - a), e = Math.min(len, loc.end - a);
+    if (e < len) target.splitText(e);
+    if (s > 0) target = target.splitText(s);
+    if (!target.nodeValue.trim()) continue;
+    const m = document.createElement('mark');
+    m.className = 'hl' + (noted ? ' noted' : ''); m.dataset.hid = hid;
+    target.parentNode.insertBefore(m, target); m.appendChild(target);
+  }
+}
+function unwrapMarks(hid){
+  document.querySelectorAll('mark.hl[data-hid="' + hid + '"]').forEach(m => {
+    const p = m.parentNode; while (m.firstChild) p.insertBefore(m.firstChild, m); p.removeChild(m); p.normalize();
+  });
+}
+function paintHighlight(hid){
+  unwrapMarks(hid);
+  const h = STUDY.hl[hid];
+  if (!h || h.del) return;
+  const s = SECTIONS.find(x => x.sid === h.sid);
+  if (!s) return;
+  const loc = locate(s.body, h);
+  if (loc) wrapRange(loc, hid, !!h.note);
+}
+function paintHighlights(){ for (const hid in STUDY.hl) paintHighlight(hid); }
+
+function selectionInfo(){
+  const sel = window.getSelection();
+  if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
+  const r = sel.getRangeAt(0);
+  const within = n => (n.nodeType === 1 ? n : n.parentNode).closest('.secbody');
+  const b1 = within(r.startContainer), b2 = within(r.endContainer);
+  if (!b1 || b1 !== b2) return null;
+  const q = r.toString();
+  if (!q.trim() || q.length > 1500) return null;
+  const pre = document.createRange(); pre.setStart(b1, 0); pre.setEnd(r.startContainer, r.startOffset);
+  const full = textNodes(b1).map(n => n.nodeValue).join('');
+  const start = pre.toString().length;
+  return { range: r, body: b1, sid: b1.parentNode.dataset.sid, q,
+           pre: full.slice(Math.max(0, start - CTX), start),
+           suf: full.slice(start + q.length, start + q.length + CTX) };
+}
+let pendingSel = null;
+function showSelbar(){
+  const info = selectionInfo();
+  const bar = $('#selbar');
+  if (!info){ bar.classList.remove('show'); pendingSel = null; return; }
+  pendingSel = info;
+  const rect = info.range.getBoundingClientRect();
+  bar.classList.add('show');
+  const w = bar.offsetWidth, h = bar.offsetHeight;
+  let top = rect.bottom + 10;                       // below, so it clears the phone's own menu
+  if (top + h > window.innerHeight - 8) top = Math.max(8, rect.top - h - 10);
+  bar.style.top = top + 'px';
+  bar.style.left = Math.min(window.innerWidth - w - 8, Math.max(8, rect.left + rect.width / 2 - w / 2)) + 'px';
+}
+function addHighlight(withNote){
+  const info = pendingSel; if (!info) return;
+  const hid = 'h' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  STUDY.hl[hid] = { sid: info.sid, q: info.q, pre: info.pre, suf: info.suf, note: '', t: Date.now() };
+  saveStudy();
+  window.getSelection().removeAllRanges();
+  $('#selbar').classList.remove('show'); pendingSel = null;
+  paintHighlight(hid);
+  if (withNote) openHlPop(hid);
+}
+
+let popHid = null;
+function openHlPop(hid){
+  const h = STUDY.hl[hid]; if (!h) return;
+  popHid = hid;
+  $('#hlpopq').textContent = h.q;
+  $('#hlpopnote').value = h.note || '';
+  const pop = $('#hlpop'), m = document.querySelector('mark.hl[data-hid="' + hid + '"]');
+  pop.classList.add('show');
+  const rect = m ? m.getBoundingClientRect() : { bottom: 80, left: 16 };
+  let top = rect.bottom + 8;
+  if (top + pop.offsetHeight > window.innerHeight - 8) top = Math.max(8, (rect.top || 80) - pop.offsetHeight - 8);
+  pop.style.top = top + 'px';
+  pop.style.left = Math.min(window.innerWidth - pop.offsetWidth - 8, Math.max(8, rect.left)) + 'px';
+  if (!h.note) setTimeout(() => $('#hlpopnote').focus(), 30);
+}
+function closeHlPop(){ $('#hlpop').classList.remove('show'); popHid = null; }
+
+function openHlList(){
+  const byCh = {};
+  const order = SECTIONS.map(s => s.sid);
+  const items = Object.entries(STUDY.hl).filter(([, h]) => !h.del)
+    .sort((a, b) => (order.indexOf(a[1].sid) - order.indexOf(b[1].sid)) || (a[1].t - b[1].t));
+  for (const [hid, h] of items){
+    const s = SECTIONS.find(x => x.sid === h.sid);
+    const ch = s ? s.chapter : 'Sections no longer in the notes';
+    (byCh[ch] = byCh[ch] || []).push([hid, h, s]);
+  }
+  const box = $('#hllist');
+  if (!items.length) box.innerHTML = '<p class="empty">No highlights yet. Select any text in the notes to highlight it.</p>';
+  else box.innerHTML = Object.entries(byCh).map(([ch, list]) =>
+    '<h3 class="ch">' + esc(ch) + '</h3>' + list.map(([hid, h, s]) =>
+      '<div class="hlitem" data-hid="' + hid + '"><div class="where">' + esc(s ? s.title : '') + '</div>' +
+      '<div class="quote">' + esc(h.q) + '</div>' +
+      (h.note ? '<div class="note">' + esc(h.note) + '</div>' : '') + '</div>').join('')).join('');
+  paintSyncBox();
+  $('#hlov').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeHlList(){ $('#hlov').classList.remove('open'); document.body.style.overflow = ''; }
+function jumpTo(hid){
+  const h = STUDY.hl[hid]; if (!h) return;
+  closeHlList();
+  const s = SECTIONS.find(x => x.sid === h.sid);
+  if (s && isCollapsed(s.sid)) setCollapsed(s.sid, false);
+  const m = document.querySelector('mark.hl[data-hid="' + hid + '"]') || (s && s.el);
+  if (m) m.scrollIntoView({ block: 'center' });
+}
+
+/* ----- Test me ----- */
+let QZ = null;
+function openQuiz(sid){
+  const s = SECTIONS.find(x => x.sid === sid);
+  const qs = ((CURRENT && CURRENT.quiz) || {})[sid];
+  if (!s || !qs || !qs.length) return;
+  QZ = { sid, title: s.title, qs: shuffle(qs.slice()), i: 0, right: 0, wrong: [] };
+  $('#qztitle').textContent = 'Test me: ' + s.title;
+  $('#qzov').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  showQ();
+}
+function shuffle(a){ for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function showQ(){
+  const box = $('#qzbody');
+  if (QZ.i >= QZ.qs.length) return showSummary();
+  const q = QZ.qs[QZ.i];
+  const order = shuffle(q.o.map((t, k) => k));
+  box.innerHTML = '<div class="qn">Question ' + (QZ.i + 1) + ' of ' + QZ.qs.length + '</div>' +
+    '<p class="qq">' + esc(q.q) + '</p>' +
+    order.map(k => '<button class="opt" data-k="' + k + '">' + esc(q.o[k]) + '</button>').join('') +
+    '<div id="qzafter"></div>';
+  box.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(+b.dataset.k));
+  $('#qzov').scrollTop = 0;
+}
+function answer(k){
+  const q = QZ.qs[QZ.i], ok = k === q.a;
+  if (ok) QZ.right++; else QZ.wrong.push(q);
+  $('#qzbody').querySelectorAll('.opt').forEach(b => {
+    b.disabled = true;
+    if (+b.dataset.k === q.a) b.classList.add('right');
+    else if (+b.dataset.k === k) b.classList.add('wrong');
+  });
+  $('#qzafter').innerHTML = '<div class="exp">' + (ok ? '<strong>Right.</strong> ' : '<strong>Not quite.</strong> ') +
+    esc(q.e) + '</div><div class="next"><button class="btn primary" id="qznext">' +
+    (QZ.i + 1 < QZ.qs.length ? 'Next' : 'Finish') + '</button></div>';
+  $('#qznext').onclick = () => { QZ.i++; showQ(); };
+}
+function showSummary(){
+  const { sid, right, qs, wrong } = QZ, total = qs.length;
+  STUDY.qz[sid] = { right, total, t: Date.now() };
+  const st = (STUDY.sec[sid] || {}).s;
+  let msg;
+  if (wrong.length){
+    if (st !== 'shaky'){ STUDY.sec[sid] = { s: 'shaky', t: Date.now() }; delete COL[sid]; saveCol(); }
+    msg = 'This section is now marked Shaky. Reread it, then test yourself again.';
+  } else msg = st === 'know' ? 'Still solid.' : 'All correct. Mark it as known to fold it away?';
+  saveStudy();
+  paintAll();
+  $('#qzbody').innerHTML = '<p class="summary">' + right + ' of ' + total + ' right.</p><p>' + msg + '</p>' +
+    '<div class="next">' +
+    (!wrong.length && st !== 'know' ? '<button class="btn primary" id="qzknow">Mark as Know</button>' : '') +
+    '<button class="btn" id="qzagain">Try again</button>' +
+    '<button class="btn' + (wrong.length ? ' primary' : '') + '" id="qzread">Back to the section</button></div>';
+  const back = () => {
+    closeQuiz();
+    const s = SECTIONS.find(x => x.sid === sid);
+    if (s){ setCollapsed(sid, false); s.el.scrollIntoView({ block: 'start' }); }
+  };
+  if ($('#qzknow')) $('#qzknow').onclick = () => { if ((STUDY.sec[sid] || {}).s !== 'know') setStatusFor(sid, 'know'); closeQuiz(); };
+  $('#qzagain').onclick = () => openQuiz(sid);
+  $('#qzread').onclick = back;
+}
+function closeQuiz(){ $('#qzov').classList.remove('open'); document.body.style.overflow = ''; QZ = null; }
+
+/* ----- sync through the repo, encrypted ----- */
+function canon(o){
+  if (Array.isArray(o)) return '[' + o.map(canon).join(',') + ']';
+  if (o && typeof o === 'object') return '{' + Object.keys(o).sort().map(k => JSON.stringify(k) + ':' + canon(o[k])).join(',') + '}';
+  return JSON.stringify(o);
+}
+function syncState(msg, bad){ const el = $('#syncstate'); if (el){ el.textContent = msg || ''; el.className = bad ? 'bad' : ''; } }
+function paintSyncBox(){
+  const box = $('#syncbox');
+  if (getToken()){
+    box.innerHTML = 'Marks, highlights and notes sync to your other devices, encrypted with the notes passphrase. ' +
+      '<button class="btn" id="syncnow">Sync now</button>';
+    $('#syncnow').onclick = () => syncNow(true);
+  } else {
+    box.innerHTML = 'Marks, highlights and notes are saved on this device only. To sync them to your other devices, ' +
+      'paste the same GitHub token the editor uses (Contents: read and write on this repo).' +
+      '<input type="password" id="synctoken" placeholder="github_pat_..." autocomplete="off">' +
+      '<button class="btn primary" id="synctokensave">Save token and sync</button>';
+    $('#synctokensave').onclick = () => {
+      const v = $('#synctoken').value.trim(); if (!v) return;
+      try { localStorage.setItem(TOKENNAME, v); } catch(e){}
+      paintSyncBox(); syncNow(true);
+    };
+  }
+}
+function scheduleSync(){
+  syncDirty = true;
+  if (!getToken()) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => syncNow(false), 15000);   // batch a burst of marks into one commit
+}
+async function pullRemote(){
+  const token = getToken();
+  const api = 'https://api.github.com/repos/' + REPO + '/contents/' + STUDYFILE + '?ref=' + encodeURIComponent(BRANCH);
+  const r = await fetch(api, { headers: ghHeaders(token), cache: 'no-store' });
+  if (r.status === 404){ syncSha = null; return null; }
+  if (!r.ok) throw new Error('GitHub read failed (' + r.status + ')');
+  const j = await r.json();
+  syncSha = j.sha;
+  const blob = JSON.parse(atob(j.content.replace(/\n/g, '')));
+  const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64(blob.iv) }, KEY, b64(blob.ct));
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+async function syncNow(){
+  if (!getToken() || !KEY || syncBusy) return;
+  syncBusy = true; clearTimeout(syncTimer);
+  syncState('Syncing…');
+  try {
+    for (let attempt = 0; attempt < 2; attempt++){
+      const remote = await pullRemote();
+      const before = JSON.stringify(STUDY);
+      if (remote) mergeStudy(remote);
+      const changed = JSON.stringify(STUDY) !== before;
+      saveStudy(false);
+      if (changed){ paintAll(); paintHighlights(); }
+      // Nothing this device knows that the remote copy lacks: no commit needed.
+      if (remote && canon(remote) === canon(STUDY)){ syncDirty = false; break; }
+      const body = { message: 'Sync study marks (' + STEM + ')', content: b64utf8(await encryptBlob(STUDY)), branch: BRANCH };
+      if (syncSha) body.sha = syncSha;
+      const api = 'https://api.github.com/repos/' + REPO + '/contents/' + STUDYFILE;
+      const p = await fetch(api, { method: 'PUT', headers: ghHeaders(getToken()), body: JSON.stringify(body) });
+      if (p.ok){ syncSha = (await p.json()).content.sha; syncDirty = false; break; }
+      if (p.status !== 409 && p.status !== 422) throw new Error('GitHub save failed (' + p.status + ')');
+      // Someone else wrote first: loop once to pull, merge and write again.
+    }
+    syncState('Synced ' + new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
+  } catch(e){
+    syncState(e && e.message ? e.message : 'Sync failed', true);
+  } finally { syncBusy = false; }
+}
+
+function mountStudy(){
+  loadStudy();
+  loadCol();
+  // A dot in front of every section in the contents.
+  document.querySelectorAll('#toc a').forEach(a => {
+    if (!a.querySelector('.dot')) a.insertAdjacentHTML('afterbegin', '<span class="dot"></span>');
+  });
+  buildSections();
+  paintAll();
+  paintHighlights();
+  $('#hlbtn').classList.remove('hidden');
+  if (getToken()) syncNow(false);
+}
+function wireStudy(){
+  $('#doc').addEventListener('click', e => {
+    const b = e.target.closest('.secbar button');
+    if (b){
+      const sid = b.closest('section.sec').dataset.sid;
+      if (b.dataset.st) setStatusFor(sid, b.dataset.st);
+      else if (b.classList.contains('test')) openQuiz(sid);
+      return;
+    }
+    const h = e.target.closest('.sechead > h2, .sechead > h3');
+    if (h && window.getSelection().isCollapsed){
+      const sid = h.closest('section.sec').dataset.sid;
+      setCollapsed(sid, !isCollapsed(sid)); return;
+    }
+    const m = e.target.closest('mark.hl');
+    if (m && window.getSelection().isCollapsed){ openHlPop(m.dataset.hid); }
+  });
+  let selT = null;
+  document.addEventListener('selectionchange', () => { clearTimeout(selT); selT = setTimeout(showSelbar, 250); });
+  $('#selhl').addEventListener('mousedown', e => e.preventDefault());
+  $('#selnote').addEventListener('mousedown', e => e.preventDefault());
+  $('#selhl').onclick = () => addHighlight(false);
+  $('#selnote').onclick = () => addHighlight(true);
+  $('#hlpopsave').onclick = () => {
+    const h = STUDY.hl[popHid]; if (!h) return closeHlPop();
+    h.note = $('#hlpopnote').value.trim(); h.t = Date.now();
+    saveStudy(); paintHighlight(popHid); closeHlPop();
+  };
+  $('#hlpopcancel').onclick = closeHlPop;
+  $('#hlpopdel').onclick = () => {
+    const hid = popHid; if (!hid) return;
+    // A tombstone rather than a delete, so the removal syncs to other devices.
+    STUDY.hl[hid] = { del: 1, t: Date.now() };
+    saveStudy(); unwrapMarks(hid); closeHlPop();
+  };
+  $('#progress').addEventListener('click', e => {
+    const b = e.target.closest('button[data-fold]'); if (!b) return;
+    for (const s of SECTIONS){
+      if (b.dataset.fold === 'known') delete COL[s.sid];
+      else COL[s.sid] = b.dataset.fold === 'all';
+    }
+    saveCol(); SECTIONS.forEach(paintSection);
+  });
+  $('#hlbtn').onclick = openHlList;
+  $('#hlovclose').onclick = closeHlList;
+  $('#hllist').addEventListener('click', e => { const it = e.target.closest('.hlitem'); if (it) jumpTo(it.dataset.hid); });
+  $('#qzclose').onclick = closeQuiz;
+  document.addEventListener('mousedown', e => {
+    if ($('#hlpop').classList.contains('show') && !e.target.closest('#hlpop') && !e.target.closest('mark.hl')) closeHlPop();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if ($('#qzov').classList.contains('open')) closeQuiz();
+    else if ($('#hlov').classList.contains('open')) closeHlList();
+    else if ($('#hlpop').classList.contains('show')) closeHlPop();
+  });
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && syncDirty) syncNow(false); });
+}
+
 /* ---------------- unlock + boot ---------------- */
 async function tryUnlock(pass, remember){
   const key = await deriveKey(pass, b64(PAYLOAD.salt));
@@ -649,6 +1233,7 @@ async function loadPayload(){
 
 (async () => {
   wireEditor();
+  wireStudy();
   try { await loadPayload(); }
   catch(e){ $('#err').textContent = 'Could not load the notes file.'; $('#err').style.display = 'block'; return; }
 

@@ -112,6 +112,22 @@ def images(key, names):
 
 # ---------- build ----------
 
+def stem_of(out):
+    return out[:-5]  # drop '.html'
+
+# "Test me" questions: every question in any bank that names a section with
+# "sec": "<stem>#<section id>", grouped by document and section.
+QUIZ = {}
+for fn in ['questions-sections.json', 'questions-muscles.json', 'questions-gym.json', 'questions-derive.json']:
+    f = HERE / fn
+    if not f.exists():
+        continue
+    for q in json.loads(f.read_text()):
+        if q.get('sec'):
+            stem, sid = q['sec'].split('#', 1)
+            QUIZ.setdefault(stem, {}).setdefault(sid, []).append(
+                {'q': q['q'], 'o': q['o'], 'a': q['a'], 'e': q['e']})
+
 def main():
     key = hashlib.pbkdf2_hmac('sha256', passphrase().encode(), salt(), ITER, 32)
     logo = (HERE / '_logo.svg').read_text().strip()
@@ -145,7 +161,10 @@ def main():
 
         # The markdown travels inside the encrypted payload too, so the browser
         # can edit the real source rather than round-tripping the rendered HTML.
-        payload = json.dumps({'title': title, 'md': md, 'html': html, 'toc': toc}, ensure_ascii=False)
+        # "Test me" questions, keyed by section id, travel encrypted with the notes.
+        quiz = QUIZ.get(stem_of(out), {})
+        payload = json.dumps({'title': title, 'md': md, 'html': html, 'toc': toc, 'quiz': quiz},
+                             ensure_ascii=False)
         iv, ct = encrypt(key, payload.encode())
         blob = json.dumps({
             'salt': base64.b64encode(salt()).decode(),

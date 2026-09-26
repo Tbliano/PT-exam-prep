@@ -116,6 +116,43 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 
 .foot{text-align:center;color:var(--muted2);font-size:11px;margin:26px 16px 0;line-height:1.6}
 .foot a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line2)}
+
+/* ---------- exam ---------- */
+.ebar{display:flex;align-items:center;gap:12px;margin:16px 16px 0}
+.timer{flex:0 0 auto;font-family:var(--sans);font-size:14px;font-weight:700;color:var(--ink);
+  background:var(--card);border:1px solid var(--line2);border-radius:20px;padding:6px 12px;font-variant-numeric:tabular-nums}
+.timer.low{color:var(--warnink);border-color:var(--warnbd);background:var(--warnbg)}
+.opt.chosen{border-color:var(--ink);background:var(--page);box-shadow:inset 0 0 0 1px var(--ink)}
+.opt.chosen .k{background:var(--ink);border-color:var(--ink);color:#fff}
+.enav{display:flex;gap:10px;margin-top:16px}
+.enav .btn{flex:1}
+.grid{display:grid;grid-template-columns:repeat(10,1fr);gap:5px;margin-top:12px}
+.grid button{font:inherit;font-size:11px;padding:6px 0;border-radius:7px;border:1px solid var(--line2);
+  background:var(--card);color:var(--muted);cursor:pointer}
+.grid button.done{background:var(--page);color:var(--ink);border-color:var(--ink)}
+.grid button.cur{outline:2px solid var(--magenta);outline-offset:1px}
+.passfail{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.16em;font-weight:700;
+  padding:5px 12px;border-radius:20px;margin-top:10px}
+.passfail.pass{background:var(--okbg);color:var(--okink);border:1px solid var(--okbd)}
+.passfail.fail{background:var(--warnbg);color:var(--warnink);border:1px solid var(--warnbd)}
+.areas{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+.areas td{padding:8px 4px;border-bottom:1px solid var(--line);vertical-align:middle}
+.areas td.n{text-align:right;white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+.areas .meter{height:6px;border-radius:3px;background:var(--line);overflow:hidden;min-width:60px}
+.areas .meter i{display:block;height:100%}
+.verdict{font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;white-space:nowrap}
+.verdict.good{color:var(--okink)} .verdict.ok{color:var(--muted)} .verdict.work{color:var(--warnink)}
+.sect{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:18px 0 6px;font-weight:600}
+.attempt{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.attempt .d{flex:1;font-size:13px;color:var(--muted)}
+.attempt .s{font-family:var(--serif);font-size:18px;color:var(--ink)}
+.trend{display:flex;align-items:flex-end;gap:4px;height:70px;margin:10px 0 4px;position:relative;
+  border-bottom:1px solid var(--line2)}
+.trend i{flex:1;max-width:26px;border-radius:4px 4px 0 0;background:var(--magenta);opacity:.8}
+.trend i.fail{background:var(--warndot)}
+.trend .line{position:absolute;left:0;right:0;border-top:1px dashed var(--muted2)}
+.miss .mine{font-size:13px;color:var(--warnink)}
+.miss .mt{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--magenta);margin-bottom:3px}
 </style>
 </head>
 <body>
@@ -131,6 +168,13 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 
   <!-- ============ HOME ============ -->
   <div id="home">
+    <div class="card">
+      <h2>Exam mode</h2>
+      <p class="sub">One hundred questions drawn from every bank, in a new order each time. Sixty minutes, 70% to pass. No feedback until the end, then a full breakdown of what you missed and why.</p>
+      <div class="stats" id="examstats" style="margin-top:14px"></div>
+      <button class="btn" id="examstart">Start an exam</button>
+      <button class="btn ghost" id="examhist" style="margin-top:10px">Results and progress</button>
+    </div>
     <div class="card">
       <h2>Pick a deck</h2>
       <p class="sub">A round is twenty questions, or ten where the thinking is heavier. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
@@ -192,6 +236,49 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
     </div>
   </div>
 
+  <!-- ============ EXAM ============ -->
+  <div id="exam" class="hidden">
+    <div class="ebar">
+      <div class="timer" id="etimer">60:00</div>
+      <div class="qnum" id="enum">1 / 100</div>
+      <div class="track"><div class="fill" id="efill"></div></div>
+    </div>
+    <div class="card">
+      <div class="tag" id="etag"></div>
+      <p class="qtext" id="eqtext"></p>
+      <div class="opts" id="eopts"></div>
+      <div class="enav">
+        <button class="btn ghost" id="eprev">Previous</button>
+        <button class="btn" id="enext">Next</button>
+      </div>
+    </div>
+    <div class="card">
+      <p class="sub" id="eanswered"></p>
+      <div class="grid" id="egrid"></div>
+      <button class="btn" id="efinish" style="margin-top:14px">Finish and mark</button>
+      <button class="btn ghost" id="equit" style="margin-top:10px">Abandon this exam</button>
+    </div>
+  </div>
+
+  <!-- ============ EXAM RESULT ============ -->
+  <div id="eresult" class="hidden">
+    <div class="card" id="eresbody"></div>
+    <div class="card" style="border:0;background:none;padding:0;margin-top:14px">
+      <button class="btn" id="eragain">Take another exam</button>
+      <button class="btn ghost" id="erhist" style="margin-top:10px">All results</button>
+      <button class="btn ghost" id="erhome" style="margin-top:10px">Back to decks</button>
+    </div>
+  </div>
+
+  <!-- ============ EXAM HISTORY ============ -->
+  <div id="ehistory" class="hidden">
+    <div class="card" id="ehistbody"></div>
+    <div class="card" style="border:0;background:none;padding:0;margin-top:14px">
+      <button class="btn" id="ehstart">Start an exam</button>
+      <button class="btn ghost" id="ehhome" style="margin-top:10px">Back to decks</button>
+    </div>
+  </div>
+
   <div class="foot">
     Built for one person's revision. Works offline once loaded.<br>
     <span id="qcount"></span>
@@ -247,7 +334,7 @@ function scramble(q){
 let deck = null, round = [], at = 0, right = 0, missed = [];
 
 function show(id){
-  ['home','quiz','done'].forEach(s => $('#'+s).classList.toggle('hidden', s !== id));
+  ['home','quiz','done','exam','eresult','ehistory'].forEach(s => $('#'+s).classList.toggle('hidden', s !== id));
   window.scrollTo(0,0);
 }
 
@@ -271,6 +358,7 @@ function renderHome(){
     $('#decks').appendChild(el);
   });
   const tot = Object.values(DECKS).reduce((n,m) => n + m.q.length, 0);
+  examStats();
   $('#qcount').textContent = tot + ' questions across ' + Object.keys(DECKS).length + ' decks.';
 }
 
@@ -339,6 +427,7 @@ $('#again').onclick = () => start(deck);
 $('#reset').onclick = () => {
   if (!confirm('Clear all progress on this device?')) return;
   Object.keys(DECKS).forEach(d => localStorage.removeItem(key(d)));
+  localStorage.removeItem(EXAMS); localStorage.removeItem(LIVE);
   renderHome();
 };
 
@@ -362,7 +451,221 @@ function results(){
   show('done');
 }
 
+/* ---------------- exam mode ----------------
+   A hundred questions across every bank, balanced by area, sixty minutes,
+   no feedback until the end. Each attempt is kept on this device with its
+   wrong answers, so progress can be read back. */
+const EXAM_SIZE = 100, EXAM_MINUTES = 60, PASS = 0.7;
+const EXAMS = 'rt-pt-exams', LIVE = 'rt-pt-exam-live';
+const loadJ = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch(e){ return d; } };
+const saveJ = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
+let EX = null, exTick = null;
+
+function allQuestions(){
+  const out = [];
+  for (const d in DECKS) if (DECKS[d].exam !== false) for (const q of DECKS[d].q) out.push({...q, deck: d});
+  return out;
+}
+/* Every area gets a fair share: at least five questions, the rest in proportion to its size. */
+function buildExam(){
+  const byArea = {};
+  for (const q of allQuestions()) (byArea[q.ar] = byArea[q.ar] || []).push(q);
+  const areas = Object.keys(byArea), total = areas.reduce((n, a) => n + byArea[a].length, 0);
+  const size = Math.min(EXAM_SIZE, total);
+  const quota = {};
+  let given = 0;
+  for (const a of areas){ quota[a] = Math.min(byArea[a].length, Math.max(5, Math.floor(size * byArea[a].length / total))); given += quota[a]; }
+  // Trim or top up to exactly the exam size, largest areas first.
+  const big = areas.slice().sort((x, y) => byArea[y].length - byArea[x].length);
+  for (let i = 0; given > size; i++){ const a = big[i % big.length]; if (quota[a] > 5){ quota[a]--; given--; } }
+  for (let i = 0; given < size && i < 10000; i++){ const a = big[i % big.length]; if (quota[a] < byArea[a].length){ quota[a]++; given++; } }
+  let picked = [];
+  for (const a of areas) picked = picked.concat(shuffle(byArea[a].slice()).slice(0, quota[a]));
+  return shuffle(picked).map(scramble);
+}
+
+function startExam(){
+  const live = loadJ(LIVE, null);
+  if (live && !confirm('An exam is already under way. Abandon it and start a new one?')) return resumeExam(true);
+  EX = { qs: buildExam(), ans: {}, at: 0, started: Date.now() };
+  saveJ(LIVE, EX);
+  openExam();
+}
+function resumeExam(force){
+  const live = loadJ(LIVE, null);
+  if (!live) return;
+  EX = live;
+  if (remaining() <= 0) return finishExam(true);
+  if (force || confirm('You have an unfinished exam. Carry on with it?')) openExam();
+}
+function remaining(){ return EX.started + EXAM_MINUTES * 60000 - Date.now(); }
+function openExam(){
+  show('exam');
+  renderExamQ();
+  clearInterval(exTick);
+  exTick = setInterval(tick, 1000); tick();
+}
+function tick(){
+  if (!EX) return clearInterval(exTick);
+  const ms = remaining();
+  if (ms <= 0){ clearInterval(exTick); return finishExam(true); }
+  const s = Math.ceil(ms / 1000);
+  $('#etimer').textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+  $('#etimer').classList.toggle('low', s <= 300);
+}
+function renderExamQ(){
+  const q = EX.qs[EX.at], n = EX.qs.length, done = Object.keys(EX.ans).length;
+  $('#enum').textContent = (EX.at + 1) + ' / ' + n;
+  $('#efill').style.width = (done / n * 100) + '%';
+  $('#etag').textContent = q.ar;
+  $('#eqtext').textContent = q.q;
+  const box = $('#eopts'); box.innerHTML = '';
+  q.o.forEach((text, i) => {
+    const b = document.createElement('button');
+    b.className = 'opt' + (EX.ans[EX.at] === i ? ' chosen' : '');
+    b.innerHTML = '<span class="k">' + 'ABCD'[i] + '</span><span></span>';
+    b.lastChild.textContent = text;
+    b.onclick = () => {
+      EX.ans[EX.at] = i; saveJ(LIVE, EX);
+      // Move on by itself, unless this was a change of mind on an answered question.
+      if (EX.at < n - 1) { EX.at++; renderExamQ(); window.scrollTo(0, 0); } else renderExamQ();
+    };
+    box.appendChild(b);
+  });
+  $('#eprev').disabled = EX.at === 0;
+  $('#enext').textContent = EX.at === n - 1 ? 'Last question' : 'Next';
+  $('#enext').disabled = EX.at === n - 1;
+  $('#eanswered').textContent = done + ' of ' + n + ' answered. Tap a number to jump to it.';
+  $('#egrid').innerHTML = EX.qs.map((_, i) =>
+    '<button data-i="' + i + '" class="' + (i in EX.ans ? 'done' : '') + (i === EX.at ? ' cur' : '') + '">' + (i + 1) + '</button>').join('');
+}
+$('#eprev').onclick = () => { if (EX.at > 0){ EX.at--; saveJ(LIVE, EX); renderExamQ(); } };
+$('#enext').onclick = () => { if (EX.at < EX.qs.length - 1){ EX.at++; saveJ(LIVE, EX); renderExamQ(); } };
+$('#egrid').onclick = e => { const b = e.target.closest('button'); if (!b) return; EX.at = +b.dataset.i; saveJ(LIVE, EX); renderExamQ(); window.scrollTo(0, 0); };
+$('#efinish').onclick = () => {
+  const left = EX.qs.length - Object.keys(EX.ans).length;
+  if (left && !confirm(left + ' questions are unanswered and will count as wrong. Finish anyway?')) return;
+  finishExam(false);
+};
+$('#equit').onclick = () => {
+  if (!confirm('Abandon this exam? It will not be saved.')) return;
+  clearInterval(exTick); localStorage.removeItem(LIVE); EX = null; renderHome(); show('home');
+};
+
+function finishExam(timedOut){
+  clearInterval(exTick);
+  const n = EX.qs.length, areas = {}, wrong = [];
+  let right = 0;
+  EX.qs.forEach((q, i) => {
+    const mine = EX.ans[i], ok = mine === q.a;
+    const a = areas[q.ar] = areas[q.ar] || { right: 0, total: 0, topics: {} };
+    a.total++; if (ok){ a.right++; right++; }
+    const tp = a.topics[q.t] = a.topics[q.t] || { right: 0, total: 0 };
+    tp.total++; if (ok) tp.right++;
+    if (!ok) wrong.push({ ar: q.ar, t: q.t, q: q.q, mine: mine === undefined ? null : q.o[mine], right: q.o[q.a], e: q.e });
+    // An exam miss also makes the question difficult in its own deck.
+    const st = load(q.deck), r = rec(st, q.id);
+    r.seen++; if (ok) r.streak++; else { r.wrong++; r.streak = 0; }
+    save(q.deck, st);
+  });
+  const result = { t: Date.now(), right, total: n, pass: right / n >= PASS, secs: Math.round((Date.now() - EX.started) / 1000),
+                   timedOut, answered: Object.keys(EX.ans).length, areas, wrong };
+  const all = loadJ(EXAMS, []); all.push(result); saveJ(EXAMS, all);
+  localStorage.removeItem(LIVE); EX = null;
+  showResult(result, all.length);
+}
+
+const pc = (r, t) => Math.round(100 * r / (t || 1));
+function verdict(p){ return p >= 80 ? ['good', 'Strong'] : p >= 70 ? ['ok', 'Passing'] : ['work', 'Needs work']; }
+function areaTable(areas, withTopics){
+  const rows = Object.entries(areas).sort((x, y) => pc(x[1].right, x[1].total) - pc(y[1].right, y[1].total));
+  return '<table class="areas">' + rows.map(([name, a]) => {
+    const p = pc(a.right, a.total), [cls, word] = verdict(p);
+    const col = cls === 'good' ? 'var(--okink)' : cls === 'ok' ? 'var(--muted2)' : 'var(--warndot)';
+    let weak = '';
+    if (withTopics && a.topics){
+      const bad = Object.entries(a.topics).filter(([, x]) => x.right < x.total)
+        .sort((x, y) => pc(x[1].right, x[1].total) - pc(y[1].right, y[1].total)).slice(0, 3)
+        .map(([tn, x]) => esc(tn) + ' ' + x.right + '/' + x.total);
+      if (bad.length && cls !== 'good') weak = '<div class="sub" style="font-size:11.5px;margin-top:3px">Weakest: ' + bad.join(', ') + '</div>';
+    }
+    return '<tr><td>' + esc(name) + weak + '</td><td style="width:70px"><div class="meter"><i style="width:' + p + '%;background:' + col + '"></i></div></td>' +
+      '<td class="n">' + a.right + '/' + a.total + '</td><td class="n"><span class="verdict ' + cls + '">' + word + '</span></td></tr>';
+  }).join('') + '</table>';
+}
+function esc(s){ return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function mins(s){ return Math.floor(s / 60) + ' min ' + String(s % 60).padStart(2, '0') + ' s'; }
+function wrongList(wrong){
+  if (!wrong.length) return '<p class="sub">Nothing missed.</p>';
+  return wrong.map(w => '<div class="miss"><div class="mt">' + esc(w.ar) + ' · ' + esc(w.t) + '</div>' +
+    '<div class="mq">' + esc(w.q) + '</div>' +
+    '<div class="mine">' + (w.mine === null ? 'Not answered' : 'You said: ' + esc(w.mine)) + '</div>' +
+    '<div class="ma">Right: ' + esc(w.right) + '</div><div class="me">' + esc(w.e) + '</div></div>').join('');
+}
+function showResult(r, no){
+  const p = pc(r.right, r.total);
+  $('#eresbody').innerHTML =
+    '<div class="score"><div class="big">' + p + '%</div><div class="of">' + r.right + ' of ' + r.total + ' right' +
+    (no ? ' · exam ' + no : '') + '</div>' +
+    '<span class="passfail ' + (r.pass ? 'pass' : 'fail') + '">' + (r.pass ? 'Pass' : 'Not yet, 70% needed') + '</span>' +
+    '<p class="sub" style="margin-top:10px">' + new Date(r.t).toLocaleString() + ' · ' + mins(r.secs) +
+    (r.timedOut ? ' · time ran out' : '') + (r.answered < r.total ? ' · ' + (r.total - r.answered) + ' unanswered' : '') + '</p></div>' +
+    '<div class="sect">By area, weakest first</div>' + areaTable(r.areas, true) +
+    '<div class="missed" style="border:0;padding-top:0"><div class="sect">What you got wrong, and why (' + r.wrong.length + ')</div>' + wrongList(r.wrong) + '</div>';
+  show('eresult');
+}
+function showHistory(){
+  const all = loadJ(EXAMS, []);
+  const box = $('#ehistbody');
+  if (!all.length){ box.innerHTML = '<h2>Results and progress</h2><p class="sub">No exams yet. Your results will be kept here.</p>'; return show('ehistory'); }
+  // Areas pooled across the last five exams, which is what "where am I now" means.
+  const recent = all.slice(-5), pooled = {};
+  for (const r of recent) for (const [a, x] of Object.entries(r.areas)){
+    const p = pooled[a] = pooled[a] || { right: 0, total: 0, topics: {} };
+    p.right += x.right; p.total += x.total;
+    for (const [tn, y] of Object.entries(x.topics || {})){ const q = p.topics[tn] = p.topics[tn] || { right: 0, total: 0 }; q.right += y.right; q.total += y.total; }
+  }
+  const passes = all.filter(r => r.pass).length, best = Math.max(...all.map(r => pc(r.right, r.total)));
+  const good = Object.entries(pooled).filter(([, x]) => pc(x.right, x.total) >= 80).map(([a]) => a);
+  const work = Object.entries(pooled).filter(([, x]) => pc(x.right, x.total) < 70).map(([a]) => a);
+  const last = all.slice(-20);
+  box.innerHTML = '<h2>Results and progress</h2>' +
+    '<p class="sub">' + all.length + ' exam' + (all.length > 1 ? 's' : '') + ', ' + passes + ' passed, best ' + best + '%. Kept on this device.</p>' +
+    '<div class="trend"><div class="line" style="bottom:70%"></div>' +
+    last.map(r => '<i class="' + (r.pass ? '' : 'fail') + '" style="height:' + pc(r.right, r.total) + '%" title="' + pc(r.right, r.total) + '%"></i>').join('') + '</div>' +
+    '<p class="sub" style="font-size:11px">Last ' + last.length + ' exams. The dashed line is the 70% pass mark.</p>' +
+    '<div class="sect">Where you stand (last ' + recent.length + ' exam' + (recent.length > 1 ? 's' : '') + ')</div>' +
+    (good.length ? '<p class="sub"><b style="color:var(--okink)">Good at:</b> ' + good.map(esc).join(', ') + '</p>' : '') +
+    (work.length ? '<p class="sub" style="margin-top:4px"><b style="color:var(--warnink)">Still needs work:</b> ' + work.map(esc).join(', ') + '</p>' : '') +
+    areaTable(pooled, true) +
+    '<div class="sect">Every exam</div>' +
+    all.map((r, i) => ({ r, i })).reverse().map(({ r, i }) =>
+      '<div class="attempt" data-i="' + i + '"><div class="s">' + pc(r.right, r.total) + '%</div>' +
+      '<div class="d">Exam ' + (i + 1) + ' · ' + new Date(r.t).toLocaleDateString() + ' · ' + r.wrong.length + ' wrong</div>' +
+      '<span class="passfail ' + (r.pass ? 'pass' : 'fail') + '" style="margin:0">' + (r.pass ? 'Pass' : 'Fail') + '</span></div>').join('');
+  box.querySelectorAll('.attempt').forEach(el => el.onclick = () => showResult(all[+el.dataset.i], +el.dataset.i + 1));
+  show('ehistory');
+}
+function examStats(){
+  const all = loadJ(EXAMS, []), el = $('#examstats');
+  const nq = allQuestions().length;
+  if (!all.length){ el.innerHTML = '<span class="stat"><b>' + nq + '</b> questions in the pool</span>'; return; }
+  const last = all[all.length - 1];
+  el.innerHTML = '<span class="stat"><b>' + all.length + '</b> taken</span>' +
+    '<span class="stat"><b>' + pc(last.right, last.total) + '%</b> last</span>' +
+    '<span class="stat"><b>' + all.filter(r => r.pass).length + '</b> passed</span>' +
+    '<span class="stat"><b>' + nq + '</b> in the pool</span>';
+}
+$('#examstart').onclick = startExam;
+$('#examhist').onclick = showHistory;
+$('#eragain').onclick = startExam;
+$('#erhist').onclick = showHistory;
+$('#erhome').onclick = () => { renderHome(); show('home'); };
+$('#ehstart').onclick = startExam;
+$('#ehhome').onclick = () => { renderHome(); show('home'); };
+
 renderHome();
+resumeExam();
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')){
   navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
