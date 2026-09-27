@@ -6160,5 +6160,44 @@
   "a": 2,
   "e": "Forearms toughen and technique improves, so the guards become unnecessary.",
   "sec": "exercise-reference#equipment"
+ },
+ {
+  "t": "Tapering",
+  "q": "A client has a 10 km race in ten days. What does a taper involve?",
+  "o": [
+   "Cut volume by 40 to 60%, keeping intensity and frequency",
+   "Keep volume the same and drop intensity to easy running only",
+   "Stop training completely so the legs are fully rested",
+   "Add an extra hard session so fitness peaks on the day"
+  ],
+  "a": 0,
+  "e": "Fatigue fades faster than fitness, so cutting volume for one to two weeks lets fatigue clear while fitness stays. Keeping intensity and frequency protects the fitness; stopping altogether starts to lose it.",
+  "sec": "learning#resistance-training"
+ },
+ {
+  "t": "Ligaments",
+  "q": "Why do neuromuscular warm-up programmes cut ACL injuries in female athletes?",
+  "o": [
+   "They train landing mechanics and hamstring and hip strength",
+   "They stretch the ACL so it tolerates more strain before it tears",
+   "They change the shape of the knee joint over a season of training",
+   "They correct the hormonal changes of the menstrual cycle"
+  ],
+  "a": 0,
+  "e": "The trainable risk factors are movement ones: landing with straight knees that cave inwards and a quadriceps-dominant pattern. The programmes teach soft, bent-knee landings with the knee over the foot, and build hamstring and hip strength and balance.",
+  "sec": "learning#ligaments"
+ },
+ {
+  "t": "Ligaments",
+  "q": "An adult client scores 6 out of 9 on the Beighton score. What does that tell you?",
+  "o": [
+   "They meet the usual screen for generalised hypermobility, but it is not a diagnosis",
+   "They have a connective tissue disorder and need an urgent referral",
+   "They are not hypermobile, since the adult cut-off is 8 or more",
+   "Their shoulders and hips are hypermobile as well"
+  ],
+  "a": 0,
+  "e": "Five or more out of nine counts as generalised hypermobility in adults. The score is a rough screen that looks at only a few joints, so it prompts a conversation rather than a diagnosis, and it says nothing about the shoulders or hips.",
+  "sec": "learning#ligaments"
  }
 ]
