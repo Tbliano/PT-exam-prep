@@ -177,7 +177,7 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
     </div>
     <div class="card">
       <h2>Pick a deck</h2>
-      <p class="sub">A round is twenty questions, or ten where the thinking is heavier. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
+      <p class="sub">A round is ten questions. Answers you get wrong come back, marked difficult, until you have them twice in a row.</p>
       <div id="decks"></div>
     </div>
     <div class="card">
@@ -287,7 +287,7 @@ h2{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--ink);marg
 
 <script>
 const DECKS = __DATA__;
-const ROUND = 20;            // default; a deck may set its own in build.py
+const ROUND = 10;            // every deck plays rounds of ten
 const HARD_FRACTION = 0.25;  // at most this share of a round is difficult questions
 const CLEAR_STREAK = 2;      // correct answers in a row to stop being difficult
 

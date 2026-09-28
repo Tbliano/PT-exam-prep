@@ -26,13 +26,13 @@ on the device with the wrong answers and why, and a progress view shows scores o
 areas are strong or need work. An exam miss also marks the question difficult in its own deck. An
 unfinished exam survives a reload, and marks itself when the time runs out.
 
-Rounds are twenty questions, or fifteen and ten where the thinking is heavier; a deck sets its own
-length in `build.py`.
+Every deck plays rounds of ten questions (`ROUND` in `template.html`; a deck can still set its own
+`round` in `build.py`).
 
 **The NASM exam preparation notes and question deck were removed once the exam was passed**, on
 21 September 2026. The markdown still exists locally; it is simply no longer published.
 
-Rounds of twenty. Wrong answers show the correct one with a short explanation, are stored as
+Wrong answers show the correct one with a short explanation, are stored as
 **difficult**, and come back in later rounds until answered correctly twice in a row. At most a
 quarter of any round is difficult questions, so rounds stay mixed. Progress is kept in the browser on
 that device only and is never sent anywhere.

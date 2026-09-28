@@ -55,13 +55,11 @@ data = {
     'gym': {
         'name': 'What works what',
         'blurb': 'Exercises, machines and muscles, in both directions. The mapping that gets used every day on the gym floor.',
-        'round': 10,   # long stems to read, so a shorter round
         'q': deck('questions-gym.json'),
     },
     'derive': {
         'name': 'Derive the action',
         'blurb': 'Given only where a muscle attaches, work out what it does when it shortens. Reasoning, not recall.',
-        'round': 10,   # harder thinking per question, so a shorter round
         'q': deck('questions-derive.json'),
     },
     'notes': {
