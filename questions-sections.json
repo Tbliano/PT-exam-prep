@@ -6199,5 +6199,44 @@
   "a": 0,
   "e": "Five or more out of nine counts as generalised hypermobility in adults. The score is a rough screen that looks at only a few joints, so it prompts a conversation rather than a diagnosis, and it says nothing about the shoulders or hips.",
   "sec": "learning#ligaments"
+ },
+ {
+  "t": "Fitting a session into the time",
+  "q": "A client has 45 minutes. Each exercise is one warm-up set and three working sets for growth. About how many exercises fit?",
+  "o": [
+   "About 4",
+   "About 7",
+   "About 2",
+   "About 10"
+  ],
+  "a": 0,
+  "e": "After a short general warm-up and a buffer there are about 38 working minutes. Each exercise costs about 9.5 minutes (a warm-up set, three 2-minute sets and a changeover), so about four fit.",
+  "sec": "exercise-reference#fitting-a-session-into-the-time"
+ },
+ {
+  "t": "Fitting a session into the time",
+  "q": "A client adds leg press straight after back squats. Does the leg press need its own warm-up set?",
+  "o": [
+   "Usually not, the same muscles are already warm",
+   "Yes, every exercise needs two warm-up sets",
+   "Yes, a full general warm-up again first",
+   "Only if the leg press is done to failure"
+  ],
+  "a": 0,
+  "e": "A warm-up set goes on the first exercise for each muscle group or joint. Later exercises for the same muscles can go straight into working sets.",
+  "sec": "exercise-reference#fitting-a-session-into-the-time"
+ },
+ {
+  "t": "Fitting a session into the time",
+  "q": "Which pairing makes a sensible time-saving superset?",
+  "o": [
+   "Seated row with machine chest press",
+   "Back squat with barbell deadlift",
+   "Bench press with close-grip bench press",
+   "Leg extension with front squat"
+  ],
+  "a": 0,
+  "e": "A superset pairs exercises that do not compete for the same muscles, so each rests while the other works. Keep them to machines and single-joint work rather than heavy squats, deadlifts or bench presses.",
+  "sec": "exercise-reference#fitting-a-session-into-the-time"
  }
 ]
